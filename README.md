@@ -26,6 +26,10 @@
 - [数据证据与决策依据](docs/DATA-EVIDENCE.md)
 - [三集镜头节奏方案](docs/SHOT-PLAN.md)
 - [本轮评审结论](docs/REVIEW-DECISION.md)
+- [下一阶段制作计划](docs/superpowers/plans/2026-10-23-qiniu-langya-production-plan.md)
+- [三集镜头级剧本](docs/scripts/)
+- [角色一致性锚点](docs/CHARACTER-ANCHORS.md)
+- [场景与道具锚点](docs/SCENE-PROP-ANCHORS.md)
 
 ## 评审重点
 

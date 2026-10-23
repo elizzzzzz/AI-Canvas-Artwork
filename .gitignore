@@ -1,0 +1,23 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# AICanvas runtime state and temporary task records
+AICANVAS-*.json
+
+# Generated media and local previews
+outputs/
+generated/
+previews/
+renders/
+
+# Local editor and OS files
+.DS_Store
+.vscode/
+.idea/
+
+# Python and Node caches
+__pycache__/
+*.py[cod]
+node_modules/

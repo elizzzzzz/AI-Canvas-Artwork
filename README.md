@@ -23,6 +23,9 @@
 - [创作规格书](docs/superpowers/specs/2026-10-23-qiniu-langya-cloud-order-design.md)
 - [项目过程记录](docs/PROJECT-LOG.md)
 - [内部评审清单](docs/INTERNAL-REVIEW.md)
+- [数据证据与决策依据](docs/DATA-EVIDENCE.md)
+- [三集镜头节奏方案](docs/SHOT-PLAN.md)
+- [本轮评审结论](docs/REVIEW-DECISION.md)
 
 ## 评审重点
 

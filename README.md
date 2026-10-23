@@ -30,6 +30,7 @@
 - [三集镜头级剧本](docs/scripts/)
 - [角色一致性锚点](docs/CHARACTER-ANCHORS.md)
 - [场景与道具锚点](docs/SCENE-PROP-ANCHORS.md)
+- [第一人称摄影协议](docs/FIRST-PERSON-CAMERA-PROTOCOL.md)
 
 ## 评审重点
 

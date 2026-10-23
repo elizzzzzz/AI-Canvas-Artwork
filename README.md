@@ -31,6 +31,8 @@
 - [角色一致性锚点](docs/CHARACTER-ANCHORS.md)
 - [场景与道具锚点](docs/SCENE-PROP-ANCHORS.md)
 - [第一人称摄影协议](docs/FIRST-PERSON-CAMERA-PROTOCOL.md)
+- [3D 导演台规格](docs/3D-DIRECTOR-TABLE.md)
+- [灰模评审表](docs/GRAYBOX-REVIEW.md)
 
 ## 评审重点
 

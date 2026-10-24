@@ -1,7 +1,7 @@
 {
   "version": 1,
   "prepared_at": "2026-10-24T16:16:05+08:00",
-  "status": "prepared_not_run",
+  "status": "first_batch_generated_pending_artistic_review",
   "models": {
     "image": {
       "model_id": "google/gemini-3.1-flash-image",
@@ -1934,7 +1934,7 @@
         "spec": {
           "source": "manual",
           "format": "plain",
-          "content": "用户确认：Gemini 3.1 Flash Image 图片 + MiniMax H3 视频。\n首批只计划8张1k图，实时合计496积分。5秒768P试跑另为715积分，须参考图及灰模审核后再提交。\n禁止整图一键生成；先按范围授权逐节点执行。报价会变化，执行前复核。"
+          "content": "用户确认：Gemini 3.1 Flash Image 图片 + MiniMax H3 视频。\n首批8图均已生成、绑定。8次提交预估共496积分，最终结算尚未对账。\n角色为定妆候选；SC03、SC04空景混入人物，KF01有过肩感，先用灰模固定机位并准备修订。\n视频审核字段仍为false；5秒视频未生成，也未纳入本轮费用授权。"
         },
         "pause_after": false
       },
@@ -2788,7 +2788,7 @@
         "spec": {
           "source": "manual",
           "format": "plain",
-          "content": "仍待搭建和用户查看。需验证三集机位、站位、信息来源与道具运动；不能用概念图代替灰模审核。"
+          "content": "下一阶段仍需实际搭建3D灰模，验证34个逻辑镜头的主观眼高、站位与道具移交。\n当前图片是初稿参考：空景中的人物不直接进入布景，带越肩感的画面不作为相机依据。角色定妆与灰模尚未通过用户审核。"
         },
         "pause_after": false
       },
@@ -3294,7 +3294,7 @@
           ]
         },
         "first-batch": {
-          "name": "首批8张参考图 待费用确认",
+          "name": "首批8张参考图 已生成待审阅",
           "color": "green",
           "node_ids": [
             "47b35a43-5b25-5a95-9ae0-16dd9cca278e",
@@ -3384,7 +3384,7 @@
           "y": -300,
           "w": 2100,
           "h": 180,
-          "content": "待确认首批：8张 Gemini 1k参考图 = 496积分。MiniMax H3试跑5秒 = 715积分，另经审核再执行。所有生成节点均设置完成后暂停；视频还由 approved=false 门控制。禁止整图运行。",
+          "content": "首批8图已生成并绑定，提交预估合计496积分，未重抽。角色待定妆；两张空景混入人物，起始帧有过肩感，修订计划已记录。视频审核门保持false，5秒试跑未生成；后续修图和视频不包含在本轮授权内。",
           "color": "yellow"
         }
       }
@@ -3394,5 +3394,11 @@
     "image_first_batch": 496,
     "video_pilot_separate": 715,
     "combined_future_proposal": 1211
+  },
+  "first_batch_execution": {
+    "completed_at": "2026-10-24T17:33:23+08:00",
+    "completed_images": 8,
+    "submitted_estimated_credits": 496,
+    "approved_for_video": false
   }
 }

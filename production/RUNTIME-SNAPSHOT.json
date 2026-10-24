@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-10-24T16:34:31+08:00",
-  "phase": "awaiting_shot_import_and_reference_budget_confirmation",
+  "checked_at": "2026-10-24T17:33:23+08:00",
+  "phase": "reference_images_ready_for_user_review",
   "board_name": "琅琊云令 三集制作总工作流",
-  "canvas_revision": 3,
+  "canvas_revision": 20,
   "canvas_nodes": 70,
   "existing_benchmark_media_reused": 4,
   "asset_design_records": 23,
@@ -22,14 +22,14 @@
     9
   ],
   "active_canvas_runs": 0,
-  "new_generation_requests": 0,
-  "new_generation_credits": 0,
+  "new_generation_requests": 8,
+  "new_generation_credits": null,
   "first_batch_image_count": 8,
   "first_batch_image_quote": 496,
   "video_pilot_quote_after_review": 715,
   "video_executions_with_gate_closed": 0,
   "quote_estimated": true,
-  "import_applied": false,
+  "import_applied": true,
   "first_batch_image_keys": [
     "C01",
     "C02",
@@ -45,11 +45,16 @@
     "MiniMax video": 200
   },
   "unfinished": [
+    "reference artistic review and targeted revisions",
     "3D graybox build and review",
-    "reference image generation and review",
     "video pilot",
     "episode video generation",
     "sound, subtitles and mouth-sync review",
     "final exports"
-  ]
+  ],
+  "first_batch_images_completed": 8,
+  "submitted_generation_estimate": 496,
+  "actual_settled_credits": null,
+  "user_artistic_approval": "pending",
+  "current_remaining_quote": 0
 }

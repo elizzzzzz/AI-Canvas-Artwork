@@ -1,6 +1,6 @@
 {
   "checked_at": "2026-10-24T16:36:09+08:00",
-  "status": "preview_only_not_applied",
+  "status": "applied_after_user_confirmation",
   "summary": {
     "episode_count": 3,
     "scene_count": 34,
@@ -24,5 +24,8 @@
     "note",
     "sound_effect",
     "image_prompt"
-  ]
+  ],
+  "applied_at": "2026-10-24T16:48:25+08:00",
+  "applied_scene_count": 34,
+  "applied_shot_count": 67
 }

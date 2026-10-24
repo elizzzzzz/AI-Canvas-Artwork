@@ -37,6 +37,7 @@
 - [模型基准测试方案](docs/MODEL-BENCHMARK.md)
 - [模型基准测试结果](docs/MODEL-BENCHMARK-RESULTS.md)
 - [制作模型优先组合](docs/MODEL-SELECTION.md)
+- [AI Canvas 三集制作工作包](production/README.md)
 
 ## 评审重点
 

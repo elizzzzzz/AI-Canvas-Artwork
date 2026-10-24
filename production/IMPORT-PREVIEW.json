@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-10-24T16:36:09+08:00",
+  "status": "preview_only_not_applied",
+  "summary": {
+    "episode_count": 3,
+    "scene_count": 34,
+    "applicable_scene_count": 34,
+    "shot_count": 67,
+    "created_shot_count": 67,
+    "deleted_shot_count": 0,
+    "updated_shot_count": 0,
+    "reordered_shot_count": 0
+  },
+  "diagnostics": [],
+  "file_sha256": "0d03580f521c7dc90f691c486cbe6380ddd4d091a33af2d00eb7006285825e9c",
+  "first_scene_field_keys": [
+    "camera_movement",
+    "camera_id",
+    "light_id",
+    "light_position",
+    "duration",
+    "visual_description",
+    "video_visual_description",
+    "note",
+    "sound_effect",
+    "image_prompt"
+  ]
+}

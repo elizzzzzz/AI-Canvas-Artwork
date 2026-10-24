@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-10-24T16:34:31+08:00",
+  "phase": "awaiting_shot_import_and_reference_budget_confirmation",
+  "board_name": "琅琊云令 三集制作总工作流",
+  "canvas_revision": 3,
+  "canvas_nodes": 70,
+  "existing_benchmark_media_reused": 4,
+  "asset_design_records": 23,
+  "episode_scene_counts": [
+    11,
+    11,
+    12
+  ],
+  "episode_seconds": [
+    150,
+    155,
+    165
+  ],
+  "planned_generation_clips": 67,
+  "clip_seconds_range": [
+    5,
+    9
+  ],
+  "active_canvas_runs": 0,
+  "new_generation_requests": 0,
+  "new_generation_credits": 0,
+  "first_batch_image_count": 8,
+  "first_batch_image_quote": 496,
+  "video_pilot_quote_after_review": 715,
+  "video_executions_with_gate_closed": 0,
+  "quote_estimated": true,
+  "import_applied": false,
+  "first_batch_image_keys": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "SC03",
+    "SC04",
+    "P01",
+    "KF01"
+  ],
+  "representative_signed_url_access": {
+    "Gemini image": 200,
+    "MiniMax video": 200
+  },
+  "unfinished": [
+    "3D graybox build and review",
+    "reference image generation and review",
+    "video pilot",
+    "episode video generation",
+    "sound, subtitles and mouth-sync review",
+    "final exports"
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "status": "blocked_complete_3d_package_required",
+  "repair_of": "P01",
+  "original_media_asset_id": "44511728-19ec-4ccc-9335-3448f425c8d5",
+  "guide_media_asset_id": "89e3a9e0-7767-419a-8c8c-50cab58bab3a",
+  "guide_file": "p01-lid-geometry-guide-v2.png",
+  "guide_sha256": "d5390c1c71ab4fa5c62b4da1f2e3832919392f2887343d463b09921bfe3285c7",
+  "model": {
+    "model_id": "google/gemini-3.1-flash-image",
+    "adapter": "gemini_image",
+    "name": "Gemini 3.1 Flash Image",
+    "model_type": "image",
+    "input_modalities": [
+      "text",
+      "image"
+    ],
+    "output_modalities": [
+      "image"
+    ],
+    "review_asset_enabled": false,
+    "review_asset_group": "",
+    "supports_draft": false,
+    "unit_price": 62,
+    "billing_unit": "image",
+    "resolution_prices": [
+      {
+        "resolution": "1k",
+        "unit_price": 62
+      },
+      {
+        "resolution": "2k",
+        "unit_price": 94
+      },
+      {
+        "resolution": "4k",
+        "unit_price": 138
+      }
+    ],
+    "gen_modes": [
+      "text_to_image",
+      "image_to_image"
+    ],
+    "aspect_ratio": [
+      "1:1",
+      "3:4",
+      "4:3",
+      "16:9",
+      "9:16"
+    ],
+    "resolution": [
+      "1k",
+      "2k",
+      "4k"
+    ],
+    "duration": null,
+    "max_reference_images": 14,
+    "max_reference_videos": null,
+    "max_reference_audios": null,
+    "max_reference_total": null,
+    "min_reference_video_seconds": null,
+    "max_reference_audio_seconds": null,
+    "max_reference_video_seconds": null
+  },
+  "quote": {
+    "billing_mode": "per_resolution",
+    "lines": [
+      {
+        "direction": "output",
+        "resource": "image",
+        "unit": "image",
+        "quantity": 1,
+        "unit_price": 62,
+        "cost": 62,
+        "resolution": "1k"
+      }
+    ],
+    "model_id": "google/gemini-3.1-flash-image",
+    "points_unit": "积分",
+    "price_multiplier": 1,
+    "scene_key": "ai_image_generate",
+    "total_cost": 62
+  },
+  "new_generation_requests": 0,
+  "approved": false,
+  "prompt": "这是针对输入图1的一次局部结构修正。图1是原始写实药箱、湿损军报和半枚旧令；图2是箱体与箱盖的3D几何约束图。\n目标只有一个：修复箱盖开合关系。保留图1的旧木材质、磨损、箱体长宽高比例、箱体透视、原军报、旧令及其位置、药材和整体光线。图2只约束后沿铰链轴与盖板旋转，不照搬灰色材质、空箱、背景或示意图风格。\n把盖板后沿通过两个同轴合页牢固连接到箱体后上沿。盖板必须是同一块刚性木板，绕后沿固定轴向后翻起，开启约100度；盖板前沿明显升高并略向后，内表面朝向镜头，木板厚度可见。合页与盖板的后沿不能分离，也不能把盖板水平抬起悬在箱口上方。箱体内腔边缘与开启后的盖板内侧同时可见。\n只允许为合理开盖而调整原图扶盖的那一只手，使手与木板真实接触，不能增加手、手指或人物。军报仍在原药箱内；旧令仍在原案面上，不改字形、不改变道具数量。相机尽量保持图1的原有视角与构图，不扩大到新人物或新场景。\n输出单张写实古装道具照片，竖屏9:16。不要出现几何标注、角度数字、箭头、尺寸、分屏、模型灰色材质。禁止水平漂浮盖板、悬空铰链、脱离箱体的盖板、箱体穿模、盖板折弯、两块盖板、重复药箱或改变其余道具。",
+  "prompt_sha256": "00515d9661f5604f2b1de32c0ed8697b1129538167a196a40dbaa81ab759c189",
+  "ops": [
+    {
+      "op": "add_node",
+      "id": "e7521c8f-9589-5781-af21-e46870d33990",
+      "kind": "image",
+      "title": "P01 v1 留档 箱盖结构不合格",
+      "spec": {},
+      "initial_version": {
+        "media_asset_ids": [
+          "44511728-19ec-4ccc-9335-3448f425c8d5"
+        ]
+      }
+    },
+    {
+      "op": "add_node",
+      "id": "8988940b-5b3a-5e1a-9258-98c8f067d487",
+      "kind": "image",
+      "title": "P01 v2 结构参考 后沿固定轴100度",
+      "spec": {},
+      "initial_version": {
+        "media_asset_ids": [
+          "89e3a9e0-7767-419a-8c8c-50cab58bab3a"
+        ]
+      }
+    },
+    {
+      "op": "add_node",
+      "id": "146f56c6-68eb-5606-b5ca-4dc308cca38d",
+      "kind": "text",
+      "title": "P01 单张修图62积分 待确认",
+      "spec": {
+        "source": "manual",
+        "format": "custom",
+        "item_fields": [
+          {
+            "key": "approved",
+            "type": "boolean"
+          }
+        ],
+        "primary_field": "approved",
+        "content": {
+          "title": "本次P01修图授权",
+          "items": [
+            {
+              "approved": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "op": "add_node",
+      "id": "069b5459-375c-5503-9108-cde97ca54db3",
+      "kind": "image",
+      "title": "P01 v2 修正箱盖几何 待生成",
+      "pause_after": true,
+      "spec": {
+        "model": "google/gemini-3.1-flash-image",
+        "resolution": "1k",
+        "aspect_ratio": "9:16",
+        "prompt": "这是针对输入图1的一次局部结构修正。图1是原始写实药箱、湿损军报和半枚旧令；图2是箱体与箱盖的3D几何约束图。\n目标只有一个：修复箱盖开合关系。保留图1的旧木材质、磨损、箱体长宽高比例、箱体透视、原军报、旧令及其位置、药材和整体光线。图2只约束后沿铰链轴与盖板旋转，不照搬灰色材质、空箱、背景或示意图风格。\n把盖板后沿通过两个同轴合页牢固连接到箱体后上沿。盖板必须是同一块刚性木板，绕后沿固定轴向后翻起，开启约100度；盖板前沿明显升高并略向后，内表面朝向镜头，木板厚度可见。合页与盖板的后沿不能分离，也不能把盖板水平抬起悬在箱口上方。箱体内腔边缘与开启后的盖板内侧同时可见。\n只允许为合理开盖而调整原图扶盖的那一只手，使手与木板真实接触，不能增加手、手指或人物。军报仍在原药箱内；旧令仍在原案面上，不改字形、不改变道具数量。相机尽量保持图1的原有视角与构图，不扩大到新人物或新场景。\n输出单张写实古装道具照片，竖屏9:16。不要出现几何标注、角度数字、箭头、尺寸、分屏、模型灰色材质。禁止水平漂浮盖板、悬空铰链、脱离箱体的盖板、箱体穿模、盖板折弯、两块盖板、重复药箱或改变其余道具。"
+      },
+      "inputs": {
+        "condition": [
+          {
+            "node": "392f6572-3314-5412-81cf-4b85f6e3d50a",
+            "mode": "each",
+            "match": "any",
+            "field": "repair_P01_ready"
+          }
+        ],
+        "references": [
+          {
+            "mode": "all",
+            "node": "e7521c8f-9589-5781-af21-e46870d33990",
+            "match": "chain"
+          },
+          {
+            "mode": "all",
+            "node": "8988940b-5b3a-5e1a-9258-98c8f067d487",
+            "match": "chain"
+          }
+        ]
+      }
+    }
+  ],
+  "layout_patch": {
+    "nodes": {
+      "e7521c8f-9589-5781-af21-e46870d33990": {
+        "x": 700,
+        "y": 4300,
+        "w": 360,
+        "h": 560
+      },
+      "8988940b-5b3a-5e1a-9258-98c8f067d487": {
+        "x": 1140,
+        "y": 4300,
+        "w": 360,
+        "h": 560
+      },
+      "146f56c6-68eb-5606-b5ca-4dc308cca38d": {
+        "x": 1580,
+        "y": 4300,
+        "w": 360,
+        "h": 330
+      },
+      "069b5459-375c-5503-9108-cde97ca54db3": {
+        "x": 2020,
+        "y": 4300,
+        "w": 360,
+        "h": 560
+      }
+    },
+    "groups": {
+      "p01-repair-v2": {
+        "name": "P01 先补完整3D场景 再确认62积分修图"
+      }
+    },
+    "notes": {
+      "p01-repair-note": {
+        "content": "P01原写实图盖板几何错误，v1只留档。已有100度铰链模型只是局部结构参考。按最新强制规则，必须补齐案面、军报旧令、扶盖手与摄影机的完整3D包并通过人工检查，再在有效62积分预算范围内提交修图；仅确认费用不能放行。当前无新增生成。"
+      }
+    }
+  },
+  "acceptance": [
+    "箱盖后沿与箱体后上沿合页同轴相连",
+    "盖板前沿抬高，整体绕固定轴旋转约100度",
+    "盖板不是水平悬浮或与箱体分离",
+    "盖板内侧和箱体内腔同时可见",
+    "原军报、旧令、药材与写实木纹被保留",
+    "不增加手、人物或道具数量"
+  ],
+  "geometry_scope": "REPAIR:P01-v2",
+  "complete_scene_approved": false
+}

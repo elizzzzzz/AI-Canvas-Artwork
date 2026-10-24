@@ -1,0 +1,203 @@
+{
+  "units": "meter",
+  "up_axis": "+Z",
+  "forward_axis": "+Y",
+  "approved_for_generation": false,
+  "instances": [
+    {
+      "instance_id": "table_01",
+      "asset_id": "AR-DESK",
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "instance_id": "chest_01",
+      "asset_id": "PR-CHEST",
+      "position_m": [
+        0,
+        0,
+        0.74
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "instance_id": "report_01",
+      "asset_id": "PR-REPORT",
+      "position_m": [
+        0,
+        0,
+        0.752
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.84,
+        0.57,
+        1
+      ]
+    },
+    {
+      "instance_id": "token_01",
+      "asset_id": "PR-TOKEN",
+      "position_m": [
+        0.29,
+        -0.17,
+        0.74
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "instance_id": "herbs_01",
+      "asset_id": "PR-HERBS",
+      "position_m": [
+        -0.36,
+        0.15,
+        0.742
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "instance_id": "hand_left",
+      "asset_id": "HAND-MCS-L",
+      "position_m": [
+        -0.19,
+        -0.16,
+        0.91
+      ],
+      "rotation_degrees": [
+        -90,
+        0,
+        -15
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "instance_id": "hand_right",
+      "asset_id": "HAND-MCS-R",
+      "position_m": [
+        0.22,
+        0.13,
+        1.08
+      ],
+      "rotation_degrees": [
+        -35,
+        -20,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "instance_id": "ground_01",
+      "asset_id": "ENV-PAVING",
+      "position_m": [
+        0,
+        0,
+        -0.02
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "instance_id": "back_wall",
+      "asset_id": "AR-WALL",
+      "position_m": [
+        0,
+        1.8,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "assembly_checks": {
+    "tabletop_z": 0.74,
+    "chest_bottom_z": 0.74,
+    "report_bottom_z": 0.752,
+    "chest_inner_floor_z": 0.752,
+    "hinge_world_z": 0.922,
+    "hand_contact": "not_solved_requires_pose_review",
+    "occlusion": "not_reviewed",
+    "opening_degrees": 100
+  },
+  "camera": {
+    "eye": [
+      0,
+      -0.55,
+      1.65
+    ],
+    "target": [
+      0,
+      0,
+      0.91
+    ],
+    "vertical_fov_degrees": 72,
+    "aspect": 0.5625
+  }
+}

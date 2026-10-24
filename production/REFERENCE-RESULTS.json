@@ -1,0 +1,177 @@
+{
+  "completed_at": "2026-10-24T17:33:23+08:00",
+  "confirmation_scope": {
+    "applied_shots": 67,
+    "first_batch_images": 8,
+    "approved_estimated_credits": 496,
+    "video_included": false
+  },
+  "technical_completed_count": 8,
+  "manual_resubmissions": 0,
+  "submitted_estimated_credits": 496,
+  "actual_settled_credits": null,
+  "billing_reconciliation_note": "短剧账单维度接口返回空记录；不能用该结果断言画布运行的实际扣费。",
+  "visual_review_method": "AI Canvas原生图片预览及100%画布视图；审阅板由可见画面截图裁切整理。",
+  "user_artistic_approval": "pending",
+  "video_gate_approved": false,
+  "review_board": "review/reference-review-board-v1.jpg",
+  "items": [
+    {
+      "key": "C01",
+      "title": "01 C01 梅长苏",
+      "media_asset_id": "534493e9-7f73-4083-a9e2-7848b68846ce",
+      "url": "https://canvas-test.ifsdc.com/images/ai_gen_a9face23_1792831804.png",
+      "width": 768,
+      "height": 1376,
+      "status": "completed",
+      "prompt_sha256": "63f9c99fbd27e6757a5bb680a4ef374f4272da75f7e492e2191da3848e91c4e1",
+      "effective_prompt_exact_match": true,
+      "reference_keys": [],
+      "reference_images_count_from_task": 0,
+      "review_status": "pending_character_review",
+      "review_notes": [
+        "确认脸型、服装主色与角色气质"
+      ],
+      "approved_for_video": false
+    },
+    {
+      "key": "C02",
+      "title": "02 C02 林殊",
+      "media_asset_id": "0195ce9a-0288-4120-ac10-1c580dd5e780",
+      "url": "https://canvas-test.ifsdc.com/images/ai_gen_b7db779f_1792832174.png",
+      "width": 768,
+      "height": 1376,
+      "status": "completed",
+      "prompt_sha256": "2a0d50aba346119f587f16009432caf99937f8103b75c3250f4e3bbc9806ae6f",
+      "effective_prompt_exact_match": true,
+      "reference_keys": [
+        "C01"
+      ],
+      "reference_images_count_from_task": 1,
+      "review_status": "pending_identity_review",
+      "review_notes": [
+        "与C01共同确认同一身份的年轻化方向"
+      ],
+      "approved_for_video": false
+    },
+    {
+      "key": "C03",
+      "title": "03 C03 谢听云",
+      "media_asset_id": "18cee209-fa53-4d28-9b7f-8be24c666d2a",
+      "url": "https://canvas-test.ifsdc.com/images/ai_gen_9ed5cb46_1792831806.png",
+      "width": 768,
+      "height": 1376,
+      "status": "completed",
+      "prompt_sha256": "814598fee9497a89643eadbcb0aafcc9a78a515403c4156b1627e09a3acb3898",
+      "effective_prompt_exact_match": true,
+      "reference_keys": [],
+      "reference_images_count_from_task": 0,
+      "review_status": "pending_character_review",
+      "review_notes": [
+        "确认角色气质和木匣造型"
+      ],
+      "approved_for_video": false
+    },
+    {
+      "key": "C04",
+      "title": "04 C04 书吏",
+      "media_asset_id": "945a7c15-a8bc-4841-a242-14f2bf9233f1",
+      "url": "https://canvas-test.ifsdc.com/images/ai_gen_0ec58f0c_1792831804.png",
+      "width": 768,
+      "height": 1376,
+      "status": "completed",
+      "prompt_sha256": "d6f29d07b78548c810d1ddd0240773188aa43b2f9a21f405a1804f38479306e6",
+      "effective_prompt_exact_match": true,
+      "reference_keys": [],
+      "reference_images_count_from_task": 0,
+      "review_status": "pending_character_review",
+      "review_notes": [
+        "年龄观感偏成熟，待用户确认"
+      ],
+      "approved_for_video": false
+    },
+    {
+      "key": "SC03",
+      "title": "05 SC03 江左盟旧档室",
+      "media_asset_id": "72c8af13-eba6-4685-b065-9353a90393b2",
+      "url": "https://canvas-test.ifsdc.com/images/ai_gen_1dc023c2_1792832103.png",
+      "width": 768,
+      "height": 1376,
+      "status": "completed",
+      "prompt_sha256": "6f478483783191e761d7ccc134a02e1415a8b6175f3d58f2312748c2c1a1c6c5",
+      "effective_prompt_exact_match": true,
+      "reference_keys": [],
+      "reference_images_count_from_task": 0,
+      "review_status": "needs_scene_revision",
+      "review_notes": [
+        "空景中出现前景人体和远处人物",
+        "多出玻璃罩灯具"
+      ],
+      "approved_for_video": false
+    },
+    {
+      "key": "SC04",
+      "title": "06 SC04 城外雪路与车厢",
+      "media_asset_id": "0a4d4e0b-8647-4cda-9a66-63b114ff47f8",
+      "url": "https://canvas-test.ifsdc.com/images/ai_gen_9f609831_1792832096.png",
+      "width": 768,
+      "height": 1376,
+      "status": "completed",
+      "prompt_sha256": "ce6f0408480f411ede73811f1f84f08ea2ff9f8a93b4bf305c4fbc40659c553c",
+      "effective_prompt_exact_match": true,
+      "reference_keys": [],
+      "reference_images_count_from_task": 0,
+      "review_status": "needs_scene_revision",
+      "review_notes": [
+        "空景中出现前景人物",
+        "接箱前的空折叠板上提前出现药箱"
+      ],
+      "approved_for_video": false
+    },
+    {
+      "key": "P01",
+      "title": "07 P01 药箱 军报 旧令",
+      "media_asset_id": "44511728-19ec-4ccc-9335-3448f425c8d5",
+      "url": "https://canvas-test.ifsdc.com/images/ai_gen_0b8a4415_1792832104.png",
+      "width": 768,
+      "height": 1376,
+      "status": "completed",
+      "prompt_sha256": "f01b519a473160fa239feb02ca493d8e68b074844fa08b33f34166e62dc3516e",
+      "effective_prompt_exact_match": true,
+      "reference_keys": [],
+      "reference_images_count_from_task": 0,
+      "review_status": "blocked_lid_geometry",
+      "review_notes": [
+        "用户复核指出盖板未绕后沿铰链正确转起，近似水平悬浮，结构不合格",
+        "初次检查遗漏该问题；保留v1，仅作问题留档",
+        "旧令尺寸纹样及封签字形仍需后续统一"
+      ],
+      "approved_for_video": false,
+      "followup_issue_source": "user_manual_review",
+      "repair_plan": "p01-lid-repair-v2/README.md"
+    },
+    {
+      "key": "KF01",
+      "title": "08 KF01 EP01S08 试跑起始帧",
+      "media_asset_id": "6f1eee54-1a6f-4899-9baa-ef09eb479d71",
+      "url": "https://canvas-test.ifsdc.com/images/ai_gen_b2fa8888_1792832213.png",
+      "width": 768,
+      "height": 1376,
+      "status": "completed",
+      "prompt_sha256": "51290f714c190690d200bdafae5f4beb84e725f9ac1ee989f292ec207afef399",
+      "effective_prompt_exact_match": true,
+      "reference_keys": [
+        "C01",
+        "SC04",
+        "P01"
+      ],
+      "reference_images_count_from_task": 3,
+      "review_status": "needs_pov_revision",
+      "review_notes": [
+        "取景有过肩感",
+        "手指与铜扣的起始接触状态需核对"
+      ],
+      "approved_for_video": false
+    }
+  ]
+}

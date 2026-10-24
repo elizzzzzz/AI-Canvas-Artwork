@@ -1,0 +1,331 @@
+{
+  "checked_at": "2026-10-24T14:26:54+08:00",
+  "sources": [
+    "GET /api/auth/me",
+    "GET /api/ai/tasks/{id}",
+    "GET /api/media/{id} (one representative image)",
+    "GET /api/folders/timeline",
+    "GET /api/folders/contents",
+    "GET result_url with Range bytes=0-0 (no Authorization header)"
+  ],
+  "auth_code": 0,
+  "generation_submissions_this_recovery": 0,
+  "additional_generation_credits_this_recovery": 0,
+  "prior_estimated_credits": 2492,
+  "actual_settled_credits": null,
+  "asset_folder": {
+    "id": "folder-d3104f2354fc4ce899c0f02a4f5f2",
+    "name": "琅琊云令 模型基准测试 20261024",
+    "verified_count": 15
+  },
+  "visual_evaluation_status": "blocked_result_access",
+  "models_selected": false,
+  "items": [
+    {
+      "model": "GPT Image 2.5 Flare",
+      "trial": 1,
+      "media_type": "image",
+      "status": "completed",
+      "result_url": "https://canvas-test.ifsdc.com/images/ai_gen_ec18270b_1792821295.png",
+      "prompt_sha256": "dc8dcbd3f8443e5564017ce18ae4eb468795137a3d7e8cf1a79d25e6eacfdcae",
+      "server_metadata": {
+        "height": 1536,
+        "width": 1024
+      },
+      "result_access": {
+        "http_status": 403,
+        "content_type": "text/html",
+        "error_detail": "ts err"
+      },
+      "estimated_credits": "186",
+      "requested_aspect_ratio": "9:16",
+      "reported_ratio_relative_error_percent": 18.519,
+      "returned_request_params_excerpt": {
+        "size": "1024x1536",
+        "aspect_ratio": "9:16"
+      }
+    },
+    {
+      "model": "GPT Image 2.5 Flare",
+      "trial": 2,
+      "media_type": "image",
+      "status": "completed",
+      "result_url": "https://canvas-test.ifsdc.com/images/ai_gen_96186db0_1792821288.png",
+      "prompt_sha256": "dc8dcbd3f8443e5564017ce18ae4eb468795137a3d7e8cf1a79d25e6eacfdcae",
+      "server_metadata": {
+        "height": 1536,
+        "width": 1024
+      },
+      "result_access": {
+        "http_status": 403,
+        "content_type": "text/html",
+        "error_detail": "ts err"
+      },
+      "estimated_credits": "186",
+      "requested_aspect_ratio": "9:16",
+      "reported_ratio_relative_error_percent": 18.519,
+      "returned_request_params_excerpt": {
+        "size": "1024x1536",
+        "aspect_ratio": "9:16"
+      }
+    },
+    {
+      "model": "GPT Image 2.5 Flare",
+      "trial": 3,
+      "media_type": "image",
+      "status": "completed",
+      "result_url": "https://canvas-test.ifsdc.com/images/ai_gen_03ee2b27_1792821289.png",
+      "prompt_sha256": "dc8dcbd3f8443e5564017ce18ae4eb468795137a3d7e8cf1a79d25e6eacfdcae",
+      "server_metadata": {
+        "height": 1536,
+        "width": 1024
+      },
+      "result_access": {
+        "http_status": 403,
+        "content_type": "text/html",
+        "error_detail": "ts err"
+      },
+      "estimated_credits": "186",
+      "requested_aspect_ratio": "9:16",
+      "reported_ratio_relative_error_percent": 18.519,
+      "returned_request_params_excerpt": {
+        "size": "1024x1536",
+        "aspect_ratio": "9:16"
+      }
+    },
+    {
+      "model": "Seedream 5.0 Pro",
+      "trial": 1,
+      "media_type": "image",
+      "status": "completed",
+      "result_url": "https://canvas-test.ifsdc.com/ai_gen/images/04a4b7fc-0819-4d88-ac57-e03c84419bee_0.jpeg",
+      "prompt_sha256": "dc8dcbd3f8443e5564017ce18ae4eb468795137a3d7e8cf1a79d25e6eacfdcae",
+      "server_metadata": {
+        "height": 2816,
+        "width": 1584
+      },
+      "result_access": {
+        "http_status": 403,
+        "content_type": "text/html",
+        "error_detail": "ts err"
+      },
+      "estimated_credits": "83",
+      "requested_aspect_ratio": "9:16",
+      "reported_ratio_relative_error_percent": 0.0
+    },
+    {
+      "model": "Seedream 5.0 Pro",
+      "trial": 2,
+      "media_type": "image",
+      "status": "completed",
+      "result_url": "https://canvas-test.ifsdc.com/ai_gen/images/69a8bd88-d418-4ef2-b91c-8d4e831cd19d_0.jpeg",
+      "prompt_sha256": "dc8dcbd3f8443e5564017ce18ae4eb468795137a3d7e8cf1a79d25e6eacfdcae",
+      "server_metadata": {
+        "height": 2816,
+        "width": 1584
+      },
+      "result_access": {
+        "http_status": 403,
+        "content_type": "text/html",
+        "error_detail": "ts err"
+      },
+      "estimated_credits": "83",
+      "requested_aspect_ratio": "9:16",
+      "reported_ratio_relative_error_percent": 0.0
+    },
+    {
+      "model": "Seedream 5.0 Pro",
+      "trial": 3,
+      "media_type": "image",
+      "status": "completed",
+      "result_url": "https://canvas-test.ifsdc.com/ai_gen/images/be1e1dcc-9f26-4f0d-aece-0c9cb31a6b6e_0.jpeg",
+      "prompt_sha256": "dc8dcbd3f8443e5564017ce18ae4eb468795137a3d7e8cf1a79d25e6eacfdcae",
+      "server_metadata": {
+        "height": 2816,
+        "width": 1584
+      },
+      "result_access": {
+        "http_status": 403,
+        "content_type": "text/html",
+        "error_detail": "ts err"
+      },
+      "estimated_credits": "83",
+      "requested_aspect_ratio": "9:16",
+      "reported_ratio_relative_error_percent": 0.0
+    },
+    {
+      "model": "Gemini 3.1 Flash Image",
+      "trial": 1,
+      "media_type": "image",
+      "status": "completed",
+      "result_url": "https://canvas-test.ifsdc.com/images/ai_gen_f202d378_1792821350.png",
+      "prompt_sha256": "dc8dcbd3f8443e5564017ce18ae4eb468795137a3d7e8cf1a79d25e6eacfdcae",
+      "server_metadata": {
+        "height": 1376,
+        "width": 768
+      },
+      "result_access": {
+        "http_status": 403,
+        "content_type": "text/html",
+        "error_detail": "ts err"
+      },
+      "estimated_credits": "62",
+      "requested_aspect_ratio": "9:16",
+      "reported_ratio_relative_error_percent": 0.775
+    },
+    {
+      "model": "Gemini 3.1 Flash Image",
+      "trial": 2,
+      "media_type": "image",
+      "status": "completed",
+      "result_url": "https://canvas-test.ifsdc.com/images/ai_gen_14f17f7e_1792821350.png",
+      "prompt_sha256": "dc8dcbd3f8443e5564017ce18ae4eb468795137a3d7e8cf1a79d25e6eacfdcae",
+      "server_metadata": {
+        "height": 1376,
+        "width": 768
+      },
+      "result_access": {
+        "http_status": 403,
+        "content_type": "text/html",
+        "error_detail": "ts err"
+      },
+      "estimated_credits": "62",
+      "requested_aspect_ratio": "9:16",
+      "reported_ratio_relative_error_percent": 0.775
+    },
+    {
+      "model": "Gemini 3.1 Flash Image",
+      "trial": 3,
+      "media_type": "image",
+      "status": "completed",
+      "result_url": "https://canvas-test.ifsdc.com/images/ai_gen_61fb2427_1792821351.png",
+      "prompt_sha256": "dc8dcbd3f8443e5564017ce18ae4eb468795137a3d7e8cf1a79d25e6eacfdcae",
+      "server_metadata": {
+        "height": 1376,
+        "width": 768
+      },
+      "result_access": {
+        "http_status": 403,
+        "content_type": "text/html",
+        "error_detail": "ts err"
+      },
+      "estimated_credits": "62",
+      "requested_aspect_ratio": "9:16",
+      "reported_ratio_relative_error_percent": 0.775
+    },
+    {
+      "model": "Kling Image O1",
+      "trial": 1,
+      "media_type": "image",
+      "status": "completed",
+      "result_url": "https://canvas-test.ifsdc.com/ai_gen/images/7b285a83-f117-4e37-be76-b88f4068a3ab_0.png",
+      "prompt_sha256": "dc8dcbd3f8443e5564017ce18ae4eb468795137a3d7e8cf1a79d25e6eacfdcae",
+      "server_metadata": {
+        "height": 2720,
+        "width": 1536
+      },
+      "result_access": {
+        "http_status": 403,
+        "content_type": "text/html",
+        "error_detail": "ts err"
+      },
+      "estimated_credits": "26",
+      "requested_aspect_ratio": "9:16",
+      "reported_ratio_relative_error_percent": 0.392
+    },
+    {
+      "model": "Kling Image O1",
+      "trial": 2,
+      "media_type": "image",
+      "status": "completed",
+      "result_url": "https://canvas-test.ifsdc.com/ai_gen/images/a909f670-041b-41ce-b410-48bd521f0690_0.png",
+      "prompt_sha256": "dc8dcbd3f8443e5564017ce18ae4eb468795137a3d7e8cf1a79d25e6eacfdcae",
+      "server_metadata": {
+        "height": 2720,
+        "width": 1536
+      },
+      "result_access": {
+        "http_status": 403,
+        "content_type": "text/html",
+        "error_detail": "ts err"
+      },
+      "estimated_credits": "26",
+      "requested_aspect_ratio": "9:16",
+      "reported_ratio_relative_error_percent": 0.392
+    },
+    {
+      "model": "Kling Image O1",
+      "trial": 3,
+      "media_type": "image",
+      "status": "completed",
+      "result_url": "https://canvas-test.ifsdc.com/ai_gen/images/434014eb-ed79-4080-9b9b-54459064ac22_0.png",
+      "prompt_sha256": "dc8dcbd3f8443e5564017ce18ae4eb468795137a3d7e8cf1a79d25e6eacfdcae",
+      "server_metadata": {
+        "height": 2720,
+        "width": 1536
+      },
+      "result_access": {
+        "http_status": 403,
+        "content_type": "text/html",
+        "error_detail": "ts err"
+      },
+      "estimated_credits": "26",
+      "requested_aspect_ratio": "9:16",
+      "reported_ratio_relative_error_percent": 0.392
+    },
+    {
+      "model": "Kling V3 Omni",
+      "trial": null,
+      "media_type": "video",
+      "status": "completed",
+      "result_url": "https://canvas-test.ifsdc.com/ai_gen/videos/5176511e-b8ac-4f15-a12c-f4140331ee5e_0.mp4",
+      "prompt_sha256": "f2f618ae818995c92fa11d67134994062edb625aef3c98a10b001cac76c513d1",
+      "server_metadata": {
+        "duration": 3.041667,
+        "duration_source": "ffprobe"
+      },
+      "result_access": {
+        "http_status": 403,
+        "content_type": "text/html",
+        "error_detail": "ts err"
+      },
+      "estimated_credits": "312"
+    },
+    {
+      "model": "Seedance 2.5",
+      "trial": null,
+      "media_type": "video",
+      "status": "completed",
+      "result_url": "https://canvas-test.ifsdc.com/ai_gen/videos/a2a05526-b15f-4072-8eb3-48f3f535f44d_0.mp4",
+      "prompt_sha256": "f2f618ae818995c92fa11d67134994062edb625aef3c98a10b001cac76c513d1",
+      "server_metadata": {
+        "duration": 4.064,
+        "duration_source": "ffprobe"
+      },
+      "result_access": {
+        "http_status": 403,
+        "content_type": "text/html",
+        "error_detail": "ts err"
+      },
+      "estimated_credits": "784"
+    },
+    {
+      "model": "MiniMax-H3",
+      "trial": null,
+      "media_type": "video",
+      "status": "completed",
+      "result_url": "https://canvas-test.ifsdc.com/ai_gen/videos/def65f16-3d87-4cc7-acb1-45b6a52e7a80_0.mp4",
+      "prompt_sha256": "f2f618ae818995c92fa11d67134994062edb625aef3c98a10b001cac76c513d1",
+      "server_metadata": {
+        "duration": 5.175,
+        "duration_source": "ffprobe"
+      },
+      "result_access": {
+        "http_status": 403,
+        "content_type": "text/html",
+        "error_detail": "ts err"
+      },
+      "estimated_credits": "325"
+    }
+  ]
+}

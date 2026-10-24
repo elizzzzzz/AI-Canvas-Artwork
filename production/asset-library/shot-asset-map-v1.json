@@ -1,0 +1,1185 @@
+{
+  "version": 1,
+  "logical_shot_count": 34,
+  "clip_count": 67,
+  "mapping_status": "explicit_assembly_plan_pending_review",
+  "shots": [
+    {
+      "logical_shot": "EP01-S01",
+      "title": "烛火惊梦",
+      "clip_keys": [
+        "EP01-S01-01"
+      ],
+      "asset_ids": [
+        "AR-BEAM",
+        "AR-BED",
+        "AR-DESK",
+        "AR-DOOR",
+        "AR-FLOOR",
+        "AR-WALL",
+        "AR-WINDOW",
+        "CH-MCS",
+        "HAND-MCS-L",
+        "HAND-MCS-R",
+        "PR-CANDLE",
+        "PR-STAND",
+        "PR-TOKEN"
+      ],
+      "character_asset_ids": [
+        "CH-MCS"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP01-S02",
+      "title": "林殊立雪",
+      "clip_keys": [
+        "EP01-S02-01",
+        "EP01-S02-02"
+      ],
+      "asset_ids": [
+        "CH-LS",
+        "ENV-BRAZIER",
+        "ENV-BROKENWOOD",
+        "ENV-FLAG",
+        "ENV-ROCK",
+        "ENV-SNOWBANK",
+        "ENV-SNOWROAD",
+        "EQ-ARMOR",
+        "EQ-HELMET",
+        "EQ-SHIELD",
+        "EQ-SWORD",
+        "HAND-LS-L",
+        "HAND-LS-R",
+        "PR-REPORT"
+      ],
+      "character_asset_ids": [
+        "CH-LS"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP01-S03",
+      "title": "三份相反的军报",
+      "clip_keys": [
+        "EP01-S03-01",
+        "EP01-S03-02"
+      ],
+      "asset_ids": [
+        "CH-LS",
+        "ENV-BRAZIER",
+        "ENV-BROKENWOOD",
+        "ENV-FLAG",
+        "ENV-ROCK",
+        "ENV-SNOWBANK",
+        "ENV-SNOWROAD",
+        "EQ-ARMOR",
+        "EQ-HELMET",
+        "EQ-SHIELD",
+        "EQ-SWORD",
+        "HAND-LS-L",
+        "HAND-LS-R",
+        "PR-MAP-NEW",
+        "PR-REPORT",
+        "PR-STAMP"
+      ],
+      "character_asset_ids": [
+        "CH-LS"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP01-S04",
+      "title": "烽火冻结",
+      "clip_keys": [
+        "EP01-S04-01",
+        "EP01-S04-02"
+      ],
+      "asset_ids": [
+        "AR-BEAM",
+        "AR-BED",
+        "AR-DESK",
+        "AR-DOOR",
+        "AR-FLOOR",
+        "AR-WALL",
+        "AR-WINDOW",
+        "CH-LS",
+        "CH-MCS",
+        "ENV-BRAZIER",
+        "ENV-BROKENWOOD",
+        "ENV-FLAG",
+        "ENV-ROCK",
+        "ENV-SNOWBANK",
+        "ENV-SNOWROAD",
+        "EQ-ARMOR",
+        "EQ-HELMET",
+        "EQ-SHIELD",
+        "EQ-SWORD",
+        "HAND-LS-L",
+        "HAND-LS-R",
+        "HAND-MCS-L",
+        "HAND-MCS-R",
+        "PR-CANDLE",
+        "PR-STAND"
+      ],
+      "character_asset_ids": [
+        "CH-LS",
+        "CH-MCS"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP01-S05",
+      "title": "旧档室",
+      "clip_keys": [
+        "EP01-S05-01",
+        "EP01-S05-02"
+      ],
+      "asset_ids": [
+        "AR-BEAM",
+        "AR-CABINET",
+        "AR-DESK",
+        "AR-DOOR",
+        "AR-FLOOR",
+        "AR-STEP",
+        "AR-WALL",
+        "AR-WINDOW",
+        "CH-MCS",
+        "CH-SCRIBE",
+        "HAND-MCS-L",
+        "HAND-MCS-R",
+        "PR-ARCHIVEBOX",
+        "PR-BRUSH",
+        "PR-INDEX",
+        "PR-INK",
+        "PR-INKSTONE",
+        "PR-STAMP"
+      ],
+      "character_asset_ids": [
+        "CH-MCS",
+        "CH-SCRIBE"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP01-S06",
+      "title": "误放药箱",
+      "clip_keys": [
+        "EP01-S06-01",
+        "EP01-S06-02"
+      ],
+      "asset_ids": [
+        "AR-BEAM",
+        "AR-CABINET",
+        "AR-DESK",
+        "AR-DOOR",
+        "AR-FLOOR",
+        "AR-STEP",
+        "AR-WALL",
+        "AR-WINDOW",
+        "CH-MCS",
+        "CH-SCRIBE",
+        "HAND-MCS-L",
+        "HAND-MCS-R",
+        "PR-ARCHIVEBOX",
+        "PR-BRUSH",
+        "PR-INDEX",
+        "PR-INKSTONE"
+      ],
+      "character_asset_ids": [
+        "CH-MCS",
+        "CH-SCRIBE"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP01-S07",
+      "title": "雪夜追车",
+      "clip_keys": [
+        "EP01-S07-01",
+        "EP01-S07-02"
+      ],
+      "asset_ids": [
+        "AN-HORSE",
+        "CH-DRIVER",
+        "CH-GUARD",
+        "CH-MCS",
+        "CH-SCRIBE",
+        "ENV-SNOWBANK",
+        "ENV-SNOWROAD",
+        "ENV-TREE",
+        "EQ-BRIDLE",
+        "EQ-SADDLE",
+        "HAND-MCS-L",
+        "HAND-MCS-R",
+        "PR-CHEST",
+        "PR-MEDBUNDLE",
+        "PR-REPORT",
+        "VH-AXLE",
+        "VH-BOARD",
+        "VH-CANOPY",
+        "VH-CART",
+        "VH-DRAWBAR",
+        "VH-REINS",
+        "VH-WHEEL"
+      ],
+      "character_asset_ids": [
+        "CH-MCS",
+        "CH-SCRIBE",
+        "CH-GUARD",
+        "CH-DRIVER"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP01-S08",
+      "title": "备用存卷",
+      "clip_keys": [
+        "EP01-S08-01",
+        "EP01-S08-02"
+      ],
+      "asset_ids": [
+        "CH-MCS",
+        "CH-SCRIBE",
+        "ENV-SNOWBANK",
+        "ENV-SNOWROAD",
+        "ENV-TREE",
+        "HAND-MCS-L",
+        "HAND-MCS-R",
+        "PR-BACKUP",
+        "PR-CHEST",
+        "PR-REPORT",
+        "VH-AXLE",
+        "VH-BOARD",
+        "VH-CANOPY",
+        "VH-CART",
+        "VH-DRAWBAR",
+        "VH-WHEEL"
+      ],
+      "character_asset_ids": [
+        "CH-MCS",
+        "CH-SCRIBE"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP01-S09",
+      "title": "燕字残角",
+      "clip_keys": [
+        "EP01-S09-01",
+        "EP01-S09-02"
+      ],
+      "asset_ids": [
+        "CH-MCS",
+        "CH-SCRIBE",
+        "ENV-SNOWBANK",
+        "ENV-SNOWROAD",
+        "ENV-TREE",
+        "HAND-MCS-L",
+        "HAND-MCS-R",
+        "PR-REPORT",
+        "PR-TOKEN",
+        "VH-AXLE",
+        "VH-BOARD",
+        "VH-CANOPY",
+        "VH-CART",
+        "VH-DRAWBAR",
+        "VH-WHEEL"
+      ],
+      "character_asset_ids": [
+        "CH-MCS",
+        "CH-SCRIBE"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP01-S10",
+      "title": "封泥匹配",
+      "clip_keys": [
+        "EP01-S10-01",
+        "EP01-S10-02"
+      ],
+      "asset_ids": [
+        "AR-BEAM",
+        "AR-CABINET",
+        "AR-DESK",
+        "AR-DOOR",
+        "AR-FLOOR",
+        "AR-STEP",
+        "AR-WALL",
+        "AR-WINDOW",
+        "CH-COURIER",
+        "CH-MCS",
+        "HAND-MCS-L",
+        "HAND-MCS-R",
+        "PR-BRUSH",
+        "PR-INKSTONE",
+        "PR-LETTERBOX",
+        "PR-SEAL-R",
+        "PR-TOKEN"
+      ],
+      "character_asset_ids": [
+        "CH-MCS",
+        "CH-COURIER"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP01-S11",
+      "title": "雪地口播",
+      "clip_keys": [
+        "EP01-S11-01",
+        "EP01-S11-02"
+      ],
+      "asset_ids": [
+        "AR-BEAM",
+        "AR-CABINET",
+        "AR-DESK",
+        "AR-DOOR",
+        "AR-FLOOR",
+        "AR-STEP",
+        "AR-WALL",
+        "AR-WINDOW",
+        "CH-DRIVER",
+        "CH-GUARD",
+        "CH-MCS",
+        "CH-SCRIBE",
+        "HAND-MCS-L",
+        "HAND-MCS-R",
+        "PR-BRUSH",
+        "PR-INKSTONE",
+        "PR-TOKEN"
+      ],
+      "character_asset_ids": [
+        "CH-MCS",
+        "CH-SCRIBE",
+        "CH-GUARD",
+        "CH-DRIVER"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP02-S01",
+      "title": "密使入廊",
+      "clip_keys": [
+        "EP02-S01-01",
+        "EP02-S01-02"
+      ],
+      "asset_ids": [
+        "AR-BEAM",
+        "AR-BRIDGE",
+        "AR-COLUMN",
+        "AR-DESK",
+        "AR-FLOOR",
+        "AR-ROOF",
+        "CH-XTY",
+        "HAND-XTY-L",
+        "HAND-XTY-R",
+        "PR-BADGE",
+        "PR-BRUSH",
+        "PR-CLOUDBOX",
+        "PR-INKSTONE"
+      ],
+      "character_asset_ids": [
+        "CH-XTY"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP02-S02",
+      "title": "不拆锦囊",
+      "clip_keys": [
+        "EP02-S02-01",
+        "EP02-S02-02"
+      ],
+      "asset_ids": [
+        "AR-BEAM",
+        "AR-BRIDGE",
+        "AR-COLUMN",
+        "AR-DESK",
+        "AR-FLOOR",
+        "AR-ROOF",
+        "CH-KEEPER",
+        "CH-XTY",
+        "HAND-XTY-L",
+        "HAND-XTY-R",
+        "PR-BRUSH",
+        "PR-INKSTONE",
+        "PR-LETTERBOX",
+        "PR-POUCH",
+        "PR-SEAL-B",
+        "PR-SEAL-G",
+        "PR-SEAL-R"
+      ],
+      "character_asset_ids": [
+        "CH-XTY",
+        "CH-KEEPER"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP02-S03",
+      "title": "最弱的皇子",
+      "clip_keys": [
+        "EP02-S03-01",
+        "EP02-S03-02"
+      ],
+      "asset_ids": [
+        "AR-BEAM",
+        "AR-BRIDGE",
+        "AR-COLUMN",
+        "AR-DESK",
+        "AR-FLOOR",
+        "AR-ROOF",
+        "CH-MSG-A",
+        "CH-XTY",
+        "HAND-XTY-L",
+        "HAND-XTY-R",
+        "PR-BRUSH",
+        "PR-INKSTONE",
+        "PR-MAP-NEW",
+        "PR-REPORT"
+      ],
+      "character_asset_ids": [
+        "CH-XTY",
+        "CH-MSG-A"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP02-S04",
+      "title": "三路信使",
+      "clip_keys": [
+        "EP02-S04-01",
+        "EP02-S04-02"
+      ],
+      "asset_ids": [
+        "AR-BEAM",
+        "AR-BRIDGE",
+        "AR-COLUMN",
+        "AR-DESK",
+        "AR-FLOOR",
+        "AR-ROOF",
+        "CH-MSG-A",
+        "CH-MSG-B",
+        "CH-MSG-C",
+        "CH-XTY",
+        "HAND-XTY-L",
+        "HAND-XTY-R",
+        "PR-BADGE",
+        "PR-BRUSH",
+        "PR-INKSTONE",
+        "PR-MAP-NEW",
+        "PR-SEAL-B",
+        "PR-SEAL-G",
+        "PR-SEAL-R"
+      ],
+      "character_asset_ids": [
+        "CH-XTY",
+        "CH-MSG-A",
+        "CH-MSG-B",
+        "CH-MSG-C"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP02-S05",
+      "title": "错封泥和错口令",
+      "clip_keys": [
+        "EP02-S05-01",
+        "EP02-S05-02"
+      ],
+      "asset_ids": [
+        "AR-BEAM",
+        "AR-BRIDGE",
+        "AR-COLUMN",
+        "AR-DESK",
+        "AR-FLOOR",
+        "AR-ROOF",
+        "CH-MSG-A",
+        "CH-MSG-B",
+        "CH-XTY",
+        "HAND-XTY-L",
+        "HAND-XTY-R",
+        "PR-BADGE",
+        "PR-BRUSH",
+        "PR-INKSTONE",
+        "PR-SEAL-B",
+        "PR-SEAL-G",
+        "PR-SEAL-R"
+      ],
+      "character_asset_ids": [
+        "CH-XTY",
+        "CH-MSG-A",
+        "CH-MSG-B"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP02-S06",
+      "title": "旧地图混入",
+      "clip_keys": [
+        "EP02-S06-01",
+        "EP02-S06-02"
+      ],
+      "asset_ids": [
+        "AR-BEAM",
+        "AR-BRIDGE",
+        "AR-COLUMN",
+        "AR-DESK",
+        "AR-FLOOR",
+        "AR-ROOF",
+        "CH-MSG-C",
+        "CH-XTY",
+        "HAND-XTY-L",
+        "HAND-XTY-R",
+        "PR-BRUSH",
+        "PR-INKSTONE",
+        "PR-MAP-NEW",
+        "PR-MAP-OLD"
+      ],
+      "character_asset_ids": [
+        "CH-XTY",
+        "CH-MSG-C"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP02-S07",
+      "title": "唯一有效版本",
+      "clip_keys": [
+        "EP02-S07-01",
+        "EP02-S07-02"
+      ],
+      "asset_ids": [
+        "AR-BEAM",
+        "AR-BRIDGE",
+        "AR-COLUMN",
+        "AR-DESK",
+        "AR-FLOOR",
+        "AR-ROOF",
+        "CH-MSG-A",
+        "CH-MSG-B",
+        "CH-MSG-C",
+        "CH-XTY",
+        "HAND-XTY-L",
+        "HAND-XTY-R",
+        "PR-BADGE",
+        "PR-BRUSH",
+        "PR-CLOUDBOX",
+        "PR-INKSTONE",
+        "PR-MAP-NEW",
+        "PR-SEAL-B",
+        "PR-SEAL-G",
+        "PR-SEAL-R"
+      ],
+      "character_asset_ids": [
+        "CH-XTY",
+        "CH-MSG-A",
+        "CH-MSG-B",
+        "CH-MSG-C"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP02-S08",
+      "title": "灯号重排",
+      "clip_keys": [
+        "EP02-S08-01",
+        "EP02-S08-02"
+      ],
+      "asset_ids": [
+        "AR-BEAM",
+        "AR-BRIDGE",
+        "AR-COLUMN",
+        "AR-DESK",
+        "AR-FLOOR",
+        "AR-ROOF",
+        "CH-MSG-A",
+        "CH-MSG-B",
+        "CH-MSG-C",
+        "CH-SCRIBE",
+        "CH-XTY",
+        "HAND-XTY-L",
+        "HAND-XTY-R",
+        "PR-BRUSH",
+        "PR-CLOUDBOX",
+        "PR-INKSTONE",
+        "PR-MAP-NEW",
+        "PR-SEAL-B",
+        "PR-SEAL-G",
+        "PR-SEAL-R"
+      ],
+      "character_asset_ids": [
+        "CH-XTY",
+        "CH-SCRIBE",
+        "CH-MSG-A",
+        "CH-MSG-B",
+        "CH-MSG-C"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP02-S09",
+      "title": "六皇子不拆",
+      "clip_keys": [
+        "EP02-S09-01",
+        "EP02-S09-02"
+      ],
+      "asset_ids": [
+        "AR-BEAM",
+        "AR-BRIDGE",
+        "AR-COLUMN",
+        "AR-DESK",
+        "AR-FLOOR",
+        "AR-ROOF",
+        "CH-MSG-A",
+        "CH-XTY",
+        "HAND-XTY-L",
+        "HAND-XTY-R",
+        "PR-BRUSH",
+        "PR-INKSTONE",
+        "PR-RECEIPT",
+        "PR-SEAL-B",
+        "PR-SEAL-G",
+        "PR-SEAL-R"
+      ],
+      "character_asset_ids": [
+        "CH-XTY",
+        "CH-MSG-A"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP02-S10",
+      "title": "两府得信",
+      "clip_keys": [
+        "EP02-S10-01",
+        "EP02-S10-02"
+      ],
+      "asset_ids": [
+        "AR-BEAM",
+        "AR-BRIDGE",
+        "AR-COLUMN",
+        "AR-DESK",
+        "AR-FLOOR",
+        "AR-ROOF",
+        "CH-RPT-A",
+        "CH-RPT-B",
+        "CH-XTY",
+        "HAND-XTY-L",
+        "HAND-XTY-R",
+        "PR-BRUSH",
+        "PR-INKSTONE",
+        "PR-RECEIPT",
+        "PR-REPORT"
+      ],
+      "character_asset_ids": [
+        "CH-XTY",
+        "CH-RPT-A",
+        "CH-RPT-B"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP02-S11",
+      "title": "雨廊口播",
+      "clip_keys": [
+        "EP02-S11-01",
+        "EP02-S11-02"
+      ],
+      "asset_ids": [
+        "AR-BEAM",
+        "AR-BRIDGE",
+        "AR-COLUMN",
+        "AR-DESK",
+        "AR-FLOOR",
+        "AR-ROOF",
+        "CH-MSG-A",
+        "CH-MSG-B",
+        "CH-MSG-C",
+        "CH-SCRIBE",
+        "CH-XTY",
+        "HAND-XTY-L",
+        "HAND-XTY-R",
+        "PR-BRUSH",
+        "PR-CLOUDBOX",
+        "PR-INKSTONE",
+        "PR-RECEIPT"
+      ],
+      "character_asset_ids": [
+        "CH-XTY",
+        "CH-MSG-A",
+        "CH-MSG-B",
+        "CH-MSG-C",
+        "CH-SCRIBE"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP03-S01",
+      "title": "借病入城",
+      "clip_keys": [
+        "EP03-S01-01",
+        "EP03-S01-02"
+      ],
+      "asset_ids": [
+        "AR-AWNING",
+        "AR-DESK",
+        "CH-MCS",
+        "ENV-DIRT",
+        "HAND-MCS-L",
+        "HAND-MCS-R",
+        "PR-BOTTLE",
+        "PR-FAN",
+        "PR-JUG",
+        "PR-MEDBUNDLE",
+        "VH-AXLE",
+        "VH-CART",
+        "VH-WHEEL"
+      ],
+      "character_asset_ids": [
+        "CH-MCS"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP03-S02",
+      "title": "卓青遥的状纸",
+      "clip_keys": [
+        "EP03-S02-01",
+        "EP03-S02-02"
+      ],
+      "asset_ids": [
+        "AR-AWNING",
+        "AR-DESK",
+        "CH-MCS",
+        "CH-ZQY",
+        "ENV-DIRT",
+        "HAND-MCS-L",
+        "HAND-MCS-R",
+        "PR-BOTTLE",
+        "PR-COMPLAINT",
+        "PR-JUG",
+        "PR-MEDBUNDLE",
+        "PR-TIE",
+        "VH-AXLE",
+        "VH-CART",
+        "VH-WHEEL"
+      ],
+      "character_asset_ids": [
+        "CH-MCS",
+        "CH-ZQY"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP03-S03",
+      "title": "萧景睿出现",
+      "clip_keys": [
+        "EP03-S03-01",
+        "EP03-S03-02"
+      ],
+      "asset_ids": [
+        "AN-HORSE",
+        "AR-AWNING",
+        "AR-DESK",
+        "CH-GUARD",
+        "CH-MCS",
+        "CH-XJR",
+        "ENV-DIRT",
+        "EQ-BRIDLE",
+        "EQ-SADDLE",
+        "HAND-MCS-L",
+        "HAND-MCS-R",
+        "PR-BADGE",
+        "PR-BOTTLE",
+        "PR-JUG",
+        "PR-PERMIT",
+        "VH-AXLE",
+        "VH-CART",
+        "VH-REINS",
+        "VH-WHEEL"
+      ],
+      "character_asset_ids": [
+        "CH-MCS",
+        "CH-XJR",
+        "CH-GUARD"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP03-S04",
+      "title": "四类支持资源",
+      "clip_keys": [
+        "EP03-S04-01",
+        "EP03-S04-02"
+      ],
+      "asset_ids": [
+        "AR-AWNING",
+        "AR-DESK",
+        "CH-DRIVER",
+        "CH-MCS",
+        "CH-MEDBOY",
+        "CH-SCRIBE",
+        "ENV-DIRT",
+        "HAND-MCS-L",
+        "HAND-MCS-R",
+        "PR-BOTTLE",
+        "PR-COMPLAINT",
+        "PR-JUG",
+        "PR-MAP-NEW",
+        "PR-MEDBUNDLE",
+        "VH-AXLE",
+        "VH-CART",
+        "VH-WHEEL"
+      ],
+      "character_asset_ids": [
+        "CH-MCS",
+        "CH-SCRIBE",
+        "CH-MEDBOY",
+        "CH-DRIVER"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP03-S05",
+      "title": "状纸遇雨，车轴作响",
+      "clip_keys": [
+        "EP03-S05-01",
+        "EP03-S05-02"
+      ],
+      "asset_ids": [
+        "AR-AWNING",
+        "AR-DESK",
+        "CH-DRIVER",
+        "CH-GUARD",
+        "CH-MCS",
+        "ENV-DIRT",
+        "HAND-MCS-L",
+        "HAND-MCS-R",
+        "PR-BOTTLE",
+        "PR-COMPLAINT",
+        "PR-JUG",
+        "PR-MAP-NEW",
+        "VH-AXLE",
+        "VH-AXLE-BROKEN",
+        "VH-CART",
+        "VH-WHEEL"
+      ],
+      "character_asset_ids": [
+        "CH-MCS",
+        "CH-DRIVER",
+        "CH-GUARD"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP03-S06",
+      "title": "药包和官名错配",
+      "clip_keys": [
+        "EP03-S06-01",
+        "EP03-S06-02"
+      ],
+      "asset_ids": [
+        "AR-AWNING",
+        "AR-DESK",
+        "CH-COURIER",
+        "CH-MCS",
+        "CH-MEDBOY",
+        "ENV-DIRT",
+        "HAND-MCS-L",
+        "HAND-MCS-R",
+        "PR-BOTTLE",
+        "PR-JUG",
+        "PR-MEDBUNDLE",
+        "PR-REPORT",
+        "VH-AXLE",
+        "VH-CART",
+        "VH-WHEEL"
+      ],
+      "character_asset_ids": [
+        "CH-MCS",
+        "CH-MEDBOY",
+        "CH-COURIER"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP03-S07",
+      "title": "暂停赶路",
+      "clip_keys": [
+        "EP03-S07-01",
+        "EP03-S07-02"
+      ],
+      "asset_ids": [
+        "AR-AWNING",
+        "AR-DESK",
+        "CH-DRIVER",
+        "CH-GUARD",
+        "CH-MCS",
+        "CH-MEDBOY",
+        "CH-SCRIBE",
+        "ENV-DIRT",
+        "HAND-MCS-L",
+        "HAND-MCS-R",
+        "PR-BOTTLE",
+        "PR-COMPLAINT",
+        "PR-JUG",
+        "PR-MAP-NEW",
+        "PR-MEDBUNDLE",
+        "PR-REPORT",
+        "VH-AXLE",
+        "VH-CART",
+        "VH-WHEEL"
+      ],
+      "character_asset_ids": [
+        "CH-MCS",
+        "CH-SCRIBE",
+        "CH-MEDBOY",
+        "CH-DRIVER",
+        "CH-GUARD"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP03-S08",
+      "title": "云令同步",
+      "clip_keys": [
+        "EP03-S08-01",
+        "EP03-S08-02"
+      ],
+      "asset_ids": [
+        "AR-AWNING",
+        "AR-DESK",
+        "CH-DRIVER",
+        "CH-GUARD",
+        "CH-MCS",
+        "CH-MEDBOY",
+        "CH-SCRIBE",
+        "ENV-DIRT",
+        "HAND-MCS-L",
+        "HAND-MCS-R",
+        "PR-BOTTLE",
+        "PR-CLOUDBOX",
+        "PR-COMPLAINT",
+        "PR-JUG",
+        "PR-MAP-NEW",
+        "PR-MEDBUNDLE",
+        "PR-STAMP",
+        "PR-TIE",
+        "VH-AXLE",
+        "VH-AXLE-BROKEN",
+        "VH-CART",
+        "VH-WHEEL"
+      ],
+      "character_asset_ids": [
+        "CH-MCS",
+        "CH-SCRIBE",
+        "CH-MEDBOY",
+        "CH-DRIVER",
+        "CH-GUARD"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP03-S09",
+      "title": "证据重新封存",
+      "clip_keys": [
+        "EP03-S09-01",
+        "EP03-S09-02"
+      ],
+      "asset_ids": [
+        "AR-AWNING",
+        "AR-DESK",
+        "CH-MCS",
+        "CH-ZQY",
+        "ENV-DIRT",
+        "HAND-MCS-L",
+        "HAND-MCS-R",
+        "PR-BOTTLE",
+        "PR-CHEST",
+        "PR-COMPLAINT",
+        "PR-JUG",
+        "PR-MAP-NEW",
+        "PR-MEDBUNDLE",
+        "VH-AXLE",
+        "VH-CART",
+        "VH-WHEEL"
+      ],
+      "character_asset_ids": [
+        "CH-MCS",
+        "CH-ZQY"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP03-S10",
+      "title": "金陵城门",
+      "clip_keys": [
+        "EP03-S10-01",
+        "EP03-S10-02"
+      ],
+      "asset_ids": [
+        "AN-HORSE",
+        "AR-GATE",
+        "AR-GATELEAF",
+        "AR-GATEWALL",
+        "AR-LIGHT",
+        "CH-DRIVER",
+        "CH-MCS",
+        "CH-XJR",
+        "ENV-PAVING",
+        "EQ-BRIDLE",
+        "EQ-SADDLE",
+        "HAND-MCS-L",
+        "HAND-MCS-R",
+        "PR-LANTERN",
+        "PR-PERMIT",
+        "VH-REINS"
+      ],
+      "character_asset_ids": [
+        "CH-MCS",
+        "CH-XJR",
+        "CH-DRIVER"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP03-S11",
+      "title": "燕字密报",
+      "clip_keys": [
+        "EP03-S11-01",
+        "EP03-S11-02"
+      ],
+      "asset_ids": [
+        "AR-GATE",
+        "AR-GATELEAF",
+        "AR-GATEWALL",
+        "AR-LIGHT",
+        "CH-MCS",
+        "CH-RPT-A",
+        "ENV-PAVING",
+        "HAND-MCS-L",
+        "HAND-MCS-R",
+        "PR-LANTERN",
+        "PR-PERMIT",
+        "PR-REPORT"
+      ],
+      "character_asset_ids": [
+        "CH-MCS",
+        "CH-RPT-A"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    },
+    {
+      "logical_shot": "EP03-S12",
+      "title": "城门口播",
+      "clip_keys": [
+        "EP03-S12-01",
+        "EP03-S12-02"
+      ],
+      "asset_ids": [
+        "AN-HORSE",
+        "AR-GATE",
+        "AR-GATELEAF",
+        "AR-GATEWALL",
+        "AR-LIGHT",
+        "CH-DRIVER",
+        "CH-GUARD",
+        "CH-MCS",
+        "CH-MEDBOY",
+        "CH-XJR",
+        "CH-ZQY",
+        "ENV-PAVING",
+        "EQ-BRIDLE",
+        "EQ-SADDLE",
+        "HAND-MCS-L",
+        "HAND-MCS-R",
+        "PR-COMPLAINT",
+        "PR-LANTERN",
+        "PR-PERMIT",
+        "PR-REPORT",
+        "PR-TOKEN",
+        "VH-REINS"
+      ],
+      "character_asset_ids": [
+        "CH-MCS",
+        "CH-ZQY",
+        "CH-XJR",
+        "CH-DRIVER",
+        "CH-MEDBOY",
+        "CH-GUARD"
+      ],
+      "pov_visibility_rule": "主人公身体/头/肩背不在成片中出现；自己的手及袖口按当前姿态取景",
+      "status": "assembly_plan_not_visibility_approved",
+      "note": "含场景支撑组件；不是认定所有列出实体都在最终画面可见，逐机位检查时确定可见/遮挡/画外。"
+    }
+  ]
+}

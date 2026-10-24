@@ -1,0 +1,93 @@
+{
+  "checked_at": "2026-10-24T23:43:50+08:00",
+  "phase": "mandatory_3d_modeling_before_any_generation",
+  "board_name": "琅琊云令 三集制作总工作流",
+  "canvas_revision": 23,
+  "canvas_nodes": 77,
+  "existing_benchmark_media_reused": 4,
+  "asset_design_records": 23,
+  "episode_scene_counts": [
+    11,
+    11,
+    12
+  ],
+  "episode_seconds": [
+    150,
+    155,
+    165
+  ],
+  "planned_generation_clips": 67,
+  "clip_seconds_range": [
+    5,
+    9
+  ],
+  "active_canvas_runs": 0,
+  "new_generation_requests": 8,
+  "new_generation_credits": null,
+  "first_batch_image_count": 8,
+  "first_batch_image_quote": 496,
+  "video_pilot_quote_after_review": 715,
+  "video_executions_with_gate_closed": 0,
+  "quote_estimated": true,
+  "import_applied": true,
+  "first_batch_image_keys": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "SC03",
+    "SC04",
+    "P01",
+    "KF01"
+  ],
+  "representative_signed_url_access": {
+    "Gemini image": 200,
+    "MiniMax video": 200
+  },
+  "unfinished": [
+    "reference artistic review and targeted revisions",
+    "3D graybox build and review",
+    "video pilot",
+    "episode video generation",
+    "sound, subtitles and mouth-sync review",
+    "final exports",
+    "reusable 3D proxy library created; complete scene assemblies and human review pending"
+  ],
+  "first_batch_images_completed": 8,
+  "submitted_generation_estimate": 496,
+  "actual_settled_credits": null,
+  "user_artistic_approval": "pending",
+  "current_remaining_quote": 0,
+  "p01_original_review": "blocked_lid_geometry",
+  "p01_repair_quote": 62,
+  "p01_repair_authorized": false,
+  "p01_repair_generated": false,
+  "mandatory_3d": true,
+  "geometry_scope_count": 192,
+  "geometry_approved_count": 0,
+  "guarded_generation_nodes": 10,
+  "geometry_preflight": "all_192_blocked_expected",
+  "asset_library": {
+    "status": "proxy_meshes_built_not_approved",
+    "asset_count": 100,
+    "category_counts": {
+      "人物": 16,
+      "手部": 6,
+      "动物": 1,
+      "服装装备": 11,
+      "道具": 31,
+      "车马组件": 8,
+      "建筑家具": 18,
+      "道路环境": 9
+    },
+    "logical_shot_count": 34,
+    "clip_count": 67,
+    "viewer": "production/asset-library/viewer.html",
+    "approval_count": 0,
+    "recorded_at": "2026-10-24T23:22:50+08:00",
+    "platform_index_uploaded": true,
+    "platform_native_glb_upload": false,
+    "canvas_index_node": "7d1f5224-558e-4000-b70d-9e97b72cbec1",
+    "canvas_policy_node": "eeb441b0-7bfe-4fad-8f3e-f1a7f0c0ad66"
+  }
+}

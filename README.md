@@ -41,6 +41,10 @@
 - [首批八图审阅与人工检查](production/REFERENCE-REVIEW.md)
 - [P01 箱盖几何修正](production/p01-lid-repair-v2/README.md)
 
+## 强制3D前置
+
+所有图片、修图及视频运镜生成前必须完成对应3D建模与审核，见 [制作规范](docs/MANDATORY-3D-PRODUCTION.md) 和 [覆盖清单](production/geometry/COVERAGE.md)。当前已关闭所有待生成条件，先进行实际建模。
+
 ## 评审重点
 
 1. 三集是否形成清晰连续的故事链；

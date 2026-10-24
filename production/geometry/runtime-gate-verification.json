@@ -1,0 +1,85 @@
+{
+  "checked_at": "2026-10-24T21:33:36+08:00",
+  "revision": 22,
+  "native_gate_fields_false": [
+    "asset_C01_ready",
+    "asset_C02_ready",
+    "asset_C03_ready",
+    "asset_C04_ready",
+    "asset_SC03_ready",
+    "asset_SC04_ready",
+    "asset_P01_ready",
+    "asset_KF01_ready",
+    "repair_P01_ready",
+    "pilot_ready"
+  ],
+  "guarded_generation_nodes": 10,
+  "node_quotes": [
+    {
+      "node_id": "47b35a43-5b25-5a95-9ae0-16dd9cca278e",
+      "scope": "node",
+      "executions": 0,
+      "cost": 0
+    },
+    {
+      "node_id": "04745641-58d4-5806-83a6-815dfd893bc5",
+      "scope": "node",
+      "executions": 0,
+      "cost": 0
+    },
+    {
+      "node_id": "fbeef554-0c03-5bf5-8699-b286b9296afd",
+      "scope": "node",
+      "executions": 0,
+      "cost": 0
+    },
+    {
+      "node_id": "761b6df9-626a-54a6-9001-f71c8fb5b7df",
+      "scope": "node",
+      "executions": 0,
+      "cost": 0
+    },
+    {
+      "node_id": "e1bd6ecc-4c59-56e4-bd01-165ee20482ec",
+      "scope": "node",
+      "executions": 0,
+      "cost": 0
+    },
+    {
+      "node_id": "ee62e9d5-d567-5694-b895-1f92d957616b",
+      "scope": "node",
+      "executions": 0,
+      "cost": 0
+    },
+    {
+      "node_id": "88f4634c-3d49-5497-bca2-504426eb225e",
+      "scope": "node",
+      "executions": 0,
+      "cost": 0
+    },
+    {
+      "node_id": "31e478d9-f1fb-501e-8534-44ba9c964b7d",
+      "scope": "node",
+      "executions": 0,
+      "cost": 0
+    },
+    {
+      "node_id": "069b5459-375c-5503-9108-cde97ca54db3",
+      "scope": "node",
+      "executions": 0,
+      "cost": 0
+    },
+    {
+      "node_id": "6d3d9d7f-9e32-5fbf-bdd0-842ffa00ddda",
+      "scope": "node",
+      "executions": 0,
+      "cost": 0
+    }
+  ],
+  "graph_quote": 0,
+  "active_runs": 0,
+  "new_generation_requests": 0,
+  "scope_count": 92,
+  "approved_3d_packages": 0,
+  "note": "Native conditions implement a stop, not a physics solver. Fields are set only after local evidence preflight and existing creative/budget review."
+}

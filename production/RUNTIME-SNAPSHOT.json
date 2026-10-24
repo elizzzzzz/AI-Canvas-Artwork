@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-10-24T17:33:23+08:00",
-  "phase": "awaiting_p01_lid_repair_budget_confirmation",
+  "checked_at": "2026-10-24T21:33:36+08:00",
+  "phase": "mandatory_3d_modeling_before_any_generation",
   "board_name": "琅琊云令 三集制作总工作流",
-  "canvas_revision": 21,
-  "canvas_nodes": 74,
+  "canvas_revision": 22,
+  "canvas_nodes": 75,
   "existing_benchmark_media_reused": 4,
   "asset_design_records": 23,
   "episode_scene_counts": [
@@ -60,5 +60,10 @@
   "p01_original_review": "blocked_lid_geometry",
   "p01_repair_quote": 62,
   "p01_repair_authorized": false,
-  "p01_repair_generated": false
+  "p01_repair_generated": false,
+  "mandatory_3d": true,
+  "geometry_scope_count": 92,
+  "geometry_approved_count": 0,
+  "guarded_generation_nodes": 10,
+  "geometry_preflight": "all_92_blocked_expected"
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "prepared_at": "2026-10-24T16:16:05+08:00",
-  "status": "first_batch_generated_pending_artistic_review",
+  "status": "mandatory_3d_modeling_before_any_generation",
   "models": {
     "image": {
       "model_id": "google/gemini-3.1-flash-image",
@@ -2193,7 +2193,17 @@
           "aspect_ratio": "9:16",
           "prompt": "写实古装电影质感，虚构古代梁朝与江左盟世界；原创演员面容，不模仿电视剧演员。低饱和冷青、墨蓝、木棕，少量暗红；真实布、旧木、铁、湿纸与自然皮肤纹理，柔和动态范围，无塑料感。竖屏9:16，关键物件避开上下12%、左右8%边缘。\n这是制作参考资产，不是剧中镜头。单人中性半身至膝上设定照，正面微侧，双手和袖口清楚，素灰背景，无拼图、无标签。保持脸型、眉形、发际线和服饰主色，便于后续锁定角色。\n- 年龄观感：三十岁上下，病中清瘦；\n- 脸型：窄长脸，眉骨清晰，下颌收窄；\n- 眉眼：眉形平直略低，眼神沉静，疲惫时眼下有淡青；\n- 发型：深黑长发，低束发髻，发冠简洁；\n- 服装：灰青、墨蓝、暗棕，细窄暗纹，不用亮金；\n- 道具：折扇、药包、半枚赤焰旧令；\n- 动作：少做大幅度动作，常用停顿、抬眼、指尖压纸表达控制力；\n- 禁止：魁梧身形、鲜艳红衣、现代发型、夸张武打姿态、脸型变化。"
         },
-        "pause_after": true
+        "pause_after": true,
+        "inputs": {
+          "condition": [
+            {
+              "node": "392f6572-3314-5412-81cf-4b85f6e3d50a",
+              "mode": "each",
+              "match": "any",
+              "field": "asset_C01_ready"
+            }
+          ]
+        }
       },
       {
         "op": "add_node",
@@ -2210,9 +2220,17 @@
         "inputs": {
           "references": [
             {
-              "node": "47b35a43-5b25-5a95-9ae0-16dd9cca278e",
               "mode": "all",
+              "node": "47b35a43-5b25-5a95-9ae0-16dd9cca278e",
               "match": "chain"
+            }
+          ],
+          "condition": [
+            {
+              "node": "392f6572-3314-5412-81cf-4b85f6e3d50a",
+              "mode": "each",
+              "match": "any",
+              "field": "asset_C02_ready"
             }
           ]
         }
@@ -2228,7 +2246,17 @@
           "aspect_ratio": "9:16",
           "prompt": "写实古装电影质感，虚构古代梁朝与江左盟世界；原创演员面容，不模仿电视剧演员。低饱和冷青、墨蓝、木棕，少量暗红；真实布、旧木、铁、湿纸与自然皮肤纹理，柔和动态范围，无塑料感。竖屏9:16，关键物件避开上下12%、左右8%边缘。\n这是制作参考资产，不是剧中镜头。单人中性半身至膝上设定照，正面微侧，双手和袖口清楚，素灰背景，无拼图、无标签。保持脸型、眉形、发际线和服饰主色，便于后续锁定角色。\n- 年龄观感：二十七至三十岁，清瘦利落；\n- 脸型：偏长，鼻梁直，嘴角收紧；\n- 眉眼：眉尾微挑，观察时目光快速移动；\n- 发型：半束发，深色短披风遮住肩线；\n- 服装：墨黑、雨青、暗褐，局部使用封泥色作为识别点；\n- 道具：木质云令匣、琅琊阁腰牌、三色封泥；\n- 动作：说话短，先核验再行动，整理物件时有职业洁癖；\n- 禁止：贵族华服、夸张侠客披风、现代工具包、嬉皮笑脸。"
         },
-        "pause_after": true
+        "pause_after": true,
+        "inputs": {
+          "condition": [
+            {
+              "node": "392f6572-3314-5412-81cf-4b85f6e3d50a",
+              "mode": "each",
+              "match": "any",
+              "field": "asset_C03_ready"
+            }
+          ]
+        }
       },
       {
         "op": "add_node",
@@ -2241,7 +2269,17 @@
           "aspect_ratio": "9:16",
           "prompt": "写实古装电影质感，虚构古代梁朝与江左盟世界；原创演员面容，不模仿电视剧演员。低饱和冷青、墨蓝、木棕，少量暗红；真实布、旧木、铁、湿纸与自然皮肤纹理，柔和动态范围，无塑料感。竖屏9:16，关键物件避开上下12%、左右8%边缘。\n这是制作参考资产，不是剧中镜头。单人中性半身至膝上设定照，正面微侧，双手和袖口清楚，素灰背景，无拼图、无标签。保持脸型、眉形、发际线和服饰主色，便于后续锁定角色。\n三十余岁，瘦脸，窄木牌，灰褐旧布袍、墨灰袖口，双手常有淡墨迹；克制恭谨，不喜剧扮丑。"
         },
-        "pause_after": true
+        "pause_after": true,
+        "inputs": {
+          "condition": [
+            {
+              "node": "392f6572-3314-5412-81cf-4b85f6e3d50a",
+              "mode": "each",
+              "match": "any",
+              "field": "asset_C04_ready"
+            }
+          ]
+        }
       },
       {
         "op": "add_node",
@@ -2254,7 +2292,17 @@
           "aspect_ratio": "9:16",
           "prompt": "写实古装电影质感，虚构古代梁朝与江左盟世界；原创演员面容，不模仿电视剧演员。低饱和冷青、墨蓝、木棕，少量暗红；真实布、旧木、铁、湿纸与自然皮肤纹理，柔和动态范围，无塑料感。竖屏9:16，关键物件避开上下12%、左右8%边缘。\n最终叙事镜头只能是指定主人公第一人称。相机在主人公眼高或手边，虚拟运动相机、隐形自拍杆或近距离稳定跟随装置与其知觉共位；绝不反转拍主人公脸、背影或全身，不作越肩、全知俯视或异地切镜。主人公只能通过自己的手、袖口、呼吸与镜后声音出现；第三方在他面前活动。\n场景空间参考图，无人物，无可读文字；高木柜沿纵深排列，窄窗冷光从左进入，右前方长案暖烛；桌上留出旧令和军报的位置，门口可供书吏回报。"
         },
-        "pause_after": true
+        "pause_after": true,
+        "inputs": {
+          "condition": [
+            {
+              "node": "392f6572-3314-5412-81cf-4b85f6e3d50a",
+              "mode": "each",
+              "match": "any",
+              "field": "asset_SC03_ready"
+            }
+          ]
+        }
       },
       {
         "op": "add_node",
@@ -2267,7 +2315,17 @@
           "aspect_ratio": "9:16",
           "prompt": "写实古装电影质感，虚构古代梁朝与江左盟世界；原创演员面容，不模仿电视剧演员。低饱和冷青、墨蓝、木棕，少量暗红；真实布、旧木、铁、湿纸与自然皮肤纹理，柔和动态范围，无塑料感。竖屏9:16，关键物件避开上下12%、左右8%边缘。\n最终叙事镜头只能是指定主人公第一人称。相机在主人公眼高或手边，虚拟运动相机、隐形自拍杆或近距离稳定跟随装置与其知觉共位；绝不反转拍主人公脸、背影或全身，不作越肩、全知俯视或异地切镜。主人公只能通过自己的手、袖口、呼吸与镜后声音出现；第三方在他面前活动。\n场景空间参考图，无人物，无可读文字；雪夜泥雪道路、前方三辆同方向木车；观察视点来自画外追车的车厢开口，第三辆前车右侧只有一只药箱，追车内折叠板暂时空置供后续接箱。低速眼高机位，无高速俯冲。"
         },
-        "pause_after": true
+        "pause_after": true,
+        "inputs": {
+          "condition": [
+            {
+              "node": "392f6572-3314-5412-81cf-4b85f6e3d50a",
+              "mode": "each",
+              "match": "any",
+              "field": "asset_SC04_ready"
+            }
+          ]
+        }
       },
       {
         "op": "add_node",
@@ -2280,7 +2338,17 @@
           "aspect_ratio": "9:16",
           "prompt": "写实古装电影质感，虚构古代梁朝与江左盟世界；原创演员面容，不模仿电视剧演员。低饱和冷青、墨蓝、木棕，少量暗红；真实布、旧木、铁、湿纸与自然皮肤纹理，柔和动态范围，无塑料感。竖屏9:16，关键物件避开上下12%、左右8%边缘。\n制作道具参考照，单一真实案面上清楚展现每件实体，不是剧中全知镜头。\n棕色旧木药箱，右上角缺口封签；箱盖半开，箱内只有一张湿损军报；半枚暗铁赤焰旧令置于箱旁，断口朝右下。所有形状、铰链、破角和水痕固定。"
         },
-        "pause_after": true
+        "pause_after": true,
+        "inputs": {
+          "condition": [
+            {
+              "node": "392f6572-3314-5412-81cf-4b85f6e3d50a",
+              "mode": "each",
+              "match": "any",
+              "field": "asset_P01_ready"
+            }
+          ]
+        }
       },
       {
         "op": "add_node",
@@ -2297,19 +2365,27 @@
         "inputs": {
           "references": [
             {
+              "mode": "all",
               "node": "47b35a43-5b25-5a95-9ae0-16dd9cca278e",
-              "mode": "all",
               "match": "chain"
             },
             {
+              "mode": "all",
               "node": "ee62e9d5-d567-5694-b895-1f92d957616b",
-              "mode": "all",
               "match": "chain"
             },
             {
-              "node": "88f4634c-3d49-5497-bca2-504426eb225e",
               "mode": "all",
+              "node": "88f4634c-3d49-5497-bca2-504426eb225e",
               "match": "chain"
+            }
+          ],
+          "condition": [
+            {
+              "node": "392f6572-3314-5412-81cf-4b85f6e3d50a",
+              "mode": "each",
+              "match": "any",
+              "field": "asset_KF01_ready"
             }
           ]
         }
@@ -2355,19 +2431,19 @@
         },
         "pause_after": true,
         "inputs": {
-          "first_frame": [
-            {
-              "node": "31e478d9-f1fb-501e-8534-44ba9c964b7d",
-              "mode": "all",
-              "match": "chain"
-            }
-          ],
           "condition": [
             {
-              "node": "6064b4e8-e6f9-59fd-9fe7-9106b10eaafd",
+              "node": "392f6572-3314-5412-81cf-4b85f6e3d50a",
               "mode": "each",
               "match": "any",
-              "field": "approved"
+              "field": "pilot_ready"
+            }
+          ],
+          "first_frame": [
+            {
+              "mode": "all",
+              "node": "31e478d9-f1fb-501e-8534-44ba9c964b7d",
+              "match": "chain"
             }
           ]
         }
@@ -2827,6 +2903,76 @@
           "content": "最终片段齐备后再合成、导出、记录结算与评审；当前无任何成片下载地址。"
         },
         "pause_after": false
+      },
+      {
+        "op": "add_node",
+        "id": "392f6572-3314-5412-81cf-4b85f6e3d50a",
+        "kind": "text",
+        "title": "强制3D前置审核 全部待建模",
+        "spec": {
+          "source": "manual",
+          "format": "custom",
+          "item_fields": [
+            {
+              "key": "asset_C01_ready",
+              "type": "boolean"
+            },
+            {
+              "key": "asset_C02_ready",
+              "type": "boolean"
+            },
+            {
+              "key": "asset_C03_ready",
+              "type": "boolean"
+            },
+            {
+              "key": "asset_C04_ready",
+              "type": "boolean"
+            },
+            {
+              "key": "asset_SC03_ready",
+              "type": "boolean"
+            },
+            {
+              "key": "asset_SC04_ready",
+              "type": "boolean"
+            },
+            {
+              "key": "asset_P01_ready",
+              "type": "boolean"
+            },
+            {
+              "key": "asset_KF01_ready",
+              "type": "boolean"
+            },
+            {
+              "key": "repair_P01_ready",
+              "type": "boolean"
+            },
+            {
+              "key": "pilot_ready",
+              "type": "boolean"
+            }
+          ],
+          "primary_field": "asset_C01_ready",
+          "content": {
+            "title": "几何证据+艺术审核+费用范围全通过才设置对应字段",
+            "items": [
+              {
+                "asset_C01_ready": false,
+                "asset_C02_ready": false,
+                "asset_C03_ready": false,
+                "asset_C04_ready": false,
+                "asset_SC03_ready": false,
+                "asset_SC04_ready": false,
+                "asset_P01_ready": false,
+                "asset_KF01_ready": false,
+                "repair_P01_ready": false,
+                "pilot_ready": false
+              }
+            ]
+          }
+        }
       }
     ],
     "layout_patch": {
@@ -3250,6 +3396,12 @@
           "y": 1950,
           "w": 360,
           "h": 400
+        },
+        "392f6572-3314-5412-81cf-4b85f6e3d50a": {
+          "x": 2500,
+          "y": -1200,
+          "w": 560,
+          "h": 500
         }
       },
       "groups": {
@@ -3376,6 +3528,13 @@
             "870cf0c7-c40e-576c-81c3-658c3f959bb4",
             "17cd1b92-6062-5452-862b-4d12afd10e17"
           ]
+        },
+        "mandatory-3d": {
+          "name": "所有生成前必须完成逐范围3D包",
+          "color": "red",
+          "node_ids": [
+            "392f6572-3314-5412-81cf-4b85f6e3d50a"
+          ]
         }
       },
       "notes": {
@@ -3386,6 +3545,14 @@
           "h": 180,
           "content": "首批8图已生成并绑定，提交预估合计496积分，未重抽。角色待定妆；两张空景混入人物，起始帧有过肩感，修订计划已记录。视频审核门保持false，5秒试跑未生成；后续修图和视频不包含在本轮授权内。",
           "color": "yellow"
+        },
+        "mandatory-3d-note": {
+          "x": 3150,
+          "y": -1200,
+          "w": 1800,
+          "h": 330,
+          "color": "red",
+          "content": "强制规则：先建场景/人物/道具/相机，再检查比例、遮挡、朝向、接触与运动。23项资产+67段视频+5秒试跑+P01修图，共92个范围均未获完整3D审核。旧8图只作概念候选；P01箱盖只是局部模型。每次提交前运行geometry_preflight，源或模型变更使批准失效；图像/视频后验对照不能省。现有10个生成节点条件已关闭，不启动收费任务。"
         }
       }
     }
@@ -3400,5 +3567,15 @@
     "completed_images": 8,
     "submitted_estimated_credits": 496,
     "approved_for_video": false
+  },
+  "geometry_policy": {
+    "version": "mandatory-3d-v1",
+    "required_for": "all_assets_images_keyframes_repairs_and_video_camera_motion",
+    "manifest": "production/geometry/coverage-v1.json",
+    "preflight": "python3 tools/geometry_preflight.py --scope <exact_scope>",
+    "approval_state": "all_scopes_blocked",
+    "legacy_rasters": "concept_only",
+    "native_gate_node": "392f6572-3314-5412-81cf-4b85f6e3d50a",
+    "physical_validation_status": "not_built_except_partial_P01_prop"
   }
 }

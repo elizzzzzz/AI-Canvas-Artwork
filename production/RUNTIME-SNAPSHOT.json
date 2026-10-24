@@ -1,6 +1,6 @@
 {
   "checked_at": "2026-10-24T23:43:50+08:00",
-  "phase": "mandatory_3d_modeling_before_any_generation",
+  "phase": "seven_representative_scene_drafts_pending_geometry_and_motion_review",
   "board_name": "琅琊云令 三集制作总工作流",
   "canvas_revision": 23,
   "canvas_nodes": 77,
@@ -46,12 +46,13 @@
   },
   "unfinished": [
     "reference artistic review and targeted revisions",
-    "3D graybox build and review",
     "video pilot",
     "episode video generation",
     "sound, subtitles and mouth-sync review",
     "final exports",
-    "reusable 3D proxy library created; complete scene assemblies and human review pending"
+    "reusable 3D proxy library created; complete scene assemblies and human review pending",
+    "complete subspaces, prop/hand contacts, 67 clip motion paths and named review",
+    "action scene motion packages and full-frame contact review"
   ],
   "first_batch_images_completed": 8,
   "submitted_generation_estimate": 496,
@@ -89,5 +90,49 @@
     "platform_native_glb_upload": false,
     "canvas_index_node": "7d1f5224-558e-4000-b70d-9e97b72cbec1",
     "canvas_policy_node": "eeb441b0-7bfe-4fad-8f3e-f1a7f0c0ad66"
-  }
+  },
+  "scene_blockouts": {
+    "scene_count": 7,
+    "instance_count": 163,
+    "status": "representative_static_drafts_not_approved",
+    "complete_67_clip_paths": false,
+    "manifest": "production/scene-blockouts/manifest-v1.json"
+  },
+  "action_coverage": {
+    "status": "action_revision_v1_pending_3d_motion_review",
+    "episode_ratios": {
+      "EP01": 0.56,
+      "EP02": 0.6516,
+      "EP03": 0.6909
+    },
+    "action_seconds": {
+      "EP01": 84,
+      "EP02": 101,
+      "EP03": 114
+    },
+    "total_seconds": {
+      "EP01": 150,
+      "EP02": 155,
+      "EP03": 165
+    },
+    "manifest": "production/action-coverage-v1.json"
+  },
+  "motion_blockouts": {
+    "clip_count": 42,
+    "target_fps": 24,
+    "status": "motion_blockouts_v1_pending_24fps_review",
+    "manifest": "production/motion-blockouts/manifest-v1.json",
+    "full_frame_evidence": false
+  },
+  "user_review": {
+    "status": "content_review_approved",
+    "approved_at": "2026-10-25T00:00:00+08:00",
+    "scope": [
+      "action coverage v1",
+      "42 motion blockout plans",
+      "review entry documentation"
+    ],
+    "note": "User approval confirms the current planning package and review surfaces. It does not waive mandatory per-scope 3D evidence, full-frame motion review, named human approval, artistic review, model capability or budget gates."
+  },
+  "approval_boundary": "content_plan_approved_3d_motion_and_media_generation_still_blocked"
 }

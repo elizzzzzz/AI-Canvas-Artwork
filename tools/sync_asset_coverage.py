@@ -28,6 +28,18 @@ def main():
         'catalog': ref(catalog_path),
         'shot_map': ref('production/asset-library/shot-asset-map-v1.json'),
         'policy': 'Every visible entity requires a reusable asset and explicit scene instance; proxy creation never grants production approval.'}
+    scene_manifest = read('production/scene-blockouts/manifest-v1.json') if (ROOT / 'production/scene-blockouts/manifest-v1.json').is_file() else None
+    if scene_manifest:
+        blueprint['scene_blockouts'] = {'version': 1, 'status': 'seven_representative_static_drafts_not_approved',
+            'manifest': ref('production/scene-blockouts/manifest-v1.json')}
+    action_manifest = read('production/action-coverage-v1.json') if (ROOT / 'production/action-coverage-v1.json').is_file() else None
+    if action_manifest:
+        blueprint['action_coverage'] = {'version': 1, 'status': action_manifest.get('status'),
+            'manifest': ref('production/action-coverage-v1.json')}
+    motion_manifest = read('production/motion-blockouts/manifest-v1.json') if (ROOT / 'production/motion-blockouts/manifest-v1.json').is_file() else None
+    if motion_manifest:
+        blueprint['motion_blockouts'] = {'version': 1, 'status': motion_manifest.get('status'),
+            'manifest': ref('production/motion-blockouts/manifest-v1.json')}
     write('production/workflow-v1.json', blueprint)
     expected = expected_sources(blueprint, library)
     repair = read('production/p01-lid-repair-v2/repair-plan.json')
@@ -48,14 +60,27 @@ def main():
             entry['status'] = 'source_changed_pending_review'
             entry['approval'] = None
         entry['source_sha256'] = expected[key]
+    for draft in (scene_manifest or {}).get('scenes', []):
+        entry = old['ASSET:' + draft['scene_key']]
+        if entry.get('status') != 'approved':
+            entry.update(status='blockout_built_pending_review', revision='scene-blockout-v1',
+                evidence={k: v for k, v in draft['files'].items() if k in ('model', 'scene', 'camera', 'preview', 'depth', 'object_ids')})
     manifest.update(entries=list(old.values()), scope_count=len(old),
                     approved_count=sum(e['status'] == 'approved' for e in old.values()),
-                    note='100 real reusable proxy models plus 92 production scopes. Proxies and the P01 assembly are unapproved; no completed scene or motion reviews implied.')
+                    note='100 real reusable proxy models plus 92 production scopes. Proxies and the P01 assembly are unapproved; seven representative static scenes remain unapproved; no completed scene or motion reviews implied.')
     write('production/geometry/coverage-v1.json', manifest)
     inventory = read('production/geometry/scene-inventory-v1.json')
     for scene in inventory['scenes']:
         scene['available_proxy_asset_ids'] = [a['id'] for a in library['assets'] if scene['key'] in a['scene_keys']]
         scene['complete_scene_package_status'] = 'not_assembled_or_reviewed'
+        for draft in (scene_manifest or {}).get('scenes', []):
+            if draft['scene_key'] == scene['key']:
+                metadata = read(draft['files']['scene']['path'])
+                scene.update(status='assembled_proxy_draft_pending_review',
+                    source_scene=draft['files']['scene']['path'],
+                    entity_transforms=metadata['instances'], cameras=[draft['files']['camera']['path']],
+                    dimensions_status='designed_metre_dimensions_not_surveyed',
+                    complete_scene_package_status='representative_setup_only_remaining_subspaces_and_motion_pending')
     inventory['partial_assembly_drafts'] = [{'key': 'P01', 'scene': 'production/asset-library/scenes/P01-assembly-v1.json',
                                            'status': 'draft_unapproved_hand_contact_and_occlusion_pending'}]
     write('production/geometry/scene-inventory-v1.json', inventory)

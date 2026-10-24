@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "status": "action_revision_v1_pending_3d_motion_review",
+  "minimum_ratio": 0.5,
+  "rule": "动作时长按明确战争、冲突、追逐、拦截、失控抢救或高压调度镜头的全部时长计；不以数量替代时长。",
+  "episodes": [
+    {
+      "episode": 1,
+      "total_seconds": 150,
+      "action_seconds": 84,
+      "ratio": 0.56,
+      "status": "passes_target_pending_3d_motion_review",
+      "action_shots": [
+        {
+          "key": "EP01-S02",
+          "title": "林殊立雪",
+          "seconds": 12,
+          "type": "战争冲突"
+        },
+        {
+          "key": "EP01-S04",
+          "title": "烽火冻结",
+          "seconds": 14,
+          "type": "战争撤退"
+        },
+        {
+          "key": "EP01-S06",
+          "title": "误放药箱",
+          "seconds": 16,
+          "type": "档室冲突"
+        },
+        {
+          "key": "EP01-S07",
+          "title": "雪夜追车",
+          "seconds": 16,
+          "type": "雪夜追车"
+        },
+        {
+          "key": "EP01-S08",
+          "title": "备用存卷",
+          "seconds": 14,
+          "type": "车厢抢救"
+        },
+        {
+          "key": "EP01-S10",
+          "title": "封泥匹配",
+          "seconds": 12,
+          "type": "封泥对峙"
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "total_seconds": 155,
+      "action_seconds": 101,
+      "ratio": 0.6516,
+      "status": "passes_target_pending_3d_motion_review",
+      "action_shots": [
+        {
+          "key": "EP02-S02",
+          "title": "不拆锦囊",
+          "seconds": 13,
+          "type": "锦囊拦截"
+        },
+        {
+          "key": "EP02-S04",
+          "title": "三路信使",
+          "seconds": 12,
+          "type": "三路派发"
+        },
+        {
+          "key": "EP02-S05",
+          "title": "错封泥和错口令",
+          "seconds": 16,
+          "type": "现场争执"
+        },
+        {
+          "key": "EP02-S06",
+          "title": "旧地图混入",
+          "seconds": 16,
+          "type": "路线冲突"
+        },
+        {
+          "key": "EP02-S07",
+          "title": "唯一有效版本",
+          "seconds": 18,
+          "type": "雨廊追截"
+        },
+        {
+          "key": "EP02-S08",
+          "title": "灯号重排",
+          "seconds": 14,
+          "type": "灯号调度"
+        },
+        {
+          "key": "EP02-S10",
+          "title": "两府得信",
+          "seconds": 12,
+          "type": "急报冲入"
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "total_seconds": 165,
+      "action_seconds": 114,
+      "ratio": 0.6909,
+      "status": "passes_target_pending_3d_motion_review",
+      "action_shots": [
+        {
+          "key": "EP03-S02",
+          "title": "卓青遥的状纸",
+          "seconds": 13,
+          "type": "雨棚救援"
+        },
+        {
+          "key": "EP03-S03",
+          "title": "萧景睿出现",
+          "seconds": 13,
+          "type": "拦截追兵"
+        },
+        {
+          "key": "EP03-S05",
+          "title": "状纸遇雨，车轴作响",
+          "seconds": 13,
+          "type": "失控车轴"
+        },
+        {
+          "key": "EP03-S06",
+          "title": "药包和官名错配",
+          "seconds": 13,
+          "type": "资源冲突"
+        },
+        {
+          "key": "EP03-S07",
+          "title": "暂停赶路",
+          "seconds": 16,
+          "type": "雨路封锁"
+        },
+        {
+          "key": "EP03-S08",
+          "title": "云令同步",
+          "seconds": 16,
+          "type": "高压同步"
+        },
+        {
+          "key": "EP03-S09",
+          "title": "证据重新封存",
+          "seconds": 15,
+          "type": "封存抢救"
+        },
+        {
+          "key": "EP03-S10",
+          "title": "金陵城门",
+          "seconds": 15,
+          "type": "城门冲入"
+        }
+      ]
+    }
+  ],
+  "first_person_rule": "所有动作仍为主人公第一人称；敌对者、追兵、信使和支援人员只在主人公可见范围内出现。"
+}

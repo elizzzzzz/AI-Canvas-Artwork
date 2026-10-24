@@ -21,7 +21,10 @@ POLICY_VERSION = 'mandatory-3d-v1'
 def source_hash(record, blueprint):
     # Source poses must be tied to the current entire asset context, not a stale picture.
     payload = {'policy': POLICY_VERSION, 'record': record, 'asset_manifest': blueprint['asset_manifest'],
-               'asset_library': blueprint.get('asset_library')}
+               'asset_library': blueprint.get('asset_library'),
+               'scene_blockouts': blueprint.get('scene_blockouts'),
+               'action_coverage': blueprint.get('action_coverage'),
+               'motion_blockouts': blueprint.get('motion_blockouts')}
     return hashlib.sha256(json.dumps(payload, ensure_ascii=False, sort_keys=True,
                                      separators=(',', ':')).encode()).hexdigest()
 
@@ -82,6 +85,70 @@ def load_asset_library(blueprint, root):
     if errors:
         raise ValueError('; '.join(errors))
     return catalog
+
+
+def load_scene_blockouts(blueprint, root):
+    """Verify draft evidence freshness, without asserting physical validity."""
+    refs = blueprint.get('scene_blockouts')
+    if refs is None:
+        return None
+    errors = []
+    path = checked_file(refs.get('manifest'), root, 'scene manifest', errors)
+    if errors:
+        raise ValueError('; '.join(errors))
+    manifest = json.loads(path.read_text())
+    scenes = manifest.get('scenes', [])
+    keys = [item.get('scene_key') for item in scenes]
+    if len(keys) != 7 or set(keys) != {'SC0' + str(i) for i in range(1, 8)}:
+        raise ValueError('scene manifest must contain seven unique canonical scenes')
+    for item in scenes:
+        files = item.get('files', {})
+        if not isinstance(files, dict) or not set(EVIDENCE_KEYS) <= set(files):
+            raise ValueError('scene draft missing required evidence references')
+        for label, artifact in files.items():
+            checked_file(artifact, root, item['scene_key'] + ':' + label, errors)
+        for asset, source in item.get('source_assets', {}).items():
+            checked_file(source, root, item['scene_key'] + ':' + asset, errors)
+    if errors:
+        raise ValueError('; '.join(errors))
+    return manifest
+
+
+def load_action_coverage(blueprint, root):
+    refs = blueprint.get('action_coverage')
+    if refs is None:
+        return None
+    errors=[]
+    path=checked_file(refs.get('manifest'), root, 'action coverage manifest', errors)
+    if errors: raise ValueError('; '.join(errors))
+    manifest=json.loads(path.read_text())
+    episodes=manifest.get('episodes', [])
+    if len(episodes)!=3 or any(e.get('ratio',0)<manifest.get('minimum_ratio',0.5) for e in episodes):
+        raise ValueError('action coverage is below the required per-episode ratio')
+    expected={s['episode']:sum(c['duration'] for c in [clip for shot in blueprint['shots'] if shot['episode']==s['episode'] for clip in shot['clips']]) for s in episodes}
+    for e in episodes:
+        if e.get('total_seconds') != expected[e['episode']]:
+            raise ValueError('action coverage duration does not match storyboard')
+    return manifest
+
+
+def load_motion_blockouts(blueprint, root):
+    refs=blueprint.get('motion_blockouts')
+    if refs is None: return None
+    errors=[]; path=checked_file(refs.get('manifest'),root,'motion manifest',errors)
+    if errors: raise ValueError('; '.join(errors))
+    manifest=json.loads(path.read_text()); clips=manifest.get('clips',[])
+    expected={c['key'] for shot in blueprint['shots'] if shot.get('action_scene') for c in shot['clips']}
+    actual={c.get('clip_key') for c in clips}
+    if actual != expected or len(clips)!=42: raise ValueError('motion manifest does not cover exact 42 action clips')
+    for item in clips:
+        if item.get('target_fps') != 24 or item.get('sample_count') != int(round(item['duration_seconds']*24))+1:
+            raise ValueError('motion clip frame sampling is not 24fps plus ending boundary')
+        if item.get('camera',{}).get('mode') != 'first_person' or not item.get('camera',{}).get('path_points'):
+            raise ValueError('motion clip lacks first-person camera path')
+        for label,artifact in item.get('evidence',{}).items(): checked_file(artifact,root,item['clip_key']+':'+label,errors)
+    if errors: raise ValueError('; '.join(errors))
+    return manifest
 
 
 def artifact_set_hash(entry):
@@ -153,6 +220,9 @@ def main():
     blueprint = json.loads((root / 'production/workflow-v1.json').read_text())
     try:
         library = load_asset_library(blueprint, root)
+        load_scene_blockouts(blueprint, root)
+        load_action_coverage(blueprint, root)
+        load_motion_blockouts(blueprint, root)
     except (ValueError, KeyError, OSError, TypeError) as exc:
         print(json.dumps({'allowed': False, 'error': str(exc)}, ensure_ascii=False)); return 2
     expected = expected_sources(blueprint, library)

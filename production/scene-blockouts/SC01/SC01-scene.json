@@ -1,0 +1,488 @@
+{
+  "scene_key": "SC01",
+  "name": "梅长苏卧房",
+  "status": "assembled_proxy_draft_pending_review",
+  "approved_for_generation": false,
+  "units": "metre",
+  "up_axis": "+Z",
+  "forward_axis": "+Y",
+  "instances": [
+    {
+      "instance_id": "floor_-1.5_-1.5",
+      "asset_id": "AR-FLOOR",
+      "position_m": [
+        -1.5,
+        -1.5,
+        -0.08
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "floor_-1.5_1.5",
+      "asset_id": "AR-FLOOR",
+      "position_m": [
+        -1.5,
+        1.5,
+        -0.08
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "floor_1.5_-1.5",
+      "asset_id": "AR-FLOOR",
+      "position_m": [
+        1.5,
+        -1.5,
+        -0.08
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "floor_1.5_1.5",
+      "asset_id": "AR-FLOOR",
+      "position_m": [
+        1.5,
+        1.5,
+        -0.08
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "side_wall_-3",
+      "asset_id": "AR-WALL",
+      "position_m": [
+        -3,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        90
+      ],
+      "scale": [
+        2,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "side_wall_3",
+      "asset_id": "AR-WALL",
+      "position_m": [
+        3,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        90
+      ],
+      "scale": [
+        2,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "rear_wall_-1.75",
+      "asset_id": "AR-WALL",
+      "position_m": [
+        -1.75,
+        3,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8333333333333334,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "rear_wall_1.75",
+      "asset_id": "AR-WALL",
+      "position_m": [
+        1.75,
+        3,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8333333333333334,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "window_sill_wall",
+      "asset_id": "AR-WALL",
+      "position_m": [
+        0,
+        3,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.3333333333333333,
+        1,
+        0.32142857142857145
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "window_header_wall",
+      "asset_id": "AR-WALL",
+      "position_m": [
+        0,
+        3,
+        2.1
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.3333333333333333,
+        1,
+        0.25
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "rear_window",
+      "asset_id": "AR-WINDOW",
+      "position_m": [
+        0,
+        3,
+        0.9
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "beam_-1.5",
+      "asset_id": "AR-BEAM",
+      "position_m": [
+        0,
+        -1.5,
+        2.8
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        2,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "beam_1.5",
+      "asset_id": "AR-BEAM",
+      "position_m": [
+        0,
+        1.5,
+        2.8
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        2,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "bed_01",
+      "asset_id": "AR-BED",
+      "position_m": [
+        -1.45,
+        -0.2,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "desk_01",
+      "asset_id": "AR-DESK",
+      "position_m": [
+        0,
+        0.55,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "old_token",
+      "asset_id": "PR-TOKEN",
+      "position_m": [
+        0,
+        0.35,
+        0.74
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "desk_top"
+    },
+    {
+      "instance_id": "folded_fan",
+      "asset_id": "PR-FAN",
+      "position_m": [
+        0.22,
+        0.55,
+        0.7429995464166893
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "desk_top"
+    },
+    {
+      "instance_id": "candle_stand",
+      "asset_id": "PR-STAND",
+      "position_m": [
+        -0.36,
+        0.62,
+        0.74
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "desk_top"
+    },
+    {
+      "instance_id": "candle",
+      "asset_id": "PR-CANDLE",
+      "position_m": [
+        -0.36,
+        0.62,
+        0.922
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "desk_top"
+    },
+    {
+      "instance_id": "pov_right_hand",
+      "asset_id": "HAND-MCS-R",
+      "position_m": [
+        0.1,
+        -0.45,
+        0.72
+      ],
+      "rotation_degrees": [
+        -65,
+        0,
+        -8
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    }
+  ],
+  "source_assets": {
+    "AR-FLOOR": {
+      "path": "production/asset-library/models/AR-FLOOR.glb",
+      "sha256": "7d67202cc28b56bd62ee3f3ff427a172392b8cd059f412d8e395797eeb131ba0"
+    },
+    "AR-WALL": {
+      "path": "production/asset-library/models/AR-WALL.glb",
+      "sha256": "74a641a0be4de755f7089517f173250d3e856a2581a82a3475e5112cc6a6e978"
+    },
+    "AR-WINDOW": {
+      "path": "production/asset-library/models/AR-WINDOW.glb",
+      "sha256": "4a7f64723ac4cd1e5ba8f2cc7ec742f1f80ca55fe0e43c68f40510e40ce4c842"
+    },
+    "AR-BEAM": {
+      "path": "production/asset-library/models/AR-BEAM.glb",
+      "sha256": "5bd7656940771910d6e6eb100fc23b17ab55986580f8448c069c3c3fe3fdef43"
+    },
+    "AR-BED": {
+      "path": "production/asset-library/models/AR-BED.glb",
+      "sha256": "7f0f6a4f6a7c08d7b7d05dc0f7ca2a103f30eff6ffc0beffab190e7b08af0ea5"
+    },
+    "AR-DESK": {
+      "path": "production/asset-library/models/AR-DESK.glb",
+      "sha256": "2ae0e7521e060b99b69fd0b951be8f86640ad28f5bcc4bbf60dbcb1903e30ac7"
+    },
+    "PR-TOKEN": {
+      "path": "production/asset-library/models/PR-TOKEN.glb",
+      "sha256": "6801ce780f65aee8bf9fb535f3c78edd07e60b35a169303756fa7d6e470bc5ed"
+    },
+    "PR-FAN": {
+      "path": "production/asset-library/models/PR-FAN.glb",
+      "sha256": "cda7bc3ddb4b79016ac56a6db7977a138ed4ff3777b7e86fae465287f113b8fa"
+    },
+    "PR-STAND": {
+      "path": "production/asset-library/models/PR-STAND.glb",
+      "sha256": "29b60c218a2829281d6d7b26f61d372fb0f451b59bf8ac8dab895df35e4cc657"
+    },
+    "PR-CANDLE": {
+      "path": "production/asset-library/models/PR-CANDLE.glb",
+      "sha256": "589bde3a6201836716113f29f0634e31c41f108abe1fd7f86761a4619c52551e"
+    },
+    "HAND-MCS-R": {
+      "path": "production/asset-library/models/HAND-MCS-R.glb",
+      "sha256": "35dfbdcb9efd126f14448b36cc70c728aafa8af34bc9478021559c5d8355cde5"
+    }
+  },
+  "datum_observations": [],
+  "scope": "one_representative_static_setup_not_all_subspaces_or_67_clip_paths",
+  "remaining": [
+    "precise_faces_and_costumes",
+    "hand_and_prop_contacts",
+    "harness_and_animal_motion",
+    "collision_and_occlusion_review",
+    "all_subspaces_and_clip_camera_paths",
+    "full_frame_motion_review",
+    "named_human_approval"
+  ]
+}

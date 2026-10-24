@@ -32,6 +32,10 @@ def main():
     if scene_manifest:
         blueprint['scene_blockouts'] = {'version': 1, 'status': 'seven_representative_static_drafts_not_approved',
             'manifest': ref('production/scene-blockouts/manifest-v1.json')}
+    action_manifest = read('production/action-coverage-v1.json') if (ROOT / 'production/action-coverage-v1.json').is_file() else None
+    if action_manifest:
+        blueprint['action_coverage'] = {'version': 1, 'status': action_manifest.get('status'),
+            'manifest': ref('production/action-coverage-v1.json')}
     write('production/workflow-v1.json', blueprint)
     expected = expected_sources(blueprint, library)
     repair = read('production/p01-lid-repair-v2/repair-plan.json')

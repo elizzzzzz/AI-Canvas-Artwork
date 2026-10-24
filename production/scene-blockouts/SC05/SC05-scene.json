@@ -533,6 +533,48 @@
       "support": "ground"
     },
     {
+      "instance_id": "CH-MSG-C",
+      "asset_id": "CH-MSG-C",
+      "position_m": [
+        0,
+        3.8,
+        -0.009999999999999953
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        180
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "rain_scribe",
+      "asset_id": "CH-SCRIBE",
+      "position_m": [
+        0.45,
+        2.15,
+        -0.009999999999999953
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        180
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
       "instance_id": "pov_right_hand",
       "asset_id": "HAND-XTY-R",
       "position_m": [
@@ -610,6 +652,14 @@
     "CH-MSG-B": {
       "path": "production/asset-library/models/CH-MSG-B.glb",
       "sha256": "d290d4dc74d45aaafc55498a4c8a6616c8cd7c6301b5ce31624f7e2d34a5f5d1"
+    },
+    "CH-MSG-C": {
+      "path": "production/asset-library/models/CH-MSG-C.glb",
+      "sha256": "c6bba573f299c65db8bdbf49c1266e55b219d527b37fc9c8b1d8716fc04b3c24"
+    },
+    "CH-SCRIBE": {
+      "path": "production/asset-library/models/CH-SCRIBE.glb",
+      "sha256": "fd2828a43f9e031ac7edabcbc8a80ce92abfd20ce42ddf6974900ceb5cd78198"
     },
     "HAND-XTY-R": {
       "path": "production/asset-library/models/HAND-XTY-R.glb",

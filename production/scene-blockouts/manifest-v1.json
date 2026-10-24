@@ -97,39 +97,39 @@
       "name": "梅岭雪原",
       "status": "assembled_proxy_draft_pending_review",
       "pov_owner": "林殊",
-      "instance_count": 20,
+      "instance_count": 22,
       "files": {
         "model": {
           "path": "production/scene-blockouts/SC02/SC02.glb",
-          "sha256": "f8a01a393386a507b4bd7b73c62f4cd615938d04d6cfb6ff60602ef83aa8ec74"
+          "sha256": "5a8b24cfbc386df4d729a5b3033c48b92bfc4699249e2c45d47709bf35bffeb1"
         },
         "scene": {
           "path": "production/scene-blockouts/SC02/SC02-scene.json",
-          "sha256": "1d3fb528c5a409c02556f4357578771a8abd4f97d1d206daf1f245e37a9c4a6a"
+          "sha256": "35ce4028fabc4fb32d39085ad67360fe38319960868ea3df49f03e45f609eef9"
         },
         "camera": {
           "path": "production/scene-blockouts/SC02/SC02-camera.json",
-          "sha256": "17e2ca25e7ef683eeca77eb18b768efb7b84d76d598898939dad92e948476b77"
+          "sha256": "ad2aaeeee2e8e9ce7b755e2fcb6d6471ff30f24f3dc68edc556785bed5b30f4a"
         },
         "preview": {
           "path": "production/scene-blockouts/SC02/SC02-pov.png",
-          "sha256": "3e8e191595359bd475241d592c0db8d61ffea6df093bcaf8db5287aa6a0ac8b6"
+          "sha256": "06246b1f25977738657365a8adcc574107b39afb6c215b034f08b99679f3ff39"
         },
         "depth": {
           "path": "production/scene-blockouts/SC02/SC02-pov-depth-mm.png",
-          "sha256": "898dfce0ef794f9053eb70365925cf7568fc125cfeda185c12e12db789ca2b57"
+          "sha256": "bd8418fe8bcf7a42425203ae68338a9582feaf2b0f184fec8e3e8ea47aa33df0"
         },
         "object_ids": {
           "path": "production/scene-blockouts/SC02/SC02-pov-object-ids.png",
-          "sha256": "95f87708f3553e0408fdb218ce4c9fc3463fe74e82b027f86903b3f4f2b1b1b8"
+          "sha256": "f526ff4dc0f90f3ec66b9cb7849c73a9454d5b7549e1c707bcac70756cab969b"
         },
         "id_legend": {
           "path": "production/scene-blockouts/SC02/SC02-pov-object-ids.json",
-          "sha256": "d1815feba667e6fa95e11170000fa6d4dca77ca68db233a242fc84a80bf744db"
+          "sha256": "7491f10ac58e02e547fb5d79355a47828ca50a64ae34c35e4b6320d96991ce51"
         },
         "diagnostic": {
           "path": "production/scene-blockouts/SC02/SC02-diagnostic.png",
-          "sha256": "effe2f7465c162da0485d8153639e2ebc7b227a1ef5b719a1fd196d60be3bb9a"
+          "sha256": "7832b64c0981943a719bb924dbf8aee0536e77d348c4c09f0224c1f50b1d88a5"
         }
       },
       "source_assets": {
@@ -161,6 +161,14 @@
           "path": "production/asset-library/models/ENV-BRAZIER.glb",
           "sha256": "ff54aa547f705d628634033fa15ed94b8c127e8e90b752f150bd8192db633ad7"
         },
+        "CH-GUARD": {
+          "path": "production/asset-library/models/CH-GUARD.glb",
+          "sha256": "8c92d17bd1f191a2ab182f0810736bf79c5fda3e63a2fc4028916a354024ef03"
+        },
+        "CH-COURIER": {
+          "path": "production/asset-library/models/CH-COURIER.glb",
+          "sha256": "279ffef05886d498798dc8a464c483413533da3a6b7ceac529b1962f9ce6f671"
+        },
         "HAND-LS-R": {
           "path": "production/asset-library/models/HAND-LS-R.glb",
           "sha256": "f582753e647dada6fb826af37204797ea341d46acb57ecbb0dce87acc302c4fa"
@@ -173,39 +181,39 @@
       "name": "江左盟旧档室",
       "status": "assembled_proxy_draft_pending_review",
       "pov_owner": "梅长苏",
-      "instance_count": 23,
+      "instance_count": 24,
       "files": {
         "model": {
           "path": "production/scene-blockouts/SC03/SC03.glb",
-          "sha256": "90be6a5ee92e775e4a9e07a1306e74f01047c08f5726d8c9ee4b2e62cb26282e"
+          "sha256": "a10e8a7d5b886921bf42c34d57ea673221815c318523e3e3185e723ba99388cd"
         },
         "scene": {
           "path": "production/scene-blockouts/SC03/SC03-scene.json",
-          "sha256": "823ce5a658be06a511d27fca11127e153f58d6d9d20369f141b73a7e7622b644"
+          "sha256": "6ee18d8d800fd83c4954d164b9641c2481c8a1a2004d6270b7354933a08b786b"
         },
         "camera": {
           "path": "production/scene-blockouts/SC03/SC03-camera.json",
-          "sha256": "cb5d97dcd98958cb12e060191c66df53a9a5d01e6239e7d93eabba2e35df41c3"
+          "sha256": "88876f1ebc497c226c1812f68250f8262cb6a485fd8cbf0b7cde305ab10904d2"
         },
         "preview": {
           "path": "production/scene-blockouts/SC03/SC03-pov.png",
-          "sha256": "37f69fe556a0857a4205b5262fe30477b187621a03b4366959b622737a107cc3"
+          "sha256": "626f5ba13f4218e81cc31d7ac9375fbacfbc0d566e538ace1a32753a37268dba"
         },
         "depth": {
           "path": "production/scene-blockouts/SC03/SC03-pov-depth-mm.png",
-          "sha256": "c23006d78fcab7ead16589328d05eb125dab4117ebd8873ab3453f1433ad5020"
+          "sha256": "511619a2cda6e948911987f033be46a3b302a1c8130dcdf9ae90482bf7611907"
         },
         "object_ids": {
           "path": "production/scene-blockouts/SC03/SC03-pov-object-ids.png",
-          "sha256": "5fad9b24e8f77961f659742ca7cbf68e0462e8bf7cccb751520733033a0b6f5a"
+          "sha256": "9c786960c5174bfd941a0907b017fa4822ce1cf4ef9ae23c70f2ee5ef5cb2704"
         },
         "id_legend": {
           "path": "production/scene-blockouts/SC03/SC03-pov-object-ids.json",
-          "sha256": "c71f8230944a3ee18a6aa417efbc82281eb400392d326893bd545c839f138980"
+          "sha256": "d2404f04995452d0a6f6bd5a8ba5627d421d888ee6f1e116169ba520e8ef786c"
         },
         "diagnostic": {
           "path": "production/scene-blockouts/SC03/SC03-diagnostic.png",
-          "sha256": "3cce7ddad63342d67395d10d026788c8dc19ab80e275b43406eac5032a0fab97"
+          "sha256": "3c3aa633ddbc87063aa481d5cce4cb8170ede61ee1f5e7aa2bf794316c414ed1"
         }
       },
       "source_assets": {
@@ -256,6 +264,10 @@
         "CH-COURIER": {
           "path": "production/asset-library/models/CH-COURIER.glb",
           "sha256": "279ffef05886d498798dc8a464c483413533da3a6b7ceac529b1962f9ce6f671"
+        },
+        "CH-GUARD": {
+          "path": "production/asset-library/models/CH-GUARD.glb",
+          "sha256": "8c92d17bd1f191a2ab182f0810736bf79c5fda3e63a2fc4028916a354024ef03"
         },
         "HAND-MCS-R": {
           "path": "production/asset-library/models/HAND-MCS-R.glb",
@@ -365,39 +377,39 @@
       "name": "琅琊阁雨廊",
       "status": "assembled_proxy_draft_pending_review",
       "pov_owner": "谢听云",
-      "instance_count": 26,
+      "instance_count": 28,
       "files": {
         "model": {
           "path": "production/scene-blockouts/SC05/SC05.glb",
-          "sha256": "4f71d67e2e3ff76d13c3b4fd81a9064baab035a42bfb69e1ba5bdaa9be9a99f5"
+          "sha256": "6324b91a25dc7cc9ccafaeb8f52eb543db7ea5de2f3452c691ea22444f96929f"
         },
         "scene": {
           "path": "production/scene-blockouts/SC05/SC05-scene.json",
-          "sha256": "2802b6e7cfa0489b1cf848c2318538f7b7e57fb184c6061b7fed330f4d799626"
+          "sha256": "a57d9f2774d057856400d66bc4531adb2ee33783937f46bfb98e6fc4bf2c9b3a"
         },
         "camera": {
           "path": "production/scene-blockouts/SC05/SC05-camera.json",
-          "sha256": "5e10a560b4e30465cee3be4390ccb0e0d4d02a4220297f10843a491ec14e20dd"
+          "sha256": "0d55da9feab83e811753a5d56e387d55a4ff929edcd348853c0b1e13c350dc14"
         },
         "preview": {
           "path": "production/scene-blockouts/SC05/SC05-pov.png",
-          "sha256": "afcb8cf4380529545d1bcd7e532a2c17bd2c28df060296848b9ffcc6453c1577"
+          "sha256": "86c4548942131666f7d465fa4bcd0f83be3af9c5eb2b848f58ec38c60db1f268"
         },
         "depth": {
           "path": "production/scene-blockouts/SC05/SC05-pov-depth-mm.png",
-          "sha256": "146c17f152f4d4594a825237d44f2fc3761a19454a31a49b51c07d6bee6061c1"
+          "sha256": "f6060da9323a450ece5eb3aca4811833f4a73486f8dfb98ec928cbef7f037c12"
         },
         "object_ids": {
           "path": "production/scene-blockouts/SC05/SC05-pov-object-ids.png",
-          "sha256": "387acad2160032377a7096477b03742e6ca33e38e72639379275839b4b901ed2"
+          "sha256": "ee915d93ec0de1de196a9d1696bc7d7fcd176a9345ab1fa8628d3fd83f2ba82b"
         },
         "id_legend": {
           "path": "production/scene-blockouts/SC05/SC05-pov-object-ids.json",
-          "sha256": "23f680088809446aa318e6009b5d0e52b92502c2f79bf90357fe6c6ad3efa439"
+          "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
         },
         "diagnostic": {
           "path": "production/scene-blockouts/SC05/SC05-diagnostic.png",
-          "sha256": "b3c60ba9e78cb4fe265bb1159c1874f092eef904ed9939295c4e489540990e32"
+          "sha256": "d84b00376ff3676e321d491764822950541c6b5a43db9134a9551015c5f7d03a"
         }
       },
       "source_assets": {
@@ -456,6 +468,14 @@
         "CH-MSG-B": {
           "path": "production/asset-library/models/CH-MSG-B.glb",
           "sha256": "d290d4dc74d45aaafc55498a4c8a6616c8cd7c6301b5ce31624f7e2d34a5f5d1"
+        },
+        "CH-MSG-C": {
+          "path": "production/asset-library/models/CH-MSG-C.glb",
+          "sha256": "c6bba573f299c65db8bdbf49c1266e55b219d527b37fc9c8b1d8716fc04b3c24"
+        },
+        "CH-SCRIBE": {
+          "path": "production/asset-library/models/CH-SCRIBE.glb",
+          "sha256": "fd2828a43f9e031ac7edabcbc8a80ce92abfd20ce42ddf6974900ceb5cd78198"
         },
         "HAND-XTY-R": {
           "path": "production/asset-library/models/HAND-XTY-R.glb",
@@ -581,39 +601,39 @@
       "name": "金陵城门",
       "status": "assembled_proxy_draft_pending_review",
       "pov_owner": "梅长苏",
-      "instance_count": 16,
+      "instance_count": 17,
       "files": {
         "model": {
           "path": "production/scene-blockouts/SC07/SC07.glb",
-          "sha256": "ea01cd0a63d4e5e5f434eba4b0feaa2d6caa6cf2bf2c2e8d48d514843859322f"
+          "sha256": "4198634ffe61fcc65bcf658b91608d2f19c42e2856f35e3f136dddc88b581734"
         },
         "scene": {
           "path": "production/scene-blockouts/SC07/SC07-scene.json",
-          "sha256": "cd1cbef6adebd1ac387ef12908d29380a39501c4dfeaa893e3e035aa0ca9183c"
+          "sha256": "25821ee2c94562ebacb1343e742f5c4cf193aadf994ed20033971e673cd9b06c"
         },
         "camera": {
           "path": "production/scene-blockouts/SC07/SC07-camera.json",
-          "sha256": "b27d99b503e7a066d379d5b3548503a9fa3695257785ca5aee85f46440bb936f"
+          "sha256": "7812cbab6fe099d91c6b17ebe5c623253500198e3b6cd7cd4fd1635875025cbe"
         },
         "preview": {
           "path": "production/scene-blockouts/SC07/SC07-pov.png",
-          "sha256": "e2602029962fed875b49fe227f1afd82b9c12c59d3b7806ae8e89567edc6e531"
+          "sha256": "2a732f8fea2035f10d387c4785c4227cfb6ae77b742b06b3d876b8a95a111f5a"
         },
         "depth": {
           "path": "production/scene-blockouts/SC07/SC07-pov-depth-mm.png",
-          "sha256": "01a3cf6cd64815ae327eb826cad966f8ec119aa53ad33162eeed7e298073a4b1"
+          "sha256": "b4f03457301402c1275da5550d1de0122846555caf023f615c058fcfdc070213"
         },
         "object_ids": {
           "path": "production/scene-blockouts/SC07/SC07-pov-object-ids.png",
-          "sha256": "c850ad2076835b0dfa5793613745cc6214d2d68d7fe91b787fb8f5d7a520fdd8"
+          "sha256": "ef920fb0d9a6a3ceb344571f5c4cc10238c3c6c9cde125b6ffb8208c6ae95727"
         },
         "id_legend": {
           "path": "production/scene-blockouts/SC07/SC07-pov-object-ids.json",
-          "sha256": "34fc01e042ed8b5f87ca71b4f42c3e8de61d39ae0be6900068f2725005407e60"
+          "sha256": "c5f250d767db433d61ceb2baa60064c0744149e53c17e64ea50a3309132b2c3c"
         },
         "diagnostic": {
           "path": "production/scene-blockouts/SC07/SC07-diagnostic.png",
-          "sha256": "37d0a760c9dcc36e8a8e090c9d8a6a74765c7af762153c0298cc73869679eb75"
+          "sha256": "8fa19f544f7706d7252719d555a98cd850ef37747b98420b7f864fdba3cc2ee2"
         }
       },
       "source_assets": {
@@ -648,6 +668,10 @@
         "CH-COURIER": {
           "path": "production/asset-library/models/CH-COURIER.glb",
           "sha256": "279ffef05886d498798dc8a464c483413533da3a6b7ceac529b1962f9ce6f671"
+        },
+        "CH-GUARD": {
+          "path": "production/asset-library/models/CH-GUARD.glb",
+          "sha256": "8c92d17bd1f191a2ab182f0810736bf79c5fda3e63a2fc4028916a354024ef03"
         },
         "HAND-MCS-R": {
           "path": "production/asset-library/models/HAND-MCS-R.glb",

@@ -51,7 +51,8 @@
     "sound, subtitles and mouth-sync review",
     "final exports",
     "reusable 3D proxy library created; complete scene assemblies and human review pending",
-    "complete subspaces, prop/hand contacts, 67 clip motion paths and named review"
+    "complete subspaces, prop/hand contacts, 67 clip motion paths and named review",
+    "action scene motion packages and full-frame contact review"
   ],
   "first_batch_images_completed": 8,
   "submitted_generation_estimate": 496,
@@ -92,9 +93,28 @@
   },
   "scene_blockouts": {
     "scene_count": 7,
-    "instance_count": 157,
+    "instance_count": 163,
     "status": "representative_static_drafts_not_approved",
     "complete_67_clip_paths": false,
     "manifest": "production/scene-blockouts/manifest-v1.json"
+  },
+  "action_coverage": {
+    "status": "action_revision_v1_pending_3d_motion_review",
+    "episode_ratios": {
+      "EP01": 0.56,
+      "EP02": 0.6516,
+      "EP03": 0.6909
+    },
+    "action_seconds": {
+      "EP01": 84,
+      "EP02": 101,
+      "EP03": 114
+    },
+    "total_seconds": {
+      "EP01": 150,
+      "EP02": 155,
+      "EP03": 165
+    },
+    "manifest": "production/action-coverage-v1.json"
   }
 }

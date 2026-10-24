@@ -323,6 +323,27 @@
       "support": "ground"
     },
     {
+      "instance_id": "gate_guard",
+      "asset_id": "CH-GUARD",
+      "position_m": [
+        1.8,
+        5.1,
+        -0.009999999999999953
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        190
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
       "instance_id": "pov_right_hand",
       "asset_id": "HAND-MCS-R",
       "position_m": [
@@ -376,6 +397,10 @@
     "CH-COURIER": {
       "path": "production/asset-library/models/CH-COURIER.glb",
       "sha256": "279ffef05886d498798dc8a464c483413533da3a6b7ceac529b1962f9ce6f671"
+    },
+    "CH-GUARD": {
+      "path": "production/asset-library/models/CH-GUARD.glb",
+      "sha256": "8c92d17bd1f191a2ab182f0810736bf79c5fda3e63a2fc4028916a354024ef03"
     },
     "HAND-MCS-R": {
       "path": "production/asset-library/models/HAND-MCS-R.glb",

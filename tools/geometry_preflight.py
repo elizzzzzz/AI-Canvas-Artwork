@@ -22,7 +22,8 @@ def source_hash(record, blueprint):
     # Source poses must be tied to the current entire asset context, not a stale picture.
     payload = {'policy': POLICY_VERSION, 'record': record, 'asset_manifest': blueprint['asset_manifest'],
                'asset_library': blueprint.get('asset_library'),
-               'scene_blockouts': blueprint.get('scene_blockouts')}
+               'scene_blockouts': blueprint.get('scene_blockouts'),
+               'action_coverage': blueprint.get('action_coverage')}
     return hashlib.sha256(json.dumps(payload, ensure_ascii=False, sort_keys=True,
                                      separators=(',', ':')).encode()).hexdigest()
 
@@ -112,6 +113,24 @@ def load_scene_blockouts(blueprint, root):
     return manifest
 
 
+def load_action_coverage(blueprint, root):
+    refs = blueprint.get('action_coverage')
+    if refs is None:
+        return None
+    errors=[]
+    path=checked_file(refs.get('manifest'), root, 'action coverage manifest', errors)
+    if errors: raise ValueError('; '.join(errors))
+    manifest=json.loads(path.read_text())
+    episodes=manifest.get('episodes', [])
+    if len(episodes)!=3 or any(e.get('ratio',0)<manifest.get('minimum_ratio',0.5) for e in episodes):
+        raise ValueError('action coverage is below the required per-episode ratio')
+    expected={s['episode']:sum(c['duration'] for c in [clip for shot in blueprint['shots'] if shot['episode']==s['episode'] for clip in shot['clips']]) for s in episodes}
+    for e in episodes:
+        if e.get('total_seconds') != expected[e['episode']]:
+            raise ValueError('action coverage duration does not match storyboard')
+    return manifest
+
+
 def artifact_set_hash(entry):
     payload = {'evidence': entry.get('evidence'), 'report': entry.get('report')}
     return hashlib.sha256(json.dumps(payload, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
@@ -182,6 +201,7 @@ def main():
     try:
         library = load_asset_library(blueprint, root)
         load_scene_blockouts(blueprint, root)
+        load_action_coverage(blueprint, root)
     except (ValueError, KeyError, OSError, TypeError) as exc:
         print(json.dumps({'allowed': False, 'error': str(exc)}, ensure_ascii=False)); return 2
     expected = expected_sources(blueprint, library)

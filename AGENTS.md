@@ -20,3 +20,5 @@ Current state: 100 actual reusable GLB proxy models are built, with 34 logical-s
 - After rebuilding the library run `python3 tools/build_asset_registry.py` and `python3 -m tools.sync_asset_coverage`; source changes invalidate existing approvals. The preflight hashes catalog, shot mapping and actual GLBs. Never manufacture pass reports from catalog completeness.
 
 - After changing canonical scene drafts run `python3 -m tools.scene_blockouts` then `python3 -m tools.sync_asset_coverage`. The preflight hashes the scene manifest, all its declared artifacts and source GLBs. Static representative cameras never count as full clip motion review.
+
+- Action coverage is tracked in `production/action-coverage-v1.json`; every episode must remain at or above 50% action seconds while preserving first-person camera rules. This planning ratio never substitutes for 3D motion evidence.

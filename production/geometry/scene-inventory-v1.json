@@ -484,7 +484,9 @@
         "火线观察点"
       ],
       "required_actors": [
-        "林殊"
+        "林殊",
+        "护卫",
+        "送信人"
       ],
       "required_props": [
         "军符",
@@ -896,6 +898,48 @@
             0,
             0,
             0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "guard_01",
+          "asset_id": "CH-GUARD",
+          "position_m": [
+            -0.85,
+            2.1,
+            -0.009999999999999953
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            155
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "runner_01",
+          "asset_id": "CH-COURIER",
+          "position_m": [
+            0.9,
+            2.7,
+            -0.009999999999999953
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            200
           ],
           "scale": [
             1,
@@ -1443,6 +1487,27 @@
             0,
             0,
             160
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "archive_guard",
+          "asset_id": "CH-GUARD",
+          "position_m": [
+            1.0,
+            1.85,
+            -0.009999999999999953
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            200
           ],
           "scale": [
             1,
@@ -2680,6 +2745,48 @@
           "support": "ground"
         },
         {
+          "instance_id": "CH-MSG-C",
+          "asset_id": "CH-MSG-C",
+          "position_m": [
+            0,
+            3.8,
+            -0.009999999999999953
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            180
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "rain_scribe",
+          "asset_id": "CH-SCRIBE",
+          "position_m": [
+            0.45,
+            2.15,
+            -0.009999999999999953
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            180
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
           "instance_id": "pov_right_hand",
           "asset_id": "HAND-XTY-R",
           "position_m": [
@@ -3780,6 +3887,27 @@
           "position_m": [
             0.95,
             4.0,
+            -0.009999999999999953
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            190
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "gate_guard",
+          "asset_id": "CH-GUARD",
+          "position_m": [
+            1.8,
+            5.1,
             -0.009999999999999953
           ],
           "rotation_degrees": [

@@ -407,6 +407,48 @@
       "support": "ground"
     },
     {
+      "instance_id": "guard_01",
+      "asset_id": "CH-GUARD",
+      "position_m": [
+        -0.85,
+        2.1,
+        -0.009999999999999953
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        155
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "runner_01",
+      "asset_id": "CH-COURIER",
+      "position_m": [
+        0.9,
+        2.7,
+        -0.009999999999999953
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        200
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
       "instance_id": "pov_right_hand",
       "asset_id": "HAND-LS-R",
       "position_m": [
@@ -456,6 +498,14 @@
     "ENV-BRAZIER": {
       "path": "production/asset-library/models/ENV-BRAZIER.glb",
       "sha256": "ff54aa547f705d628634033fa15ed94b8c127e8e90b752f150bd8192db633ad7"
+    },
+    "CH-GUARD": {
+      "path": "production/asset-library/models/CH-GUARD.glb",
+      "sha256": "8c92d17bd1f191a2ab182f0810736bf79c5fda3e63a2fc4028916a354024ef03"
+    },
+    "CH-COURIER": {
+      "path": "production/asset-library/models/CH-COURIER.glb",
+      "sha256": "279ffef05886d498798dc8a464c483413533da3a6b7ceac529b1962f9ce6f671"
     },
     "HAND-LS-R": {
       "path": "production/asset-library/models/HAND-LS-R.glb",

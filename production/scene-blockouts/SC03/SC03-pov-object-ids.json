@@ -544,87 +544,197 @@
     "instance_id": "courier_01",
     "asset_id": "CH-COURIER"
   },
-  "155": {
+  "156": {
+    "part_name": "thigh_L",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "158": {
+    "part_name": "shin_L",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "159": {
+    "part_name": "boot_L",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "161": {
+    "part_name": "thigh_R",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "163": {
+    "part_name": "shin_R",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "164": {
+    "part_name": "boot_R",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "165": {
+    "part_name": "robe_skirt",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "166": {
+    "part_name": "torso",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "167": {
+    "part_name": "neck",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "169": {
+    "part_name": "head",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "170": {
+    "part_name": "hair",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "171": {
+    "part_name": "hair_bun",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "172": {
+    "part_name": "nose",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "173": {
+    "part_name": "eye",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "174": {
+    "part_name": "eye",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "176": {
+    "part_name": "upper_arm_L",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "178": {
+    "part_name": "sleeve_L",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "179": {
+    "part_name": "hand_proxy_L",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "181": {
+    "part_name": "upper_arm_R",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "183": {
+    "part_name": "sleeve_R",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "184": {
+    "part_name": "hand_proxy_R",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "185": {
+    "part_name": "belt",
+    "instance_id": "archive_guard",
+    "asset_id": "CH-GUARD"
+  },
+  "188": {
     "part_name": "forearm",
     "instance_id": "pov_right_hand",
     "asset_id": "HAND-MCS-R"
   },
-  "156": {
+  "189": {
     "part_name": "palm",
     "instance_id": "pov_right_hand",
     "asset_id": "HAND-MCS-R"
   },
-  "159": {
+  "192": {
     "part_name": "finger_0_bone_0",
     "instance_id": "pov_right_hand",
     "asset_id": "HAND-MCS-R"
   },
-  "161": {
+  "194": {
     "part_name": "finger_0_bone_1",
     "instance_id": "pov_right_hand",
     "asset_id": "HAND-MCS-R"
   },
-  "163": {
+  "196": {
     "part_name": "finger_0_bone_2",
     "instance_id": "pov_right_hand",
     "asset_id": "HAND-MCS-R"
   },
-  "166": {
+  "199": {
     "part_name": "finger_1_bone_0",
     "instance_id": "pov_right_hand",
     "asset_id": "HAND-MCS-R"
   },
-  "168": {
+  "201": {
     "part_name": "finger_1_bone_1",
     "instance_id": "pov_right_hand",
     "asset_id": "HAND-MCS-R"
   },
-  "170": {
+  "203": {
     "part_name": "finger_1_bone_2",
     "instance_id": "pov_right_hand",
     "asset_id": "HAND-MCS-R"
   },
-  "173": {
+  "206": {
     "part_name": "finger_2_bone_0",
     "instance_id": "pov_right_hand",
     "asset_id": "HAND-MCS-R"
   },
-  "175": {
+  "208": {
     "part_name": "finger_2_bone_1",
     "instance_id": "pov_right_hand",
     "asset_id": "HAND-MCS-R"
   },
-  "177": {
+  "210": {
     "part_name": "finger_2_bone_2",
     "instance_id": "pov_right_hand",
     "asset_id": "HAND-MCS-R"
   },
-  "180": {
+  "213": {
     "part_name": "finger_3_bone_0",
     "instance_id": "pov_right_hand",
     "asset_id": "HAND-MCS-R"
   },
-  "182": {
+  "215": {
     "part_name": "finger_3_bone_1",
     "instance_id": "pov_right_hand",
     "asset_id": "HAND-MCS-R"
   },
-  "184": {
+  "217": {
     "part_name": "finger_3_bone_2",
     "instance_id": "pov_right_hand",
     "asset_id": "HAND-MCS-R"
   },
-  "187": {
+  "220": {
     "part_name": "finger_4_bone_0",
     "instance_id": "pov_right_hand",
     "asset_id": "HAND-MCS-R"
   },
-  "189": {
+  "222": {
     "part_name": "finger_4_bone_1",
     "instance_id": "pov_right_hand",
     "asset_id": "HAND-MCS-R"
   },
-  "191": {
+  "224": {
     "part_name": "finger_4_bone_2",
     "instance_id": "pov_right_hand",
     "asset_id": "HAND-MCS-R"

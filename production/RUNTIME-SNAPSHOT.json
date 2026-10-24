@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-10-24T23:22:50+08:00",
+  "checked_at": "2026-10-24T23:43:50+08:00",
   "phase": "mandatory_3d_modeling_before_any_generation",
   "board_name": "琅琊云令 三集制作总工作流",
-  "canvas_revision": 22,
-  "canvas_nodes": 75,
+  "canvas_revision": 23,
+  "canvas_nodes": 77,
   "existing_benchmark_media_reused": 4,
   "asset_design_records": 23,
   "episode_scene_counts": [
@@ -84,6 +84,10 @@
     "clip_count": 67,
     "viewer": "production/asset-library/viewer.html",
     "approval_count": 0,
-    "recorded_at": "2026-10-24T23:22:50+08:00"
+    "recorded_at": "2026-10-24T23:22:50+08:00",
+    "platform_index_uploaded": true,
+    "platform_native_glb_upload": false,
+    "canvas_index_node": "7d1f5224-558e-4000-b70d-9e97b72cbec1",
+    "canvas_policy_node": "eeb441b0-7bfe-4fad-8f3e-f1a7f0c0ad66"
   }
 }

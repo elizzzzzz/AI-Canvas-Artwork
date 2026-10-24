@@ -54,3 +54,19 @@ python3 tools/geometry_preflight.py --scope LIB:PR-CHEST
 ```
 
 预检失败是当前预期状态，表示资产尚未完成场景级验收。
+
+
+## 重建与同步
+
+本地工具依赖 Python 3、NumPy 和 Pillow。资产预览的中文字体使用当前 macOS 系统中的 Arial Unicode；在其他系统运行时需将 `tools/build_asset_registry.py` 的字体路径换为可用的中文字体。
+
+```bash
+python3 -u tools/asset_library.py
+python3 tools/build_asset_registry.py
+python3 -m tools.sync_asset_coverage
+python3 -m unittest discover -s tests
+```
+
+按顺序执行：模型构建器生成实际 GLB 和预览，索引构建器补齐镜头映射，覆盖同步器更新依赖哈希并使变化后的旧批准失效。更改映射或资产目录之后也必须同步覆盖。模型文件被修改但没有更新目录时，预检会直接拒绝。
+
+AI Canvas 中只上传全量索引 JPG 以便查阅，并新增使用规则节点。平台公开上传格式未声明支持 GLB，当前没有上传原生三维文件或将总览图绑定到生成节点；正式生成需使用验收后的对应镜头渲染图与约束。

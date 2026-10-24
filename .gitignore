@@ -21,3 +21,7 @@ renders/
 __pycache__/
 *.py[cod]
 node_modules/
+
+# Versioned 3D asset evidence (not disposable media previews)
+!production/asset-library/previews/
+!production/asset-library/previews/*.png

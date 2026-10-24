@@ -4,9 +4,9 @@
 
 ## 项目状态
 
-- 当前阶段：创作规格确认完成，准备进入镜头级剧本与 3D 灰模
+- 当前阶段：三集分镜已导入、首批八图已生成；100 个可复用 GLB 草模已建立，正在场景装配与几何审核
 - 画幅：9:16
-- 单集时长：135–155 秒，硬上限 180 秒
+- 单集时长：150 / 155 / 165 秒，硬上限 180 秒
 - 集数：3 集
 - 视觉方向：写实古装、史诗正剧为骨、轻喜剧为针
 - 制作策略：先角色与场景设计，再 3D 导演台和灰模预演，确认流程后进入最终渲染
@@ -40,6 +40,8 @@
 - [AI Canvas 三集制作工作包](production/README.md)
 - [首批八图审阅与人工检查](production/REFERENCE-REVIEW.md)
 - [P01 箱盖几何修正](production/p01-lid-repair-v2/README.md)
+- [三维代理资产库与查看器](production/asset-library/README.md)
+- [100 项三维资产目录](production/asset-library/CATALOG.md)
 
 ## 强制3D前置
 

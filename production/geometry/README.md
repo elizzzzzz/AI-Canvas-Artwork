@@ -3,8 +3,8 @@
 这是一份待建模与待审核的覆盖台账，**不是已完成的场景模型集合**。用户的强制要求已写入 [制作规范](../../docs/MANDATORY-3D-PRODUCTION.md)及仓库 [AGENTS.md](../../AGENTS.md)。
 
 - 7 个主场景，逐场列出子空间、人物、道具和空间动作关系：[scene-inventory-v1.json](scene-inventory-v1.json)。
-- 92 个验收范围：23 项资产、67 个正式片段、1 个 5 秒试跑、1 个 P01 修图：[coverage-v1.json](coverage-v1.json)。
-- 当前 **0 个批准，92 个阻塞**；P01 箱盖是部分机构模型，尚无完整布景审批。
+- 192 个验收范围：100 个可复用三维代理资产、23 项原始语义资产、67 个正式片段、1 个 5 秒试跑、1 个 P01 修图：[coverage-v1.json](coverage-v1.json)。
+- 当前 **0 个批准，192 个阻塞**；100 个 GLB 已实际导出但仍是代理模型，P01 箱盖是部分机构模型，尚无完整布景审批。
 - [运行门核验](runtime-gate-verification.json)证明 10 个现有生成节点的运行条件关闭，逐节点重跑也不执行；它不证明场景几何正确。
 
 ## 执行检查
@@ -25,6 +25,8 @@ python3 -m unittest discover -s tests
 预检只检查真实审核包的完整性、文件哈希、源码版本、检查字段与逐帧覆盖，不会替你创建模型、求解碰撞或伪造评审结论。
 
 ## 当前范围与未来画布关联
+
+资产库登记见 [三维代理资产库](../asset-library/README.md)，目录和镜头装配图的哈希已写入 `production/workflow-v1.json`。
 
 - 当前 8 个图片生成节点分别对应 `ASSET:C01`、`ASSET:C02`、`ASSET:C03`、`ASSET:C04`、`ASSET:SC03`、`ASSET:SC04`、`ASSET:P01`、`ASSET:KF01`。
 - 当前视频试跑对应 `PILOT:EP01S08-5S`；P01 修图对应 `REPAIR:P01-v2`。

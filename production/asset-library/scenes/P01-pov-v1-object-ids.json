@@ -1,0 +1,512 @@
+{
+  "2": {
+    "part_name": "tabletop",
+    "instance_id": "table_01",
+    "asset_id": "AR-DESK"
+  },
+  "3": {
+    "part_name": "table_leg",
+    "instance_id": "table_01",
+    "asset_id": "AR-DESK"
+  },
+  "4": {
+    "part_name": "table_leg",
+    "instance_id": "table_01",
+    "asset_id": "AR-DESK"
+  },
+  "5": {
+    "part_name": "table_leg",
+    "instance_id": "table_01",
+    "asset_id": "AR-DESK"
+  },
+  "6": {
+    "part_name": "table_leg",
+    "instance_id": "table_01",
+    "asset_id": "AR-DESK"
+  },
+  "9": {
+    "part_name": "chest_base",
+    "instance_id": "chest_01",
+    "asset_id": "PR-CHEST"
+  },
+  "10": {
+    "part_name": "front_wall",
+    "instance_id": "chest_01",
+    "asset_id": "PR-CHEST"
+  },
+  "11": {
+    "part_name": "rear_wall",
+    "instance_id": "chest_01",
+    "asset_id": "PR-CHEST"
+  },
+  "12": {
+    "part_name": "left_wall",
+    "instance_id": "chest_01",
+    "asset_id": "PR-CHEST"
+  },
+  "13": {
+    "part_name": "right_wall",
+    "instance_id": "chest_01",
+    "asset_id": "PR-CHEST"
+  },
+  "15": {
+    "part_name": "lid_board",
+    "instance_id": "chest_01",
+    "asset_id": "PR-CHEST"
+  },
+  "16": {
+    "part_name": "lid_inner_frame",
+    "instance_id": "chest_01",
+    "asset_id": "PR-CHEST"
+  },
+  "17": {
+    "part_name": "hinge_barrel",
+    "instance_id": "chest_01",
+    "asset_id": "PR-CHEST"
+  },
+  "18": {
+    "part_name": "hinge_barrel",
+    "instance_id": "chest_01",
+    "asset_id": "PR-CHEST"
+  },
+  "19": {
+    "part_name": "front_latch",
+    "instance_id": "chest_01",
+    "asset_id": "PR-CHEST"
+  },
+  "20": {
+    "part_name": "lid_latch",
+    "instance_id": "chest_01",
+    "asset_id": "PR-CHEST"
+  },
+  "22": {
+    "part_name": "paper_sheet",
+    "instance_id": "report_01",
+    "asset_id": "PR-REPORT"
+  },
+  "24": {
+    "part_name": "broken_half_token",
+    "instance_id": "token_01",
+    "asset_id": "PR-TOKEN"
+  },
+  "25": {
+    "part_name": "lanyard_eye",
+    "instance_id": "token_01",
+    "asset_id": "PR-TOKEN"
+  },
+  "27": {
+    "part_name": "container",
+    "instance_id": "herbs_01",
+    "asset_id": "PR-HERBS"
+  },
+  "28": {
+    "part_name": "herb",
+    "instance_id": "herbs_01",
+    "asset_id": "PR-HERBS"
+  },
+  "29": {
+    "part_name": "herb",
+    "instance_id": "herbs_01",
+    "asset_id": "PR-HERBS"
+  },
+  "30": {
+    "part_name": "herb",
+    "instance_id": "herbs_01",
+    "asset_id": "PR-HERBS"
+  },
+  "31": {
+    "part_name": "herb",
+    "instance_id": "herbs_01",
+    "asset_id": "PR-HERBS"
+  },
+  "32": {
+    "part_name": "herb",
+    "instance_id": "herbs_01",
+    "asset_id": "PR-HERBS"
+  },
+  "33": {
+    "part_name": "herb",
+    "instance_id": "herbs_01",
+    "asset_id": "PR-HERBS"
+  },
+  "34": {
+    "part_name": "herb",
+    "instance_id": "herbs_01",
+    "asset_id": "PR-HERBS"
+  },
+  "35": {
+    "part_name": "herb",
+    "instance_id": "herbs_01",
+    "asset_id": "PR-HERBS"
+  },
+  "36": {
+    "part_name": "herb",
+    "instance_id": "herbs_01",
+    "asset_id": "PR-HERBS"
+  },
+  "37": {
+    "part_name": "herb",
+    "instance_id": "herbs_01",
+    "asset_id": "PR-HERBS"
+  },
+  "38": {
+    "part_name": "herb",
+    "instance_id": "herbs_01",
+    "asset_id": "PR-HERBS"
+  },
+  "39": {
+    "part_name": "herb",
+    "instance_id": "herbs_01",
+    "asset_id": "PR-HERBS"
+  },
+  "42": {
+    "part_name": "forearm",
+    "instance_id": "hand_left",
+    "asset_id": "HAND-MCS-L"
+  },
+  "43": {
+    "part_name": "palm",
+    "instance_id": "hand_left",
+    "asset_id": "HAND-MCS-L"
+  },
+  "46": {
+    "part_name": "finger_0_bone_0",
+    "instance_id": "hand_left",
+    "asset_id": "HAND-MCS-L"
+  },
+  "48": {
+    "part_name": "finger_0_bone_1",
+    "instance_id": "hand_left",
+    "asset_id": "HAND-MCS-L"
+  },
+  "50": {
+    "part_name": "finger_0_bone_2",
+    "instance_id": "hand_left",
+    "asset_id": "HAND-MCS-L"
+  },
+  "53": {
+    "part_name": "finger_1_bone_0",
+    "instance_id": "hand_left",
+    "asset_id": "HAND-MCS-L"
+  },
+  "55": {
+    "part_name": "finger_1_bone_1",
+    "instance_id": "hand_left",
+    "asset_id": "HAND-MCS-L"
+  },
+  "57": {
+    "part_name": "finger_1_bone_2",
+    "instance_id": "hand_left",
+    "asset_id": "HAND-MCS-L"
+  },
+  "60": {
+    "part_name": "finger_2_bone_0",
+    "instance_id": "hand_left",
+    "asset_id": "HAND-MCS-L"
+  },
+  "62": {
+    "part_name": "finger_2_bone_1",
+    "instance_id": "hand_left",
+    "asset_id": "HAND-MCS-L"
+  },
+  "64": {
+    "part_name": "finger_2_bone_2",
+    "instance_id": "hand_left",
+    "asset_id": "HAND-MCS-L"
+  },
+  "67": {
+    "part_name": "finger_3_bone_0",
+    "instance_id": "hand_left",
+    "asset_id": "HAND-MCS-L"
+  },
+  "69": {
+    "part_name": "finger_3_bone_1",
+    "instance_id": "hand_left",
+    "asset_id": "HAND-MCS-L"
+  },
+  "71": {
+    "part_name": "finger_3_bone_2",
+    "instance_id": "hand_left",
+    "asset_id": "HAND-MCS-L"
+  },
+  "74": {
+    "part_name": "finger_4_bone_0",
+    "instance_id": "hand_left",
+    "asset_id": "HAND-MCS-L"
+  },
+  "76": {
+    "part_name": "finger_4_bone_1",
+    "instance_id": "hand_left",
+    "asset_id": "HAND-MCS-L"
+  },
+  "78": {
+    "part_name": "finger_4_bone_2",
+    "instance_id": "hand_left",
+    "asset_id": "HAND-MCS-L"
+  },
+  "81": {
+    "part_name": "forearm",
+    "instance_id": "hand_right",
+    "asset_id": "HAND-MCS-R"
+  },
+  "82": {
+    "part_name": "palm",
+    "instance_id": "hand_right",
+    "asset_id": "HAND-MCS-R"
+  },
+  "85": {
+    "part_name": "finger_0_bone_0",
+    "instance_id": "hand_right",
+    "asset_id": "HAND-MCS-R"
+  },
+  "87": {
+    "part_name": "finger_0_bone_1",
+    "instance_id": "hand_right",
+    "asset_id": "HAND-MCS-R"
+  },
+  "89": {
+    "part_name": "finger_0_bone_2",
+    "instance_id": "hand_right",
+    "asset_id": "HAND-MCS-R"
+  },
+  "92": {
+    "part_name": "finger_1_bone_0",
+    "instance_id": "hand_right",
+    "asset_id": "HAND-MCS-R"
+  },
+  "94": {
+    "part_name": "finger_1_bone_1",
+    "instance_id": "hand_right",
+    "asset_id": "HAND-MCS-R"
+  },
+  "96": {
+    "part_name": "finger_1_bone_2",
+    "instance_id": "hand_right",
+    "asset_id": "HAND-MCS-R"
+  },
+  "99": {
+    "part_name": "finger_2_bone_0",
+    "instance_id": "hand_right",
+    "asset_id": "HAND-MCS-R"
+  },
+  "101": {
+    "part_name": "finger_2_bone_1",
+    "instance_id": "hand_right",
+    "asset_id": "HAND-MCS-R"
+  },
+  "103": {
+    "part_name": "finger_2_bone_2",
+    "instance_id": "hand_right",
+    "asset_id": "HAND-MCS-R"
+  },
+  "106": {
+    "part_name": "finger_3_bone_0",
+    "instance_id": "hand_right",
+    "asset_id": "HAND-MCS-R"
+  },
+  "108": {
+    "part_name": "finger_3_bone_1",
+    "instance_id": "hand_right",
+    "asset_id": "HAND-MCS-R"
+  },
+  "110": {
+    "part_name": "finger_3_bone_2",
+    "instance_id": "hand_right",
+    "asset_id": "HAND-MCS-R"
+  },
+  "113": {
+    "part_name": "finger_4_bone_0",
+    "instance_id": "hand_right",
+    "asset_id": "HAND-MCS-R"
+  },
+  "115": {
+    "part_name": "finger_4_bone_1",
+    "instance_id": "hand_right",
+    "asset_id": "HAND-MCS-R"
+  },
+  "117": {
+    "part_name": "finger_4_bone_2",
+    "instance_id": "hand_right",
+    "asset_id": "HAND-MCS-R"
+  },
+  "119": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "120": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "121": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "122": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "123": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "124": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "125": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "126": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "127": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "128": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "129": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "130": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "131": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "132": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "133": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "134": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "135": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "136": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "137": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "138": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "139": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "140": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "141": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "142": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "143": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "144": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "145": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "146": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "147": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "148": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "149": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "150": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "151": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "152": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "153": {
+    "part_name": "paving_slab",
+    "instance_id": "ground_01",
+    "asset_id": "ENV-PAVING"
+  },
+  "155": {
+    "part_name": "wall",
+    "instance_id": "back_wall",
+    "asset_id": "AR-WALL"
+  }
+}

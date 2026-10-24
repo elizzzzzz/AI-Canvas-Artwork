@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-24T21:33:36+08:00",
+  "checked_at": "2026-10-24T23:22:50+08:00",
   "phase": "mandatory_3d_modeling_before_any_generation",
   "board_name": "琅琊云令 三集制作总工作流",
   "canvas_revision": 22,
@@ -50,7 +50,8 @@
     "video pilot",
     "episode video generation",
     "sound, subtitles and mouth-sync review",
-    "final exports"
+    "final exports",
+    "reusable 3D proxy library created; complete scene assemblies and human review pending"
   ],
   "first_batch_images_completed": 8,
   "submitted_generation_estimate": 496,
@@ -62,8 +63,27 @@
   "p01_repair_authorized": false,
   "p01_repair_generated": false,
   "mandatory_3d": true,
-  "geometry_scope_count": 92,
+  "geometry_scope_count": 192,
   "geometry_approved_count": 0,
   "guarded_generation_nodes": 10,
-  "geometry_preflight": "all_92_blocked_expected"
+  "geometry_preflight": "all_192_blocked_expected",
+  "asset_library": {
+    "status": "proxy_meshes_built_not_approved",
+    "asset_count": 100,
+    "category_counts": {
+      "人物": 16,
+      "手部": 6,
+      "动物": 1,
+      "服装装备": 11,
+      "道具": 31,
+      "车马组件": 8,
+      "建筑家具": 18,
+      "道路环境": 9
+    },
+    "logical_shot_count": 34,
+    "clip_count": 67,
+    "viewer": "production/asset-library/viewer.html",
+    "approval_count": 0,
+    "recorded_at": "2026-10-24T23:22:50+08:00"
+  }
 }

@@ -1,0 +1,5642 @@
+{
+  "version": 1,
+  "asset_count": 100,
+  "units": "metre",
+  "status": "proxy_meshes_built_not_approved",
+  "generated_with": "tools/asset_library.py",
+  "assets": [
+    {
+      "id": "CH-MCS",
+      "name": "梅长苏",
+      "category": "人物",
+      "recipe": "human",
+      "scene_keys": [
+        "SC01",
+        "SC03",
+        "SC04",
+        "SC06",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "character_key": "MCS",
+      "designed_height": 1.74,
+      "articulation": "层级体块；无蒙皮或面容雕刻，动作须后续逐镜头设定",
+      "file": "models/CH-MCS.glb",
+      "sha256": "b021a970d2adbcf2958152ac31e8cd8f5a5968d16146beacff60aace2f274dce",
+      "triangle_count": 1812,
+      "dimensions_m": [
+        0.60854,
+        0.54,
+        1.835
+      ],
+      "bounds_m": [
+        [
+          -0.30427010515561775,
+          -0.27,
+          0.009999999999999953
+        ],
+        [
+          0.30427010515561775,
+          0.27,
+          1.845
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/CH-MCS.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S01",
+        "EP01-S04",
+        "EP01-S05",
+        "EP01-S06",
+        "EP01-S07",
+        "EP01-S08",
+        "EP01-S09",
+        "EP01-S10",
+        "EP01-S11",
+        "EP03-S01",
+        "EP03-S02",
+        "EP03-S03",
+        "EP03-S04",
+        "EP03-S05",
+        "EP03-S06",
+        "EP03-S07",
+        "EP03-S08",
+        "EP03-S09",
+        "EP03-S10",
+        "EP03-S11",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "CH-LS",
+      "name": "林殊",
+      "category": "人物",
+      "recipe": "human",
+      "scene_keys": [
+        "SC02"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "character_key": "LS",
+      "designed_height": 1.74,
+      "articulation": "层级体块；无蒙皮或面容雕刻，动作须后续逐镜头设定",
+      "file": "models/CH-LS.glb",
+      "sha256": "0bf196e8bfe33ca9d6bd12cb6cbd5a2452a758a09237b6d6c1acba07b5638f75",
+      "triangle_count": 1944,
+      "dimensions_m": [
+        0.60854,
+        0.54,
+        1.835
+      ],
+      "bounds_m": [
+        [
+          -0.30427010515561775,
+          -0.27,
+          0.009999999999999953
+        ],
+        [
+          0.30427010515561775,
+          0.27,
+          1.845
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/CH-LS.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S02",
+        "EP01-S03",
+        "EP01-S04"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "CH-XTY",
+      "name": "谢听云",
+      "category": "人物",
+      "recipe": "human",
+      "scene_keys": [
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "character_key": "XTY",
+      "designed_height": 1.74,
+      "articulation": "层级体块；无蒙皮或面容雕刻，动作须后续逐镜头设定",
+      "file": "models/CH-XTY.glb",
+      "sha256": "39398ed10e0f28dddccc06df206a15e2f28eee984bb79a8f3c13ea1c7b9472cb",
+      "triangle_count": 1812,
+      "dimensions_m": [
+        0.60854,
+        0.54,
+        1.835
+      ],
+      "bounds_m": [
+        [
+          -0.30427010515561775,
+          -0.27,
+          0.009999999999999953
+        ],
+        [
+          0.30427010515561775,
+          0.27,
+          1.845
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/CH-XTY.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP02-S01",
+        "EP02-S02",
+        "EP02-S03",
+        "EP02-S04",
+        "EP02-S05",
+        "EP02-S06",
+        "EP02-S07",
+        "EP02-S08",
+        "EP02-S09",
+        "EP02-S10",
+        "EP02-S11"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "CH-SCRIBE",
+      "name": "书吏",
+      "category": "人物",
+      "recipe": "human",
+      "scene_keys": [
+        "SC03",
+        "SC04",
+        "SC05",
+        "SC06"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "character_key": "SCRIBE",
+      "designed_height": 1.74,
+      "articulation": "层级体块；无蒙皮或面容雕刻，动作须后续逐镜头设定",
+      "file": "models/CH-SCRIBE.glb",
+      "sha256": "fd2828a43f9e031ac7edabcbc8a80ce92abfd20ce42ddf6974900ceb5cd78198",
+      "triangle_count": 1812,
+      "dimensions_m": [
+        0.60854,
+        0.54,
+        1.835
+      ],
+      "bounds_m": [
+        [
+          -0.30427010515561775,
+          -0.27,
+          0.009999999999999953
+        ],
+        [
+          0.30427010515561775,
+          0.27,
+          1.845
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/CH-SCRIBE.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S05",
+        "EP01-S06",
+        "EP01-S07",
+        "EP01-S08",
+        "EP01-S09",
+        "EP01-S11",
+        "EP02-S08",
+        "EP02-S11",
+        "EP03-S04",
+        "EP03-S07",
+        "EP03-S08"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "CH-XJR",
+      "name": "萧景睿",
+      "category": "人物",
+      "recipe": "human",
+      "scene_keys": [
+        "SC06",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "character_key": "XJR",
+      "designed_height": 1.74,
+      "articulation": "层级体块；无蒙皮或面容雕刻，动作须后续逐镜头设定",
+      "file": "models/CH-XJR.glb",
+      "sha256": "1de784b8fd80c7ca27ce291f7d85e066deca9c031b42a55cb27d484bc2dc8167",
+      "triangle_count": 1812,
+      "dimensions_m": [
+        0.60854,
+        0.54,
+        1.835
+      ],
+      "bounds_m": [
+        [
+          -0.30427010515561775,
+          -0.27,
+          0.009999999999999953
+        ],
+        [
+          0.30427010515561775,
+          0.27,
+          1.845
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/CH-XJR.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP03-S03",
+        "EP03-S10",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "CH-ZQY",
+      "name": "卓青遥",
+      "category": "人物",
+      "recipe": "human",
+      "scene_keys": [
+        "SC06",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "character_key": "ZQY",
+      "designed_height": 1.74,
+      "articulation": "层级体块；无蒙皮或面容雕刻，动作须后续逐镜头设定",
+      "file": "models/CH-ZQY.glb",
+      "sha256": "5f6e5da00393e62f9fe862159311eea570c58610afa5c196593151de619487c3",
+      "triangle_count": 1812,
+      "dimensions_m": [
+        0.60854,
+        0.54,
+        1.835
+      ],
+      "bounds_m": [
+        [
+          -0.30427010515561775,
+          -0.27,
+          0.009999999999999953
+        ],
+        [
+          0.30427010515561775,
+          0.27,
+          1.845
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/CH-ZQY.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP03-S02",
+        "EP03-S09",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "CH-GUARD",
+      "name": "护卫",
+      "category": "人物",
+      "recipe": "human",
+      "scene_keys": [
+        "SC04",
+        "SC06",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "character_key": "GUARD",
+      "designed_height": 1.74,
+      "articulation": "层级体块；无蒙皮或面容雕刻，动作须后续逐镜头设定",
+      "file": "models/CH-GUARD.glb",
+      "sha256": "8c92d17bd1f191a2ab182f0810736bf79c5fda3e63a2fc4028916a354024ef03",
+      "triangle_count": 1812,
+      "dimensions_m": [
+        0.60854,
+        0.54,
+        1.835
+      ],
+      "bounds_m": [
+        [
+          -0.30427010515561775,
+          -0.27,
+          0.009999999999999953
+        ],
+        [
+          0.30427010515561775,
+          0.27,
+          1.845
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/CH-GUARD.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S07",
+        "EP01-S11",
+        "EP03-S03",
+        "EP03-S05",
+        "EP03-S07",
+        "EP03-S08",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "CH-DRIVER",
+      "name": "车夫",
+      "category": "人物",
+      "recipe": "human",
+      "scene_keys": [
+        "SC04",
+        "SC06",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "character_key": "DRIVER",
+      "designed_height": 1.74,
+      "articulation": "层级体块；无蒙皮或面容雕刻，动作须后续逐镜头设定",
+      "file": "models/CH-DRIVER.glb",
+      "sha256": "c8f60bb10d49861de5404121a9d9f1eca0d2a4470b5b305a8566eb46483d71af",
+      "triangle_count": 1812,
+      "dimensions_m": [
+        0.60854,
+        0.54,
+        1.835
+      ],
+      "bounds_m": [
+        [
+          -0.30427010515561775,
+          -0.27,
+          0.009999999999999953
+        ],
+        [
+          0.30427010515561775,
+          0.27,
+          1.845
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/CH-DRIVER.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S07",
+        "EP01-S11",
+        "EP03-S04",
+        "EP03-S05",
+        "EP03-S07",
+        "EP03-S08",
+        "EP03-S10",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "CH-MEDBOY",
+      "name": "药童",
+      "category": "人物",
+      "recipe": "human",
+      "scene_keys": [
+        "SC06",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "character_key": "MEDBOY",
+      "designed_height": 1.52,
+      "articulation": "层级体块；无蒙皮或面容雕刻，动作须后续逐镜头设定",
+      "file": "models/CH-MEDBOY.glb",
+      "sha256": "5914e5ed0d1c186f7803db3a0889d9ea48f6fd6595899da1e912b80aa6a29410",
+      "triangle_count": 1812,
+      "dimensions_m": [
+        0.531598,
+        0.471724,
+        1.602989
+      ],
+      "bounds_m": [
+        [
+          -0.26579917231985006,
+          -0.23586206896551726,
+          0.008735632183908007
+        ],
+        [
+          0.26579917231985006,
+          0.23586206896551726,
+          1.6117241379310348
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/CH-MEDBOY.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP03-S04",
+        "EP03-S06",
+        "EP03-S07",
+        "EP03-S08",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "CH-KEEPER",
+      "name": "阁中人",
+      "category": "人物",
+      "recipe": "human",
+      "scene_keys": [
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "character_key": "KEEPER",
+      "designed_height": 1.74,
+      "articulation": "层级体块；无蒙皮或面容雕刻，动作须后续逐镜头设定",
+      "file": "models/CH-KEEPER.glb",
+      "sha256": "6afc66011b9ffecfc36c8c3a2933ee867e2e8efb9a752e3230204981ff7da296",
+      "triangle_count": 1812,
+      "dimensions_m": [
+        0.60854,
+        0.54,
+        1.835
+      ],
+      "bounds_m": [
+        [
+          -0.30427010515561775,
+          -0.27,
+          0.009999999999999953
+        ],
+        [
+          0.30427010515561775,
+          0.27,
+          1.845
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/CH-KEEPER.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP02-S02"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "CH-MSG-A",
+      "name": "信使甲",
+      "category": "人物",
+      "recipe": "human",
+      "scene_keys": [
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "character_key": "MSG-A",
+      "designed_height": 1.74,
+      "articulation": "层级体块；无蒙皮或面容雕刻，动作须后续逐镜头设定",
+      "file": "models/CH-MSG-A.glb",
+      "sha256": "78197a61a4c9f861ae37a994a9be126892b7bd64d26944dc2f9296e740983c6a",
+      "triangle_count": 1812,
+      "dimensions_m": [
+        0.60854,
+        0.54,
+        1.835
+      ],
+      "bounds_m": [
+        [
+          -0.30427010515561775,
+          -0.27,
+          0.009999999999999953
+        ],
+        [
+          0.30427010515561775,
+          0.27,
+          1.845
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/CH-MSG-A.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP02-S03",
+        "EP02-S04",
+        "EP02-S05",
+        "EP02-S07",
+        "EP02-S08",
+        "EP02-S09",
+        "EP02-S11"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "CH-MSG-B",
+      "name": "信使乙",
+      "category": "人物",
+      "recipe": "human",
+      "scene_keys": [
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "character_key": "MSG-B",
+      "designed_height": 1.74,
+      "articulation": "层级体块；无蒙皮或面容雕刻，动作须后续逐镜头设定",
+      "file": "models/CH-MSG-B.glb",
+      "sha256": "d290d4dc74d45aaafc55498a4c8a6616c8cd7c6301b5ce31624f7e2d34a5f5d1",
+      "triangle_count": 1812,
+      "dimensions_m": [
+        0.60854,
+        0.54,
+        1.835
+      ],
+      "bounds_m": [
+        [
+          -0.30427010515561775,
+          -0.27,
+          0.009999999999999953
+        ],
+        [
+          0.30427010515561775,
+          0.27,
+          1.845
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/CH-MSG-B.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP02-S04",
+        "EP02-S05",
+        "EP02-S07",
+        "EP02-S08",
+        "EP02-S11"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "CH-MSG-C",
+      "name": "信使丙",
+      "category": "人物",
+      "recipe": "human",
+      "scene_keys": [
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "character_key": "MSG-C",
+      "designed_height": 1.74,
+      "articulation": "层级体块；无蒙皮或面容雕刻，动作须后续逐镜头设定",
+      "file": "models/CH-MSG-C.glb",
+      "sha256": "c6bba573f299c65db8bdbf49c1266e55b219d527b37fc9c8b1d8716fc04b3c24",
+      "triangle_count": 1812,
+      "dimensions_m": [
+        0.60854,
+        0.54,
+        1.835
+      ],
+      "bounds_m": [
+        [
+          -0.30427010515561775,
+          -0.27,
+          0.009999999999999953
+        ],
+        [
+          0.30427010515561775,
+          0.27,
+          1.845
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/CH-MSG-C.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP02-S04",
+        "EP02-S06",
+        "EP02-S07",
+        "EP02-S08",
+        "EP02-S11"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "CH-RPT-A",
+      "name": "来报人甲",
+      "category": "人物",
+      "recipe": "human",
+      "scene_keys": [
+        "SC05",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "character_key": "RPT-A",
+      "designed_height": 1.74,
+      "articulation": "层级体块；无蒙皮或面容雕刻，动作须后续逐镜头设定",
+      "file": "models/CH-RPT-A.glb",
+      "sha256": "1ab6dc7c594d86c156183153d61f42c0250e6d7bdd1a391a2c33b0dfc31dd0fd",
+      "triangle_count": 1812,
+      "dimensions_m": [
+        0.60854,
+        0.54,
+        1.835
+      ],
+      "bounds_m": [
+        [
+          -0.30427010515561775,
+          -0.27,
+          0.009999999999999953
+        ],
+        [
+          0.30427010515561775,
+          0.27,
+          1.845
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/CH-RPT-A.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP02-S10",
+        "EP03-S11"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "CH-RPT-B",
+      "name": "来报人乙",
+      "category": "人物",
+      "recipe": "human",
+      "scene_keys": [
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "character_key": "RPT-B",
+      "designed_height": 1.74,
+      "articulation": "层级体块；无蒙皮或面容雕刻，动作须后续逐镜头设定",
+      "file": "models/CH-RPT-B.glb",
+      "sha256": "0fed5cdc1db70db7cc0b5d78c05d40995ac363b5096bc8f291f2763dd0a8679f",
+      "triangle_count": 1812,
+      "dimensions_m": [
+        0.60854,
+        0.54,
+        1.835
+      ],
+      "bounds_m": [
+        [
+          -0.30427010515561775,
+          -0.27,
+          0.009999999999999953
+        ],
+        [
+          0.30427010515561775,
+          0.27,
+          1.845
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/CH-RPT-B.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP02-S10"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "CH-COURIER",
+      "name": "送信人",
+      "category": "人物",
+      "recipe": "human",
+      "scene_keys": [
+        "SC03",
+        "SC06"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "character_key": "COURIER",
+      "designed_height": 1.74,
+      "articulation": "层级体块；无蒙皮或面容雕刻，动作须后续逐镜头设定",
+      "file": "models/CH-COURIER.glb",
+      "sha256": "279ffef05886d498798dc8a464c483413533da3a6b7ceac529b1962f9ce6f671",
+      "triangle_count": 1812,
+      "dimensions_m": [
+        0.60854,
+        0.54,
+        1.835
+      ],
+      "bounds_m": [
+        [
+          -0.30427010515561775,
+          -0.27,
+          0.009999999999999953
+        ],
+        [
+          0.30427010515561775,
+          0.27,
+          1.845
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/CH-COURIER.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S10",
+        "EP03-S06"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "HAND-MCS-L",
+      "name": "梅长苏左手与袖口",
+      "category": "手部",
+      "recipe": "hand",
+      "scene_keys": [
+        "SC01",
+        "SC03",
+        "SC04",
+        "SC06",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "side": "L",
+      "owner": "MCS",
+      "file": "models/HAND-MCS-L.glb",
+      "sha256": "d26276df6389214a1fcfb504352e8f14fabc63c64422983191a525c28e5f0f92",
+      "triangle_count": 888,
+      "dimensions_m": [
+        0.120124,
+        0.09,
+        0.323393
+      ],
+      "bounds_m": [
+        [
+          -0.045,
+          -0.045,
+          -0.16
+        ],
+        [
+          0.07512418899758869,
+          0.045,
+          0.16339267652812953
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/HAND-MCS-L.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S01",
+        "EP01-S04",
+        "EP01-S05",
+        "EP01-S06",
+        "EP01-S07",
+        "EP01-S08",
+        "EP01-S09",
+        "EP01-S10",
+        "EP01-S11",
+        "EP03-S01",
+        "EP03-S02",
+        "EP03-S03",
+        "EP03-S04",
+        "EP03-S05",
+        "EP03-S06",
+        "EP03-S07",
+        "EP03-S08",
+        "EP03-S09",
+        "EP03-S10",
+        "EP03-S11",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "HAND-MCS-R",
+      "name": "梅长苏右手与袖口",
+      "category": "手部",
+      "recipe": "hand",
+      "scene_keys": [
+        "SC01",
+        "SC03",
+        "SC04",
+        "SC06",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "side": "R",
+      "owner": "MCS",
+      "file": "models/HAND-MCS-R.glb",
+      "sha256": "35dfbdcb9efd126f14448b36cc70c728aafa8af34bc9478021559c5d8355cde5",
+      "triangle_count": 888,
+      "dimensions_m": [
+        0.120124,
+        0.09,
+        0.323393
+      ],
+      "bounds_m": [
+        [
+          -0.07512418899758869,
+          -0.045,
+          -0.16
+        ],
+        [
+          0.045,
+          0.045,
+          0.16339267652812953
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/HAND-MCS-R.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S01",
+        "EP01-S04",
+        "EP01-S05",
+        "EP01-S06",
+        "EP01-S07",
+        "EP01-S08",
+        "EP01-S09",
+        "EP01-S10",
+        "EP01-S11",
+        "EP03-S01",
+        "EP03-S02",
+        "EP03-S03",
+        "EP03-S04",
+        "EP03-S05",
+        "EP03-S06",
+        "EP03-S07",
+        "EP03-S08",
+        "EP03-S09",
+        "EP03-S10",
+        "EP03-S11",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "HAND-LS-L",
+      "name": "林殊左手与袖口",
+      "category": "手部",
+      "recipe": "hand",
+      "scene_keys": [
+        "SC02"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "side": "L",
+      "owner": "LS",
+      "file": "models/HAND-LS-L.glb",
+      "sha256": "753eb8a3ba2ccfd5fb730a4392b01e06213085e3372e2dadb87966e965c2a780",
+      "triangle_count": 888,
+      "dimensions_m": [
+        0.120124,
+        0.09,
+        0.323393
+      ],
+      "bounds_m": [
+        [
+          -0.045,
+          -0.045,
+          -0.16
+        ],
+        [
+          0.07512418899758869,
+          0.045,
+          0.16339267652812953
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/HAND-LS-L.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S02",
+        "EP01-S03",
+        "EP01-S04"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "HAND-LS-R",
+      "name": "林殊右手与袖口",
+      "category": "手部",
+      "recipe": "hand",
+      "scene_keys": [
+        "SC02"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "side": "R",
+      "owner": "LS",
+      "file": "models/HAND-LS-R.glb",
+      "sha256": "f582753e647dada6fb826af37204797ea341d46acb57ecbb0dce87acc302c4fa",
+      "triangle_count": 888,
+      "dimensions_m": [
+        0.120124,
+        0.09,
+        0.323393
+      ],
+      "bounds_m": [
+        [
+          -0.07512418899758869,
+          -0.045,
+          -0.16
+        ],
+        [
+          0.045,
+          0.045,
+          0.16339267652812953
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/HAND-LS-R.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S02",
+        "EP01-S03",
+        "EP01-S04"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "HAND-XTY-L",
+      "name": "谢听云左手与袖口",
+      "category": "手部",
+      "recipe": "hand",
+      "scene_keys": [
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "side": "L",
+      "owner": "XTY",
+      "file": "models/HAND-XTY-L.glb",
+      "sha256": "7962ad14263d7d190e1efd5380aed9173652bb4287c17ab6b01ddb7c3b7a8e22",
+      "triangle_count": 888,
+      "dimensions_m": [
+        0.120124,
+        0.09,
+        0.323393
+      ],
+      "bounds_m": [
+        [
+          -0.045,
+          -0.045,
+          -0.16
+        ],
+        [
+          0.07512418899758869,
+          0.045,
+          0.16339267652812953
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/HAND-XTY-L.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP02-S01",
+        "EP02-S02",
+        "EP02-S03",
+        "EP02-S04",
+        "EP02-S05",
+        "EP02-S06",
+        "EP02-S07",
+        "EP02-S08",
+        "EP02-S09",
+        "EP02-S10",
+        "EP02-S11"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "HAND-XTY-R",
+      "name": "谢听云右手与袖口",
+      "category": "手部",
+      "recipe": "hand",
+      "scene_keys": [
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "side": "R",
+      "owner": "XTY",
+      "file": "models/HAND-XTY-R.glb",
+      "sha256": "7cd4488dd12f97f37981bcb95b73599a59c4ebb0bf8df0fa1cee4a1ff1acf943",
+      "triangle_count": 888,
+      "dimensions_m": [
+        0.120124,
+        0.09,
+        0.323393
+      ],
+      "bounds_m": [
+        [
+          -0.07512418899758869,
+          -0.045,
+          -0.16
+        ],
+        [
+          0.045,
+          0.045,
+          0.16339267652812953
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/HAND-XTY-R.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP02-S01",
+        "EP02-S02",
+        "EP02-S03",
+        "EP02-S04",
+        "EP02-S05",
+        "EP02-S06",
+        "EP02-S07",
+        "EP02-S08",
+        "EP02-S09",
+        "EP02-S10",
+        "EP02-S11"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "AN-HORSE",
+      "name": "行旅马",
+      "category": "动物",
+      "recipe": "horse",
+      "scene_keys": [
+        "SC04",
+        "SC06",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "articulation": "四肢/颈头层级体块，步态未审核",
+      "file": "models/AN-HORSE.glb",
+      "sha256": "e76fe732e8970616af0315ebb6268df332be59e95f50ebfd7b4caff37ce31f95",
+      "triangle_count": 1440,
+      "dimensions_m": [
+        0.64,
+        2.133828,
+        1.743555
+      ],
+      "bounds_m": [
+        [
+          -0.32,
+          -1.0033892426761706,
+          4.163336342344337e-17
+        ],
+        [
+          0.32,
+          1.1304392426314889,
+          1.7435548312910156
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/AN-HORSE.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S07",
+        "EP03-S03",
+        "EP03-S10",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "EQ-ROBE",
+      "name": "梅长苏长袍轮廓",
+      "category": "服装装备",
+      "recipe": "robe",
+      "scene_keys": [
+        "SC01",
+        "SC03",
+        "SC04",
+        "SC06",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/EQ-ROBE.glb",
+      "sha256": "90a761be2ad1dbcd65d87d29cdabfddc9a50a9159bb9fde3d37c08793c75215e",
+      "triangle_count": 48,
+      "dimensions_m": [
+        0.56,
+        0.56,
+        0.85
+      ],
+      "bounds_m": [
+        [
+          -0.28,
+          -0.28,
+          0.1
+        ],
+        [
+          0.28,
+          0.28,
+          0.95
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/EQ-ROBE.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "reusable_component_or_alternative_not_yet_assigned"
+    },
+    {
+      "id": "EQ-ARMOR",
+      "name": "林殊皮甲",
+      "category": "服装装备",
+      "recipe": "armor",
+      "scene_keys": [
+        "SC02"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/EQ-ARMOR.glb",
+      "sha256": "3300f58b61aa8d8f03c099063d6c0f1755948f10b046735ccf8bb56a0417c4f8",
+      "triangle_count": 348,
+      "dimensions_m": [
+        0.56,
+        0.56,
+        0.85
+      ],
+      "bounds_m": [
+        [
+          -0.28,
+          -0.28,
+          0.1
+        ],
+        [
+          0.28,
+          0.28,
+          0.95
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/EQ-ARMOR.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S02",
+        "EP01-S03",
+        "EP01-S04"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "EQ-HELMET",
+      "name": "战盔",
+      "category": "服装装备",
+      "recipe": "helmet",
+      "scene_keys": [
+        "SC02"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/EQ-HELMET.glb",
+      "sha256": "18a6785a47fc84731cc97f54116137b112256145074b2148a2d52cdc41baec6c",
+      "triangle_count": 408,
+      "dimensions_m": [
+        0.288,
+        0.288,
+        0.32
+      ],
+      "bounds_m": [
+        [
+          -0.14400000000000002,
+          -0.14400000000000002,
+          0.03
+        ],
+        [
+          0.14400000000000002,
+          0.14400000000000002,
+          0.35
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/EQ-HELMET.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S02",
+        "EP01-S03",
+        "EP01-S04"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "EQ-CAPE",
+      "name": "密使短披风",
+      "category": "服装装备",
+      "recipe": "cape",
+      "scene_keys": [
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/EQ-CAPE.glb",
+      "sha256": "09fd31e8d79d251419b965ff9aded9bbd5214396b70958388d0b898eb49018ed",
+      "triangle_count": 48,
+      "dimensions_m": [
+        0.56,
+        0.56,
+        0.85
+      ],
+      "bounds_m": [
+        [
+          -0.28,
+          -0.28,
+          0.1
+        ],
+        [
+          0.28,
+          0.28,
+          0.95
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/EQ-CAPE.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "reusable_component_or_alternative_not_yet_assigned"
+    },
+    {
+      "id": "EQ-BOOTS",
+      "name": "靴",
+      "category": "服装装备",
+      "recipe": "boots",
+      "scene_keys": [
+        "SC02",
+        "SC04",
+        "SC06",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/EQ-BOOTS.glb",
+      "sha256": "6f1c446c660d1f1986dd113f57e3ba3f16f5feafc55643cfc1d9179b93b6c0c8",
+      "triangle_count": 336,
+      "dimensions_m": [
+        0.31,
+        0.26,
+        0.38
+      ],
+      "bounds_m": [
+        [
+          -0.155,
+          -0.09,
+          0.0
+        ],
+        [
+          0.155,
+          0.17,
+          0.38
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/EQ-BOOTS.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "reusable_component_or_alternative_not_yet_assigned"
+    },
+    {
+      "id": "EQ-BELT",
+      "name": "腰带",
+      "category": "服装装备",
+      "recipe": "belt",
+      "scene_keys": [
+        "SC01",
+        "SC03",
+        "SC04",
+        "SC05",
+        "SC06",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/EQ-BELT.glb",
+      "sha256": "06c9bf1ba26efb6cea1bb533ef22e8b462c6edcd7f34682ff903db7ae0b40303",
+      "triangle_count": 252,
+      "dimensions_m": [
+        0.38,
+        0.38,
+        0.04
+      ],
+      "bounds_m": [
+        [
+          -0.19,
+          -0.19,
+          0.02
+        ],
+        [
+          0.19,
+          0.19,
+          0.06
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/EQ-BELT.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "reusable_component_or_alternative_not_yet_assigned"
+    },
+    {
+      "id": "EQ-SWORD",
+      "name": "佩剑",
+      "category": "服装装备",
+      "recipe": "sword",
+      "scene_keys": [
+        "SC02",
+        "SC04",
+        "SC06"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/EQ-SWORD.glb",
+      "sha256": "d2e6e5a28b2804201044796650bfff2f2096648831098968496eef257ed7b610",
+      "triangle_count": 72,
+      "dimensions_m": [
+        0.14,
+        0.036,
+        0.88
+      ],
+      "bounds_m": [
+        [
+          -0.07,
+          -0.018,
+          0.0
+        ],
+        [
+          0.07,
+          0.018,
+          0.88
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/EQ-SWORD.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S02",
+        "EP01-S03",
+        "EP01-S04"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "EQ-SHIELD",
+      "name": "残盾",
+      "category": "服装装备",
+      "recipe": "shield",
+      "scene_keys": [
+        "SC02"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/EQ-SHIELD.glb",
+      "sha256": "1b43d74cb8ac5d8b5fa21bb7a6da6dca2eebd6a77b28517095bb76579ab349c9",
+      "triangle_count": 76,
+      "dimensions_m": [
+        0.6,
+        0.065,
+        0.6
+      ],
+      "bounds_m": [
+        [
+          -0.3,
+          -0.065,
+          -0.3
+        ],
+        [
+          0.3,
+          1.8369701987210297e-17,
+          0.3
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/EQ-SHIELD.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S02",
+        "EP01-S03",
+        "EP01-S04"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "EQ-SCABBARD",
+      "name": "剑鞘",
+      "category": "服装装备",
+      "recipe": "scabbard",
+      "scene_keys": [
+        "SC02",
+        "SC04",
+        "SC06"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/EQ-SCABBARD.glb",
+      "sha256": "708c23c926c68b5ad69e27821edc7c29d9b6197ee491d3666ff0bb2ffaf308fb",
+      "triangle_count": 72,
+      "dimensions_m": [
+        0.14,
+        0.036,
+        0.88
+      ],
+      "bounds_m": [
+        [
+          -0.07,
+          -0.018,
+          0.0
+        ],
+        [
+          0.07,
+          0.018,
+          0.88
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/EQ-SCABBARD.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "reusable_component_or_alternative_not_yet_assigned"
+    },
+    {
+      "id": "EQ-SADDLE",
+      "name": "马鞍",
+      "category": "服装装备",
+      "recipe": "saddle",
+      "scene_keys": [
+        "SC04",
+        "SC06",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/EQ-SADDLE.glb",
+      "sha256": "b8361692be221b7b8cacc65748317d428b0dfa717cb9e703dd57f1a02f2ce780",
+      "triangle_count": 132,
+      "dimensions_m": [
+        0.55,
+        0.6,
+        0.1325
+      ],
+      "bounds_m": [
+        [
+          -0.275,
+          -0.3,
+          0.07750000000000001
+        ],
+        [
+          0.275,
+          0.3,
+          0.21
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/EQ-SADDLE.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S07",
+        "EP03-S03",
+        "EP03-S10",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "EQ-BRIDLE",
+      "name": "马笼头与缰带",
+      "category": "服装装备",
+      "recipe": "bridle",
+      "scene_keys": [
+        "SC04",
+        "SC06",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/EQ-BRIDLE.glb",
+      "sha256": "a0968f75322a7cd12391122bd98f6da05aca7557135f28999c6f4dbdf57087f5",
+      "triangle_count": 336,
+      "dimensions_m": [
+        0.276,
+        0.448339,
+        0.305976
+      ],
+      "bounds_m": [
+        [
+          -0.138,
+          -0.12416928788409318,
+          -0.018000000000000016
+        ],
+        [
+          0.138,
+          0.32416928788409316,
+          0.28797602899565655
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/EQ-BRIDLE.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S07",
+        "EP03-S03",
+        "EP03-S10",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-CHEST",
+      "name": "药箱",
+      "category": "道具",
+      "recipe": "chest",
+      "scene_keys": [
+        "SC04",
+        "SC06"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-CHEST.glb",
+      "sha256": "059b8a5e4d6e9c7af6b93572ecbacf290b2e9863245474e9c8d32116b23da052",
+      "triangle_count": 204,
+      "dimensions_m": [
+        0.36,
+        0.316279,
+        0.421221
+      ],
+      "bounds_m": [
+        [
+          -0.18,
+          -0.127,
+          0.0
+        ],
+        [
+          0.18,
+          0.18927872038089977,
+          0.42122145989313303
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-CHEST.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S07",
+        "EP01-S08",
+        "EP03-S09"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-REPORT",
+      "name": "湿损军报",
+      "category": "道具",
+      "recipe": "paper",
+      "scene_keys": [
+        "SC02",
+        "SC04"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-REPORT.glb",
+      "sha256": "d41878095c538804a01021bbf9346281faef2f6dc048d8e9478d6fed05eff041",
+      "triangle_count": 16,
+      "dimensions_m": [
+        0.21,
+        0.3,
+        0.0005
+      ],
+      "bounds_m": [
+        [
+          -0.105,
+          -0.15,
+          0.0
+        ],
+        [
+          0.105,
+          0.15,
+          0.0005
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-REPORT.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S02",
+        "EP01-S03",
+        "EP01-S07",
+        "EP01-S08",
+        "EP01-S09",
+        "EP02-S03",
+        "EP02-S10",
+        "EP03-S06",
+        "EP03-S07",
+        "EP03-S11",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-BACKUP",
+      "name": "备用存卷",
+      "category": "道具",
+      "recipe": "paper",
+      "scene_keys": [
+        "SC04"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-BACKUP.glb",
+      "sha256": "9693d444062075b0386962d5387c61159a0f9db2bc25f7fd94b4207bfc32916a",
+      "triangle_count": 16,
+      "dimensions_m": [
+        0.21,
+        0.3,
+        0.0005
+      ],
+      "bounds_m": [
+        [
+          -0.105,
+          -0.15,
+          0.0
+        ],
+        [
+          0.105,
+          0.15,
+          0.0005
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-BACKUP.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S08"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-TOKEN",
+      "name": "半枚赤焰旧令",
+      "category": "道具",
+      "recipe": "token",
+      "scene_keys": [
+        "SC01",
+        "SC03",
+        "SC04",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-TOKEN.glb",
+      "sha256": "6801ce780f65aee8bf9fb535f3c78edd07e60b35a169303756fa7d6e470bc5ed",
+      "triangle_count": 80,
+      "dimensions_m": [
+        0.09,
+        0.045,
+        0.008
+      ],
+      "bounds_m": [
+        [
+          -0.045,
+          0.0,
+          0.0
+        ],
+        [
+          0.045,
+          0.045,
+          0.008
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-TOKEN.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S01",
+        "EP01-S09",
+        "EP01-S10",
+        "EP01-S11",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-FAN",
+      "name": "折扇",
+      "category": "道具",
+      "recipe": "fan",
+      "scene_keys": [
+        "SC01",
+        "SC06"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-FAN.glb",
+      "sha256": "cda7bc3ddb4b79016ac56a6db7977a138ed4ff3777b7e86fae465287f113b8fa",
+      "triangle_count": 384,
+      "dimensions_m": [
+        0.127715,
+        0.231645,
+        0.009999
+      ],
+      "bounds_m": [
+        [
+          -0.003,
+          -0.001592982095881032,
+          -0.0029995464166892734
+        ],
+        [
+          0.12471474189439836,
+          0.2300521660246381,
+          0.006999546416689273
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-FAN.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP03-S01"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-MEDBUNDLE",
+      "name": "药包",
+      "category": "道具",
+      "recipe": "bundle",
+      "scene_keys": [
+        "SC01",
+        "SC06"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-MEDBUNDLE.glb",
+      "sha256": "853b9ee024bca04826dcffb8969d90ecd7732fec1136c3a2dbcaaa36ca750447",
+      "triangle_count": 360,
+      "dimensions_m": [
+        0.15,
+        0.12,
+        0.123464
+      ],
+      "bounds_m": [
+        [
+          -0.075,
+          -0.06,
+          0.020000000000000004
+        ],
+        [
+          0.075,
+          0.06,
+          0.14346410161513776
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-MEDBUNDLE.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S07",
+        "EP03-S01",
+        "EP03-S02",
+        "EP03-S04",
+        "EP03-S06",
+        "EP03-S07",
+        "EP03-S08",
+        "EP03-S09"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-CLOUDBOX",
+      "name": "云令匣",
+      "category": "道具",
+      "recipe": "cloudbox",
+      "scene_keys": [
+        "SC05",
+        "SC06"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-CLOUDBOX.glb",
+      "sha256": "f8521c8846f1c606cabe9ed4063b9656cc1343aeb71bb8147bbc2fa0aa00232f",
+      "triangle_count": 888,
+      "dimensions_m": [
+        0.24,
+        0.13,
+        0.076
+      ],
+      "bounds_m": [
+        [
+          -0.12,
+          -0.065,
+          0.0
+        ],
+        [
+          0.12,
+          0.065,
+          0.07600000000000001
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-CLOUDBOX.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP02-S01",
+        "EP02-S07",
+        "EP02-S08",
+        "EP02-S11",
+        "EP03-S08"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-POUCH",
+      "name": "麒麟锦囊",
+      "category": "道具",
+      "recipe": "pouch",
+      "scene_keys": [
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-POUCH.glb",
+      "sha256": "1a7ec3a0d709f5fb94929baf2cdd39bac47311edac923cd05f02876eedffa7c2",
+      "triangle_count": 360,
+      "dimensions_m": [
+        0.12,
+        0.1,
+        0.2
+      ],
+      "bounds_m": [
+        [
+          -0.06,
+          -0.05,
+          -0.03
+        ],
+        [
+          0.06,
+          0.05,
+          0.17
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-POUCH.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP02-S02"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-SEAL-R",
+      "name": "暗红封泥",
+      "category": "道具",
+      "recipe": "seal",
+      "scene_keys": [
+        "SC03",
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-SEAL-R.glb",
+      "sha256": "ea45ad4efb8e79edab17b57c07661212f29ee393a251725003a59545c71f2e2e",
+      "triangle_count": 48,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.012
+      ],
+      "bounds_m": [
+        [
+          -0.025,
+          -0.025,
+          0.0
+        ],
+        [
+          0.025,
+          0.025,
+          0.012
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-SEAL-R.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S10",
+        "EP02-S02",
+        "EP02-S04",
+        "EP02-S05",
+        "EP02-S07",
+        "EP02-S08",
+        "EP02-S09"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-SEAL-G",
+      "name": "灰白封泥",
+      "category": "道具",
+      "recipe": "seal",
+      "scene_keys": [
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-SEAL-G.glb",
+      "sha256": "25e515c854d8ab8db4deaa4e2cef829294d6e04e6d21c17b05a1722d6e6c182c",
+      "triangle_count": 48,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.012
+      ],
+      "bounds_m": [
+        [
+          -0.025,
+          -0.025,
+          0.0
+        ],
+        [
+          0.025,
+          0.025,
+          0.012
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-SEAL-G.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP02-S02",
+        "EP02-S04",
+        "EP02-S05",
+        "EP02-S07",
+        "EP02-S08",
+        "EP02-S09"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-SEAL-B",
+      "name": "墨青封泥",
+      "category": "道具",
+      "recipe": "seal",
+      "scene_keys": [
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-SEAL-B.glb",
+      "sha256": "93ef007823d406ed5374d553ba189462de167f92ab47a11a8e4203759a883450",
+      "triangle_count": 48,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.012
+      ],
+      "bounds_m": [
+        [
+          -0.025,
+          -0.025,
+          0.0
+        ],
+        [
+          0.025,
+          0.025,
+          0.012
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-SEAL-B.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP02-S02",
+        "EP02-S04",
+        "EP02-S05",
+        "EP02-S07",
+        "EP02-S08",
+        "EP02-S09"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-MAP-NEW",
+      "name": "有效路线图",
+      "category": "道具",
+      "recipe": "paper",
+      "scene_keys": [
+        "SC05",
+        "SC06"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-MAP-NEW.glb",
+      "sha256": "174438c963f851ff813a3c150edca489b5b5b5b4e598d18c496f229068098e3d",
+      "triangle_count": 16,
+      "dimensions_m": [
+        0.21,
+        0.3,
+        0.0005
+      ],
+      "bounds_m": [
+        [
+          -0.105,
+          -0.15,
+          0.0
+        ],
+        [
+          0.105,
+          0.15,
+          0.0005
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-MAP-NEW.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S03",
+        "EP02-S03",
+        "EP02-S04",
+        "EP02-S06",
+        "EP02-S07",
+        "EP02-S08",
+        "EP03-S04",
+        "EP03-S05",
+        "EP03-S07",
+        "EP03-S08",
+        "EP03-S09"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-MAP-OLD",
+      "name": "过期缺角地图",
+      "category": "道具",
+      "recipe": "paper",
+      "scene_keys": [
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-MAP-OLD.glb",
+      "sha256": "e3d8ef66c9b14bd63bb5394ebc8dc220ad3387369b8c1afb916bf6f7b19580d1",
+      "triangle_count": 16,
+      "dimensions_m": [
+        0.21,
+        0.3,
+        0.0005
+      ],
+      "bounds_m": [
+        [
+          -0.105,
+          -0.15,
+          0.0
+        ],
+        [
+          0.105,
+          0.15,
+          0.0005
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-MAP-OLD.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP02-S06"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-RECEIPT",
+      "name": "送达回执",
+      "category": "道具",
+      "recipe": "paper",
+      "scene_keys": [
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-RECEIPT.glb",
+      "sha256": "1ca408e030013fd1746b8e1d83eeb772b2f12665ec3bf77c7aa86d359d8023b5",
+      "triangle_count": 16,
+      "dimensions_m": [
+        0.12,
+        0.24,
+        0.0005
+      ],
+      "bounds_m": [
+        [
+          -0.06,
+          -0.12,
+          0.0
+        ],
+        [
+          0.06,
+          0.12,
+          0.0005
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-RECEIPT.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP02-S09",
+        "EP02-S10",
+        "EP02-S11"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-BADGE",
+      "name": "身份木牌",
+      "category": "道具",
+      "recipe": "badge",
+      "scene_keys": [
+        "SC03",
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-BADGE.glb",
+      "sha256": "0bb5ef469fe83da7d3ccfc96d1ffe9aa08efc69f10f5dadcb9692e09c4b4a35b",
+      "triangle_count": 60,
+      "dimensions_m": [
+        0.045,
+        0.027,
+        0.13
+      ],
+      "bounds_m": [
+        [
+          -0.0225,
+          -0.021,
+          0.0
+        ],
+        [
+          0.0225,
+          0.006,
+          0.13
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-BADGE.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP02-S01",
+        "EP02-S04",
+        "EP02-S05",
+        "EP02-S07",
+        "EP03-S03"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-STAMP",
+      "name": "封印印章",
+      "category": "道具",
+      "recipe": "stamp",
+      "scene_keys": [
+        "SC03",
+        "SC05",
+        "SC06"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-STAMP.glb",
+      "sha256": "9c6046ce5f1b61cd9ff18eb3c7e3b94985ee2f6d8ff94f548d2d7b8b9f36bc8f",
+      "triangle_count": 60,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.08
+      ],
+      "bounds_m": [
+        [
+          -0.025,
+          -0.025,
+          0.0
+        ],
+        [
+          0.025,
+          0.025,
+          0.08
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-STAMP.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S03",
+        "EP01-S05",
+        "EP03-S08"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-INK",
+      "name": "印泥盒",
+      "category": "道具",
+      "recipe": "ink",
+      "scene_keys": [
+        "SC03",
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-INK.glb",
+      "sha256": "f9226caa632534d2cf2e5e938d85bb635d64872116fea9ac2f7fd61e1e6368be",
+      "triangle_count": 48,
+      "dimensions_m": [
+        0.11,
+        0.11,
+        0.012
+      ],
+      "bounds_m": [
+        [
+          -0.055,
+          -0.055,
+          0.0
+        ],
+        [
+          0.055,
+          0.055,
+          0.012
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-INK.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S05"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-BRUSH",
+      "name": "毛笔",
+      "category": "道具",
+      "recipe": "brush",
+      "scene_keys": [
+        "SC03",
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-BRUSH.glb",
+      "sha256": "d96b3b80827c8ad6260e5a6429193dc8fec28b6880bcfe437e881f301891949b",
+      "triangle_count": 96,
+      "dimensions_m": [
+        0.008,
+        0.008,
+        0.22
+      ],
+      "bounds_m": [
+        [
+          -0.004,
+          -0.004,
+          -0.03
+        ],
+        [
+          0.004,
+          0.004,
+          0.19
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-BRUSH.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S05",
+        "EP01-S06",
+        "EP01-S10",
+        "EP01-S11",
+        "EP02-S01",
+        "EP02-S02",
+        "EP02-S03",
+        "EP02-S04",
+        "EP02-S05",
+        "EP02-S06",
+        "EP02-S07",
+        "EP02-S08",
+        "EP02-S09",
+        "EP02-S10",
+        "EP02-S11"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-INKSTONE",
+      "name": "砚台",
+      "category": "道具",
+      "recipe": "inkstone",
+      "scene_keys": [
+        "SC03",
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-INKSTONE.glb",
+      "sha256": "37711d20c118a86efcafe1fbb7fd076093cc958dfdb4aa44d03f9c223e7e333c",
+      "triangle_count": 48,
+      "dimensions_m": [
+        0.11,
+        0.11,
+        0.012
+      ],
+      "bounds_m": [
+        [
+          -0.055,
+          -0.055,
+          0.0
+        ],
+        [
+          0.055,
+          0.055,
+          0.012
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-INKSTONE.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S05",
+        "EP01-S06",
+        "EP01-S10",
+        "EP01-S11",
+        "EP02-S01",
+        "EP02-S02",
+        "EP02-S03",
+        "EP02-S04",
+        "EP02-S05",
+        "EP02-S06",
+        "EP02-S07",
+        "EP02-S08",
+        "EP02-S09",
+        "EP02-S10",
+        "EP02-S11"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-ARCHIVEBOX",
+      "name": "档案木匣",
+      "category": "道具",
+      "recipe": "archivebox",
+      "scene_keys": [
+        "SC03"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-ARCHIVEBOX.glb",
+      "sha256": "df6a7f44ac18c9f2c51ef68bbcc5e9bebbc53831248e595fad1ceaa73ed17b9c",
+      "triangle_count": 48,
+      "dimensions_m": [
+        0.36,
+        0.23,
+        0.1625
+      ],
+      "bounds_m": [
+        [
+          -0.18,
+          -0.115,
+          0.0
+        ],
+        [
+          0.18,
+          0.115,
+          0.1625
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-ARCHIVEBOX.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S05",
+        "EP01-S06"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-INDEX",
+      "name": "索引牌",
+      "category": "道具",
+      "recipe": "badge",
+      "scene_keys": [
+        "SC03"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-INDEX.glb",
+      "sha256": "86ab920f163dbbbea684ec1bceafe8f3f1bf532f4cae901c77a5c9443f63380f",
+      "triangle_count": 60,
+      "dimensions_m": [
+        0.045,
+        0.027,
+        0.13
+      ],
+      "bounds_m": [
+        [
+          -0.0225,
+          -0.021,
+          0.0
+        ],
+        [
+          0.0225,
+          0.006,
+          0.13
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-INDEX.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S05",
+        "EP01-S06"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-COMPLAINT",
+      "name": "湿损状纸",
+      "category": "道具",
+      "recipe": "paper",
+      "scene_keys": [
+        "SC06",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-COMPLAINT.glb",
+      "sha256": "1be5b25841be2741772f1e10b852c43420d85a0afed1e353b4974825e1c8d86b",
+      "triangle_count": 16,
+      "dimensions_m": [
+        0.21,
+        0.3,
+        0.0005
+      ],
+      "bounds_m": [
+        [
+          -0.105,
+          -0.15,
+          0.0
+        ],
+        [
+          0.105,
+          0.15,
+          0.0005
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-COMPLAINT.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP03-S02",
+        "EP03-S04",
+        "EP03-S05",
+        "EP03-S07",
+        "EP03-S08",
+        "EP03-S09",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-PERMIT",
+      "name": "入京文牒",
+      "category": "道具",
+      "recipe": "paper",
+      "scene_keys": [
+        "SC06",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-PERMIT.glb",
+      "sha256": "29d4e05e1def9c7cceea9a08c246379f79729367af9b4acd330a52c9a5741945",
+      "triangle_count": 16,
+      "dimensions_m": [
+        0.12,
+        0.24,
+        0.0005
+      ],
+      "bounds_m": [
+        [
+          -0.06,
+          -0.12,
+          0.0
+        ],
+        [
+          0.06,
+          0.12,
+          0.0005
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-PERMIT.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP03-S03",
+        "EP03-S10",
+        "EP03-S11",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-LETTERBOX",
+      "name": "新信匣",
+      "category": "道具",
+      "recipe": "letterbox",
+      "scene_keys": [
+        "SC03",
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-LETTERBOX.glb",
+      "sha256": "09aa5237cd0b445780872ace3fc7631c1b2d7b4dec3ec6998b1255787b6a3377",
+      "triangle_count": 48,
+      "dimensions_m": [
+        0.24,
+        0.13,
+        0.0725
+      ],
+      "bounds_m": [
+        [
+          -0.12,
+          -0.065,
+          0.0
+        ],
+        [
+          0.12,
+          0.065,
+          0.07250000000000001
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-LETTERBOX.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S10",
+        "EP02-S02"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-TIE",
+      "name": "文书绳",
+      "category": "道具",
+      "recipe": "tie",
+      "scene_keys": [
+        "SC03",
+        "SC05",
+        "SC06"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-TIE.glb",
+      "sha256": "1cacee1049e41aa825303f19a04fa2c085ffcdd26e9f9537060c9e5943837f97",
+      "triangle_count": 96,
+      "dimensions_m": [
+        0.213991,
+        1.100509,
+        0.014
+      ],
+      "bounds_m": [
+        [
+          -0.10699537648562503,
+          -0.5502543773267501,
+          0.043000000000000003
+        ],
+        [
+          0.10699537648562503,
+          0.5502543773267501,
+          0.057
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-TIE.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP03-S02",
+        "EP03-S08"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-CANDLE",
+      "name": "蜡烛",
+      "category": "道具",
+      "recipe": "candle",
+      "scene_keys": [
+        "SC01",
+        "SC03"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-CANDLE.glb",
+      "sha256": "589bde3a6201836716113f29f0634e31c41f108abe1fd7f86761a4619c52551e",
+      "triangle_count": 96,
+      "dimensions_m": [
+        0.024,
+        0.024,
+        0.17
+      ],
+      "bounds_m": [
+        [
+          -0.012,
+          -0.012,
+          0.0
+        ],
+        [
+          0.012,
+          0.012,
+          0.17
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-CANDLE.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S01",
+        "EP01-S04"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-STAND",
+      "name": "烛台",
+      "category": "道具",
+      "recipe": "stand",
+      "scene_keys": [
+        "SC01",
+        "SC03"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-STAND.glb",
+      "sha256": "29b60c218a2829281d6d7b26f61d372fb0f451b59bf8ac8dab895df35e4cc657",
+      "triangle_count": 144,
+      "dimensions_m": [
+        0.11,
+        0.11,
+        0.182
+      ],
+      "bounds_m": [
+        [
+          -0.055,
+          -0.055,
+          0.0
+        ],
+        [
+          0.055,
+          0.055,
+          0.182
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-STAND.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S01",
+        "EP01-S04"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-LANTERN",
+      "name": "宫灯",
+      "category": "道具",
+      "recipe": "lantern",
+      "scene_keys": [
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-LANTERN.glb",
+      "sha256": "bc08ec2c18b2dc8ab67a515a1cf72bc8466174266e867832b5a92efddf7e32ba",
+      "triangle_count": 720,
+      "dimensions_m": [
+        0.38,
+        0.38,
+        0.525
+      ],
+      "bounds_m": [
+        [
+          -0.19,
+          -0.19,
+          0.075
+        ],
+        [
+          0.19,
+          0.19,
+          0.6
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-LANTERN.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP03-S10",
+        "EP03-S11",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-BOTTLE",
+      "name": "药瓶",
+      "category": "道具",
+      "recipe": "bottle",
+      "scene_keys": [
+        "SC06"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-BOTTLE.glb",
+      "sha256": "558fc23ce214b8036a6dd8c49ac92d8b0282516e06f9b252f6ebc98b6993a813",
+      "triangle_count": 168,
+      "dimensions_m": [
+        0.09,
+        0.09,
+        0.155
+      ],
+      "bounds_m": [
+        [
+          -0.045,
+          -0.045,
+          0.0050000000000000044
+        ],
+        [
+          0.045,
+          0.045,
+          0.16
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-BOTTLE.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP03-S01",
+        "EP03-S02",
+        "EP03-S03",
+        "EP03-S04",
+        "EP03-S05",
+        "EP03-S06",
+        "EP03-S07",
+        "EP03-S08",
+        "EP03-S09"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "PR-HERBS",
+      "name": "药材盘",
+      "category": "道具",
+      "recipe": "herbs",
+      "scene_keys": [
+        "SC04",
+        "SC06"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-HERBS.glb",
+      "sha256": "b2a11d1f91e83e4104adcfb920a76471deedbf16b10707c1cb4a3629a7e37668",
+      "triangle_count": 1488,
+      "dimensions_m": [
+        0.24,
+        0.24,
+        0.026
+      ],
+      "bounds_m": [
+        [
+          -0.12,
+          -0.12,
+          0.0
+        ],
+        [
+          0.12,
+          0.12,
+          0.026
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-HERBS.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "reusable_component_or_alternative_not_yet_assigned"
+    },
+    {
+      "id": "PR-JUG",
+      "name": "水壶",
+      "category": "道具",
+      "recipe": "jug",
+      "scene_keys": [
+        "SC06"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/PR-JUG.glb",
+      "sha256": "61e4b52daeace81d3e1f9692ae4898112ed372617baa73b008e2b80960d4c319",
+      "triangle_count": 408,
+      "dimensions_m": [
+        0.28,
+        0.18,
+        0.285
+      ],
+      "bounds_m": [
+        [
+          -0.09,
+          -0.09,
+          0.0050000000000000044
+        ],
+        [
+          0.19,
+          0.09,
+          0.29
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/PR-JUG.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP03-S01",
+        "EP03-S02",
+        "EP03-S03",
+        "EP03-S04",
+        "EP03-S05",
+        "EP03-S06",
+        "EP03-S07",
+        "EP03-S08",
+        "EP03-S09"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "VH-CART",
+      "name": "木车车体",
+      "category": "车马组件",
+      "recipe": "cart",
+      "scene_keys": [
+        "SC04",
+        "SC06",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/VH-CART.glb",
+      "sha256": "e1ddf2bfa88d90cda85a88e93fc5afb1caa39aa476b81f99dc642f598a026d49",
+      "triangle_count": 144,
+      "dimensions_m": [
+        1.16,
+        3.857684,
+        0.874897
+      ],
+      "bounds_m": [
+        [
+          -0.5800000000000001,
+          -0.9550000000000001,
+          0.3651030930074447
+        ],
+        [
+          0.5800000000000001,
+          2.902684377460966,
+          1.24
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/VH-CART.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S07",
+        "EP01-S08",
+        "EP01-S09",
+        "EP03-S01",
+        "EP03-S02",
+        "EP03-S03",
+        "EP03-S04",
+        "EP03-S05",
+        "EP03-S06",
+        "EP03-S07",
+        "EP03-S08",
+        "EP03-S09"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "VH-CANOPY",
+      "name": "车篷",
+      "category": "车马组件",
+      "recipe": "canopy",
+      "scene_keys": [
+        "SC04",
+        "SC06",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/VH-CANOPY.glb",
+      "sha256": "a79757972e1318c5f72c3cf3cbb1b5f34800de740fe13dedd035b39c9fbc5578",
+      "triangle_count": 876,
+      "dimensions_m": [
+        1.136,
+        1.8,
+        1.257463
+      ],
+      "bounds_m": [
+        [
+          -0.5680000000000001,
+          -0.9,
+          0.0
+        ],
+        [
+          0.5680000000000001,
+          0.9,
+          1.2574625650026159
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/VH-CANOPY.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S07",
+        "EP01-S08",
+        "EP01-S09"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "VH-WHEEL",
+      "name": "辐条车轮",
+      "category": "车马组件",
+      "recipe": "wheel",
+      "scene_keys": [
+        "SC04",
+        "SC06",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/VH-WHEEL.glb",
+      "sha256": "01373cecdee26025fea92bf3636f2b6eebefc5799fe50690e89e9edcf00a6eb1",
+      "triangle_count": 864,
+      "dimensions_m": [
+        0.16,
+        1.03,
+        1.03
+      ],
+      "bounds_m": [
+        [
+          -0.08,
+          -0.515,
+          0.0
+        ],
+        [
+          0.08,
+          0.515,
+          1.03
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/VH-WHEEL.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S07",
+        "EP01-S08",
+        "EP01-S09",
+        "EP03-S01",
+        "EP03-S02",
+        "EP03-S03",
+        "EP03-S04",
+        "EP03-S05",
+        "EP03-S06",
+        "EP03-S07",
+        "EP03-S08",
+        "EP03-S09"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "VH-AXLE",
+      "name": "完整车轴",
+      "category": "车马组件",
+      "recipe": "axle",
+      "scene_keys": [
+        "SC04",
+        "SC06"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/VH-AXLE.glb",
+      "sha256": "fb2e3e6026a2663737425f2ecde8f46aa886f9e30559555fc8c2b7c8a13a040b",
+      "triangle_count": 48,
+      "dimensions_m": [
+        1.55,
+        0.09,
+        0.09
+      ],
+      "bounds_m": [
+        [
+          -0.775,
+          -0.045,
+          0.0050000000000000044
+        ],
+        [
+          0.775,
+          0.045,
+          0.095
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/VH-AXLE.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S07",
+        "EP01-S08",
+        "EP01-S09",
+        "EP03-S01",
+        "EP03-S02",
+        "EP03-S03",
+        "EP03-S04",
+        "EP03-S05",
+        "EP03-S06",
+        "EP03-S07",
+        "EP03-S08",
+        "EP03-S09"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "VH-AXLE-BROKEN",
+      "name": "断裂车轴",
+      "category": "车马组件",
+      "recipe": "broken_axle",
+      "scene_keys": [
+        "SC06"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/VH-AXLE-BROKEN.glb",
+      "sha256": "6949a21c608ee7a9c14498d7ded80477b5c92db0acc35e286081b55ccae37b19",
+      "triangle_count": 96,
+      "dimensions_m": [
+        1.557709,
+        0.209616,
+        0.199684
+      ],
+      "bounds_m": [
+        [
+          -0.775,
+          -0.045,
+          0.0050000000000000044
+        ],
+        [
+          0.7827092305445547,
+          0.16461578805873564,
+          0.2046836447495961
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/VH-AXLE-BROKEN.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP03-S05",
+        "EP03-S08"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "VH-BOARD",
+      "name": "车厢折叠板",
+      "category": "车马组件",
+      "recipe": "foldboard",
+      "scene_keys": [
+        "SC04"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/VH-BOARD.glb",
+      "sha256": "ec58e5eb9760b34becb76d10595218f86f6150c32f57685637b2200aa7bf7101",
+      "triangle_count": 108,
+      "dimensions_m": [
+        0.62,
+        0.4,
+        0.342859
+      ],
+      "bounds_m": [
+        [
+          -0.31,
+          -0.2,
+          -0.3078591664610141
+        ],
+        [
+          0.31,
+          0.2,
+          0.035
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/VH-BOARD.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S07",
+        "EP01-S08",
+        "EP01-S09"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "VH-DRAWBAR",
+      "name": "辕木",
+      "category": "车马组件",
+      "recipe": "drawbar",
+      "scene_keys": [
+        "SC04",
+        "SC06"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/VH-DRAWBAR.glb",
+      "sha256": "a03b074e0b20be33c7d29c6541834c5d2dc90cda68e4522d81fd7c16b4b30ee8",
+      "triangle_count": 48,
+      "dimensions_m": [
+        2.4,
+        0.09,
+        0.09
+      ],
+      "bounds_m": [
+        [
+          -1.2,
+          -0.045,
+          0.0050000000000000044
+        ],
+        [
+          1.2,
+          0.045,
+          0.095
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/VH-DRAWBAR.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S07",
+        "EP01-S08",
+        "EP01-S09"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "VH-REINS",
+      "name": "缰绳",
+      "category": "车马组件",
+      "recipe": "reins",
+      "scene_keys": [
+        "SC04",
+        "SC06",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/VH-REINS.glb",
+      "sha256": "848e4aa090d648befa7aa760e793f4a50cdc77b35a5e88369683e8e8538285f0",
+      "triangle_count": 96,
+      "dimensions_m": [
+        0.213991,
+        1.100509,
+        0.014
+      ],
+      "bounds_m": [
+        [
+          -0.10699537648562503,
+          -0.5502543773267501,
+          0.043000000000000003
+        ],
+        [
+          0.10699537648562503,
+          0.5502543773267501,
+          0.057
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/VH-REINS.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S07",
+        "EP03-S03",
+        "EP03-S10",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "AR-WALL",
+      "name": "室内墙体",
+      "category": "建筑家具",
+      "recipe": "wall",
+      "scene_keys": [
+        "SC01",
+        "SC03",
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/AR-WALL.glb",
+      "sha256": "74a641a0be4de755f7089517f173250d3e856a2581a82a3475e5112cc6a6e978",
+      "triangle_count": 12,
+      "dimensions_m": [
+        3.0,
+        0.14,
+        2.8
+      ],
+      "bounds_m": [
+        [
+          -1.5,
+          -0.07,
+          0.0
+        ],
+        [
+          1.5,
+          0.07,
+          2.8
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/AR-WALL.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S01",
+        "EP01-S04",
+        "EP01-S05",
+        "EP01-S06",
+        "EP01-S10",
+        "EP01-S11"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "AR-FLOOR",
+      "name": "木地板",
+      "category": "建筑家具",
+      "recipe": "floor",
+      "scene_keys": [
+        "SC01",
+        "SC03",
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/AR-FLOOR.glb",
+      "sha256": "7d67202cc28b56bd62ee3f3ff427a172392b8cd059f412d8e395797eeb131ba0",
+      "triangle_count": 12,
+      "dimensions_m": [
+        3.0,
+        3.0,
+        0.08
+      ],
+      "bounds_m": [
+        [
+          -1.5,
+          -1.5,
+          0.0
+        ],
+        [
+          1.5,
+          1.5,
+          0.08
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/AR-FLOOR.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S01",
+        "EP01-S04",
+        "EP01-S05",
+        "EP01-S06",
+        "EP01-S10",
+        "EP01-S11",
+        "EP02-S01",
+        "EP02-S02",
+        "EP02-S03",
+        "EP02-S04",
+        "EP02-S05",
+        "EP02-S06",
+        "EP02-S07",
+        "EP02-S08",
+        "EP02-S09",
+        "EP02-S10",
+        "EP02-S11"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "AR-BEAM",
+      "name": "屋梁",
+      "category": "建筑家具",
+      "recipe": "beam",
+      "scene_keys": [
+        "SC01",
+        "SC03",
+        "SC05",
+        "SC06"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/AR-BEAM.glb",
+      "sha256": "5bd7656940771910d6e6eb100fc23b17ab55986580f8448c069c3c3fe3fdef43",
+      "triangle_count": 12,
+      "dimensions_m": [
+        3.0,
+        0.18,
+        0.23
+      ],
+      "bounds_m": [
+        [
+          -1.5,
+          -0.09,
+          0.0
+        ],
+        [
+          1.5,
+          0.09,
+          0.23
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/AR-BEAM.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S01",
+        "EP01-S04",
+        "EP01-S05",
+        "EP01-S06",
+        "EP01-S10",
+        "EP01-S11",
+        "EP02-S01",
+        "EP02-S02",
+        "EP02-S03",
+        "EP02-S04",
+        "EP02-S05",
+        "EP02-S06",
+        "EP02-S07",
+        "EP02-S08",
+        "EP02-S09",
+        "EP02-S10",
+        "EP02-S11"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "AR-COLUMN",
+      "name": "廊柱",
+      "category": "建筑家具",
+      "recipe": "column",
+      "scene_keys": [
+        "SC03",
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/AR-COLUMN.glb",
+      "sha256": "f2f9d484b9f63f14c947d1d0ca3896014c12331346dbb7181d8377e4ecd22d01",
+      "triangle_count": 12,
+      "dimensions_m": [
+        0.24,
+        0.24,
+        2.8
+      ],
+      "bounds_m": [
+        [
+          -0.12,
+          -0.12,
+          0.0
+        ],
+        [
+          0.12,
+          0.12,
+          2.8
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/AR-COLUMN.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP02-S01",
+        "EP02-S02",
+        "EP02-S03",
+        "EP02-S04",
+        "EP02-S05",
+        "EP02-S06",
+        "EP02-S07",
+        "EP02-S08",
+        "EP02-S09",
+        "EP02-S10",
+        "EP02-S11"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "AR-ROOF",
+      "name": "瓦屋顶模块",
+      "category": "建筑家具",
+      "recipe": "roof",
+      "scene_keys": [
+        "SC01",
+        "SC03",
+        "SC05",
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/AR-ROOF.glb",
+      "sha256": "12dfaa83822047ed8fb078ae861a69281949f852d026891f25bfa3be2d142c9e",
+      "triangle_count": 24,
+      "dimensions_m": [
+        2.448962,
+        2.0,
+        0.519802
+      ],
+      "bounds_m": [
+        [
+          -1.2244810092438674,
+          -1.0,
+          0.14009920200687898
+        ],
+        [
+          1.2244810092438674,
+          1.0,
+          0.6599007979931211
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/AR-ROOF.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP02-S01",
+        "EP02-S02",
+        "EP02-S03",
+        "EP02-S04",
+        "EP02-S05",
+        "EP02-S06",
+        "EP02-S07",
+        "EP02-S08",
+        "EP02-S09",
+        "EP02-S10",
+        "EP02-S11"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "AR-WINDOW",
+      "name": "格窗",
+      "category": "建筑家具",
+      "recipe": "window",
+      "scene_keys": [
+        "SC01",
+        "SC03",
+        "SC04"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/AR-WINDOW.glb",
+      "sha256": "4a7f64723ac4cd1e5ba8f2cc7ec742f1f80ca55fe0e43c68f40510e40ce4c842",
+      "triangle_count": 192,
+      "dimensions_m": [
+        0.96,
+        0.08,
+        1.26
+      ],
+      "bounds_m": [
+        [
+          -0.48,
+          -0.04,
+          -0.03
+        ],
+        [
+          0.48,
+          0.04,
+          1.23
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/AR-WINDOW.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S01",
+        "EP01-S04",
+        "EP01-S05",
+        "EP01-S06",
+        "EP01-S10",
+        "EP01-S11"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "AR-DOOR",
+      "name": "木门",
+      "category": "建筑家具",
+      "recipe": "door",
+      "scene_keys": [
+        "SC01",
+        "SC03"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/AR-DOOR.glb",
+      "sha256": "53ba90805b19361353586e77bc7f973ec009dfddc61ec8ef978d95440ab5314a",
+      "triangle_count": 252,
+      "dimensions_m": [
+        0.9,
+        0.122794,
+        2.05
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.07779422863405995,
+          0.0
+        ],
+        [
+          0.9,
+          0.045,
+          2.05
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/AR-DOOR.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S01",
+        "EP01-S04",
+        "EP01-S05",
+        "EP01-S06",
+        "EP01-S10",
+        "EP01-S11"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "AR-BED",
+      "name": "床榻",
+      "category": "建筑家具",
+      "recipe": "bed",
+      "scene_keys": [
+        "SC01"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/AR-BED.glb",
+      "sha256": "7f0f6a4f6a7c08d7b7d05dc0f7ca2a103f30eff6ffc0beffab190e7b08af0ea5",
+      "triangle_count": 192,
+      "dimensions_m": [
+        1.35,
+        2.05,
+        0.58
+      ],
+      "bounds_m": [
+        [
+          -0.675,
+          -1.025,
+          0.0
+        ],
+        [
+          0.675,
+          1.025,
+          0.5800000000000001
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/AR-BED.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S01",
+        "EP01-S04"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "AR-DESK",
+      "name": "长案",
+      "category": "建筑家具",
+      "recipe": "desk",
+      "scene_keys": [
+        "SC01",
+        "SC03",
+        "SC05",
+        "SC06"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/AR-DESK.glb",
+      "sha256": "2ae0e7521e060b99b69fd0b951be8f86640ad28f5bcc4bbf60dbcb1903e30ac7",
+      "triangle_count": 60,
+      "dimensions_m": [
+        1.2,
+        0.7,
+        0.74
+      ],
+      "bounds_m": [
+        [
+          -0.6,
+          -0.35,
+          0.0
+        ],
+        [
+          0.6,
+          0.35,
+          0.74
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/AR-DESK.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S01",
+        "EP01-S04",
+        "EP01-S05",
+        "EP01-S06",
+        "EP01-S10",
+        "EP01-S11",
+        "EP02-S01",
+        "EP02-S02",
+        "EP02-S03",
+        "EP02-S04",
+        "EP02-S05",
+        "EP02-S06",
+        "EP02-S07",
+        "EP02-S08",
+        "EP02-S09",
+        "EP02-S10",
+        "EP02-S11",
+        "EP03-S01",
+        "EP03-S02",
+        "EP03-S03",
+        "EP03-S04",
+        "EP03-S05",
+        "EP03-S06",
+        "EP03-S07",
+        "EP03-S08",
+        "EP03-S09"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "AR-CABINET",
+      "name": "档案高柜",
+      "category": "建筑家具",
+      "recipe": "cabinet",
+      "scene_keys": [
+        "SC03"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/AR-CABINET.glb",
+      "sha256": "ba6c976a4e217f7db9376757f9ac2e40a6ee581fde40205d00c382fe857a035e",
+      "triangle_count": 144,
+      "dimensions_m": [
+        1.15,
+        0.545,
+        2.17
+      ],
+      "bounds_m": [
+        [
+          -0.5750000000000001,
+          -0.28,
+          0.0
+        ],
+        [
+          0.5750000000000001,
+          0.265,
+          2.17
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/AR-CABINET.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S05",
+        "EP01-S06",
+        "EP01-S10",
+        "EP01-S11"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "AR-CHAIR",
+      "name": "椅凳",
+      "category": "建筑家具",
+      "recipe": "chair",
+      "scene_keys": [
+        "SC03",
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/AR-CHAIR.glb",
+      "sha256": "7f9f4bfb814cb3b967c3b40a5e3bf6ef3fe451840ed2ebaff567675276ea43a8",
+      "triangle_count": 72,
+      "dimensions_m": [
+        0.42,
+        0.42,
+        0.87
+      ],
+      "bounds_m": [
+        [
+          -0.21,
+          -0.21,
+          0.0
+        ],
+        [
+          0.21,
+          0.21,
+          0.8700000000000001
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/AR-CHAIR.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "reusable_component_or_alternative_not_yet_assigned"
+    },
+    {
+      "id": "AR-AWNING",
+      "name": "路旁雨棚",
+      "category": "建筑家具",
+      "recipe": "awning",
+      "scene_keys": [
+        "SC06"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/AR-AWNING.glb",
+      "sha256": "cde565d12ca62e4788f7006102dd09675302227e3e6923cf881e2cc9b3c1ffb1",
+      "triangle_count": 216,
+      "dimensions_m": [
+        2.448962,
+        2.0,
+        2.659901
+      ],
+      "bounds_m": [
+        [
+          -1.2244810092438674,
+          -1.0,
+          0.0
+        ],
+        [
+          1.2244810092438674,
+          1.0,
+          2.659900797993121
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/AR-AWNING.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP03-S01",
+        "EP03-S02",
+        "EP03-S03",
+        "EP03-S04",
+        "EP03-S05",
+        "EP03-S06",
+        "EP03-S07",
+        "EP03-S08",
+        "EP03-S09"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "AR-GATEWALL",
+      "name": "城墙",
+      "category": "建筑家具",
+      "recipe": "gatewall",
+      "scene_keys": [
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/AR-GATEWALL.glb",
+      "sha256": "09eb67ccaefddbc8d6b53987ff014f0ba45a787abee51a0c9fbe518857df690e",
+      "triangle_count": 12,
+      "dimensions_m": [
+        8.0,
+        1.2,
+        7.0
+      ],
+      "bounds_m": [
+        [
+          -4.0,
+          -0.6,
+          0.0
+        ],
+        [
+          4.0,
+          0.6,
+          7.0
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/AR-GATEWALL.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP03-S10",
+        "EP03-S11",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "AR-GATE",
+      "name": "城门门洞",
+      "category": "建筑家具",
+      "recipe": "gate",
+      "scene_keys": [
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/AR-GATE.glb",
+      "sha256": "073302d188a5036d888c13cd132a904f60c4b2bc3b5acc1d56e376aa589b2c58",
+      "triangle_count": 36,
+      "dimensions_m": [
+        8.0,
+        1.1,
+        6.3
+      ],
+      "bounds_m": [
+        [
+          -4.0,
+          -0.55,
+          0.0
+        ],
+        [
+          4.0,
+          0.55,
+          6.3
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/AR-GATE.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP03-S10",
+        "EP03-S11",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "AR-GATELEAF",
+      "name": "朱门门扇",
+      "category": "建筑家具",
+      "recipe": "gateleaf",
+      "scene_keys": [
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/AR-GATELEAF.glb",
+      "sha256": "840e77ab106ff58d2dd71ac7c828dc35e942f49c04b6b8a5ce8128ce644e3fb0",
+      "triangle_count": 252,
+      "dimensions_m": [
+        2.1,
+        0.122794,
+        4.5
+      ],
+      "bounds_m": [
+        [
+          0.0,
+          -0.07779422863405995,
+          0.0
+        ],
+        [
+          2.1,
+          0.045,
+          4.5
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/AR-GATELEAF.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP03-S10",
+        "EP03-S11",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "AR-LIGHT",
+      "name": "宫灯悬架",
+      "category": "建筑家具",
+      "recipe": "lightframe",
+      "scene_keys": [
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/AR-LIGHT.glb",
+      "sha256": "903c1e57691e124bdd03e333c041744f94ef26ff8f3157b6b8dd7feb11416eba",
+      "triangle_count": 12,
+      "dimensions_m": [
+        0.1,
+        0.65,
+        0.1
+      ],
+      "bounds_m": [
+        [
+          -0.05,
+          -0.325,
+          0.0
+        ],
+        [
+          0.05,
+          0.325,
+          0.1
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/AR-LIGHT.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP03-S10",
+        "EP03-S11",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "AR-STEP",
+      "name": "门槛台阶",
+      "category": "建筑家具",
+      "recipe": "step",
+      "scene_keys": [
+        "SC01",
+        "SC03",
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/AR-STEP.glb",
+      "sha256": "850c8a38310612bad372e8cb26c13b11e4144efe8645adf35de6f770ed433d4a",
+      "triangle_count": 12,
+      "dimensions_m": [
+        1.3,
+        0.34,
+        0.12
+      ],
+      "bounds_m": [
+        [
+          -0.65,
+          -0.17,
+          0.0
+        ],
+        [
+          0.65,
+          0.17,
+          0.12
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/AR-STEP.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S05",
+        "EP01-S06",
+        "EP01-S10",
+        "EP01-S11"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "AR-BRIDGE",
+      "name": "木桥",
+      "category": "建筑家具",
+      "recipe": "bridge",
+      "scene_keys": [
+        "SC05"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/AR-BRIDGE.glb",
+      "sha256": "075f82f88595c7d81c6fb1b72526d8cfcd1cf8d9f8fc459285a4990f1fc2199d",
+      "triangle_count": 396,
+      "dimensions_m": [
+        1.83,
+        4.0,
+        1.06
+      ],
+      "bounds_m": [
+        [
+          -0.915,
+          -2.0,
+          0.24
+        ],
+        [
+          0.915,
+          2.0,
+          1.3
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/AR-BRIDGE.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP02-S01",
+        "EP02-S02",
+        "EP02-S03",
+        "EP02-S04",
+        "EP02-S05",
+        "EP02-S06",
+        "EP02-S07",
+        "EP02-S08",
+        "EP02-S09",
+        "EP02-S10",
+        "EP02-S11"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "ENV-DIRT",
+      "name": "泥土道路",
+      "category": "道路环境",
+      "recipe": "road",
+      "scene_keys": [
+        "SC04",
+        "SC06"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/ENV-DIRT.glb",
+      "sha256": "b20e70aef410e0a1a3759932a192caf546035a3971d089e450a6773d85ef9cf8",
+      "triangle_count": 12,
+      "dimensions_m": [
+        3.4,
+        6.0,
+        0.08
+      ],
+      "bounds_m": [
+        [
+          -1.7,
+          -3.0,
+          -0.08
+        ],
+        [
+          1.7,
+          3.0,
+          0.0
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/ENV-DIRT.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP03-S01",
+        "EP03-S02",
+        "EP03-S03",
+        "EP03-S04",
+        "EP03-S05",
+        "EP03-S06",
+        "EP03-S07",
+        "EP03-S08",
+        "EP03-S09"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "ENV-SNOWROAD",
+      "name": "雪道路面",
+      "category": "道路环境",
+      "recipe": "road",
+      "scene_keys": [
+        "SC02",
+        "SC04"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/ENV-SNOWROAD.glb",
+      "sha256": "feb5b4a63e42e12f2c6d88d5de2ca4ee71b54eead5b761e0ffb7bb2da6a23f4c",
+      "triangle_count": 12,
+      "dimensions_m": [
+        3.4,
+        6.0,
+        0.08
+      ],
+      "bounds_m": [
+        [
+          -1.7,
+          -3.0,
+          -0.08
+        ],
+        [
+          1.7,
+          3.0,
+          0.0
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/ENV-SNOWROAD.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S02",
+        "EP01-S03",
+        "EP01-S04",
+        "EP01-S07",
+        "EP01-S08",
+        "EP01-S09"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "ENV-PAVING",
+      "name": "湿石板路",
+      "category": "道路环境",
+      "recipe": "paving",
+      "scene_keys": [
+        "SC07"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/ENV-PAVING.glb",
+      "sha256": "f8d2784d3e1db10f6e918d574167ada806ba31aabc3e6f54cdeb5ed8a9545c6f",
+      "triangle_count": 420,
+      "dimensions_m": [
+        2.53,
+        4.95,
+        0.06
+      ],
+      "bounds_m": [
+        [
+          -1.2650000000000001,
+          -2.4749999999999996,
+          -0.06
+        ],
+        [
+          1.2650000000000001,
+          2.4749999999999996,
+          0.0
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/ENV-PAVING.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP03-S10",
+        "EP03-S11",
+        "EP03-S12"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "ENV-SNOWBANK",
+      "name": "雪堆",
+      "category": "道路环境",
+      "recipe": "snowbank",
+      "scene_keys": [
+        "SC02",
+        "SC04"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/ENV-SNOWBANK.glb",
+      "sha256": "56f8ae3fc61ad292e58b4261cdec93030f24adcbef2fe483d3b5664e28fe7605",
+      "triangle_count": 120,
+      "dimensions_m": [
+        1.7,
+        1.15,
+        0.6
+      ],
+      "bounds_m": [
+        [
+          -0.85,
+          -0.575,
+          -0.15
+        ],
+        [
+          0.85,
+          0.575,
+          0.44999999999999996
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/ENV-SNOWBANK.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S02",
+        "EP01-S03",
+        "EP01-S04",
+        "EP01-S07",
+        "EP01-S08",
+        "EP01-S09"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "ENV-ROCK",
+      "name": "山石",
+      "category": "道路环境",
+      "recipe": "rock",
+      "scene_keys": [
+        "SC02",
+        "SC04"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/ENV-ROCK.glb",
+      "sha256": "273f2c7bd8e1de695232958ed312b44936549237653b6c909eba35d553646d56",
+      "triangle_count": 120,
+      "dimensions_m": [
+        0.8,
+        0.6,
+        0.7
+      ],
+      "bounds_m": [
+        [
+          -0.4,
+          -0.3,
+          -0.19999999999999998
+        ],
+        [
+          0.4,
+          0.3,
+          0.5
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/ENV-ROCK.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S02",
+        "EP01-S03",
+        "EP01-S04"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "ENV-BROKENWOOD",
+      "name": "断木",
+      "category": "道路环境",
+      "recipe": "timber",
+      "scene_keys": [
+        "SC02"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/ENV-BROKENWOOD.glb",
+      "sha256": "7daff2d2adf0f80bf2bea08821a8bec0c9e0dbb976abebc60133b24f10ae42ba",
+      "triangle_count": 12,
+      "dimensions_m": [
+        0.18,
+        1.3,
+        0.15
+      ],
+      "bounds_m": [
+        [
+          -0.09,
+          -0.65,
+          0.0
+        ],
+        [
+          0.09,
+          0.65,
+          0.15
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/ENV-BROKENWOOD.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S02",
+        "EP01-S03",
+        "EP01-S04"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "ENV-FLAG",
+      "name": "残旗与旗杆",
+      "category": "道路环境",
+      "recipe": "flag",
+      "scene_keys": [
+        "SC02",
+        "SC04"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/ENV-FLAG.glb",
+      "sha256": "f4077ea348615facba401aecfa1a9026577f0a64ed3088f1e013a63a3f3fdf81",
+      "triangle_count": 51,
+      "dimensions_m": [
+        0.885,
+        0.05,
+        2.3
+      ],
+      "bounds_m": [
+        [
+          -0.025,
+          -0.025,
+          0.0
+        ],
+        [
+          0.86,
+          0.025,
+          2.3
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/ENV-FLAG.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S02",
+        "EP01-S03",
+        "EP01-S04"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "ENV-TREE",
+      "name": "落叶树体块",
+      "category": "道路环境",
+      "recipe": "tree",
+      "scene_keys": [
+        "SC04"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/ENV-TREE.glb",
+      "sha256": "612c7d4e0874c2c3853172727ad8f5397b038e77b280be2bd81b93d61e6c90d2",
+      "triangle_count": 336,
+      "dimensions_m": [
+        1.759805,
+        1.540053,
+        3.8
+      ],
+      "bounds_m": [
+        [
+          -0.8798879124804381,
+          -0.7717750629540043,
+          0.0
+        ],
+        [
+          0.8799175630327606,
+          0.768277615193543,
+          3.8
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/ENV-TREE.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S07",
+        "EP01-S08",
+        "EP01-S09"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    },
+    {
+      "id": "ENV-BRAZIER",
+      "name": "远处火盆",
+      "category": "道路环境",
+      "recipe": "brazier",
+      "scene_keys": [
+        "SC02"
+      ],
+      "source_basis": "剧本、角色/道具锚点及场景清单中的可见实体；尺寸为制作设计值，非实测",
+      "model_status": "proxy_mesh_v1",
+      "production_approval": false,
+      "file": "models/ENV-BRAZIER.glb",
+      "sha256": "ff54aa547f705d628634033fa15ed94b8c127e8e90b752f150bd8192db633ad7",
+      "triangle_count": 192,
+      "dimensions_m": [
+        0.5,
+        0.5,
+        0.52
+      ],
+      "bounds_m": [
+        [
+          -0.25,
+          -0.25,
+          0.0
+        ],
+        [
+          0.25,
+          0.25,
+          0.52
+        ]
+      ],
+      "units": "metre",
+      "authoring_up_axis": "+Z",
+      "glb_export_up_axis": "+Y",
+      "material_status": "flat_proxy_colors",
+      "preview": "previews/ENV-BRAZIER.png",
+      "limitations": [
+        "代理体块，未经最终美术和逐镜头几何验收",
+        "人物无精确面容雕刻与蒙皮；动物步态/碰撞尚未求解"
+      ],
+      "logical_shot_candidates": [
+        "EP01-S02",
+        "EP01-S03",
+        "EP01-S04"
+      ],
+      "source_files": [
+        "docs/CHARACTER-ANCHORS.md",
+        "docs/SCENE-PROP-ANCHORS.md",
+        "production/workflow-v1.json"
+      ],
+      "deployment": "planned_shot_use"
+    }
+  ],
+  "p01_assembly": "scenes/P01-assembly-v1.glb"
+}

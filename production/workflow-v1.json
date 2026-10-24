@@ -3576,6 +3576,19 @@
     "approval_state": "all_scopes_blocked",
     "legacy_rasters": "concept_only",
     "native_gate_node": "392f6572-3314-5412-81cf-4b85f6e3d50a",
-    "physical_validation_status": "not_built_except_partial_P01_prop"
+    "physical_validation_status": "100_proxy_models_and_partial_P01_scene_built_no_complete_scene_review"
+  },
+  "asset_library": {
+    "version": 1,
+    "status": "proxy_meshes_built_not_approved",
+    "catalog": {
+      "path": "production/asset-library/catalog-v1.json",
+      "sha256": "356eb9d7242d3963f84a76fef5830aef4866c570c8208d6b664f708f4fd3d858"
+    },
+    "shot_map": {
+      "path": "production/asset-library/shot-asset-map-v1.json",
+      "sha256": "9bede1f124738f674b8640ccde84fb147eacd856cfbca4ab0a9f0c824189bb5e"
+    },
+    "policy": "Every visible entity requires a reusable asset and explicit scene instance; proxy creation never grants production approval."
   }
 }

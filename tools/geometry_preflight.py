@@ -20,17 +20,20 @@ POLICY_VERSION = 'mandatory-3d-v1'
 
 def source_hash(record, blueprint):
     # Source poses must be tied to the current entire asset context, not a stale picture.
-    payload = {'policy': POLICY_VERSION, 'record': record, 'asset_manifest': blueprint['asset_manifest']}
+    payload = {'policy': POLICY_VERSION, 'record': record, 'asset_manifest': blueprint['asset_manifest'],
+               'asset_library': blueprint.get('asset_library')}
     return hashlib.sha256(json.dumps(payload, ensure_ascii=False, sort_keys=True,
                                      separators=(',', ':')).encode()).hexdigest()
 
 
-def expected_sources(blueprint):
+def expected_sources(blueprint, library=None):
     result = {'ASSET:' + a['key']: source_hash(a, blueprint) for a in blueprint['asset_manifest']}
     for shot in blueprint['shots']:
         for clip in shot['clips']:
             result[clip['key']] = source_hash({'shot': shot, 'clip': clip}, blueprint)
     result['PILOT:EP01S08-5S'] = source_hash(blueprint['pilot'], blueprint)
+    for asset in (library or {}).get('assets', []):
+        result['LIB:' + asset['id']] = source_hash(asset, blueprint)
     return result
 
 
@@ -47,6 +50,38 @@ def checked_file(ref, root, label, errors):
     if ref.get('sha256') != actual:
         errors.append(label + ': file changed or SHA-256 missing'); return None
     return path
+
+
+def load_asset_library(blueprint, root):
+    """Fail closed if any declared library source or actual mesh has changed."""
+    root = root.resolve()
+    refs = blueprint.get('asset_library')
+    if not isinstance(refs, dict):
+        raise ValueError('asset_library references missing')
+    errors = []
+    catalog_path = checked_file(refs.get('catalog'), root, 'library catalog', errors)
+    mapping_path = checked_file(refs.get('shot_map'), root, 'library shot map', errors)
+    if errors:
+        raise ValueError('; '.join(errors))
+    catalog = json.loads(catalog_path.read_text())
+    mapping = json.loads(mapping_path.read_text())
+    assets = catalog.get('assets', [])
+    ids = [a['id'] for a in assets]
+    if len(set(ids)) != len(ids) or len(ids) != catalog.get('asset_count') or not ids:
+        raise ValueError('library asset count or IDs invalid')
+    for asset in assets:
+        checked_file({'path': str(catalog_path.parent.relative_to(root) / asset['file']),
+                      'sha256': asset['sha256']}, root, asset['id'], errors)
+    actual_clips = [c for s in mapping.get('shots', []) for c in s.get('clip_keys', [])]
+    expected_clips = [c['key'] for s in blueprint['shots'] for c in s['clips']]
+    if sorted(actual_clips) != sorted(expected_clips):
+        errors.append('library shot mapping does not cover exact production clips')
+    for shot in mapping.get('shots', []):
+        if not set(shot.get('asset_ids', [])) <= set(ids):
+            errors.append('library shot uses unknown asset')
+    if errors:
+        raise ValueError('; '.join(errors))
+    return catalog
 
 
 def artifact_set_hash(entry):
@@ -116,7 +151,11 @@ def main():
     root = Path(__file__).resolve().parents[1]
     manifest = json.loads((root / args.manifest).read_text())
     blueprint = json.loads((root / 'production/workflow-v1.json').read_text())
-    expected = expected_sources(blueprint)
+    try:
+        library = load_asset_library(blueprint, root)
+    except (ValueError, KeyError, OSError, TypeError) as exc:
+        print(json.dumps({'allowed': False, 'error': str(exc)}, ensure_ascii=False)); return 2
+    expected = expected_sources(blueprint, library)
     repair = json.loads((root / 'production/p01-lid-repair-v2/repair-plan.json').read_text())
     expected['REPAIR:P01-v2'] = source_hash({'prompt': repair['prompt'], 'guide_sha256': repair['guide_sha256']}, blueprint)
     entries = manifest.get('entries', [])

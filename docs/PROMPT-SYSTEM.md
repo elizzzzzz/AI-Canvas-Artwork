@@ -31,13 +31,21 @@ FAILURE_RECOVERY_NOTE
 
 第一集 S07：梅长苏在雪夜追赶装有赤焰旧档的药箱。
 
-## 图片基准提示词
+## 优化后的图片基准提示词
 
-> 9:16 vertical realistic ancient Chinese historical drama, strict first-person subjective POV of a sick but composed strategist moving through a blue-black snowy night, visible gloved hands and the edge of a grey-blue sleeve in the lower frame, one half-open wooden medicine chest with a damp paper military report inside, a red remnant flag blurred in the distance, horse tracks and a fleeing cart ahead, cold moonlight from behind, restrained dark-red accents, wet paper texture, wood grain, snow particles, cinematic natural lighting, shallow depth of field, realistic human-scale perspective, no visible third-person body, no selfie stick, no modern objects, no text, no subtitles, no watermark, no logo, no split screen.
+> 9:16 vertical realistic ancient Chinese historical drama. SINGLE IMAGE, strict first-person subjective POV owned by a sick but composed strategist. Camera rig: chest-height motion camera or invisible selfie stick, human eye-level perspective. Blue-black snowy night, visible gloved hands and only the lower edge of a grey-blue sleeve, one half-open wooden medicine chest in the immediate foreground with a damp paper military report inside, horse tracks leading toward a fleeing cart ahead, a red remnant flag blurred in the distance. Cold moonlight from behind, restrained dark-red accents, wet paper texture, wood grain, snow particles, physically plausible scale, cinematic natural lighting, shallow depth of field. Keep the medicine chest, report, red flag and hand position readable. Do not show the protagonist's face or full body. No third-person view, no aerial view, no location change, no modern objects, no text, no subtitles, no watermark, no logo, no split screen.
 
-## 视频基准提示词
+## 优化后的视频基准提示词
 
-> Strict first-person subjective POV, 9:16 vertical realistic ancient Chinese historical drama. The camera is the protagonist's chest-height motion camera moving through a blue-black snowy night. Start with the protagonist's gloved hand tightening around a half-open wooden medicine chest; a damp military report is visible inside. The camera advances toward a fleeing cart along horse tracks, snow particles pass close to the lens, the red remnant flag stays blurred in the distance, the cart jolts once, and the protagonist reaches forward without cutting away from the subjective view. One continuous action, physically plausible movement, restrained handheld breathing motion, cold moonlight, wet paper and wood texture, no third-person cutaway, no aerial view, no location change, no modern objects, no text, no subtitles, no watermark, no logo.
+> 9:16 vertical realistic ancient Chinese historical drama. Duration: use the model's legal minimum. ONE CONTINUOUS SHOT, strict first-person subjective POV owned by a sick but composed strategist. Camera rig: chest-height motion camera; invisible selfie-stick movement is allowed, but the stick must never appear. Start state: the protagonist's gloved hand grips a half-open wooden medicine chest, with a damp military report visible inside. Beat 1: the camera advances along horse tracks toward a fleeing cart. Beat 2: snow particles pass close to the lens and the cart jolts once. Beat 3: the protagonist reaches forward to secure the medicine chest while keeping the red remnant flag blurred in the distance. End state: the medicine chest remains in the lower foreground and the fleeing cart stays ahead. Use physically plausible human-scale motion, restrained breathing movement, cold moonlight, wet paper and wood texture. Do not cut, do not change location, do not show the protagonist's face or full body, no third-person view, no aerial view, no modern objects, no text, no subtitles, no watermark, no logo.
+
+## 模型迁移规则
+
+- 图像模型：保留“single image”“strict first-person subjective POV”“visible gloved hands”“do not show face or full body”四个锚点；按模型合法分辨率替换分辨率字段。
+- 视频模型：保留“one continuous shot”“start state / beats / end state”三段结构；按模型合法时长替换 `Duration`，不把 3 秒硬写进不支持 3 秒的模型。
+- Seedance：可把参考图绑定、时间轴和尾帧信息追加到提示词末尾；不改动主动作顺序。
+- Kling：优先保持短句、单动作和单一镜头路径；避免在一个镜头中添加第二个场景目标。
+- MiniMax H3：单独保留对白和声音块，先估算对白长度，再决定是否扩大时长。
 
 ## 统一评价维度
 

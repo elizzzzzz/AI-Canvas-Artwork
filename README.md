@@ -33,6 +33,8 @@
 - [第一人称摄影协议](docs/FIRST-PERSON-CAMERA-PROTOCOL.md)
 - [3D 导演台规格](docs/3D-DIRECTOR-TABLE.md)
 - [灰模评审表](docs/GRAYBOX-REVIEW.md)
+- [基准提示词优化报告](docs/PROMPT-OPTIMIZATION-REPORT.md)
+- [模型基准测试方案](docs/MODEL-BENCHMARK.md)
 
 ## 评审重点
 

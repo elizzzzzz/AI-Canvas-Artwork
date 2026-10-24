@@ -1,0 +1,476 @@
+{
+  "scene_key": "SC02",
+  "name": "梅岭雪原",
+  "status": "assembled_proxy_draft_pending_review",
+  "approved_for_generation": false,
+  "units": "metre",
+  "up_axis": "+Z",
+  "forward_axis": "+Y",
+  "instances": [
+    {
+      "instance_id": "road_-1.7_-3",
+      "asset_id": "ENV-SNOWROAD",
+      "position_m": [
+        -1.7,
+        -3,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "road_-1.7_3",
+      "asset_id": "ENV-SNOWROAD",
+      "position_m": [
+        -1.7,
+        3,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "road_-1.7_9",
+      "asset_id": "ENV-SNOWROAD",
+      "position_m": [
+        -1.7,
+        9,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "road_1.7_-3",
+      "asset_id": "ENV-SNOWROAD",
+      "position_m": [
+        1.7,
+        -3,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "road_1.7_3",
+      "asset_id": "ENV-SNOWROAD",
+      "position_m": [
+        1.7,
+        3,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "road_1.7_9",
+      "asset_id": "ENV-SNOWROAD",
+      "position_m": [
+        1.7,
+        9,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "edge_-3.8_1",
+      "asset_id": "ENV-SNOWBANK",
+      "position_m": [
+        -3.8,
+        1,
+        0.15
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "edge_-3.8_6",
+      "asset_id": "ENV-SNOWBANK",
+      "position_m": [
+        -3.8,
+        6,
+        0.15
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "edge_-3.8_11",
+      "asset_id": "ENV-SNOWBANK",
+      "position_m": [
+        -3.8,
+        11,
+        0.15
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "edge_3.8_1",
+      "asset_id": "ENV-SNOWBANK",
+      "position_m": [
+        3.8,
+        1,
+        0.15
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "edge_3.8_6",
+      "asset_id": "ENV-SNOWBANK",
+      "position_m": [
+        3.8,
+        6,
+        0.15
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "edge_3.8_11",
+      "asset_id": "ENV-SNOWBANK",
+      "position_m": [
+        3.8,
+        11,
+        0.15
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "torn_flag",
+      "asset_id": "ENV-FLAG",
+      "position_m": [
+        1.1,
+        3,
+        0.0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "broken_timber",
+      "asset_id": "ENV-BROKENWOOD",
+      "position_m": [
+        -1.2,
+        1,
+        0.0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "report_0",
+      "asset_id": "PR-REPORT",
+      "position_m": [
+        -0.3,
+        0.4,
+        0.015
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "report_1",
+      "asset_id": "PR-REPORT",
+      "position_m": [
+        0,
+        0.65,
+        0.015
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "report_2",
+      "asset_id": "PR-REPORT",
+      "position_m": [
+        0.34,
+        0.45,
+        0.015
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "military_token",
+      "asset_id": "PR-TOKEN",
+      "position_m": [
+        0.1,
+        0.2,
+        0.02
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "brazier",
+      "asset_id": "ENV-BRAZIER",
+      "position_m": [
+        -1.5,
+        4,
+        0.0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "pov_right_hand",
+      "asset_id": "HAND-LS-R",
+      "position_m": [
+        0.13,
+        -1.05,
+        1.12
+      ],
+      "rotation_degrees": [
+        -65,
+        0,
+        -8
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    }
+  ],
+  "source_assets": {
+    "ENV-SNOWROAD": {
+      "path": "production/asset-library/models/ENV-SNOWROAD.glb",
+      "sha256": "feb5b4a63e42e12f2c6d88d5de2ca4ee71b54eead5b761e0ffb7bb2da6a23f4c"
+    },
+    "ENV-SNOWBANK": {
+      "path": "production/asset-library/models/ENV-SNOWBANK.glb",
+      "sha256": "56f8ae3fc61ad292e58b4261cdec93030f24adcbef2fe483d3b5664e28fe7605"
+    },
+    "ENV-FLAG": {
+      "path": "production/asset-library/models/ENV-FLAG.glb",
+      "sha256": "f4077ea348615facba401aecfa1a9026577f0a64ed3088f1e013a63a3f3fdf81"
+    },
+    "ENV-BROKENWOOD": {
+      "path": "production/asset-library/models/ENV-BROKENWOOD.glb",
+      "sha256": "7daff2d2adf0f80bf2bea08821a8bec0c9e0dbb976abebc60133b24f10ae42ba"
+    },
+    "PR-REPORT": {
+      "path": "production/asset-library/models/PR-REPORT.glb",
+      "sha256": "d41878095c538804a01021bbf9346281faef2f6dc048d8e9478d6fed05eff041"
+    },
+    "PR-TOKEN": {
+      "path": "production/asset-library/models/PR-TOKEN.glb",
+      "sha256": "6801ce780f65aee8bf9fb535f3c78edd07e60b35a169303756fa7d6e470bc5ed"
+    },
+    "ENV-BRAZIER": {
+      "path": "production/asset-library/models/ENV-BRAZIER.glb",
+      "sha256": "ff54aa547f705d628634033fa15ed94b8c127e8e90b752f150bd8192db633ad7"
+    },
+    "HAND-LS-R": {
+      "path": "production/asset-library/models/HAND-LS-R.glb",
+      "sha256": "f582753e647dada6fb826af37204797ea341d46acb57ecbb0dce87acc302c4fa"
+    }
+  },
+  "datum_observations": [],
+  "scope": "one_representative_static_setup_not_all_subspaces_or_67_clip_paths",
+  "remaining": [
+    "precise_faces_and_costumes",
+    "hand_and_prop_contacts",
+    "harness_and_animal_motion",
+    "collision_and_occlusion_review",
+    "all_subspaces_and_clip_camera_paths",
+    "full_frame_motion_review",
+    "named_human_approval"
+  ]
+}

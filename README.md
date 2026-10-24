@@ -2,9 +2,11 @@
 
 七牛云内部测试样片：三集竖屏古装品牌短剧，关联《琅琊榜》世界观，以“琅琊云令”转译一站式 AI Infra 的产品价值。
 
+[当前确认基线与新制作进展](docs/PROJECT-STATUS.md)
+
 ## 项目状态
 
-- 当前阶段：三集分镜已导入、首批八图已生成；100 个可复用 GLB 草模已建立，正在场景装配与几何审核
+- 当前阶段：三集分镜已导入、首批八图已生成；100 个可复用 GLB 草模及七个主场景代表布景已建立，正在几何与分镜动作审核
 - 画幅：9:16
 - 单集时长：150 / 155 / 165 秒，硬上限 180 秒
 - 集数：3 集
@@ -42,6 +44,7 @@
 - [P01 箱盖几何修正](production/p01-lid-repair-v2/README.md)
 - [三维代理资产库与查看器](production/asset-library/README.md)
 - [100 项三维资产目录](production/asset-library/CATALOG.md)
+- [七个主场景组合草稿](production/scene-blockouts/README.md)
 
 ## 强制3D前置
 

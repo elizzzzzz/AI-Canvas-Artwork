@@ -1,0 +1,396 @@
+{
+  "scene_key": "SC07",
+  "name": "金陵城门",
+  "status": "assembled_proxy_draft_pending_review",
+  "approved_for_generation": false,
+  "units": "metre",
+  "up_axis": "+Z",
+  "forward_axis": "+Y",
+  "instances": [
+    {
+      "instance_id": "paving_0",
+      "asset_id": "ENV-PAVING",
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        2.5,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "paving_4",
+      "asset_id": "ENV-PAVING",
+      "position_m": [
+        0,
+        4,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        2.5,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "paving_8",
+      "asset_id": "ENV-PAVING",
+      "position_m": [
+        0,
+        8,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        2.5,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "paving_12",
+      "asset_id": "ENV-PAVING",
+      "position_m": [
+        0,
+        12,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        2.5,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "gate_opening",
+      "asset_id": "AR-GATE",
+      "position_m": [
+        0,
+        7,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "wall_-8",
+      "asset_id": "AR-GATEWALL",
+      "position_m": [
+        -8,
+        7,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "wall_8",
+      "asset_id": "AR-GATEWALL",
+      "position_m": [
+        8,
+        7,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "open_leaf_-2",
+      "asset_id": "AR-GATELEAF",
+      "position_m": [
+        -2,
+        7,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        90
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "open_leaf_2",
+      "asset_id": "AR-GATELEAF",
+      "position_m": [
+        2,
+        7,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        90
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "lantern_bracket_-3",
+      "asset_id": "AR-LIGHT",
+      "position_m": [
+        -3,
+        6.1,
+        3.4
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "lantern_-3",
+      "asset_id": "PR-LANTERN",
+      "position_m": [
+        -3,
+        5.9,
+        2.85
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "lantern_bracket_-3"
+    },
+    {
+      "instance_id": "lantern_bracket_3",
+      "asset_id": "AR-LIGHT",
+      "position_m": [
+        3,
+        6.1,
+        3.4
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "lantern_3",
+      "asset_id": "PR-LANTERN",
+      "position_m": [
+        3,
+        5.9,
+        2.85
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "lantern_bracket_3"
+    },
+    {
+      "instance_id": "jingrui_01",
+      "asset_id": "CH-XJR",
+      "position_m": [
+        -0.9,
+        3.5,
+        -0.009999999999999953
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        170
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "reporter_01",
+      "asset_id": "CH-COURIER",
+      "position_m": [
+        0.95,
+        4.0,
+        -0.009999999999999953
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        190
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "pov_right_hand",
+      "asset_id": "HAND-MCS-R",
+      "position_m": [
+        0.1,
+        0.65,
+        1.25
+      ],
+      "rotation_degrees": [
+        -65,
+        0,
+        -8
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    }
+  ],
+  "source_assets": {
+    "ENV-PAVING": {
+      "path": "production/asset-library/models/ENV-PAVING.glb",
+      "sha256": "f8d2784d3e1db10f6e918d574167ada806ba31aabc3e6f54cdeb5ed8a9545c6f"
+    },
+    "AR-GATE": {
+      "path": "production/asset-library/models/AR-GATE.glb",
+      "sha256": "073302d188a5036d888c13cd132a904f60c4b2bc3b5acc1d56e376aa589b2c58"
+    },
+    "AR-GATEWALL": {
+      "path": "production/asset-library/models/AR-GATEWALL.glb",
+      "sha256": "09eb67ccaefddbc8d6b53987ff014f0ba45a787abee51a0c9fbe518857df690e"
+    },
+    "AR-GATELEAF": {
+      "path": "production/asset-library/models/AR-GATELEAF.glb",
+      "sha256": "840e77ab106ff58d2dd71ac7c828dc35e942f49c04b6b8a5ce8128ce644e3fb0"
+    },
+    "AR-LIGHT": {
+      "path": "production/asset-library/models/AR-LIGHT.glb",
+      "sha256": "903c1e57691e124bdd03e333c041744f94ef26ff8f3157b6b8dd7feb11416eba"
+    },
+    "PR-LANTERN": {
+      "path": "production/asset-library/models/PR-LANTERN.glb",
+      "sha256": "bc08ec2c18b2dc8ab67a515a1cf72bc8466174266e867832b5a92efddf7e32ba"
+    },
+    "CH-XJR": {
+      "path": "production/asset-library/models/CH-XJR.glb",
+      "sha256": "1de784b8fd80c7ca27ce291f7d85e066deca9c031b42a55cb27d484bc2dc8167"
+    },
+    "CH-COURIER": {
+      "path": "production/asset-library/models/CH-COURIER.glb",
+      "sha256": "279ffef05886d498798dc8a464c483413533da3a6b7ceac529b1962f9ce6f671"
+    },
+    "HAND-MCS-R": {
+      "path": "production/asset-library/models/HAND-MCS-R.glb",
+      "sha256": "35dfbdcb9efd126f14448b36cc70c728aafa8af34bc9478021559c5d8355cde5"
+    }
+  },
+  "datum_observations": [],
+  "scope": "one_representative_static_setup_not_all_subspaces_or_67_clip_paths",
+  "remaining": [
+    "precise_faces_and_costumes",
+    "hand_and_prop_contacts",
+    "harness_and_animal_motion",
+    "collision_and_occlusion_review",
+    "all_subspaces_and_clip_camera_paths",
+    "full_frame_motion_review",
+    "named_human_approval"
+  ]
+}

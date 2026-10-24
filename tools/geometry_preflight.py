@@ -21,7 +21,8 @@ POLICY_VERSION = 'mandatory-3d-v1'
 def source_hash(record, blueprint):
     # Source poses must be tied to the current entire asset context, not a stale picture.
     payload = {'policy': POLICY_VERSION, 'record': record, 'asset_manifest': blueprint['asset_manifest'],
-               'asset_library': blueprint.get('asset_library')}
+               'asset_library': blueprint.get('asset_library'),
+               'scene_blockouts': blueprint.get('scene_blockouts')}
     return hashlib.sha256(json.dumps(payload, ensure_ascii=False, sort_keys=True,
                                      separators=(',', ':')).encode()).hexdigest()
 
@@ -82,6 +83,33 @@ def load_asset_library(blueprint, root):
     if errors:
         raise ValueError('; '.join(errors))
     return catalog
+
+
+def load_scene_blockouts(blueprint, root):
+    """Verify draft evidence freshness, without asserting physical validity."""
+    refs = blueprint.get('scene_blockouts')
+    if refs is None:
+        return None
+    errors = []
+    path = checked_file(refs.get('manifest'), root, 'scene manifest', errors)
+    if errors:
+        raise ValueError('; '.join(errors))
+    manifest = json.loads(path.read_text())
+    scenes = manifest.get('scenes', [])
+    keys = [item.get('scene_key') for item in scenes]
+    if len(keys) != 7 or set(keys) != {'SC0' + str(i) for i in range(1, 8)}:
+        raise ValueError('scene manifest must contain seven unique canonical scenes')
+    for item in scenes:
+        files = item.get('files', {})
+        if not isinstance(files, dict) or not set(EVIDENCE_KEYS) <= set(files):
+            raise ValueError('scene draft missing required evidence references')
+        for label, artifact in files.items():
+            checked_file(artifact, root, item['scene_key'] + ':' + label, errors)
+        for asset, source in item.get('source_assets', {}).items():
+            checked_file(source, root, item['scene_key'] + ':' + asset, errors)
+    if errors:
+        raise ValueError('; '.join(errors))
+    return manifest
 
 
 def artifact_set_hash(entry):
@@ -153,6 +181,7 @@ def main():
     blueprint = json.loads((root / 'production/workflow-v1.json').read_text())
     try:
         library = load_asset_library(blueprint, root)
+        load_scene_blockouts(blueprint, root)
     except (ValueError, KeyError, OSError, TypeError) as exc:
         print(json.dumps({'allowed': False, 'error': str(exc)}, ensure_ascii=False)); return 2
     expected = expected_sources(blueprint, library)

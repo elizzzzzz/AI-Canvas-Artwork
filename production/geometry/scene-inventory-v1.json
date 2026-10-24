@@ -5,7 +5,7 @@
     {
       "key": "SC01",
       "name": "梅长苏卧房",
-      "status": "not_built",
+      "status": "assembled_proxy_draft_pending_review",
       "subspaces": [
         "床榻与烛台案面"
       ],
@@ -25,10 +25,433 @@
         "EP01-S01-01",
         "EP01-S04-02"
       ],
-      "dimensions_status": "design_pending_no_measured_values",
-      "source_scene": null,
-      "entity_transforms": [],
-      "cameras": [],
+      "dimensions_status": "designed_metre_dimensions_not_surveyed",
+      "source_scene": "production/scene-blockouts/SC01/SC01-scene.json",
+      "entity_transforms": [
+        {
+          "instance_id": "floor_-1.5_-1.5",
+          "asset_id": "AR-FLOOR",
+          "position_m": [
+            -1.5,
+            -1.5,
+            -0.08
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "floor_-1.5_1.5",
+          "asset_id": "AR-FLOOR",
+          "position_m": [
+            -1.5,
+            1.5,
+            -0.08
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "floor_1.5_-1.5",
+          "asset_id": "AR-FLOOR",
+          "position_m": [
+            1.5,
+            -1.5,
+            -0.08
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "floor_1.5_1.5",
+          "asset_id": "AR-FLOOR",
+          "position_m": [
+            1.5,
+            1.5,
+            -0.08
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "side_wall_-3",
+          "asset_id": "AR-WALL",
+          "position_m": [
+            -3,
+            0,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            90
+          ],
+          "scale": [
+            2,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "side_wall_3",
+          "asset_id": "AR-WALL",
+          "position_m": [
+            3,
+            0,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            90
+          ],
+          "scale": [
+            2,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "rear_wall_-1.75",
+          "asset_id": "AR-WALL",
+          "position_m": [
+            -1.75,
+            3,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.8333333333333334,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "rear_wall_1.75",
+          "asset_id": "AR-WALL",
+          "position_m": [
+            1.75,
+            3,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.8333333333333334,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "window_sill_wall",
+          "asset_id": "AR-WALL",
+          "position_m": [
+            0,
+            3,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.3333333333333333,
+            1,
+            0.32142857142857145
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "window_header_wall",
+          "asset_id": "AR-WALL",
+          "position_m": [
+            0,
+            3,
+            2.1
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.3333333333333333,
+            1,
+            0.25
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "rear_window",
+          "asset_id": "AR-WINDOW",
+          "position_m": [
+            0,
+            3,
+            0.9
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "beam_-1.5",
+          "asset_id": "AR-BEAM",
+          "position_m": [
+            0,
+            -1.5,
+            2.8
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            2,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "beam_1.5",
+          "asset_id": "AR-BEAM",
+          "position_m": [
+            0,
+            1.5,
+            2.8
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            2,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "bed_01",
+          "asset_id": "AR-BED",
+          "position_m": [
+            -1.45,
+            -0.2,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "desk_01",
+          "asset_id": "AR-DESK",
+          "position_m": [
+            0,
+            0.55,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "old_token",
+          "asset_id": "PR-TOKEN",
+          "position_m": [
+            0,
+            0.35,
+            0.74
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "desk_top"
+        },
+        {
+          "instance_id": "folded_fan",
+          "asset_id": "PR-FAN",
+          "position_m": [
+            0.22,
+            0.55,
+            0.7429995464166893
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "desk_top"
+        },
+        {
+          "instance_id": "candle_stand",
+          "asset_id": "PR-STAND",
+          "position_m": [
+            -0.36,
+            0.62,
+            0.74
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "desk_top"
+        },
+        {
+          "instance_id": "candle",
+          "asset_id": "PR-CANDLE",
+          "position_m": [
+            -0.36,
+            0.62,
+            0.922
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "desk_top"
+        },
+        {
+          "instance_id": "pov_right_hand",
+          "asset_id": "HAND-MCS-R",
+          "position_m": [
+            0.1,
+            -0.45,
+            0.72
+          ],
+          "rotation_degrees": [
+            -65,
+            0,
+            -8
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        }
+      ],
+      "cameras": [
+        "production/scene-blockouts/SC01/SC01-camera.json"
+      ],
       "available_proxy_asset_ids": [
         "CH-MCS",
         "HAND-MCS-L",
@@ -50,12 +473,12 @@
         "AR-DESK",
         "AR-STEP"
       ],
-      "complete_scene_package_status": "not_assembled_or_reviewed"
+      "complete_scene_package_status": "representative_setup_only_remaining_subspaces_and_motion_pending"
     },
     {
       "key": "SC02",
       "name": "梅岭雪原",
-      "status": "not_built",
+      "status": "assembled_proxy_draft_pending_review",
       "subspaces": [
         "雪坡",
         "火线观察点"
@@ -80,10 +503,433 @@
         "EP01-S03-02",
         "EP01-S04-01"
       ],
-      "dimensions_status": "design_pending_no_measured_values",
-      "source_scene": null,
-      "entity_transforms": [],
-      "cameras": [],
+      "dimensions_status": "designed_metre_dimensions_not_surveyed",
+      "source_scene": "production/scene-blockouts/SC02/SC02-scene.json",
+      "entity_transforms": [
+        {
+          "instance_id": "road_-1.7_-3",
+          "asset_id": "ENV-SNOWROAD",
+          "position_m": [
+            -1.7,
+            -3,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "road_-1.7_3",
+          "asset_id": "ENV-SNOWROAD",
+          "position_m": [
+            -1.7,
+            3,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "road_-1.7_9",
+          "asset_id": "ENV-SNOWROAD",
+          "position_m": [
+            -1.7,
+            9,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "road_1.7_-3",
+          "asset_id": "ENV-SNOWROAD",
+          "position_m": [
+            1.7,
+            -3,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "road_1.7_3",
+          "asset_id": "ENV-SNOWROAD",
+          "position_m": [
+            1.7,
+            3,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "road_1.7_9",
+          "asset_id": "ENV-SNOWROAD",
+          "position_m": [
+            1.7,
+            9,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "edge_-3.8_1",
+          "asset_id": "ENV-SNOWBANK",
+          "position_m": [
+            -3.8,
+            1,
+            0.15
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "edge_-3.8_6",
+          "asset_id": "ENV-SNOWBANK",
+          "position_m": [
+            -3.8,
+            6,
+            0.15
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "edge_-3.8_11",
+          "asset_id": "ENV-SNOWBANK",
+          "position_m": [
+            -3.8,
+            11,
+            0.15
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "edge_3.8_1",
+          "asset_id": "ENV-SNOWBANK",
+          "position_m": [
+            3.8,
+            1,
+            0.15
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "edge_3.8_6",
+          "asset_id": "ENV-SNOWBANK",
+          "position_m": [
+            3.8,
+            6,
+            0.15
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "edge_3.8_11",
+          "asset_id": "ENV-SNOWBANK",
+          "position_m": [
+            3.8,
+            11,
+            0.15
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "torn_flag",
+          "asset_id": "ENV-FLAG",
+          "position_m": [
+            1.1,
+            3,
+            0.0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "broken_timber",
+          "asset_id": "ENV-BROKENWOOD",
+          "position_m": [
+            -1.2,
+            1,
+            0.0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "report_0",
+          "asset_id": "PR-REPORT",
+          "position_m": [
+            -0.3,
+            0.4,
+            0.015
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "report_1",
+          "asset_id": "PR-REPORT",
+          "position_m": [
+            0,
+            0.65,
+            0.015
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "report_2",
+          "asset_id": "PR-REPORT",
+          "position_m": [
+            0.34,
+            0.45,
+            0.015
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "military_token",
+          "asset_id": "PR-TOKEN",
+          "position_m": [
+            0.1,
+            0.2,
+            0.02
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "brazier",
+          "asset_id": "ENV-BRAZIER",
+          "position_m": [
+            -1.5,
+            4,
+            0.0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "pov_right_hand",
+          "asset_id": "HAND-LS-R",
+          "position_m": [
+            0.13,
+            -1.05,
+            1.12
+          ],
+          "rotation_degrees": [
+            -65,
+            0,
+            -8
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        }
+      ],
+      "cameras": [
+        "production/scene-blockouts/SC02/SC02-camera.json"
+      ],
       "available_proxy_asset_ids": [
         "CH-LS",
         "HAND-LS-L",
@@ -102,12 +948,12 @@
         "ENV-FLAG",
         "ENV-BRAZIER"
       ],
-      "complete_scene_package_status": "not_assembled_or_reviewed"
+      "complete_scene_package_status": "representative_setup_only_remaining_subspaces_and_motion_pending"
     },
     {
       "key": "SC03",
       "name": "江左盟旧档室",
-      "status": "not_built",
+      "status": "assembled_proxy_draft_pending_review",
       "subspaces": [
         "高柜长案",
         "门槛",
@@ -141,10 +987,496 @@
         "EP01-S11-01",
         "EP01-S11-02"
       ],
-      "dimensions_status": "design_pending_no_measured_values",
-      "source_scene": null,
-      "entity_transforms": [],
-      "cameras": [],
+      "dimensions_status": "designed_metre_dimensions_not_surveyed",
+      "source_scene": "production/scene-blockouts/SC03/SC03-scene.json",
+      "entity_transforms": [
+        {
+          "instance_id": "floor_-1.5_-1.5",
+          "asset_id": "AR-FLOOR",
+          "position_m": [
+            -1.5,
+            -1.5,
+            -0.08
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "floor_-1.5_1.5",
+          "asset_id": "AR-FLOOR",
+          "position_m": [
+            -1.5,
+            1.5,
+            -0.08
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "floor_1.5_-1.5",
+          "asset_id": "AR-FLOOR",
+          "position_m": [
+            1.5,
+            -1.5,
+            -0.08
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "floor_1.5_1.5",
+          "asset_id": "AR-FLOOR",
+          "position_m": [
+            1.5,
+            1.5,
+            -0.08
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "side_wall_-3",
+          "asset_id": "AR-WALL",
+          "position_m": [
+            -3,
+            0,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            90
+          ],
+          "scale": [
+            2,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "side_wall_3",
+          "asset_id": "AR-WALL",
+          "position_m": [
+            3,
+            0,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            90
+          ],
+          "scale": [
+            2,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "rear_wall_-1.75",
+          "asset_id": "AR-WALL",
+          "position_m": [
+            -1.75,
+            3,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.8333333333333334,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "rear_wall_1.75",
+          "asset_id": "AR-WALL",
+          "position_m": [
+            1.75,
+            3,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.8333333333333334,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "window_sill_wall",
+          "asset_id": "AR-WALL",
+          "position_m": [
+            0,
+            3,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.3333333333333333,
+            1,
+            0.32142857142857145
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "window_header_wall",
+          "asset_id": "AR-WALL",
+          "position_m": [
+            0,
+            3,
+            2.1
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.3333333333333333,
+            1,
+            0.25
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "rear_window",
+          "asset_id": "AR-WINDOW",
+          "position_m": [
+            0,
+            3,
+            0.9
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "beam_-1.5",
+          "asset_id": "AR-BEAM",
+          "position_m": [
+            0,
+            -1.5,
+            2.8
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            2,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "beam_1.5",
+          "asset_id": "AR-BEAM",
+          "position_m": [
+            0,
+            1.5,
+            2.8
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            2,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "desk_01",
+          "asset_id": "AR-DESK",
+          "position_m": [
+            0,
+            1.2,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "cabinet_-1.9",
+          "asset_id": "AR-CABINET",
+          "position_m": [
+            -1.9,
+            2.3,
+            0.0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "cabinet_1.9",
+          "asset_id": "AR-CABINET",
+          "position_m": [
+            1.9,
+            2.3,
+            0.0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "table_PR-TOKEN",
+          "asset_id": "PR-TOKEN",
+          "position_m": [
+            -0.4,
+            1.17,
+            0.74
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "desk_top"
+        },
+        {
+          "instance_id": "table_PR-INDEX",
+          "asset_id": "PR-INDEX",
+          "position_m": [
+            -0.15000000000000002,
+            1.17,
+            0.74
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "desk_top"
+        },
+        {
+          "instance_id": "table_PR-LETTERBOX",
+          "asset_id": "PR-LETTERBOX",
+          "position_m": [
+            0.09999999999999998,
+            1.17,
+            0.74
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "desk_top"
+        },
+        {
+          "instance_id": "table_PR-SEAL-R",
+          "asset_id": "PR-SEAL-R",
+          "position_m": [
+            0.35,
+            1.17,
+            0.74
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "desk_top"
+        },
+        {
+          "instance_id": "scribe_01",
+          "asset_id": "CH-SCRIBE",
+          "position_m": [
+            0.65,
+            2.5,
+            -0.009999999999999953
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            180
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "courier_01",
+          "asset_id": "CH-COURIER",
+          "position_m": [
+            -1.1,
+            1.8,
+            -0.009999999999999953
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            160
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "pov_right_hand",
+          "asset_id": "HAND-MCS-R",
+          "position_m": [
+            0.12,
+            0.35,
+            1.03
+          ],
+          "rotation_degrees": [
+            -65,
+            0,
+            -8
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        }
+      ],
+      "cameras": [
+        "production/scene-blockouts/SC03/SC03-camera.json"
+      ],
       "available_proxy_asset_ids": [
         "CH-MCS",
         "CH-SCRIBE",
@@ -178,12 +1510,12 @@
         "AR-CHAIR",
         "AR-STEP"
       ],
-      "complete_scene_package_status": "not_assembled_or_reviewed"
+      "complete_scene_package_status": "representative_setup_only_remaining_subspaces_and_motion_pending"
     },
     {
       "key": "SC04",
       "name": "雪路与追车",
-      "status": "not_built",
+      "status": "assembled_proxy_draft_pending_review",
       "subspaces": [
         "前方三辆木车",
         "主人公追车开口",
@@ -215,10 +1547,517 @@
         "EP01-S09-01",
         "EP01-S09-02"
       ],
-      "dimensions_status": "design_pending_no_measured_values",
-      "source_scene": null,
-      "entity_transforms": [],
-      "cameras": [],
+      "dimensions_status": "designed_metre_dimensions_not_surveyed",
+      "source_scene": "production/scene-blockouts/SC04/SC04-scene.json",
+      "entity_transforms": [
+        {
+          "instance_id": "road_-1.7_-3",
+          "asset_id": "ENV-SNOWROAD",
+          "position_m": [
+            -1.7,
+            -3,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "road_-1.7_3",
+          "asset_id": "ENV-SNOWROAD",
+          "position_m": [
+            -1.7,
+            3,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "road_-1.7_9",
+          "asset_id": "ENV-SNOWROAD",
+          "position_m": [
+            -1.7,
+            9,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "road_1.7_-3",
+          "asset_id": "ENV-SNOWROAD",
+          "position_m": [
+            1.7,
+            -3,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "road_1.7_3",
+          "asset_id": "ENV-SNOWROAD",
+          "position_m": [
+            1.7,
+            3,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "road_1.7_9",
+          "asset_id": "ENV-SNOWROAD",
+          "position_m": [
+            1.7,
+            9,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "edge_-3.8_1",
+          "asset_id": "ENV-SNOWBANK",
+          "position_m": [
+            -3.8,
+            1,
+            0.15
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "edge_-3.8_6",
+          "asset_id": "ENV-SNOWBANK",
+          "position_m": [
+            -3.8,
+            6,
+            0.15
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "edge_-3.8_11",
+          "asset_id": "ENV-SNOWBANK",
+          "position_m": [
+            -3.8,
+            11,
+            0.15
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "edge_3.8_1",
+          "asset_id": "ENV-SNOWBANK",
+          "position_m": [
+            3.8,
+            1,
+            0.15
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "edge_3.8_6",
+          "asset_id": "ENV-SNOWBANK",
+          "position_m": [
+            3.8,
+            6,
+            0.15
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "edge_3.8_11",
+          "asset_id": "ENV-SNOWBANK",
+          "position_m": [
+            3.8,
+            11,
+            0.15
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "cart_body",
+          "asset_id": "VH-CART",
+          "position_m": [
+            0.55,
+            2.6,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "axle_01"
+        },
+        {
+          "instance_id": "wheel_left",
+          "asset_id": "VH-WHEEL",
+          "position_m": [
+            -0.13,
+            2.6,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "wheel_right",
+          "asset_id": "VH-WHEEL",
+          "position_m": [
+            1.23,
+            2.6,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "axle_01",
+          "asset_id": "VH-AXLE",
+          "position_m": [
+            0.55,
+            2.6,
+            0.465
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "wheel_left,wheel_right"
+        },
+        {
+          "instance_id": "cart_canopy",
+          "asset_id": "VH-CANOPY",
+          "position_m": [
+            0.55,
+            2.6,
+            0.74
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "cart_body"
+        },
+        {
+          "instance_id": "horse_01",
+          "asset_id": "AN-HORSE",
+          "position_m": [
+            0.55,
+            6.699999999999999,
+            -4.163336342344337e-17
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "saddle_01",
+          "asset_id": "EQ-SADDLE",
+          "position_m": [
+            0.55,
+            6.699999999999999,
+            1.44
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "horse_01"
+        },
+        {
+          "instance_id": "medicine_chest",
+          "asset_id": "PR-CHEST",
+          "position_m": [
+            0.55,
+            2.15,
+            0.74
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "cart_body"
+        },
+        {
+          "instance_id": "chest_report",
+          "asset_id": "PR-REPORT",
+          "position_m": [
+            0.55,
+            2.15,
+            0.752
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.84,
+            0.57,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "medicine_chest"
+        },
+        {
+          "instance_id": "backup_scroll",
+          "asset_id": "PR-BACKUP",
+          "position_m": [
+            0.65,
+            2.8,
+            0.74
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "cart_body"
+        },
+        {
+          "instance_id": "scribe_01",
+          "asset_id": "CH-SCRIBE",
+          "position_m": [
+            -0.7,
+            3.6,
+            -0.009999999999999953
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            160
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "road_tree",
+          "asset_id": "ENV-TREE",
+          "position_m": [
+            -3.5,
+            8,
+            0.0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        }
+      ],
+      "cameras": [
+        "production/scene-blockouts/SC04/SC04-camera.json"
+      ],
       "available_proxy_asset_ids": [
         "CH-MCS",
         "CH-SCRIBE",
@@ -254,12 +2093,12 @@
         "ENV-FLAG",
         "ENV-TREE"
       ],
-      "complete_scene_package_status": "not_assembled_or_reviewed"
+      "complete_scene_package_status": "representative_setup_only_remaining_subspaces_and_motion_pending"
     },
     {
       "key": "SC05",
       "name": "琅琊阁雨廊",
-      "status": "not_built",
+      "status": "assembled_proxy_draft_pending_review",
       "subspaces": [
         "行进廊道",
         "交令台",
@@ -312,10 +2151,559 @@
         "EP02-S11-01",
         "EP02-S11-02"
       ],
-      "dimensions_status": "design_pending_no_measured_values",
-      "source_scene": null,
-      "entity_transforms": [],
-      "cameras": [],
+      "dimensions_status": "designed_metre_dimensions_not_surveyed",
+      "source_scene": "production/scene-blockouts/SC05/SC05-scene.json",
+      "entity_transforms": [
+        {
+          "instance_id": "floor_0",
+          "asset_id": "AR-FLOOR",
+          "position_m": [
+            0,
+            0,
+            -0.08
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "column_-1.25_0",
+          "asset_id": "AR-COLUMN",
+          "position_m": [
+            -1.25,
+            0,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "column_1.25_0",
+          "asset_id": "AR-COLUMN",
+          "position_m": [
+            1.25,
+            0,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "beam_0",
+          "asset_id": "AR-BEAM",
+          "position_m": [
+            0,
+            0,
+            2.8
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "roof_0",
+          "asset_id": "AR-ROOF",
+          "position_m": [
+            0,
+            0,
+            2.8
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1.5,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "floor_3",
+          "asset_id": "AR-FLOOR",
+          "position_m": [
+            0,
+            3,
+            -0.08
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "column_-1.25_3",
+          "asset_id": "AR-COLUMN",
+          "position_m": [
+            -1.25,
+            3,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "column_1.25_3",
+          "asset_id": "AR-COLUMN",
+          "position_m": [
+            1.25,
+            3,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "beam_3",
+          "asset_id": "AR-BEAM",
+          "position_m": [
+            0,
+            3,
+            2.8
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "roof_3",
+          "asset_id": "AR-ROOF",
+          "position_m": [
+            0,
+            3,
+            2.8
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1.5,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "floor_6",
+          "asset_id": "AR-FLOOR",
+          "position_m": [
+            0,
+            6,
+            -0.08
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "column_-1.25_6",
+          "asset_id": "AR-COLUMN",
+          "position_m": [
+            -1.25,
+            6,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "column_1.25_6",
+          "asset_id": "AR-COLUMN",
+          "position_m": [
+            1.25,
+            6,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "beam_6",
+          "asset_id": "AR-BEAM",
+          "position_m": [
+            0,
+            6,
+            2.8
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "roof_6",
+          "asset_id": "AR-ROOF",
+          "position_m": [
+            0,
+            6,
+            2.8
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1.5,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "desk_01",
+          "asset_id": "AR-DESK",
+          "position_m": [
+            0,
+            1.2,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "PR-MAP-NEW",
+          "asset_id": "PR-MAP-NEW",
+          "position_m": [
+            -0.1,
+            1.1,
+            0.74
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "desk_top"
+        },
+        {
+          "instance_id": "PR-POUCH",
+          "asset_id": "PR-POUCH",
+          "position_m": [
+            -0.4,
+            1.35,
+            0.77
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "desk_top"
+        },
+        {
+          "instance_id": "PR-CLOUDBOX",
+          "asset_id": "PR-CLOUDBOX",
+          "position_m": [
+            0.28,
+            1.35,
+            0.74
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "desk_top"
+        },
+        {
+          "instance_id": "PR-RECEIPT",
+          "asset_id": "PR-RECEIPT",
+          "position_m": [
+            0.28,
+            1.05,
+            0.74
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "desk_top"
+        },
+        {
+          "instance_id": "seal_R",
+          "asset_id": "PR-SEAL-R",
+          "position_m": [
+            -0.25,
+            1.4,
+            0.74
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "desk_top"
+        },
+        {
+          "instance_id": "seal_G",
+          "asset_id": "PR-SEAL-G",
+          "position_m": [
+            -0.13,
+            1.4,
+            0.74
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "desk_top"
+        },
+        {
+          "instance_id": "seal_B",
+          "asset_id": "PR-SEAL-B",
+          "position_m": [
+            -0.010000000000000009,
+            1.4,
+            0.74
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "desk_top"
+        },
+        {
+          "instance_id": "CH-MSG-A",
+          "asset_id": "CH-MSG-A",
+          "position_m": [
+            -0.85,
+            2.5,
+            -0.009999999999999953
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            180
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "CH-MSG-B",
+          "asset_id": "CH-MSG-B",
+          "position_m": [
+            0.85,
+            2.5,
+            -0.009999999999999953
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            180
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "pov_right_hand",
+          "asset_id": "HAND-XTY-R",
+          "position_m": [
+            0.15,
+            0.12,
+            1.0
+          ],
+          "rotation_degrees": [
+            -65,
+            0,
+            -8
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        }
+      ],
+      "cameras": [
+        "production/scene-blockouts/SC05/SC05-camera.json"
+      ],
       "available_proxy_asset_ids": [
         "CH-XTY",
         "CH-SCRIBE",
@@ -354,12 +2742,12 @@
         "AR-STEP",
         "AR-BRIDGE"
       ],
-      "complete_scene_package_status": "not_assembled_or_reviewed"
+      "complete_scene_package_status": "representative_setup_only_remaining_subspaces_and_motion_pending"
     },
     {
       "key": "SC06",
       "name": "入京雨路",
-      "status": "not_built",
+      "status": "assembled_proxy_draft_pending_review",
       "subspaces": [
         "车厢",
         "路旁雨棚",
@@ -412,10 +2800,601 @@
         "EP03-S09-01",
         "EP03-S09-02"
       ],
-      "dimensions_status": "design_pending_no_measured_values",
-      "source_scene": null,
-      "entity_transforms": [],
-      "cameras": [],
+      "dimensions_status": "designed_metre_dimensions_not_surveyed",
+      "source_scene": "production/scene-blockouts/SC06/SC06-scene.json",
+      "entity_transforms": [
+        {
+          "instance_id": "road_-1.7_-3",
+          "asset_id": "ENV-DIRT",
+          "position_m": [
+            -1.7,
+            -3,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "road_-1.7_3",
+          "asset_id": "ENV-DIRT",
+          "position_m": [
+            -1.7,
+            3,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "road_-1.7_9",
+          "asset_id": "ENV-DIRT",
+          "position_m": [
+            -1.7,
+            9,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "road_1.7_-3",
+          "asset_id": "ENV-DIRT",
+          "position_m": [
+            1.7,
+            -3,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "road_1.7_3",
+          "asset_id": "ENV-DIRT",
+          "position_m": [
+            1.7,
+            3,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "road_1.7_9",
+          "asset_id": "ENV-DIRT",
+          "position_m": [
+            1.7,
+            9,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "edge_-3.8_1",
+          "asset_id": "ENV-ROCK",
+          "position_m": [
+            -3.8,
+            1,
+            0.19999999999999998
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "edge_-3.8_6",
+          "asset_id": "ENV-ROCK",
+          "position_m": [
+            -3.8,
+            6,
+            0.19999999999999998
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "edge_-3.8_11",
+          "asset_id": "ENV-ROCK",
+          "position_m": [
+            -3.8,
+            11,
+            0.19999999999999998
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "edge_3.8_1",
+          "asset_id": "ENV-ROCK",
+          "position_m": [
+            3.8,
+            1,
+            0.19999999999999998
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "edge_3.8_6",
+          "asset_id": "ENV-ROCK",
+          "position_m": [
+            3.8,
+            6,
+            0.19999999999999998
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "edge_3.8_11",
+          "asset_id": "ENV-ROCK",
+          "position_m": [
+            3.8,
+            11,
+            0.19999999999999998
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "road_awning",
+          "asset_id": "AR-AWNING",
+          "position_m": [
+            -0.25,
+            1.25,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "desk_01",
+          "asset_id": "AR-DESK",
+          "position_m": [
+            -0.25,
+            1.2,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "PR-COMPLAINT",
+          "asset_id": "PR-COMPLAINT",
+          "position_m": [
+            -0.5,
+            1.1,
+            0.74
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "desk_top"
+        },
+        {
+          "instance_id": "PR-MEDBUNDLE",
+          "asset_id": "PR-MEDBUNDLE",
+          "position_m": [
+            -0.16,
+            1.4,
+            0.72
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "desk_top"
+        },
+        {
+          "instance_id": "PR-MAP-NEW",
+          "asset_id": "PR-MAP-NEW",
+          "position_m": [
+            0.03,
+            1.12,
+            0.74
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "desk_top"
+        },
+        {
+          "instance_id": "PR-CLOUDBOX",
+          "asset_id": "PR-CLOUDBOX",
+          "position_m": [
+            -0.5,
+            1.43,
+            0.74
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "desk_top"
+        },
+        {
+          "instance_id": "zhuo_01",
+          "asset_id": "CH-ZQY",
+          "position_m": [
+            -0.4,
+            2.6,
+            -0.009999999999999953
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            170
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "jingrui_01",
+          "asset_id": "CH-XJR",
+          "position_m": [
+            0.65,
+            2.5,
+            -0.009999999999999953
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            190
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "cart_body",
+          "asset_id": "VH-CART",
+          "position_m": [
+            2.35,
+            4,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "axle_01"
+        },
+        {
+          "instance_id": "wheel_left",
+          "asset_id": "VH-WHEEL",
+          "position_m": [
+            1.67,
+            4,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "wheel_right",
+          "asset_id": "VH-WHEEL",
+          "position_m": [
+            3.0300000000000002,
+            4,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "axle_01",
+          "asset_id": "VH-AXLE",
+          "position_m": [
+            2.35,
+            4,
+            0.465
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "wheel_left,wheel_right"
+        },
+        {
+          "instance_id": "cart_canopy",
+          "asset_id": "VH-CANOPY",
+          "position_m": [
+            2.35,
+            4,
+            0.74
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "cart_body"
+        },
+        {
+          "instance_id": "horse_01",
+          "asset_id": "AN-HORSE",
+          "position_m": [
+            2.35,
+            8.1,
+            -4.163336342344337e-17
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "saddle_01",
+          "asset_id": "EQ-SADDLE",
+          "position_m": [
+            2.35,
+            8.1,
+            1.44
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "horse_01"
+        },
+        {
+          "instance_id": "pov_right_hand",
+          "asset_id": "HAND-MCS-R",
+          "position_m": [
+            -0.15,
+            -0.12,
+            1.0
+          ],
+          "rotation_degrees": [
+            -65,
+            0,
+            -8
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        }
+      ],
+      "cameras": [
+        "production/scene-blockouts/SC06/SC06-camera.json"
+      ],
       "available_proxy_asset_ids": [
         "CH-MCS",
         "CH-SCRIBE",
@@ -459,12 +3438,12 @@
         "AR-AWNING",
         "ENV-DIRT"
       ],
-      "complete_scene_package_status": "not_assembled_or_reviewed"
+      "complete_scene_package_status": "representative_setup_only_remaining_subspaces_and_motion_pending"
     },
     {
       "key": "SC07",
       "name": "金陵城门",
-      "status": "not_built",
+      "status": "assembled_proxy_draft_pending_review",
       "subspaces": [
         "门外队伍",
         "车门回报位",
@@ -498,10 +3477,349 @@
         "EP03-S12-01",
         "EP03-S12-02"
       ],
-      "dimensions_status": "design_pending_no_measured_values",
-      "source_scene": null,
-      "entity_transforms": [],
-      "cameras": [],
+      "dimensions_status": "designed_metre_dimensions_not_surveyed",
+      "source_scene": "production/scene-blockouts/SC07/SC07-scene.json",
+      "entity_transforms": [
+        {
+          "instance_id": "paving_0",
+          "asset_id": "ENV-PAVING",
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            2.5,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "paving_4",
+          "asset_id": "ENV-PAVING",
+          "position_m": [
+            0,
+            4,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            2.5,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "paving_8",
+          "asset_id": "ENV-PAVING",
+          "position_m": [
+            0,
+            8,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            2.5,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "paving_12",
+          "asset_id": "ENV-PAVING",
+          "position_m": [
+            0,
+            12,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            2.5,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "gate_opening",
+          "asset_id": "AR-GATE",
+          "position_m": [
+            0,
+            7,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "wall_-8",
+          "asset_id": "AR-GATEWALL",
+          "position_m": [
+            -8,
+            7,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "wall_8",
+          "asset_id": "AR-GATEWALL",
+          "position_m": [
+            8,
+            7,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "open_leaf_-2",
+          "asset_id": "AR-GATELEAF",
+          "position_m": [
+            -2,
+            7,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            90
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "open_leaf_2",
+          "asset_id": "AR-GATELEAF",
+          "position_m": [
+            2,
+            7,
+            0
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            90
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "lantern_bracket_-3",
+          "asset_id": "AR-LIGHT",
+          "position_m": [
+            -3,
+            6.1,
+            3.4
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "lantern_-3",
+          "asset_id": "PR-LANTERN",
+          "position_m": [
+            -3,
+            5.9,
+            2.85
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "lantern_bracket_-3"
+        },
+        {
+          "instance_id": "lantern_bracket_3",
+          "asset_id": "AR-LIGHT",
+          "position_m": [
+            3,
+            6.1,
+            3.4
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        },
+        {
+          "instance_id": "lantern_3",
+          "asset_id": "PR-LANTERN",
+          "position_m": [
+            3,
+            5.9,
+            2.85
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "lantern_bracket_3"
+        },
+        {
+          "instance_id": "jingrui_01",
+          "asset_id": "CH-XJR",
+          "position_m": [
+            -0.9,
+            3.5,
+            -0.009999999999999953
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            170
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "reporter_01",
+          "asset_id": "CH-COURIER",
+          "position_m": [
+            0.95,
+            4.0,
+            -0.009999999999999953
+          ],
+          "rotation_degrees": [
+            0,
+            0,
+            190
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": "ground"
+        },
+        {
+          "instance_id": "pov_right_hand",
+          "asset_id": "HAND-MCS-R",
+          "position_m": [
+            0.1,
+            0.65,
+            1.25
+          ],
+          "rotation_degrees": [
+            -65,
+            0,
+            -8
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "local_forward": "+Y",
+          "support": null
+        }
+      ],
+      "cameras": [
+        "production/scene-blockouts/SC07/SC07-camera.json"
+      ],
       "available_proxy_asset_ids": [
         "CH-MCS",
         "CH-XJR",
@@ -533,7 +3851,7 @@
         "AR-LIGHT",
         "ENV-PAVING"
       ],
-      "complete_scene_package_status": "not_assembled_or_reviewed"
+      "complete_scene_package_status": "representative_setup_only_remaining_subspaces_and_motion_pending"
     }
   ],
   "actor_note": "新增重要在场配角须补独立几何体与身份锚点，不因首次资产表未列入而忽略。",

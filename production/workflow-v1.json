@@ -3590,5 +3590,13 @@
       "sha256": "9bede1f124738f674b8640ccde84fb147eacd856cfbca4ab0a9f0c824189bb5e"
     },
     "policy": "Every visible entity requires a reusable asset and explicit scene instance; proxy creation never grants production approval."
+  },
+  "scene_blockouts": {
+    "version": 1,
+    "status": "seven_representative_static_drafts_not_approved",
+    "manifest": {
+      "path": "production/scene-blockouts/manifest-v1.json",
+      "sha256": "aeb6304b31697d739fd452da6099bb9db03e4cbfa914d5f67ddd4daf4b7d1f31"
+    }
   }
 }

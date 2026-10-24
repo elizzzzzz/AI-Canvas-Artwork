@@ -1,6 +1,6 @@
 {
   "checked_at": "2026-10-24T23:43:50+08:00",
-  "phase": "mandatory_3d_modeling_before_any_generation",
+  "phase": "seven_representative_scene_drafts_pending_geometry_and_motion_review",
   "board_name": "琅琊云令 三集制作总工作流",
   "canvas_revision": 23,
   "canvas_nodes": 77,
@@ -46,12 +46,12 @@
   },
   "unfinished": [
     "reference artistic review and targeted revisions",
-    "3D graybox build and review",
     "video pilot",
     "episode video generation",
     "sound, subtitles and mouth-sync review",
     "final exports",
-    "reusable 3D proxy library created; complete scene assemblies and human review pending"
+    "reusable 3D proxy library created; complete scene assemblies and human review pending",
+    "complete subspaces, prop/hand contacts, 67 clip motion paths and named review"
   ],
   "first_batch_images_completed": 8,
   "submitted_generation_estimate": 496,
@@ -89,5 +89,12 @@
     "platform_native_glb_upload": false,
     "canvas_index_node": "7d1f5224-558e-4000-b70d-9e97b72cbec1",
     "canvas_policy_node": "eeb441b0-7bfe-4fad-8f3e-f1a7f0c0ad66"
+  },
+  "scene_blockouts": {
+    "scene_count": 7,
+    "instance_count": 157,
+    "status": "representative_static_drafts_not_approved",
+    "complete_67_clip_paths": false,
+    "manifest": "production/scene-blockouts/manifest-v1.json"
   }
 }

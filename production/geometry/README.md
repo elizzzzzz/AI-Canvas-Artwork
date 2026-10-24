@@ -1,6 +1,6 @@
 # 所有画面必须有 3D 依据
 
-这是一份待建模与待审核的覆盖台账，**不是已完成的场景模型集合**。用户的强制要求已写入 [制作规范](../../docs/MANDATORY-3D-PRODUCTION.md)及仓库 [AGENTS.md](../../AGENTS.md)。
+这是一份覆盖实际代理资产、七个代表性场景草稿及待审核分镜的台账；完整子空间和动态场景包仍待完成。用户的强制要求已写入 [制作规范](../../docs/MANDATORY-3D-PRODUCTION.md)及仓库 [AGENTS.md](../../AGENTS.md)。
 
 - 7 个主场景，逐场列出子空间、人物、道具和空间动作关系：[scene-inventory-v1.json](scene-inventory-v1.json)。
 - 192 个验收范围：100 个可复用三维代理资产、23 项原始语义资产、67 个正式片段、1 个 5 秒试跑、1 个 P01 修图：[coverage-v1.json](coverage-v1.json)。
@@ -43,3 +43,5 @@ python3 -m unittest discover -s tests
 
 
 人工签核还必须记录 `artifact_set_sha256`（证据路径/哈希与报告路径/哈希的规范化摘要）；即使沿用旧版本号，任何模型、相机或报告内容变化也不能复用旧签核。
+
+七个代表性静态组合草稿已导出，见 [场景工作包](../scene-blockouts/README.md)。`ASSET:SC01` 至 `ASSET:SC07` 已登记六类静态证据，仍无审核报告或人工批准。所有 67 段运镜及子空间继续待制作。

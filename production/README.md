@@ -2,7 +2,7 @@
 
 本工作包已在 AI Canvas 建立对应画布、短剧项目、资产设计和分镜项目。用户确认后，**67 段分镜已应用、首批 8 张图片已生成并绑定**。新增强制规则已生效：所有后续图片、修图、关键帧和视频必须先有完整3D依据；当前转入建模阶段，所有生成条件关闭。
 
-[强制3D规范](../docs/MANDATORY-3D-PRODUCTION.md) · [逐镜头覆盖表](geometry/COVERAGE.md) · [场景建模清单](geometry/scene-inventory-v1.json)
+[强制3D规范](../docs/MANDATORY-3D-PRODUCTION.md) · [逐镜头覆盖表](geometry/COVERAGE.md) · [场景建模清单](geometry/scene-inventory-v1.json) · [七场景组合草稿](scene-blockouts/README.md)
 
 先查看 [八图审阅与人工检查](REFERENCE-REVIEW.md)；这批为定妆/空间候选，空景和主观起始帧存在待修订项。
 

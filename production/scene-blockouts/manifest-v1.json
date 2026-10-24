@@ -1,0 +1,660 @@
+{
+  "version": 1,
+  "scene_count": 7,
+  "approved_count": 0,
+  "limitation": "Static representative drafts. No 67-clip camera or collision approval.",
+  "scenes": [
+    {
+      "scene_key": "SC01",
+      "name": "梅长苏卧房",
+      "status": "assembled_proxy_draft_pending_review",
+      "pov_owner": "梅长苏",
+      "instance_count": 20,
+      "files": {
+        "model": {
+          "path": "production/scene-blockouts/SC01/SC01.glb",
+          "sha256": "dde19b40a254371889bb916e635f9f25bba2407cb36a05a6fa5930a76f52fb0f"
+        },
+        "scene": {
+          "path": "production/scene-blockouts/SC01/SC01-scene.json",
+          "sha256": "9bea5681a6b6a790254f269d6e2b84e80c156e32bf5620b6acce8cf56a38c47f"
+        },
+        "camera": {
+          "path": "production/scene-blockouts/SC01/SC01-camera.json",
+          "sha256": "9a83e05c1368f9419739b88975b5d2b4ab821a206b0bb595da3bfcc85e800c86"
+        },
+        "preview": {
+          "path": "production/scene-blockouts/SC01/SC01-pov.png",
+          "sha256": "d69f8ecb88bf8321ca918dfaa5ff1d7026c0aac9950594003e2bd7f5f110e830"
+        },
+        "depth": {
+          "path": "production/scene-blockouts/SC01/SC01-pov-depth-mm.png",
+          "sha256": "8ff6ab31c16d415b8e96e533e891ec1433ce4b299e00d28c3eb661e12b6ba2eb"
+        },
+        "object_ids": {
+          "path": "production/scene-blockouts/SC01/SC01-pov-object-ids.png",
+          "sha256": "a2417dc29386b023530a0eb81e0976a264cf43f34c9aaea0fd34ccecbbdafa0f"
+        },
+        "id_legend": {
+          "path": "production/scene-blockouts/SC01/SC01-pov-object-ids.json",
+          "sha256": "5a67daa3cd2e3e02ac3eb931ac485486b32824c66213a2d05eae1a88a03b3c20"
+        },
+        "diagnostic": {
+          "path": "production/scene-blockouts/SC01/SC01-diagnostic.png",
+          "sha256": "6328159521d07bdec746df3379c018b87e75afc2adcc8b63f656ee58144cd9e1"
+        }
+      },
+      "source_assets": {
+        "AR-FLOOR": {
+          "path": "production/asset-library/models/AR-FLOOR.glb",
+          "sha256": "7d67202cc28b56bd62ee3f3ff427a172392b8cd059f412d8e395797eeb131ba0"
+        },
+        "AR-WALL": {
+          "path": "production/asset-library/models/AR-WALL.glb",
+          "sha256": "74a641a0be4de755f7089517f173250d3e856a2581a82a3475e5112cc6a6e978"
+        },
+        "AR-WINDOW": {
+          "path": "production/asset-library/models/AR-WINDOW.glb",
+          "sha256": "4a7f64723ac4cd1e5ba8f2cc7ec742f1f80ca55fe0e43c68f40510e40ce4c842"
+        },
+        "AR-BEAM": {
+          "path": "production/asset-library/models/AR-BEAM.glb",
+          "sha256": "5bd7656940771910d6e6eb100fc23b17ab55986580f8448c069c3c3fe3fdef43"
+        },
+        "AR-BED": {
+          "path": "production/asset-library/models/AR-BED.glb",
+          "sha256": "7f0f6a4f6a7c08d7b7d05dc0f7ca2a103f30eff6ffc0beffab190e7b08af0ea5"
+        },
+        "AR-DESK": {
+          "path": "production/asset-library/models/AR-DESK.glb",
+          "sha256": "2ae0e7521e060b99b69fd0b951be8f86640ad28f5bcc4bbf60dbcb1903e30ac7"
+        },
+        "PR-TOKEN": {
+          "path": "production/asset-library/models/PR-TOKEN.glb",
+          "sha256": "6801ce780f65aee8bf9fb535f3c78edd07e60b35a169303756fa7d6e470bc5ed"
+        },
+        "PR-FAN": {
+          "path": "production/asset-library/models/PR-FAN.glb",
+          "sha256": "cda7bc3ddb4b79016ac56a6db7977a138ed4ff3777b7e86fae465287f113b8fa"
+        },
+        "PR-STAND": {
+          "path": "production/asset-library/models/PR-STAND.glb",
+          "sha256": "29b60c218a2829281d6d7b26f61d372fb0f451b59bf8ac8dab895df35e4cc657"
+        },
+        "PR-CANDLE": {
+          "path": "production/asset-library/models/PR-CANDLE.glb",
+          "sha256": "589bde3a6201836716113f29f0634e31c41f108abe1fd7f86761a4619c52551e"
+        },
+        "HAND-MCS-R": {
+          "path": "production/asset-library/models/HAND-MCS-R.glb",
+          "sha256": "35dfbdcb9efd126f14448b36cc70c728aafa8af34bc9478021559c5d8355cde5"
+        }
+      },
+      "approval": null
+    },
+    {
+      "scene_key": "SC02",
+      "name": "梅岭雪原",
+      "status": "assembled_proxy_draft_pending_review",
+      "pov_owner": "林殊",
+      "instance_count": 20,
+      "files": {
+        "model": {
+          "path": "production/scene-blockouts/SC02/SC02.glb",
+          "sha256": "f8a01a393386a507b4bd7b73c62f4cd615938d04d6cfb6ff60602ef83aa8ec74"
+        },
+        "scene": {
+          "path": "production/scene-blockouts/SC02/SC02-scene.json",
+          "sha256": "1d3fb528c5a409c02556f4357578771a8abd4f97d1d206daf1f245e37a9c4a6a"
+        },
+        "camera": {
+          "path": "production/scene-blockouts/SC02/SC02-camera.json",
+          "sha256": "17e2ca25e7ef683eeca77eb18b768efb7b84d76d598898939dad92e948476b77"
+        },
+        "preview": {
+          "path": "production/scene-blockouts/SC02/SC02-pov.png",
+          "sha256": "3e8e191595359bd475241d592c0db8d61ffea6df093bcaf8db5287aa6a0ac8b6"
+        },
+        "depth": {
+          "path": "production/scene-blockouts/SC02/SC02-pov-depth-mm.png",
+          "sha256": "898dfce0ef794f9053eb70365925cf7568fc125cfeda185c12e12db789ca2b57"
+        },
+        "object_ids": {
+          "path": "production/scene-blockouts/SC02/SC02-pov-object-ids.png",
+          "sha256": "95f87708f3553e0408fdb218ce4c9fc3463fe74e82b027f86903b3f4f2b1b1b8"
+        },
+        "id_legend": {
+          "path": "production/scene-blockouts/SC02/SC02-pov-object-ids.json",
+          "sha256": "d1815feba667e6fa95e11170000fa6d4dca77ca68db233a242fc84a80bf744db"
+        },
+        "diagnostic": {
+          "path": "production/scene-blockouts/SC02/SC02-diagnostic.png",
+          "sha256": "effe2f7465c162da0485d8153639e2ebc7b227a1ef5b719a1fd196d60be3bb9a"
+        }
+      },
+      "source_assets": {
+        "ENV-SNOWROAD": {
+          "path": "production/asset-library/models/ENV-SNOWROAD.glb",
+          "sha256": "feb5b4a63e42e12f2c6d88d5de2ca4ee71b54eead5b761e0ffb7bb2da6a23f4c"
+        },
+        "ENV-SNOWBANK": {
+          "path": "production/asset-library/models/ENV-SNOWBANK.glb",
+          "sha256": "56f8ae3fc61ad292e58b4261cdec93030f24adcbef2fe483d3b5664e28fe7605"
+        },
+        "ENV-FLAG": {
+          "path": "production/asset-library/models/ENV-FLAG.glb",
+          "sha256": "f4077ea348615facba401aecfa1a9026577f0a64ed3088f1e013a63a3f3fdf81"
+        },
+        "ENV-BROKENWOOD": {
+          "path": "production/asset-library/models/ENV-BROKENWOOD.glb",
+          "sha256": "7daff2d2adf0f80bf2bea08821a8bec0c9e0dbb976abebc60133b24f10ae42ba"
+        },
+        "PR-REPORT": {
+          "path": "production/asset-library/models/PR-REPORT.glb",
+          "sha256": "d41878095c538804a01021bbf9346281faef2f6dc048d8e9478d6fed05eff041"
+        },
+        "PR-TOKEN": {
+          "path": "production/asset-library/models/PR-TOKEN.glb",
+          "sha256": "6801ce780f65aee8bf9fb535f3c78edd07e60b35a169303756fa7d6e470bc5ed"
+        },
+        "ENV-BRAZIER": {
+          "path": "production/asset-library/models/ENV-BRAZIER.glb",
+          "sha256": "ff54aa547f705d628634033fa15ed94b8c127e8e90b752f150bd8192db633ad7"
+        },
+        "HAND-LS-R": {
+          "path": "production/asset-library/models/HAND-LS-R.glb",
+          "sha256": "f582753e647dada6fb826af37204797ea341d46acb57ecbb0dce87acc302c4fa"
+        }
+      },
+      "approval": null
+    },
+    {
+      "scene_key": "SC03",
+      "name": "江左盟旧档室",
+      "status": "assembled_proxy_draft_pending_review",
+      "pov_owner": "梅长苏",
+      "instance_count": 23,
+      "files": {
+        "model": {
+          "path": "production/scene-blockouts/SC03/SC03.glb",
+          "sha256": "90be6a5ee92e775e4a9e07a1306e74f01047c08f5726d8c9ee4b2e62cb26282e"
+        },
+        "scene": {
+          "path": "production/scene-blockouts/SC03/SC03-scene.json",
+          "sha256": "823ce5a658be06a511d27fca11127e153f58d6d9d20369f141b73a7e7622b644"
+        },
+        "camera": {
+          "path": "production/scene-blockouts/SC03/SC03-camera.json",
+          "sha256": "cb5d97dcd98958cb12e060191c66df53a9a5d01e6239e7d93eabba2e35df41c3"
+        },
+        "preview": {
+          "path": "production/scene-blockouts/SC03/SC03-pov.png",
+          "sha256": "37f69fe556a0857a4205b5262fe30477b187621a03b4366959b622737a107cc3"
+        },
+        "depth": {
+          "path": "production/scene-blockouts/SC03/SC03-pov-depth-mm.png",
+          "sha256": "c23006d78fcab7ead16589328d05eb125dab4117ebd8873ab3453f1433ad5020"
+        },
+        "object_ids": {
+          "path": "production/scene-blockouts/SC03/SC03-pov-object-ids.png",
+          "sha256": "5fad9b24e8f77961f659742ca7cbf68e0462e8bf7cccb751520733033a0b6f5a"
+        },
+        "id_legend": {
+          "path": "production/scene-blockouts/SC03/SC03-pov-object-ids.json",
+          "sha256": "c71f8230944a3ee18a6aa417efbc82281eb400392d326893bd545c839f138980"
+        },
+        "diagnostic": {
+          "path": "production/scene-blockouts/SC03/SC03-diagnostic.png",
+          "sha256": "3cce7ddad63342d67395d10d026788c8dc19ab80e275b43406eac5032a0fab97"
+        }
+      },
+      "source_assets": {
+        "AR-FLOOR": {
+          "path": "production/asset-library/models/AR-FLOOR.glb",
+          "sha256": "7d67202cc28b56bd62ee3f3ff427a172392b8cd059f412d8e395797eeb131ba0"
+        },
+        "AR-WALL": {
+          "path": "production/asset-library/models/AR-WALL.glb",
+          "sha256": "74a641a0be4de755f7089517f173250d3e856a2581a82a3475e5112cc6a6e978"
+        },
+        "AR-WINDOW": {
+          "path": "production/asset-library/models/AR-WINDOW.glb",
+          "sha256": "4a7f64723ac4cd1e5ba8f2cc7ec742f1f80ca55fe0e43c68f40510e40ce4c842"
+        },
+        "AR-BEAM": {
+          "path": "production/asset-library/models/AR-BEAM.glb",
+          "sha256": "5bd7656940771910d6e6eb100fc23b17ab55986580f8448c069c3c3fe3fdef43"
+        },
+        "AR-DESK": {
+          "path": "production/asset-library/models/AR-DESK.glb",
+          "sha256": "2ae0e7521e060b99b69fd0b951be8f86640ad28f5bcc4bbf60dbcb1903e30ac7"
+        },
+        "AR-CABINET": {
+          "path": "production/asset-library/models/AR-CABINET.glb",
+          "sha256": "ba6c976a4e217f7db9376757f9ac2e40a6ee581fde40205d00c382fe857a035e"
+        },
+        "PR-TOKEN": {
+          "path": "production/asset-library/models/PR-TOKEN.glb",
+          "sha256": "6801ce780f65aee8bf9fb535f3c78edd07e60b35a169303756fa7d6e470bc5ed"
+        },
+        "PR-INDEX": {
+          "path": "production/asset-library/models/PR-INDEX.glb",
+          "sha256": "86ab920f163dbbbea684ec1bceafe8f3f1bf532f4cae901c77a5c9443f63380f"
+        },
+        "PR-LETTERBOX": {
+          "path": "production/asset-library/models/PR-LETTERBOX.glb",
+          "sha256": "09aa5237cd0b445780872ace3fc7631c1b2d7b4dec3ec6998b1255787b6a3377"
+        },
+        "PR-SEAL-R": {
+          "path": "production/asset-library/models/PR-SEAL-R.glb",
+          "sha256": "ea45ad4efb8e79edab17b57c07661212f29ee393a251725003a59545c71f2e2e"
+        },
+        "CH-SCRIBE": {
+          "path": "production/asset-library/models/CH-SCRIBE.glb",
+          "sha256": "fd2828a43f9e031ac7edabcbc8a80ce92abfd20ce42ddf6974900ceb5cd78198"
+        },
+        "CH-COURIER": {
+          "path": "production/asset-library/models/CH-COURIER.glb",
+          "sha256": "279ffef05886d498798dc8a464c483413533da3a6b7ceac529b1962f9ce6f671"
+        },
+        "HAND-MCS-R": {
+          "path": "production/asset-library/models/HAND-MCS-R.glb",
+          "sha256": "35dfbdcb9efd126f14448b36cc70c728aafa8af34bc9478021559c5d8355cde5"
+        }
+      },
+      "approval": null
+    },
+    {
+      "scene_key": "SC04",
+      "name": "雪路与追车",
+      "status": "assembled_proxy_draft_pending_review",
+      "pov_owner": "梅长苏",
+      "instance_count": 24,
+      "files": {
+        "model": {
+          "path": "production/scene-blockouts/SC04/SC04.glb",
+          "sha256": "f33293d5589268134ca595f3f711c377e8bfa3ef1bcce891e244f9877c39f9e8"
+        },
+        "scene": {
+          "path": "production/scene-blockouts/SC04/SC04-scene.json",
+          "sha256": "07c27be9f6a328e148037cecebd09abf12074554c589a5e2810aae0a1fd3f271"
+        },
+        "camera": {
+          "path": "production/scene-blockouts/SC04/SC04-camera.json",
+          "sha256": "4b738fb8e2c4416086d8a04ab19c6e2f447045eaf1b6993b43dcb226508ae63b"
+        },
+        "preview": {
+          "path": "production/scene-blockouts/SC04/SC04-pov.png",
+          "sha256": "fb572d91466c8810b3032780d507cc68ddbd9e1f2b9f0c3fe7d049e2ae3c165a"
+        },
+        "depth": {
+          "path": "production/scene-blockouts/SC04/SC04-pov-depth-mm.png",
+          "sha256": "30f3bf1742a95cf3142a3db22ccbb9fd0373960e1232464fa34994f7d8f47c3e"
+        },
+        "object_ids": {
+          "path": "production/scene-blockouts/SC04/SC04-pov-object-ids.png",
+          "sha256": "5c6d728ff6c34a859051a4afaef173f3036cf196d1b2cc4515fc1ef170cef043"
+        },
+        "id_legend": {
+          "path": "production/scene-blockouts/SC04/SC04-pov-object-ids.json",
+          "sha256": "b463481722193114d6341b34db1d753d823f7a3b6a9323de687281aac2d670fa"
+        },
+        "diagnostic": {
+          "path": "production/scene-blockouts/SC04/SC04-diagnostic.png",
+          "sha256": "4a351a684e3901aac8d4fa11da1c25f1a7603ecc67d870607eaaf672038b1f8e"
+        }
+      },
+      "source_assets": {
+        "ENV-SNOWROAD": {
+          "path": "production/asset-library/models/ENV-SNOWROAD.glb",
+          "sha256": "feb5b4a63e42e12f2c6d88d5de2ca4ee71b54eead5b761e0ffb7bb2da6a23f4c"
+        },
+        "ENV-SNOWBANK": {
+          "path": "production/asset-library/models/ENV-SNOWBANK.glb",
+          "sha256": "56f8ae3fc61ad292e58b4261cdec93030f24adcbef2fe483d3b5664e28fe7605"
+        },
+        "VH-CART": {
+          "path": "production/asset-library/models/VH-CART.glb",
+          "sha256": "e1ddf2bfa88d90cda85a88e93fc5afb1caa39aa476b81f99dc642f598a026d49"
+        },
+        "VH-WHEEL": {
+          "path": "production/asset-library/models/VH-WHEEL.glb",
+          "sha256": "01373cecdee26025fea92bf3636f2b6eebefc5799fe50690e89e9edcf00a6eb1"
+        },
+        "VH-AXLE": {
+          "path": "production/asset-library/models/VH-AXLE.glb",
+          "sha256": "fb2e3e6026a2663737425f2ecde8f46aa886f9e30559555fc8c2b7c8a13a040b"
+        },
+        "VH-CANOPY": {
+          "path": "production/asset-library/models/VH-CANOPY.glb",
+          "sha256": "a79757972e1318c5f72c3cf3cbb1b5f34800de740fe13dedd035b39c9fbc5578"
+        },
+        "AN-HORSE": {
+          "path": "production/asset-library/models/AN-HORSE.glb",
+          "sha256": "e76fe732e8970616af0315ebb6268df332be59e95f50ebfd7b4caff37ce31f95"
+        },
+        "EQ-SADDLE": {
+          "path": "production/asset-library/models/EQ-SADDLE.glb",
+          "sha256": "b8361692be221b7b8cacc65748317d428b0dfa717cb9e703dd57f1a02f2ce780"
+        },
+        "PR-CHEST": {
+          "path": "production/asset-library/models/PR-CHEST.glb",
+          "sha256": "059b8a5e4d6e9c7af6b93572ecbacf290b2e9863245474e9c8d32116b23da052"
+        },
+        "PR-REPORT": {
+          "path": "production/asset-library/models/PR-REPORT.glb",
+          "sha256": "d41878095c538804a01021bbf9346281faef2f6dc048d8e9478d6fed05eff041"
+        },
+        "PR-BACKUP": {
+          "path": "production/asset-library/models/PR-BACKUP.glb",
+          "sha256": "9693d444062075b0386962d5387c61159a0f9db2bc25f7fd94b4207bfc32916a"
+        },
+        "CH-SCRIBE": {
+          "path": "production/asset-library/models/CH-SCRIBE.glb",
+          "sha256": "fd2828a43f9e031ac7edabcbc8a80ce92abfd20ce42ddf6974900ceb5cd78198"
+        },
+        "ENV-TREE": {
+          "path": "production/asset-library/models/ENV-TREE.glb",
+          "sha256": "612c7d4e0874c2c3853172727ad8f5397b038e77b280be2bd81b93d61e6c90d2"
+        }
+      },
+      "approval": null
+    },
+    {
+      "scene_key": "SC05",
+      "name": "琅琊阁雨廊",
+      "status": "assembled_proxy_draft_pending_review",
+      "pov_owner": "谢听云",
+      "instance_count": 26,
+      "files": {
+        "model": {
+          "path": "production/scene-blockouts/SC05/SC05.glb",
+          "sha256": "4f71d67e2e3ff76d13c3b4fd81a9064baab035a42bfb69e1ba5bdaa9be9a99f5"
+        },
+        "scene": {
+          "path": "production/scene-blockouts/SC05/SC05-scene.json",
+          "sha256": "2802b6e7cfa0489b1cf848c2318538f7b7e57fb184c6061b7fed330f4d799626"
+        },
+        "camera": {
+          "path": "production/scene-blockouts/SC05/SC05-camera.json",
+          "sha256": "5e10a560b4e30465cee3be4390ccb0e0d4d02a4220297f10843a491ec14e20dd"
+        },
+        "preview": {
+          "path": "production/scene-blockouts/SC05/SC05-pov.png",
+          "sha256": "afcb8cf4380529545d1bcd7e532a2c17bd2c28df060296848b9ffcc6453c1577"
+        },
+        "depth": {
+          "path": "production/scene-blockouts/SC05/SC05-pov-depth-mm.png",
+          "sha256": "146c17f152f4d4594a825237d44f2fc3761a19454a31a49b51c07d6bee6061c1"
+        },
+        "object_ids": {
+          "path": "production/scene-blockouts/SC05/SC05-pov-object-ids.png",
+          "sha256": "387acad2160032377a7096477b03742e6ca33e38e72639379275839b4b901ed2"
+        },
+        "id_legend": {
+          "path": "production/scene-blockouts/SC05/SC05-pov-object-ids.json",
+          "sha256": "23f680088809446aa318e6009b5d0e52b92502c2f79bf90357fe6c6ad3efa439"
+        },
+        "diagnostic": {
+          "path": "production/scene-blockouts/SC05/SC05-diagnostic.png",
+          "sha256": "b3c60ba9e78cb4fe265bb1159c1874f092eef904ed9939295c4e489540990e32"
+        }
+      },
+      "source_assets": {
+        "AR-FLOOR": {
+          "path": "production/asset-library/models/AR-FLOOR.glb",
+          "sha256": "7d67202cc28b56bd62ee3f3ff427a172392b8cd059f412d8e395797eeb131ba0"
+        },
+        "AR-COLUMN": {
+          "path": "production/asset-library/models/AR-COLUMN.glb",
+          "sha256": "f2f9d484b9f63f14c947d1d0ca3896014c12331346dbb7181d8377e4ecd22d01"
+        },
+        "AR-BEAM": {
+          "path": "production/asset-library/models/AR-BEAM.glb",
+          "sha256": "5bd7656940771910d6e6eb100fc23b17ab55986580f8448c069c3c3fe3fdef43"
+        },
+        "AR-ROOF": {
+          "path": "production/asset-library/models/AR-ROOF.glb",
+          "sha256": "12dfaa83822047ed8fb078ae861a69281949f852d026891f25bfa3be2d142c9e"
+        },
+        "AR-DESK": {
+          "path": "production/asset-library/models/AR-DESK.glb",
+          "sha256": "2ae0e7521e060b99b69fd0b951be8f86640ad28f5bcc4bbf60dbcb1903e30ac7"
+        },
+        "PR-MAP-NEW": {
+          "path": "production/asset-library/models/PR-MAP-NEW.glb",
+          "sha256": "174438c963f851ff813a3c150edca489b5b5b5b4e598d18c496f229068098e3d"
+        },
+        "PR-POUCH": {
+          "path": "production/asset-library/models/PR-POUCH.glb",
+          "sha256": "1a7ec3a0d709f5fb94929baf2cdd39bac47311edac923cd05f02876eedffa7c2"
+        },
+        "PR-CLOUDBOX": {
+          "path": "production/asset-library/models/PR-CLOUDBOX.glb",
+          "sha256": "f8521c8846f1c606cabe9ed4063b9656cc1343aeb71bb8147bbc2fa0aa00232f"
+        },
+        "PR-RECEIPT": {
+          "path": "production/asset-library/models/PR-RECEIPT.glb",
+          "sha256": "1ca408e030013fd1746b8e1d83eeb772b2f12665ec3bf77c7aa86d359d8023b5"
+        },
+        "PR-SEAL-R": {
+          "path": "production/asset-library/models/PR-SEAL-R.glb",
+          "sha256": "ea45ad4efb8e79edab17b57c07661212f29ee393a251725003a59545c71f2e2e"
+        },
+        "PR-SEAL-G": {
+          "path": "production/asset-library/models/PR-SEAL-G.glb",
+          "sha256": "25e515c854d8ab8db4deaa4e2cef829294d6e04e6d21c17b05a1722d6e6c182c"
+        },
+        "PR-SEAL-B": {
+          "path": "production/asset-library/models/PR-SEAL-B.glb",
+          "sha256": "93ef007823d406ed5374d553ba189462de167f92ab47a11a8e4203759a883450"
+        },
+        "CH-MSG-A": {
+          "path": "production/asset-library/models/CH-MSG-A.glb",
+          "sha256": "78197a61a4c9f861ae37a994a9be126892b7bd64d26944dc2f9296e740983c6a"
+        },
+        "CH-MSG-B": {
+          "path": "production/asset-library/models/CH-MSG-B.glb",
+          "sha256": "d290d4dc74d45aaafc55498a4c8a6616c8cd7c6301b5ce31624f7e2d34a5f5d1"
+        },
+        "HAND-XTY-R": {
+          "path": "production/asset-library/models/HAND-XTY-R.glb",
+          "sha256": "7cd4488dd12f97f37981bcb95b73599a59c4ebb0bf8df0fa1cee4a1ff1acf943"
+        }
+      },
+      "approval": null
+    },
+    {
+      "scene_key": "SC06",
+      "name": "入京雨路",
+      "status": "assembled_proxy_draft_pending_review",
+      "pov_owner": "梅长苏",
+      "instance_count": 28,
+      "files": {
+        "model": {
+          "path": "production/scene-blockouts/SC06/SC06.glb",
+          "sha256": "e2fdcff99ddbe8557f8bf85640d5c088546370fc207370ce8c5770da0bab8ba0"
+        },
+        "scene": {
+          "path": "production/scene-blockouts/SC06/SC06-scene.json",
+          "sha256": "42810c688a442673c59c7f4018082e8a6c8c4ccfc4527c686bcf63cc971cbbac"
+        },
+        "camera": {
+          "path": "production/scene-blockouts/SC06/SC06-camera.json",
+          "sha256": "1712e8b5d6eab29b270f95f07e73fee4cb90c079d294666fd9536c7634caf416"
+        },
+        "preview": {
+          "path": "production/scene-blockouts/SC06/SC06-pov.png",
+          "sha256": "dbcc249617f7d7c82659af70bbddc81583567def4a397705dd5acdcc9e847222"
+        },
+        "depth": {
+          "path": "production/scene-blockouts/SC06/SC06-pov-depth-mm.png",
+          "sha256": "8758ada1e9b461d83106995579d9ac5d3fcd406ccb541ae3d68b49e8271dd7bc"
+        },
+        "object_ids": {
+          "path": "production/scene-blockouts/SC06/SC06-pov-object-ids.png",
+          "sha256": "adb41c0e8132ce71a134d24d77998f55809d5890e58f3fe315b8133b48f06514"
+        },
+        "id_legend": {
+          "path": "production/scene-blockouts/SC06/SC06-pov-object-ids.json",
+          "sha256": "a34463a9a7aef0b01ea10b483594e7f6164621ea9ddf4bb40420f028704a8071"
+        },
+        "diagnostic": {
+          "path": "production/scene-blockouts/SC06/SC06-diagnostic.png",
+          "sha256": "9ab47ee7eb49838c53451256b497089c799bf7f94269a3987ddf04f2c268c70d"
+        }
+      },
+      "source_assets": {
+        "ENV-DIRT": {
+          "path": "production/asset-library/models/ENV-DIRT.glb",
+          "sha256": "b20e70aef410e0a1a3759932a192caf546035a3971d089e450a6773d85ef9cf8"
+        },
+        "ENV-ROCK": {
+          "path": "production/asset-library/models/ENV-ROCK.glb",
+          "sha256": "273f2c7bd8e1de695232958ed312b44936549237653b6c909eba35d553646d56"
+        },
+        "AR-AWNING": {
+          "path": "production/asset-library/models/AR-AWNING.glb",
+          "sha256": "cde565d12ca62e4788f7006102dd09675302227e3e6923cf881e2cc9b3c1ffb1"
+        },
+        "AR-DESK": {
+          "path": "production/asset-library/models/AR-DESK.glb",
+          "sha256": "2ae0e7521e060b99b69fd0b951be8f86640ad28f5bcc4bbf60dbcb1903e30ac7"
+        },
+        "PR-COMPLAINT": {
+          "path": "production/asset-library/models/PR-COMPLAINT.glb",
+          "sha256": "1be5b25841be2741772f1e10b852c43420d85a0afed1e353b4974825e1c8d86b"
+        },
+        "PR-MEDBUNDLE": {
+          "path": "production/asset-library/models/PR-MEDBUNDLE.glb",
+          "sha256": "853b9ee024bca04826dcffb8969d90ecd7732fec1136c3a2dbcaaa36ca750447"
+        },
+        "PR-MAP-NEW": {
+          "path": "production/asset-library/models/PR-MAP-NEW.glb",
+          "sha256": "174438c963f851ff813a3c150edca489b5b5b5b4e598d18c496f229068098e3d"
+        },
+        "PR-CLOUDBOX": {
+          "path": "production/asset-library/models/PR-CLOUDBOX.glb",
+          "sha256": "f8521c8846f1c606cabe9ed4063b9656cc1343aeb71bb8147bbc2fa0aa00232f"
+        },
+        "CH-ZQY": {
+          "path": "production/asset-library/models/CH-ZQY.glb",
+          "sha256": "5f6e5da00393e62f9fe862159311eea570c58610afa5c196593151de619487c3"
+        },
+        "CH-XJR": {
+          "path": "production/asset-library/models/CH-XJR.glb",
+          "sha256": "1de784b8fd80c7ca27ce291f7d85e066deca9c031b42a55cb27d484bc2dc8167"
+        },
+        "VH-CART": {
+          "path": "production/asset-library/models/VH-CART.glb",
+          "sha256": "e1ddf2bfa88d90cda85a88e93fc5afb1caa39aa476b81f99dc642f598a026d49"
+        },
+        "VH-WHEEL": {
+          "path": "production/asset-library/models/VH-WHEEL.glb",
+          "sha256": "01373cecdee26025fea92bf3636f2b6eebefc5799fe50690e89e9edcf00a6eb1"
+        },
+        "VH-AXLE": {
+          "path": "production/asset-library/models/VH-AXLE.glb",
+          "sha256": "fb2e3e6026a2663737425f2ecde8f46aa886f9e30559555fc8c2b7c8a13a040b"
+        },
+        "VH-CANOPY": {
+          "path": "production/asset-library/models/VH-CANOPY.glb",
+          "sha256": "a79757972e1318c5f72c3cf3cbb1b5f34800de740fe13dedd035b39c9fbc5578"
+        },
+        "AN-HORSE": {
+          "path": "production/asset-library/models/AN-HORSE.glb",
+          "sha256": "e76fe732e8970616af0315ebb6268df332be59e95f50ebfd7b4caff37ce31f95"
+        },
+        "EQ-SADDLE": {
+          "path": "production/asset-library/models/EQ-SADDLE.glb",
+          "sha256": "b8361692be221b7b8cacc65748317d428b0dfa717cb9e703dd57f1a02f2ce780"
+        },
+        "HAND-MCS-R": {
+          "path": "production/asset-library/models/HAND-MCS-R.glb",
+          "sha256": "35dfbdcb9efd126f14448b36cc70c728aafa8af34bc9478021559c5d8355cde5"
+        }
+      },
+      "approval": null
+    },
+    {
+      "scene_key": "SC07",
+      "name": "金陵城门",
+      "status": "assembled_proxy_draft_pending_review",
+      "pov_owner": "梅长苏",
+      "instance_count": 16,
+      "files": {
+        "model": {
+          "path": "production/scene-blockouts/SC07/SC07.glb",
+          "sha256": "ea01cd0a63d4e5e5f434eba4b0feaa2d6caa6cf2bf2c2e8d48d514843859322f"
+        },
+        "scene": {
+          "path": "production/scene-blockouts/SC07/SC07-scene.json",
+          "sha256": "cd1cbef6adebd1ac387ef12908d29380a39501c4dfeaa893e3e035aa0ca9183c"
+        },
+        "camera": {
+          "path": "production/scene-blockouts/SC07/SC07-camera.json",
+          "sha256": "b27d99b503e7a066d379d5b3548503a9fa3695257785ca5aee85f46440bb936f"
+        },
+        "preview": {
+          "path": "production/scene-blockouts/SC07/SC07-pov.png",
+          "sha256": "e2602029962fed875b49fe227f1afd82b9c12c59d3b7806ae8e89567edc6e531"
+        },
+        "depth": {
+          "path": "production/scene-blockouts/SC07/SC07-pov-depth-mm.png",
+          "sha256": "01a3cf6cd64815ae327eb826cad966f8ec119aa53ad33162eeed7e298073a4b1"
+        },
+        "object_ids": {
+          "path": "production/scene-blockouts/SC07/SC07-pov-object-ids.png",
+          "sha256": "c850ad2076835b0dfa5793613745cc6214d2d68d7fe91b787fb8f5d7a520fdd8"
+        },
+        "id_legend": {
+          "path": "production/scene-blockouts/SC07/SC07-pov-object-ids.json",
+          "sha256": "34fc01e042ed8b5f87ca71b4f42c3e8de61d39ae0be6900068f2725005407e60"
+        },
+        "diagnostic": {
+          "path": "production/scene-blockouts/SC07/SC07-diagnostic.png",
+          "sha256": "37d0a760c9dcc36e8a8e090c9d8a6a74765c7af762153c0298cc73869679eb75"
+        }
+      },
+      "source_assets": {
+        "ENV-PAVING": {
+          "path": "production/asset-library/models/ENV-PAVING.glb",
+          "sha256": "f8d2784d3e1db10f6e918d574167ada806ba31aabc3e6f54cdeb5ed8a9545c6f"
+        },
+        "AR-GATE": {
+          "path": "production/asset-library/models/AR-GATE.glb",
+          "sha256": "073302d188a5036d888c13cd132a904f60c4b2bc3b5acc1d56e376aa589b2c58"
+        },
+        "AR-GATEWALL": {
+          "path": "production/asset-library/models/AR-GATEWALL.glb",
+          "sha256": "09eb67ccaefddbc8d6b53987ff014f0ba45a787abee51a0c9fbe518857df690e"
+        },
+        "AR-GATELEAF": {
+          "path": "production/asset-library/models/AR-GATELEAF.glb",
+          "sha256": "840e77ab106ff58d2dd71ac7c828dc35e942f49c04b6b8a5ce8128ce644e3fb0"
+        },
+        "AR-LIGHT": {
+          "path": "production/asset-library/models/AR-LIGHT.glb",
+          "sha256": "903c1e57691e124bdd03e333c041744f94ef26ff8f3157b6b8dd7feb11416eba"
+        },
+        "PR-LANTERN": {
+          "path": "production/asset-library/models/PR-LANTERN.glb",
+          "sha256": "bc08ec2c18b2dc8ab67a515a1cf72bc8466174266e867832b5a92efddf7e32ba"
+        },
+        "CH-XJR": {
+          "path": "production/asset-library/models/CH-XJR.glb",
+          "sha256": "1de784b8fd80c7ca27ce291f7d85e066deca9c031b42a55cb27d484bc2dc8167"
+        },
+        "CH-COURIER": {
+          "path": "production/asset-library/models/CH-COURIER.glb",
+          "sha256": "279ffef05886d498798dc8a464c483413533da3a6b7ceac529b1962f9ce6f671"
+        },
+        "HAND-MCS-R": {
+          "path": "production/asset-library/models/HAND-MCS-R.glb",
+          "sha256": "35dfbdcb9efd126f14448b36cc70c728aafa8af34bc9478021559c5d8355cde5"
+        }
+      },
+      "approval": null
+    }
+  ]
+}

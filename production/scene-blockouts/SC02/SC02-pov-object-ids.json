@@ -1,0 +1,207 @@
+{
+  "2": {
+    "part_name": "roadbed",
+    "instance_id": "road_-1.7_-3",
+    "asset_id": "ENV-SNOWROAD"
+  },
+  "4": {
+    "part_name": "roadbed",
+    "instance_id": "road_-1.7_3",
+    "asset_id": "ENV-SNOWROAD"
+  },
+  "6": {
+    "part_name": "roadbed",
+    "instance_id": "road_-1.7_9",
+    "asset_id": "ENV-SNOWROAD"
+  },
+  "8": {
+    "part_name": "roadbed",
+    "instance_id": "road_1.7_-3",
+    "asset_id": "ENV-SNOWROAD"
+  },
+  "10": {
+    "part_name": "roadbed",
+    "instance_id": "road_1.7_3",
+    "asset_id": "ENV-SNOWROAD"
+  },
+  "12": {
+    "part_name": "roadbed",
+    "instance_id": "road_1.7_9",
+    "asset_id": "ENV-SNOWROAD"
+  },
+  "14": {
+    "part_name": "snowbank",
+    "instance_id": "edge_-3.8_1",
+    "asset_id": "ENV-SNOWBANK"
+  },
+  "16": {
+    "part_name": "snowbank",
+    "instance_id": "edge_-3.8_6",
+    "asset_id": "ENV-SNOWBANK"
+  },
+  "18": {
+    "part_name": "snowbank",
+    "instance_id": "edge_-3.8_11",
+    "asset_id": "ENV-SNOWBANK"
+  },
+  "20": {
+    "part_name": "snowbank",
+    "instance_id": "edge_3.8_1",
+    "asset_id": "ENV-SNOWBANK"
+  },
+  "22": {
+    "part_name": "snowbank",
+    "instance_id": "edge_3.8_6",
+    "asset_id": "ENV-SNOWBANK"
+  },
+  "24": {
+    "part_name": "snowbank",
+    "instance_id": "edge_3.8_11",
+    "asset_id": "ENV-SNOWBANK"
+  },
+  "26": {
+    "part_name": "pole",
+    "instance_id": "torn_flag",
+    "asset_id": "ENV-FLAG"
+  },
+  "27": {
+    "part_name": "torn_flag",
+    "instance_id": "torn_flag",
+    "asset_id": "ENV-FLAG"
+  },
+  "29": {
+    "part_name": "timber",
+    "instance_id": "broken_timber",
+    "asset_id": "ENV-BROKENWOOD"
+  },
+  "31": {
+    "part_name": "paper_sheet",
+    "instance_id": "report_0",
+    "asset_id": "PR-REPORT"
+  },
+  "33": {
+    "part_name": "paper_sheet",
+    "instance_id": "report_1",
+    "asset_id": "PR-REPORT"
+  },
+  "35": {
+    "part_name": "paper_sheet",
+    "instance_id": "report_2",
+    "asset_id": "PR-REPORT"
+  },
+  "37": {
+    "part_name": "broken_half_token",
+    "instance_id": "military_token",
+    "asset_id": "PR-TOKEN"
+  },
+  "38": {
+    "part_name": "lanyard_eye",
+    "instance_id": "military_token",
+    "asset_id": "PR-TOKEN"
+  },
+  "40": {
+    "part_name": "bowl",
+    "instance_id": "brazier",
+    "asset_id": "ENV-BRAZIER"
+  },
+  "41": {
+    "part_name": "leg",
+    "instance_id": "brazier",
+    "asset_id": "ENV-BRAZIER"
+  },
+  "42": {
+    "part_name": "leg",
+    "instance_id": "brazier",
+    "asset_id": "ENV-BRAZIER"
+  },
+  "43": {
+    "part_name": "leg",
+    "instance_id": "brazier",
+    "asset_id": "ENV-BRAZIER"
+  },
+  "46": {
+    "part_name": "forearm",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-LS-R"
+  },
+  "47": {
+    "part_name": "palm",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-LS-R"
+  },
+  "50": {
+    "part_name": "finger_0_bone_0",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-LS-R"
+  },
+  "52": {
+    "part_name": "finger_0_bone_1",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-LS-R"
+  },
+  "54": {
+    "part_name": "finger_0_bone_2",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-LS-R"
+  },
+  "57": {
+    "part_name": "finger_1_bone_0",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-LS-R"
+  },
+  "59": {
+    "part_name": "finger_1_bone_1",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-LS-R"
+  },
+  "61": {
+    "part_name": "finger_1_bone_2",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-LS-R"
+  },
+  "64": {
+    "part_name": "finger_2_bone_0",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-LS-R"
+  },
+  "66": {
+    "part_name": "finger_2_bone_1",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-LS-R"
+  },
+  "68": {
+    "part_name": "finger_2_bone_2",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-LS-R"
+  },
+  "71": {
+    "part_name": "finger_3_bone_0",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-LS-R"
+  },
+  "73": {
+    "part_name": "finger_3_bone_1",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-LS-R"
+  },
+  "75": {
+    "part_name": "finger_3_bone_2",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-LS-R"
+  },
+  "78": {
+    "part_name": "finger_4_bone_0",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-LS-R"
+  },
+  "80": {
+    "part_name": "finger_4_bone_1",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-LS-R"
+  },
+  "82": {
+    "part_name": "finger_4_bone_2",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-LS-R"
+  }
+}

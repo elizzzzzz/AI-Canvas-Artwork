@@ -40,7 +40,7 @@
       "key": "ASSET:C01",
       "kind": "asset",
       "status": "pending_modeling",
-      "source_sha256": "83698c74e624084f8bfe8938bcbec24629b2922bc1129425420da8e04d34d9f5",
+      "source_sha256": "9b2e7a2c72dd5b757de6d37cc3d730a73442943d940f95b5e72ae260dc0afb1a",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -55,7 +55,7 @@
       "key": "ASSET:C02",
       "kind": "asset",
       "status": "pending_modeling",
-      "source_sha256": "8048ccd4aaea00eb0730be57d1965f9b6ecc354758c472ee2f74774ce11f86bf",
+      "source_sha256": "71bc7dc3893f87d31ba94aa62c5e0bf9eefd0286ec850f6083ca167ffd481983",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -70,7 +70,7 @@
       "key": "ASSET:C03",
       "kind": "asset",
       "status": "pending_modeling",
-      "source_sha256": "ca404df25a0292fa387559306c3dfd94d09c8c8aff8a7d48e4bf3b81799ad217",
+      "source_sha256": "dbad57a1dac4c6fab544ed00223e427441374e5c37bef206bbcd966258d4c8d8",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -85,7 +85,7 @@
       "key": "ASSET:C04",
       "kind": "asset",
       "status": "pending_modeling",
-      "source_sha256": "f8afd7592b9582169c49be748921f7839eb69c65a09bd1d56e40d3febd7a4e6f",
+      "source_sha256": "102579464718e6431341fca14f84d0d07b389cf556b2cdc64f3818d2257742dd",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -100,7 +100,7 @@
       "key": "ASSET:C05",
       "kind": "asset",
       "status": "pending_modeling",
-      "source_sha256": "6ac3a22ec559f44373139f310b76fddc291b2ef0dbc617da15000de91c807c3d",
+      "source_sha256": "88961622a08c34f343555e84315070d2caab48fc82299eba94b4822405ac5924",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -115,7 +115,7 @@
       "key": "ASSET:C06",
       "kind": "asset",
       "status": "pending_modeling",
-      "source_sha256": "514399c25e51a6ff73f5f9e1752a91aa4060ce8b55d5aeebb93ea87496b711cd",
+      "source_sha256": "aa506b182e2e4ee3e6ff36ee2be366ce62c9db8227afaf779ad299d7ba66551d",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -130,7 +130,7 @@
       "key": "ASSET:C07",
       "kind": "asset",
       "status": "pending_modeling",
-      "source_sha256": "987005c022a8759e61885f386336a5fe8097cfaac7eb2f11d2d3abbee321545c",
+      "source_sha256": "420c8990235549dfd6bea2a4897114bc87effc9acca615d7e01961595410bf2d",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -145,7 +145,7 @@
       "key": "ASSET:C08",
       "kind": "asset",
       "status": "pending_modeling",
-      "source_sha256": "2e49b97a8db6f5dc01e396da23e34a326f5d5df203aded2a455cc9eaef24b499",
+      "source_sha256": "9c0451ef7d85985cab13a9162cf000d2c3bf45ac6905a95f30d117f60bfd174b",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -160,7 +160,7 @@
       "key": "ASSET:C09",
       "kind": "asset",
       "status": "pending_modeling",
-      "source_sha256": "ecf5318d6376bf108cfc0391217d8f078ede2ea124618c5a70b60ed9cea66c4f",
+      "source_sha256": "fc8e8051e0e419d3a1ddcfda73e87408c69c6ebeb5617cd6468ee2b370a43d8e",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -174,10 +174,35 @@
     {
       "key": "ASSET:SC01",
       "kind": "asset",
-      "status": "pending_modeling",
-      "source_sha256": "2c42daccd20739aa63058500627a7642ab9890a8dd39f41835fda25d93e78583",
-      "revision": null,
-      "evidence": {},
+      "status": "blockout_built_pending_review",
+      "source_sha256": "6f7d79887c3272acb4197f9a73ca66ffb5a748a69385078e81f256011441aaf1",
+      "revision": "scene-blockout-v1",
+      "evidence": {
+        "model": {
+          "path": "production/scene-blockouts/SC01/SC01.glb",
+          "sha256": "dde19b40a254371889bb916e635f9f25bba2407cb36a05a6fa5930a76f52fb0f"
+        },
+        "scene": {
+          "path": "production/scene-blockouts/SC01/SC01-scene.json",
+          "sha256": "9bea5681a6b6a790254f269d6e2b84e80c156e32bf5620b6acce8cf56a38c47f"
+        },
+        "camera": {
+          "path": "production/scene-blockouts/SC01/SC01-camera.json",
+          "sha256": "9a83e05c1368f9419739b88975b5d2b4ab821a206b0bb595da3bfcc85e800c86"
+        },
+        "preview": {
+          "path": "production/scene-blockouts/SC01/SC01-pov.png",
+          "sha256": "d69f8ecb88bf8321ca918dfaa5ff1d7026c0aac9950594003e2bd7f5f110e830"
+        },
+        "depth": {
+          "path": "production/scene-blockouts/SC01/SC01-pov-depth-mm.png",
+          "sha256": "8ff6ab31c16d415b8e96e533e891ec1433ce4b299e00d28c3eb661e12b6ba2eb"
+        },
+        "object_ids": {
+          "path": "production/scene-blockouts/SC01/SC01-pov-object-ids.png",
+          "sha256": "a2417dc29386b023530a0eb81e0976a264cf43f34c9aaea0fd34ccecbbdafa0f"
+        }
+      },
       "report": null,
       "approval": null,
       "asset_key": "SC01",
@@ -189,10 +214,35 @@
     {
       "key": "ASSET:SC02",
       "kind": "asset",
-      "status": "pending_modeling",
-      "source_sha256": "5d2cffc9768aa95f99d53e5893b73164b3ad3098175bcd5202bf0618c70c9bd6",
-      "revision": null,
-      "evidence": {},
+      "status": "blockout_built_pending_review",
+      "source_sha256": "0db889a7414bf10c35c9a64ebd9ba1434817dd8ce1aaa5c593810b9b95708246",
+      "revision": "scene-blockout-v1",
+      "evidence": {
+        "model": {
+          "path": "production/scene-blockouts/SC02/SC02.glb",
+          "sha256": "f8a01a393386a507b4bd7b73c62f4cd615938d04d6cfb6ff60602ef83aa8ec74"
+        },
+        "scene": {
+          "path": "production/scene-blockouts/SC02/SC02-scene.json",
+          "sha256": "1d3fb528c5a409c02556f4357578771a8abd4f97d1d206daf1f245e37a9c4a6a"
+        },
+        "camera": {
+          "path": "production/scene-blockouts/SC02/SC02-camera.json",
+          "sha256": "17e2ca25e7ef683eeca77eb18b768efb7b84d76d598898939dad92e948476b77"
+        },
+        "preview": {
+          "path": "production/scene-blockouts/SC02/SC02-pov.png",
+          "sha256": "3e8e191595359bd475241d592c0db8d61ffea6df093bcaf8db5287aa6a0ac8b6"
+        },
+        "depth": {
+          "path": "production/scene-blockouts/SC02/SC02-pov-depth-mm.png",
+          "sha256": "898dfce0ef794f9053eb70365925cf7568fc125cfeda185c12e12db789ca2b57"
+        },
+        "object_ids": {
+          "path": "production/scene-blockouts/SC02/SC02-pov-object-ids.png",
+          "sha256": "95f87708f3553e0408fdb218ce4c9fc3463fe74e82b027f86903b3f4f2b1b1b8"
+        }
+      },
       "report": null,
       "approval": null,
       "asset_key": "SC02",
@@ -204,10 +254,35 @@
     {
       "key": "ASSET:SC03",
       "kind": "asset",
-      "status": "pending_modeling",
-      "source_sha256": "ec8e254abcbbd39332e47206407c6eaca5fa0f2752ee4b58e8b8f5358ae2b7f8",
-      "revision": null,
-      "evidence": {},
+      "status": "blockout_built_pending_review",
+      "source_sha256": "f7050781c8bedc93ffcd68a30eda24302a8e757b0f300727dedde5efd24eb582",
+      "revision": "scene-blockout-v1",
+      "evidence": {
+        "model": {
+          "path": "production/scene-blockouts/SC03/SC03.glb",
+          "sha256": "90be6a5ee92e775e4a9e07a1306e74f01047c08f5726d8c9ee4b2e62cb26282e"
+        },
+        "scene": {
+          "path": "production/scene-blockouts/SC03/SC03-scene.json",
+          "sha256": "823ce5a658be06a511d27fca11127e153f58d6d9d20369f141b73a7e7622b644"
+        },
+        "camera": {
+          "path": "production/scene-blockouts/SC03/SC03-camera.json",
+          "sha256": "cb5d97dcd98958cb12e060191c66df53a9a5d01e6239e7d93eabba2e35df41c3"
+        },
+        "preview": {
+          "path": "production/scene-blockouts/SC03/SC03-pov.png",
+          "sha256": "37f69fe556a0857a4205b5262fe30477b187621a03b4366959b622737a107cc3"
+        },
+        "depth": {
+          "path": "production/scene-blockouts/SC03/SC03-pov-depth-mm.png",
+          "sha256": "c23006d78fcab7ead16589328d05eb125dab4117ebd8873ab3453f1433ad5020"
+        },
+        "object_ids": {
+          "path": "production/scene-blockouts/SC03/SC03-pov-object-ids.png",
+          "sha256": "5fad9b24e8f77961f659742ca7cbf68e0462e8bf7cccb751520733033a0b6f5a"
+        }
+      },
       "report": null,
       "approval": null,
       "asset_key": "SC03",
@@ -219,10 +294,35 @@
     {
       "key": "ASSET:SC04",
       "kind": "asset",
-      "status": "pending_modeling",
-      "source_sha256": "13a3c9b8c06771fd0796263b87bff7004d87458a487b661624b474b00a0d8f17",
-      "revision": null,
-      "evidence": {},
+      "status": "blockout_built_pending_review",
+      "source_sha256": "3fd13a7aee8a762ad3da0f5b526fff1dd58ea5e6db661f65be856361dd2b8e19",
+      "revision": "scene-blockout-v1",
+      "evidence": {
+        "model": {
+          "path": "production/scene-blockouts/SC04/SC04.glb",
+          "sha256": "f33293d5589268134ca595f3f711c377e8bfa3ef1bcce891e244f9877c39f9e8"
+        },
+        "scene": {
+          "path": "production/scene-blockouts/SC04/SC04-scene.json",
+          "sha256": "07c27be9f6a328e148037cecebd09abf12074554c589a5e2810aae0a1fd3f271"
+        },
+        "camera": {
+          "path": "production/scene-blockouts/SC04/SC04-camera.json",
+          "sha256": "4b738fb8e2c4416086d8a04ab19c6e2f447045eaf1b6993b43dcb226508ae63b"
+        },
+        "preview": {
+          "path": "production/scene-blockouts/SC04/SC04-pov.png",
+          "sha256": "fb572d91466c8810b3032780d507cc68ddbd9e1f2b9f0c3fe7d049e2ae3c165a"
+        },
+        "depth": {
+          "path": "production/scene-blockouts/SC04/SC04-pov-depth-mm.png",
+          "sha256": "30f3bf1742a95cf3142a3db22ccbb9fd0373960e1232464fa34994f7d8f47c3e"
+        },
+        "object_ids": {
+          "path": "production/scene-blockouts/SC04/SC04-pov-object-ids.png",
+          "sha256": "5c6d728ff6c34a859051a4afaef173f3036cf196d1b2cc4515fc1ef170cef043"
+        }
+      },
       "report": null,
       "approval": null,
       "asset_key": "SC04",
@@ -234,10 +334,35 @@
     {
       "key": "ASSET:SC05",
       "kind": "asset",
-      "status": "pending_modeling",
-      "source_sha256": "4d6455b2e7d202c718c0e59e33d38d51f4ce4e34277d4916b5b47b63e97e415d",
-      "revision": null,
-      "evidence": {},
+      "status": "blockout_built_pending_review",
+      "source_sha256": "cd6c1b3ebc9b302d8297434e6b52563a7e5ded075a2c54a8d51387dfbb257f99",
+      "revision": "scene-blockout-v1",
+      "evidence": {
+        "model": {
+          "path": "production/scene-blockouts/SC05/SC05.glb",
+          "sha256": "4f71d67e2e3ff76d13c3b4fd81a9064baab035a42bfb69e1ba5bdaa9be9a99f5"
+        },
+        "scene": {
+          "path": "production/scene-blockouts/SC05/SC05-scene.json",
+          "sha256": "2802b6e7cfa0489b1cf848c2318538f7b7e57fb184c6061b7fed330f4d799626"
+        },
+        "camera": {
+          "path": "production/scene-blockouts/SC05/SC05-camera.json",
+          "sha256": "5e10a560b4e30465cee3be4390ccb0e0d4d02a4220297f10843a491ec14e20dd"
+        },
+        "preview": {
+          "path": "production/scene-blockouts/SC05/SC05-pov.png",
+          "sha256": "afcb8cf4380529545d1bcd7e532a2c17bd2c28df060296848b9ffcc6453c1577"
+        },
+        "depth": {
+          "path": "production/scene-blockouts/SC05/SC05-pov-depth-mm.png",
+          "sha256": "146c17f152f4d4594a825237d44f2fc3761a19454a31a49b51c07d6bee6061c1"
+        },
+        "object_ids": {
+          "path": "production/scene-blockouts/SC05/SC05-pov-object-ids.png",
+          "sha256": "387acad2160032377a7096477b03742e6ca33e38e72639379275839b4b901ed2"
+        }
+      },
       "report": null,
       "approval": null,
       "asset_key": "SC05",
@@ -249,10 +374,35 @@
     {
       "key": "ASSET:SC06",
       "kind": "asset",
-      "status": "pending_modeling",
-      "source_sha256": "949bc7c69f41a977c5377dcaa148d9d16239ef703d3005e57f40f184db3c2155",
-      "revision": null,
-      "evidence": {},
+      "status": "blockout_built_pending_review",
+      "source_sha256": "469d431242627a363f457a51d4cb3a8f12f60209c1f8f7e538575afe822a9044",
+      "revision": "scene-blockout-v1",
+      "evidence": {
+        "model": {
+          "path": "production/scene-blockouts/SC06/SC06.glb",
+          "sha256": "e2fdcff99ddbe8557f8bf85640d5c088546370fc207370ce8c5770da0bab8ba0"
+        },
+        "scene": {
+          "path": "production/scene-blockouts/SC06/SC06-scene.json",
+          "sha256": "42810c688a442673c59c7f4018082e8a6c8c4ccfc4527c686bcf63cc971cbbac"
+        },
+        "camera": {
+          "path": "production/scene-blockouts/SC06/SC06-camera.json",
+          "sha256": "1712e8b5d6eab29b270f95f07e73fee4cb90c079d294666fd9536c7634caf416"
+        },
+        "preview": {
+          "path": "production/scene-blockouts/SC06/SC06-pov.png",
+          "sha256": "dbcc249617f7d7c82659af70bbddc81583567def4a397705dd5acdcc9e847222"
+        },
+        "depth": {
+          "path": "production/scene-blockouts/SC06/SC06-pov-depth-mm.png",
+          "sha256": "8758ada1e9b461d83106995579d9ac5d3fcd406ccb541ae3d68b49e8271dd7bc"
+        },
+        "object_ids": {
+          "path": "production/scene-blockouts/SC06/SC06-pov-object-ids.png",
+          "sha256": "adb41c0e8132ce71a134d24d77998f55809d5890e58f3fe315b8133b48f06514"
+        }
+      },
       "report": null,
       "approval": null,
       "asset_key": "SC06",
@@ -264,10 +414,35 @@
     {
       "key": "ASSET:SC07",
       "kind": "asset",
-      "status": "pending_modeling",
-      "source_sha256": "cb6fdae75f0e187c270ffdf63217729747d913dcbfcf108024e0b50aa338e071",
-      "revision": null,
-      "evidence": {},
+      "status": "blockout_built_pending_review",
+      "source_sha256": "fdcae93820b86558a5dcfa34551e7ca70ff05b9739a2791f3958b14e026e84f8",
+      "revision": "scene-blockout-v1",
+      "evidence": {
+        "model": {
+          "path": "production/scene-blockouts/SC07/SC07.glb",
+          "sha256": "ea01cd0a63d4e5e5f434eba4b0feaa2d6caa6cf2bf2c2e8d48d514843859322f"
+        },
+        "scene": {
+          "path": "production/scene-blockouts/SC07/SC07-scene.json",
+          "sha256": "cd1cbef6adebd1ac387ef12908d29380a39501c4dfeaa893e3e035aa0ca9183c"
+        },
+        "camera": {
+          "path": "production/scene-blockouts/SC07/SC07-camera.json",
+          "sha256": "b27d99b503e7a066d379d5b3548503a9fa3695257785ca5aee85f46440bb936f"
+        },
+        "preview": {
+          "path": "production/scene-blockouts/SC07/SC07-pov.png",
+          "sha256": "e2602029962fed875b49fe227f1afd82b9c12c59d3b7806ae8e89567edc6e531"
+        },
+        "depth": {
+          "path": "production/scene-blockouts/SC07/SC07-pov-depth-mm.png",
+          "sha256": "01a3cf6cd64815ae327eb826cad966f8ec119aa53ad33162eeed7e298073a4b1"
+        },
+        "object_ids": {
+          "path": "production/scene-blockouts/SC07/SC07-pov-object-ids.png",
+          "sha256": "c850ad2076835b0dfa5793613745cc6214d2d68d7fe91b787fb8f5d7a520fdd8"
+        }
+      },
       "report": null,
       "approval": null,
       "asset_key": "SC07",
@@ -280,7 +455,7 @@
       "key": "ASSET:P01",
       "kind": "asset",
       "status": "pending_modeling",
-      "source_sha256": "1dfd653f9b4792d2d92bdca4861610a22d190bbe145cd13e8099e3f78b9e6c88",
+      "source_sha256": "f498e997610d6b557ddc5a0b0661df1d1428dec1bfee2b3a43e8ac0cf22d67c0",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -295,7 +470,7 @@
       "key": "ASSET:P02",
       "kind": "asset",
       "status": "pending_modeling",
-      "source_sha256": "7067fa33c59c7bb940894098d045d449540c608dd9a08bc14c32f4fe8dd72974",
+      "source_sha256": "b451929a2a443db43e954cf7d6c00b2ad3f4336183c709e04771041a40986ec2",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -310,7 +485,7 @@
       "key": "ASSET:P03",
       "kind": "asset",
       "status": "pending_modeling",
-      "source_sha256": "07c8fdc68fbdc8aa58bde75fc22d90ed056511e7630381fadefb767840e238fc",
+      "source_sha256": "da21a7ad90238ab6d93f7d493f6b84b9f37065fd83ab0d98a98b800071add4ab",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -325,7 +500,7 @@
       "key": "ASSET:P04",
       "kind": "asset",
       "status": "pending_modeling",
-      "source_sha256": "3b9e0ad9d729ff6d3e55b1ec9516a70fc820877b1c073fa3105c2056e02430ce",
+      "source_sha256": "0cbb17b2e7efafe1aa3fd8eb77c625b6d610c5fa71f0e02806f51f7125bcad0b",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -340,7 +515,7 @@
       "key": "ASSET:P05",
       "kind": "asset",
       "status": "pending_modeling",
-      "source_sha256": "8373fd85a5e9e2e16fee43553f8bc9a77b9b76ff7807c2fb7c8d7bf4f478c378",
+      "source_sha256": "410a98e3a9d59e6157f1a529d9a5380dd9f251100be5ed61243018cf77c4d10d",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -355,7 +530,7 @@
       "key": "ASSET:P06",
       "kind": "asset",
       "status": "pending_modeling",
-      "source_sha256": "82a383b1faba425f03ea31f2355019df6ded3bcff3d32ee53ed868c8342112cb",
+      "source_sha256": "384c15d4111c1faf1cef20026bd57411e5724d1f5e57125edc3b580a2fa5d350",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -370,7 +545,7 @@
       "key": "ASSET:KF01",
       "kind": "asset",
       "status": "pending_modeling",
-      "source_sha256": "d53d4d3795f4f967020828997520d4bdcc1030c07d29db46a556f38339ae69ea",
+      "source_sha256": "d81cff15ac55afc171191cbac75e9df12a0953ac96521b87201f8ad393670f06",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -385,7 +560,7 @@
       "key": "EP01-S01-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "4ce9f5048dd412147cd04e4c68af67f22980d884f5bbbc438bcc39b73678de9e",
+      "source_sha256": "e112fe360f1bfdc7e6cc07911bc7293f58ec9b3727d17a278eb5965f385c1504",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -404,7 +579,7 @@
       "key": "EP01-S02-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "4b55f74560b32b2731aea928632c5f93f9c32cf147d2bf122a856182aeb2e166",
+      "source_sha256": "25f73f0161b9f06e817c0921e2d84e24ca51fb4a65fad6a85f1cd8691f9931ca",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -423,7 +598,7 @@
       "key": "EP01-S02-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "cd41f199ea0b5845f5c5f9533c5f71433624f7a8094dd9049ba5618a00996cc0",
+      "source_sha256": "e4fcf36eab7db529c1784565b6e259bb643a74cbde3dc9fd343bcb5f6495f2da",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -442,7 +617,7 @@
       "key": "EP01-S03-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "b851598b8922ab0f2df0a103c6dfb7e19d2ad0086ce2a6110b75009a073bff8c",
+      "source_sha256": "150ee351fdfec789bda060578b98a067195fc90315506556973f63e230ef612c",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -461,7 +636,7 @@
       "key": "EP01-S03-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "078f89166fa8582ff5503192b91c5894b9de65f327955cc760c2421a33b06d44",
+      "source_sha256": "47efd60ade7dacb86f7bc0da9fe90cccc44fef1c886339be80b3e0a2269001ec",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -480,7 +655,7 @@
       "key": "EP01-S04-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "19002207fa0668910bc4df3af46121569e704a6c270ef0d4013e4ba4f2211d2c",
+      "source_sha256": "4cb5df75c64e4378e75408047a69b948cd4082e314a8eb392e387f78588bd4a8",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -499,7 +674,7 @@
       "key": "EP01-S04-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "7d29d5d5c244abae8472a281490d8dceca64f5abe6f10dae3d8809f7ce822677",
+      "source_sha256": "28d3bedf55c7b20221446170a034b62ea8f55008af2a3be08cd4f129d738d5b5",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -518,7 +693,7 @@
       "key": "EP01-S05-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "dd2b755e93e685d9ff07795e4f37600f07c3d6efc3cc52957bef9bcb1ba81595",
+      "source_sha256": "5104a0a81bc388e39554273eac3aad69a500c4fab011cadd87a5c97d7bdde5f4",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -537,7 +712,7 @@
       "key": "EP01-S05-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "e34e959c2df049e5e9768a0a6149d5bbd8155e1774dcaa5596b4e1cf793be0de",
+      "source_sha256": "9c9146b189c9970b4a92b10fcd1b248e3d8cd91d55561b00a9409146a7711187",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -556,7 +731,7 @@
       "key": "EP01-S06-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "bce17bc9ca1ca9c5152743aaf916b78094be9366904d002aab6381f17979b6f0",
+      "source_sha256": "45ae3c6a61f707e054ce3022f111337d834c59d45867a9e8b52866c305aa38f2",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -575,7 +750,7 @@
       "key": "EP01-S06-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "947adaab44ddfcd914da2c59c26acd5c00150c9ad1a768fca4a78a36ca46b314",
+      "source_sha256": "e14e09d2e08d9a06343bbae72b4ddb0d49699b6bebce20e59773f49327721c39",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -594,7 +769,7 @@
       "key": "EP01-S07-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "c4ed98d0810019e31e84188382e59cfb994a27ca0faab0ac048ceb42408dbbef",
+      "source_sha256": "863ea63ea8ce48b5ff34b121cb6931cf6158e435e30d3a2c4143e170d87c539f",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -613,7 +788,7 @@
       "key": "EP01-S07-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "a2730a21e9ae573f2d9a11d770ce72c2553513276fde326d663fad6400faf86a",
+      "source_sha256": "8ebd00c7ee220cff443b76db92936d28d2e641aa0fb87a038b2a3ffc4ed0d3b5",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -632,7 +807,7 @@
       "key": "EP01-S08-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "90bd1e1afaaa8c8c0b93072e5b821002a69dbdc2d130a3f3704aa5e2056e149a",
+      "source_sha256": "5d98c06f679966528bd6c5105a9295a594fd8d94716843fcc42db2c122f9253b",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -651,7 +826,7 @@
       "key": "EP01-S08-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "75445284912d78d937bd2e2afe1d638faf25e17e87dfb4b0b49e155b4cdc6534",
+      "source_sha256": "e051a42b645149c94dd5d85ae9ba0e61b882e131928693a42934371f4563b95d",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -670,7 +845,7 @@
       "key": "EP01-S09-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "f715a00831c8cc1f8f896ce84e391baa91895a1f6a9dfa70328c8c8484036f19",
+      "source_sha256": "3790e4d8992e85f36caacf8223ed9a3097aff03b9776275dad0e2ba30608888b",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -689,7 +864,7 @@
       "key": "EP01-S09-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "52eb3e90b5dfbe37ef9b186161fa0eaa5cf12dfeb9240b99441615a6d029d7d4",
+      "source_sha256": "a7cdc2ce6aa51b7a3630dcbb3a90310486d806d413319a86f5dae8fc73127093",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -708,7 +883,7 @@
       "key": "EP01-S10-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "3766c65437872bd295feab341f325525279bbe47c48580e8b0bf77b1554387c2",
+      "source_sha256": "56f877dbc29d3c215b2f51c50af7dec5ecf1f00faee356e71ffd12f552355777",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -727,7 +902,7 @@
       "key": "EP01-S10-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "b5220dd191c03a2063457f6ad3574db1b9db302754a676d9816fd5fb63479ec2",
+      "source_sha256": "bf8241e7d996bbd3b1a62478f94c9bd4a5c7ff5ba0b980cbd0e971e4a75647e5",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -746,7 +921,7 @@
       "key": "EP01-S11-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "9a085fd4bc6f08d7ddf0fb79405ad961d20675be9c070a23179bc7208f8fe7a4",
+      "source_sha256": "ed335045d7c49821144ab8f24fa9dd92f4dc544037df4ecd3e2c5167d421f94b",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -765,7 +940,7 @@
       "key": "EP01-S11-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "7cc6cd7c6ad375908522f9f7e944966f22e3fcbd796d855fb09848ba317d5e69",
+      "source_sha256": "d0c8a56262ac304c3c64213b2daa3916a2a09875c8aa51c352f51b0103233241",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -784,7 +959,7 @@
       "key": "EP02-S01-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "85ac089fedc4684914b5eddd0be762e02859758c6784be816960517584512d5b",
+      "source_sha256": "84282ed9452144acb785f4837d47f5030037a45366590f7d6e2787b1140e2856",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -803,7 +978,7 @@
       "key": "EP02-S01-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "572894eba3dc6ea60f69d257b99391398747910b493ee27a7027217e42dfd843",
+      "source_sha256": "0017040f53f6f414684ad9d258748c289c120fb0ec9f415f0f2c32439d1a9a68",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -822,7 +997,7 @@
       "key": "EP02-S02-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "491bb85cd03c34c0a9ab280c7f98b5898b3a88651d1794dac18e6e39f05e667f",
+      "source_sha256": "86bb11b865ee0dbd35d615784212029acb063e075c5672f28bf4f3d9e785d98f",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -841,7 +1016,7 @@
       "key": "EP02-S02-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "90a960b8cc89ee9b0f62146d46f1327823552b2e44d718b4532f9b8dfe9965f4",
+      "source_sha256": "966be2b6dbbaed7d37535ee5570a642a084f1624e74203ecac0ac3f89b4ba51b",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -860,7 +1035,7 @@
       "key": "EP02-S03-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "192b44175978a7de62dadb5cf7d664557b918a25e465d5c37367c23e1c6e022e",
+      "source_sha256": "9ccdd9c927832ef1a5995cb7abb075881b476d4dcc8438e7b8503ab588a066fd",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -879,7 +1054,7 @@
       "key": "EP02-S03-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "2fd62bc2eddc18284ea497cc70a5c28822204fa5e3dc539d69a313dede05de67",
+      "source_sha256": "c6e6c6623c0bdbd3e867bf738ba87c3baafafffefe162b021163835f63fd4008",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -898,7 +1073,7 @@
       "key": "EP02-S04-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "0ef1d960b0f6a2ef5fc9270d8d67f45e9e43b9f69b1336ea40e847b3c36b81cd",
+      "source_sha256": "6fc6f9a9826f2ca3376ee3f3f11b9abe81546eacd178418cd02e8abdb49d8ffe",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -917,7 +1092,7 @@
       "key": "EP02-S04-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "7cb5b1afabf47f20558caab5d00d48b3f1c2dd8ffe579946704bc17f68d3d62e",
+      "source_sha256": "aec796d8232c49f9405d89d71136b9f51a56f535ad8770f52500677ac027bc0f",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -936,7 +1111,7 @@
       "key": "EP02-S05-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "a63356eaaceb7df9a86067c6d05431d95b63ec34cee34f244d430d007057cbf0",
+      "source_sha256": "a4d0f6ddefa95dac3120be77c4fc1b6f78ddc7fc7ba5149b291e483258666731",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -955,7 +1130,7 @@
       "key": "EP02-S05-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "b1899813bf370c8242bc78978fbc577123acc1da2d3b8354369f0678da384512",
+      "source_sha256": "154560840aa1080bf88af4523f4aff49aa0542e771468ac5a4e693d12f50a9c4",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -974,7 +1149,7 @@
       "key": "EP02-S06-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "15682108244e3d4b982d0467cd0a83daf431724bca7bbc068d2ae60c4990f84d",
+      "source_sha256": "d29698f7e854271827d4d7cabc268c28adb6c514f54c9144d16ff18af332afbf",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -993,7 +1168,7 @@
       "key": "EP02-S06-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "f78e543046fc0b04a6a197b31ad43fd10e2a0320b15edaaa81b7009ff02c75e8",
+      "source_sha256": "b03408236f69a48dcac241537b3ec6c194fc3e3d856887879ccebb5b9234644e",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1012,7 +1187,7 @@
       "key": "EP02-S07-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "b32cd0689d6cbc84dda36041208e09895764e038824ba7436740de4c6855907f",
+      "source_sha256": "e812499a47dfb691ceff52df44622c382e754b5325235d3c2edfe89252c86377",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1031,7 +1206,7 @@
       "key": "EP02-S07-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "7a2dcee8b71da9352d4a456a70d9210ceda02c9f7940111ba9af9df387312bfb",
+      "source_sha256": "c9084ac2a363006f17d488fd4a4143e862606d1450e47594a52faa057ab22646",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1050,7 +1225,7 @@
       "key": "EP02-S08-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "377820503edc7ab96435f5f6afa1b67dd676da63681b1bbf4423613eff1c6461",
+      "source_sha256": "ad1e74c677afc7f36f2b3cee438b2be8f71f1bc1690948746e6063c14b0916ac",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1069,7 +1244,7 @@
       "key": "EP02-S08-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "a31695ac957f87bc9203a477c0088d316c5db79d65733ec6f0b6ad01e5557701",
+      "source_sha256": "5c2d55aa732ad020af513f79b516d9c28a8bed5cf94495d67325828109d7d916",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1088,7 +1263,7 @@
       "key": "EP02-S09-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "4774fa02943981c9d8b60ebda6e023c88f896ee0ca5a73dcb0550ea4e0a2ce8a",
+      "source_sha256": "439546bf6792ddbb09e811b29d1a18372330f4518077887bf57a1c3e33ebfea6",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1107,7 +1282,7 @@
       "key": "EP02-S09-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "8315965bdaffcc9c0d2bdee59f490e53b8b68536a78a9a14bb286765f4f1feaf",
+      "source_sha256": "b7e27c2b89c63649594f289bc29c267093c1fc243f66404cb724ae27d7d5fc4d",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1126,7 +1301,7 @@
       "key": "EP02-S10-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "a3ce50ca3d5d1cc36ec4ad3e780a315a1bbc01bee66f7b74697c72711bb018f4",
+      "source_sha256": "77da979d7b61082485d77f8b48b97f294ffecca6c686da11e7ce30511c982eb6",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1145,7 +1320,7 @@
       "key": "EP02-S10-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "5f63a79d7b49d6d360e05307cedc63286542ca70b7211287d71ec5fb91bae652",
+      "source_sha256": "453cd9913f35f9ae35e26718b3e645ac5c76ef8227b60218dcb82c783d9433c7",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1164,7 +1339,7 @@
       "key": "EP02-S11-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "e906f886892761dfea5d40feb2ecc81d49429ae84941ede764eba5f49c0c2077",
+      "source_sha256": "fcd93d35f7c1eae4c221b835cadf0066bf71b4457e49cbd033da3994c7f047d8",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1183,7 +1358,7 @@
       "key": "EP02-S11-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "72da57150465ed361afbe97741dfa2ec2bee35b43c5ffeff566ad249a5088ca6",
+      "source_sha256": "7d22cab557f1120f408c64525a238b2e16ef7e0f65d3f2fb820427b158334dc8",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1202,7 +1377,7 @@
       "key": "EP03-S01-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "1e5c97dcc475cbf91be620abda93b91b73c8cedcf4f87cb060cf094009f50818",
+      "source_sha256": "ec252b7c8366eee24152bd7fc58d6453e35fac7685d7403166f3589af4f0b83a",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1221,7 +1396,7 @@
       "key": "EP03-S01-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "53d1e96eb2a5db0dcc3497f821e0b7831b75faa823a50421f5f36876930fe413",
+      "source_sha256": "c7507b821cce525cc4aa9613ddf0512a15f3dc4c630a62c0795d04cfb7f4c279",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1240,7 +1415,7 @@
       "key": "EP03-S02-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "bccb6c7669c97f3ea1df7eca7849730ef37a36192624ef19826f433e39c1a5fb",
+      "source_sha256": "ba55de9c822e296edae409a766c16a1579a0ddbf91447b490c458deb45b8dd0a",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1259,7 +1434,7 @@
       "key": "EP03-S02-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "49305060b6c79081a77dc889eef2163076c3aea89f3dcb27ec5c96bbf697ea62",
+      "source_sha256": "0cf1316bde66bf1a73004d7d855d714be1848aac4c5cf50a83a710d2e38e51b1",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1278,7 +1453,7 @@
       "key": "EP03-S03-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "19da59c5577aeb6431ff9fd3db68bdc86f26376a1848956355669fcc78a404b6",
+      "source_sha256": "f27fd9687855792fb6ac27925996df7c6b13025466db7a73c9448f80a71939ea",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1297,7 +1472,7 @@
       "key": "EP03-S03-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "01e83bba62bddb1d45b5e1317a574a44192207f9fa770292cd16240ae63aecba",
+      "source_sha256": "19bd36094470eb051eb4e07eba0c26f46c7a2cc1af86be1111f9b3d7da697004",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1316,7 +1491,7 @@
       "key": "EP03-S04-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "b159a61a79a0b74ad89287ea60edec8d54e46acb792729bc2d6e5fbbedcd06b6",
+      "source_sha256": "c22ad1e86a257600580bb3be861fe07044c5f16728916e0eca7e8a0ec8cf89f4",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1335,7 +1510,7 @@
       "key": "EP03-S04-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "dda8fe4984009191661d637edf6f22a74b71f91ad5bd0ba855b662ca4e7c674c",
+      "source_sha256": "92a11e0951341aee2a6295c0a6a7f9dd75d16f7542933b159a55e604fd34ff77",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1354,7 +1529,7 @@
       "key": "EP03-S05-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "4be0f4de59e1cd7960c3e2b2f4d3d19fed54072f672290eacff1374376770f40",
+      "source_sha256": "a038b1f43e58390755e4e45eac0518207e724928d4f763fb37b9371a2bc37e8e",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1373,7 +1548,7 @@
       "key": "EP03-S05-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "540a6267ef9bd3ce9241eeb95e1feb6e7ca313e44f4a540635f859ed57b40af7",
+      "source_sha256": "ed255fa933ae16548c540aa0621d906616c560a2dc639741e9b0312adae6ff73",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1392,7 +1567,7 @@
       "key": "EP03-S06-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "6c3b3f629e5cbfef0d70ec35b2f34aae10c3397c4fe4ae79240cc581725b4b5e",
+      "source_sha256": "71f66c548a2847092f7b5fa7bb839459c2dbc2e30208256aed876b09b7ab6707",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1411,7 +1586,7 @@
       "key": "EP03-S06-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "5603473a76dd35e17f3f506008ac09dc247d3d8c06e87dc8ba91b317c3d0a083",
+      "source_sha256": "6a8454e40e00dead876a727018f168697b6e26cd97c20a86d9e69a5b73be3b26",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1430,7 +1605,7 @@
       "key": "EP03-S07-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "d75a9f9ddfcba01e968452661e04f903899aec5ff535b9dcd8eb7bcf452bfc2b",
+      "source_sha256": "cb2999df327e7b4ad9f47e640736fc336f2b743bd9473d7c34c5e7aa779193ba",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1449,7 +1624,7 @@
       "key": "EP03-S07-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "1d71286e85a9ed9cbed0537b7736e189735aef921a567672260d90cca7dc25ec",
+      "source_sha256": "9dffb296ad3114f8e933fd9b2100f892d7c74e883c4886f3845c8e9d123932d4",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1468,7 +1643,7 @@
       "key": "EP03-S08-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "d7d4360f2910662b2d132d55e558c5a3d2607893b301c94650fe040fd4b895b6",
+      "source_sha256": "3af99ea34eb114e3c5d2bff7c1827e0c88d5a5f18292078ef93b72d9d055d4e0",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1487,7 +1662,7 @@
       "key": "EP03-S08-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "a980bfed23c27e17d98589a8f8a6f4445d1f83f87ea11eaa77487f16f0d05218",
+      "source_sha256": "0039833e1ccedbe9f72e51e5ec4714128d7132882aebe4f07a34e34c911176ce",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1506,7 +1681,7 @@
       "key": "EP03-S09-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "7271cfeccda696c7037763d30d45b9256be9619caf76ce1abbdcd57c8a869f3f",
+      "source_sha256": "48d2b53e4996158a3fe739af3e0d4dc4e7a4d613a00ca08b4d1e59b3ab638e6f",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1525,7 +1700,7 @@
       "key": "EP03-S09-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "7151b3b5243ab9ffc60ba9bf3640f2de8a323b533d3cccc56474f878b956e7a3",
+      "source_sha256": "e63074dd09f220e92935e7b55ec2dad16598837604baeb88fe3c6ccbd11e4968",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1544,7 +1719,7 @@
       "key": "EP03-S10-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "f5e26269174cb11a053d7732b9dddc07a0cf793c835597bc5cfc40b261cc1a29",
+      "source_sha256": "90e6f2574358aadfcff7dcb459ebbb4d0aebe0c83e58a9c6f58923a5a83bd335",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1563,7 +1738,7 @@
       "key": "EP03-S10-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "fd2035094004355c134abe4b48a5bfdd35705f106a38f5b3bc286a8f8dd9bf79",
+      "source_sha256": "b453f215c74ec8b5ad104c1e17ceb251dfdc78ab6722f8ac8f42cdebc8b91b6d",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1582,7 +1757,7 @@
       "key": "EP03-S11-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "d45bfd95868ef28a6dc388152720cb967c455d87a1928707d44cc4d8e27d89e2",
+      "source_sha256": "08450cfde1fd6b27620cb26436a1de99865f6e52cee27448d27fb5a655dd8948",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1601,7 +1776,7 @@
       "key": "EP03-S11-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "6f70dde7e705d5fbd52e302797949c47a59c9df473c80f207db84e675e8b6892",
+      "source_sha256": "93a2bc578f774c9d952f56509614f9e8108f535f4855c8ef98b94b934d30ea65",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1620,7 +1795,7 @@
       "key": "EP03-S12-01",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "2d74d456ca783ebf3f22d67a2b414d4c83808812dd743760dca3d72cc59c4210",
+      "source_sha256": "80a214adcd08884c34a0e7081dab6d416231ed11767a98abefbbc5f3daa606e6",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1639,7 +1814,7 @@
       "key": "EP03-S12-02",
       "kind": "clip",
       "status": "pending_modeling",
-      "source_sha256": "37ee6244582632b7c702e56e392a884b8c4c624a41f0fee8e1ba274d7267ca8f",
+      "source_sha256": "9b06b415419743713e627c572a64e2b3f0616b00a5d0c284476aed128103b309",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1658,7 +1833,7 @@
       "key": "PILOT:EP01S08-5S",
       "kind": "pilot",
       "status": "pending_modeling",
-      "source_sha256": "c4408fb663eecd475c48d259b1ec82e4e60e8d5f655c7261093f7e8a0966379a",
+      "source_sha256": "002e7f50e9d386b963ea45068ebb201cabf9bcc6c6edbafcdc6b90523918ec0a",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1673,7 +1848,7 @@
       "key": "REPAIR:P01-v2",
       "kind": "repair",
       "status": "partial_prop_model_only",
-      "source_sha256": "6a0dc4e51f87a5173a7b67784e1005dcb88ebdd2549c3e96a551ca2a1218cc1b",
+      "source_sha256": "162e6b460c8755dcecb4be5b22a2055bc649d12b55dec2a0652bfce5b7d7e107",
       "revision": null,
       "evidence": {},
       "report": null,
@@ -1705,7 +1880,7 @@
       "approval": null,
       "asset_id": "CH-MCS",
       "name": "梅长苏",
-      "source_sha256": "28e4b68c93cac17655cde0c04dcdd365c100c6cddb9d1e429ff5516c1aea264f"
+      "source_sha256": "0eef62d38551c7596eaf07b87897c5dcd90ebc11a7645aeff7270ee4b6db8b0f"
     },
     {
       "key": "LIB:CH-LS",
@@ -1722,7 +1897,7 @@
       "approval": null,
       "asset_id": "CH-LS",
       "name": "林殊",
-      "source_sha256": "795e3ccd9c3e681e1265e64bf42d5e5274c3dfeed564546ecb9422b11139bdb1"
+      "source_sha256": "da6a0c31af2ead7831f747f73761435a581578e13aca5778be9eed5b0974703b"
     },
     {
       "key": "LIB:CH-XTY",
@@ -1739,7 +1914,7 @@
       "approval": null,
       "asset_id": "CH-XTY",
       "name": "谢听云",
-      "source_sha256": "9efe705c9699f531b92b21205f494ffb8d9cafc2268e56eb204a3556d0807d11"
+      "source_sha256": "ee08b9e7633f5077ad2f505edf5cecaa22cb6eebe043fc08e1a289b80c4a59c0"
     },
     {
       "key": "LIB:CH-SCRIBE",
@@ -1756,7 +1931,7 @@
       "approval": null,
       "asset_id": "CH-SCRIBE",
       "name": "书吏",
-      "source_sha256": "3a9c8408036b8aaa51eea2b2f3318ba723601e6ccf6eab67488f141da3545ee5"
+      "source_sha256": "70f4165ac221f57ece6987395aaa91e3f87d445aab7baf2a6bfb8071cfe15f1e"
     },
     {
       "key": "LIB:CH-XJR",
@@ -1773,7 +1948,7 @@
       "approval": null,
       "asset_id": "CH-XJR",
       "name": "萧景睿",
-      "source_sha256": "07a25b92af55bdf1ce4a0f8a714cd164967e917749136a0c2f249e3c731f2367"
+      "source_sha256": "50c93530c2186dfcf32f37b9a8e520103851ae94177d4c68235f48b0ce419d5d"
     },
     {
       "key": "LIB:CH-ZQY",
@@ -1790,7 +1965,7 @@
       "approval": null,
       "asset_id": "CH-ZQY",
       "name": "卓青遥",
-      "source_sha256": "c9744bd59ef8d1084301cbe56992d384b9bca18f4ddeebf4f33231a0a22a2357"
+      "source_sha256": "90bc1f52716e87f9f44086cc6c167f416e938789b0731244e42f93e97ecb8d4f"
     },
     {
       "key": "LIB:CH-GUARD",
@@ -1807,7 +1982,7 @@
       "approval": null,
       "asset_id": "CH-GUARD",
       "name": "护卫",
-      "source_sha256": "e23fb10c37f5126d0bf4a11ef10e04030076991f41ff4f320438208a78de8cee"
+      "source_sha256": "8e9e28b54ca8551d4012314a91220eec7e006a6a4ed6cb1589c05e920eb73ad7"
     },
     {
       "key": "LIB:CH-DRIVER",
@@ -1824,7 +1999,7 @@
       "approval": null,
       "asset_id": "CH-DRIVER",
       "name": "车夫",
-      "source_sha256": "a69723d18de639de9c67c0ef1ef2d53679d2d10a9920f7340bb33d717ccc1989"
+      "source_sha256": "26989b013b01b13ea0011ad0bc9ca8e02fd34a726007e00912f7e21bb5fd116b"
     },
     {
       "key": "LIB:CH-MEDBOY",
@@ -1841,7 +2016,7 @@
       "approval": null,
       "asset_id": "CH-MEDBOY",
       "name": "药童",
-      "source_sha256": "6ad9e7b55465f92a34445cab4d461858edf018e88dac47642604a7dccc5a9e9f"
+      "source_sha256": "17c1b378b8119feb34b88b99097729835cdc052da9f7bed993b99b3eb0459c91"
     },
     {
       "key": "LIB:CH-KEEPER",
@@ -1858,7 +2033,7 @@
       "approval": null,
       "asset_id": "CH-KEEPER",
       "name": "阁中人",
-      "source_sha256": "3b79beaaf7eb2deb52a657fa06a1050300d45ce3141d122af627547eba25f176"
+      "source_sha256": "cef7c1aef18050b8422181a2379ba2c17465940a808d517e258bb79a10e7d8d9"
     },
     {
       "key": "LIB:CH-MSG-A",
@@ -1875,7 +2050,7 @@
       "approval": null,
       "asset_id": "CH-MSG-A",
       "name": "信使甲",
-      "source_sha256": "c567512202ec068f2f2d473701aad12e599c4d7261b699e086843fd1eaae22f1"
+      "source_sha256": "735a880825d2ff337f02aa2ecb6217a4cc0a192616d57dd0ad21cfe655fff58b"
     },
     {
       "key": "LIB:CH-MSG-B",
@@ -1892,7 +2067,7 @@
       "approval": null,
       "asset_id": "CH-MSG-B",
       "name": "信使乙",
-      "source_sha256": "01df2dfd494c8380f5c8136c19116deb82e62d16e28b5f38aa806349399b162f"
+      "source_sha256": "fa04dadca763cbe63bbfd0e2d66c3232056fe6f018e0607285a1f1f39ad8200d"
     },
     {
       "key": "LIB:CH-MSG-C",
@@ -1909,7 +2084,7 @@
       "approval": null,
       "asset_id": "CH-MSG-C",
       "name": "信使丙",
-      "source_sha256": "6b2f0c8df0cf3bd2587330e00caa321338293eb5e7c9454170e87d13f32695d4"
+      "source_sha256": "c13c057200fdc4930c2ce614bfacb4e4372103cd7fb41b9ac05d80b3e516d005"
     },
     {
       "key": "LIB:CH-RPT-A",
@@ -1926,7 +2101,7 @@
       "approval": null,
       "asset_id": "CH-RPT-A",
       "name": "来报人甲",
-      "source_sha256": "317ad97da1f056bb3f50befc0920a984cd5b1c86e2afd7af36f9ee89cb5d97ff"
+      "source_sha256": "a13ec90e1c637f178e08687ef1857c81fda98eba69a14ec44d0e7ae9e78ded23"
     },
     {
       "key": "LIB:CH-RPT-B",
@@ -1943,7 +2118,7 @@
       "approval": null,
       "asset_id": "CH-RPT-B",
       "name": "来报人乙",
-      "source_sha256": "afd8d5dc2e9f97111437dcb6dd25972cfc13c9004640bbc1b5477ccc4b33058a"
+      "source_sha256": "f3e1ba1be6ff641d16b7c7fbd978aa955be9f8e6f34906f6fb179a8d0a40c339"
     },
     {
       "key": "LIB:CH-COURIER",
@@ -1960,7 +2135,7 @@
       "approval": null,
       "asset_id": "CH-COURIER",
       "name": "送信人",
-      "source_sha256": "61437a79b4f653308fea02ec90d69aa2e556fbbc8bad3b561775249de075daeb"
+      "source_sha256": "ce5404163ada6f68fbb0876a31c80971a63e4f86d019c2a0373eb8d63b60f82a"
     },
     {
       "key": "LIB:HAND-MCS-L",
@@ -1977,7 +2152,7 @@
       "approval": null,
       "asset_id": "HAND-MCS-L",
       "name": "梅长苏左手与袖口",
-      "source_sha256": "105bf8761f63c018a1d08497f34cf621cb53ab3fddc8d5faf3b959d72a8289c6"
+      "source_sha256": "a97ed1f1806b671f82a110eb97b74eb7b1a9bf4b676049a35c28fcec0f8522c6"
     },
     {
       "key": "LIB:HAND-MCS-R",
@@ -1994,7 +2169,7 @@
       "approval": null,
       "asset_id": "HAND-MCS-R",
       "name": "梅长苏右手与袖口",
-      "source_sha256": "1c68d9ed1df86d8aed2c6427e5644ed12d61475341427487ea2030bb0840ff66"
+      "source_sha256": "c21e79815f57289816843223594d3e86ab94d45044d459a15bbc8bcb5fc74a33"
     },
     {
       "key": "LIB:HAND-LS-L",
@@ -2011,7 +2186,7 @@
       "approval": null,
       "asset_id": "HAND-LS-L",
       "name": "林殊左手与袖口",
-      "source_sha256": "cc8ab96f099dbc1c5a59ddcb9372cbf66910e889714b077ebf886ead49bfcbc2"
+      "source_sha256": "170f2ad2bf4689b780764479eff24c35db4959f3dc383b5cb30e3a3155304db4"
     },
     {
       "key": "LIB:HAND-LS-R",
@@ -2028,7 +2203,7 @@
       "approval": null,
       "asset_id": "HAND-LS-R",
       "name": "林殊右手与袖口",
-      "source_sha256": "6d2222028b343f01e4ae1dc3aa4f689bfcd2fcb0c3a3888763c469610ff3218a"
+      "source_sha256": "a131126ffe09a7d116c907caef6e2fcf01c8c65ba68e3870ca861af9c1456667"
     },
     {
       "key": "LIB:HAND-XTY-L",
@@ -2045,7 +2220,7 @@
       "approval": null,
       "asset_id": "HAND-XTY-L",
       "name": "谢听云左手与袖口",
-      "source_sha256": "29e10f932a4beb1d8ab71eb684382729746af7bd6c1366e86b8bddae43466277"
+      "source_sha256": "2a8b1e6b7a98a3a74c2415dcb78e2adbe31461dc9b8f2bed689dffaf6500b4df"
     },
     {
       "key": "LIB:HAND-XTY-R",
@@ -2062,7 +2237,7 @@
       "approval": null,
       "asset_id": "HAND-XTY-R",
       "name": "谢听云右手与袖口",
-      "source_sha256": "8aa7d4718d6c8127476f98b9984f7155bc94aa68195d419ec39d490a5b1f4880"
+      "source_sha256": "31793ac6739ee2c70a5ec2b6d4e190706acc3f9d31567827215ea886461c3134"
     },
     {
       "key": "LIB:AN-HORSE",
@@ -2079,7 +2254,7 @@
       "approval": null,
       "asset_id": "AN-HORSE",
       "name": "行旅马",
-      "source_sha256": "4c66e83b307a9e649bc0324762b0f2c7c9df168852f6f3a13a2c75676e669f90"
+      "source_sha256": "bbdd05fd712914b5bbf9d61c06625915f9de330083c18226306ea51a28ca2f2d"
     },
     {
       "key": "LIB:EQ-ROBE",
@@ -2096,7 +2271,7 @@
       "approval": null,
       "asset_id": "EQ-ROBE",
       "name": "梅长苏长袍轮廓",
-      "source_sha256": "575cff5c07adf6476b76d81d52e787be56a4e29d52bf26a6adc0b2d314180264"
+      "source_sha256": "ca048694df3245d4b17f1c4d97f33ed51d8ffbf9f2443bd813b48f9983f69b69"
     },
     {
       "key": "LIB:EQ-ARMOR",
@@ -2113,7 +2288,7 @@
       "approval": null,
       "asset_id": "EQ-ARMOR",
       "name": "林殊皮甲",
-      "source_sha256": "fda8a617d50bbef4037cc9219a150af85222d46ba943b698cba2110945fc3b42"
+      "source_sha256": "4a987c6974e7c8f036d968c6297b55c29db4dabca264aee38c06ad1f23e6320d"
     },
     {
       "key": "LIB:EQ-HELMET",
@@ -2130,7 +2305,7 @@
       "approval": null,
       "asset_id": "EQ-HELMET",
       "name": "战盔",
-      "source_sha256": "5f3d271f5a9c09296abe9e14bec54df9c1f143c8b2c7b6355c559f28acfcee22"
+      "source_sha256": "900f4aeeca96f9f2908650a4cba05cc3c42d4a123de72c4b7f932f389ea8ea27"
     },
     {
       "key": "LIB:EQ-CAPE",
@@ -2147,7 +2322,7 @@
       "approval": null,
       "asset_id": "EQ-CAPE",
       "name": "密使短披风",
-      "source_sha256": "8a76c2e3b2ed5ac91276baeb21963c228a9c641baf43be424c0ff3b3f8bcd088"
+      "source_sha256": "3a2dbde4eb73d1fc2afebd650add2b0184a95091ecf732e1601db353a2dc099e"
     },
     {
       "key": "LIB:EQ-BOOTS",
@@ -2164,7 +2339,7 @@
       "approval": null,
       "asset_id": "EQ-BOOTS",
       "name": "靴",
-      "source_sha256": "09d2540edcc34bce04f5f82a17e6162a3ddd27ed514e6e86ab81a15392dcd499"
+      "source_sha256": "0a96c1be7ce8b3b5298b23280d72f529f5015d5a7a8d46694b5b1dee2c2d5152"
     },
     {
       "key": "LIB:EQ-BELT",
@@ -2181,7 +2356,7 @@
       "approval": null,
       "asset_id": "EQ-BELT",
       "name": "腰带",
-      "source_sha256": "07116c16b912b83fece31d0ab95976b07bc322d9b4407c21c03f7f1ca1e3f462"
+      "source_sha256": "cfd371ec21760977b8021b67639fbce562e5a7e82f49d7603ee14daef8c9d7e3"
     },
     {
       "key": "LIB:EQ-SWORD",
@@ -2198,7 +2373,7 @@
       "approval": null,
       "asset_id": "EQ-SWORD",
       "name": "佩剑",
-      "source_sha256": "f8684c525dcef875baf834eecbfbc0598e6b0d09070d9c0e7ad7f129ec374723"
+      "source_sha256": "01e9496f0123d175b1be5837acb6abb15e1b6ede24546131dc5c0139aa19a563"
     },
     {
       "key": "LIB:EQ-SHIELD",
@@ -2215,7 +2390,7 @@
       "approval": null,
       "asset_id": "EQ-SHIELD",
       "name": "残盾",
-      "source_sha256": "b71e8e5cfa82ab8b1bbab79f28460e9e440d6c0081d832dad7ac95154e5982a5"
+      "source_sha256": "16000fb417070b6e328dcbd76d158ed9e889ce3b0174184b3bf248260c32821b"
     },
     {
       "key": "LIB:EQ-SCABBARD",
@@ -2232,7 +2407,7 @@
       "approval": null,
       "asset_id": "EQ-SCABBARD",
       "name": "剑鞘",
-      "source_sha256": "d8bca39b05b7191be642fa7b330fedeaaa34f128f0ac8653e8991f19d8ad7cbf"
+      "source_sha256": "b1229c0dfdced00e47c013da0ef7ae8ea1fdd56a85f9b6ddc574c833b9a3c8f7"
     },
     {
       "key": "LIB:EQ-SADDLE",
@@ -2249,7 +2424,7 @@
       "approval": null,
       "asset_id": "EQ-SADDLE",
       "name": "马鞍",
-      "source_sha256": "530bc0a71447dc333003b0707ad514da131fc14c66ca8e8f3951048b78f3f110"
+      "source_sha256": "aeca3819ee5e93bd00c6ae2a20aae8238134aff64f7e9d6ed9ac3ec003a18224"
     },
     {
       "key": "LIB:EQ-BRIDLE",
@@ -2266,7 +2441,7 @@
       "approval": null,
       "asset_id": "EQ-BRIDLE",
       "name": "马笼头与缰带",
-      "source_sha256": "0dd61a0be695f520baf5073751974a06b7802aa26a0274ac267c806f127b031a"
+      "source_sha256": "5ddfddd9e393c7d9d6d112d27ce1860e081ecfc32bb6cd1b1ce45fcd743d3234"
     },
     {
       "key": "LIB:PR-CHEST",
@@ -2283,7 +2458,7 @@
       "approval": null,
       "asset_id": "PR-CHEST",
       "name": "药箱",
-      "source_sha256": "7145a155236317649c613719dc1f1502711e561f34a9c6c575340523c3bd6f02"
+      "source_sha256": "2f524275313a9fdc87e15a2cb0ab6072a2ca3bcdfa0fc44253fac8c7487698a4"
     },
     {
       "key": "LIB:PR-REPORT",
@@ -2300,7 +2475,7 @@
       "approval": null,
       "asset_id": "PR-REPORT",
       "name": "湿损军报",
-      "source_sha256": "5f79af44fb58a9b4cc3e7753342fe4fcf6c45472871040a7f212e6a53e90c70f"
+      "source_sha256": "2daca6c987d60db41251592bec37a36c7797a3eeccd39e7c0a832e1c0be3ff70"
     },
     {
       "key": "LIB:PR-BACKUP",
@@ -2317,7 +2492,7 @@
       "approval": null,
       "asset_id": "PR-BACKUP",
       "name": "备用存卷",
-      "source_sha256": "ac7e101853f19df5611621c7652f67a928a7c294ae670f885f08cdc1f6abdfc3"
+      "source_sha256": "1235714f369d465b1d366d0f8d5fa8797eb0fc89f4c4161413d70166638be270"
     },
     {
       "key": "LIB:PR-TOKEN",
@@ -2334,7 +2509,7 @@
       "approval": null,
       "asset_id": "PR-TOKEN",
       "name": "半枚赤焰旧令",
-      "source_sha256": "1f4702824ba682739d7f0c895f7cf2fdb7fcd9aeb5699c0a4b50f1ef44a94f37"
+      "source_sha256": "f516db5f1e8181c0728e4fe4c76c30238c6b605e6b715882d5f53af6f71adebc"
     },
     {
       "key": "LIB:PR-FAN",
@@ -2351,7 +2526,7 @@
       "approval": null,
       "asset_id": "PR-FAN",
       "name": "折扇",
-      "source_sha256": "a84c32614aec6a6638809e9d5fadeab947dc8a7290afb0df8db875107ca9c589"
+      "source_sha256": "cf9817ebc95e608ba0976b082aa9f0357ccad4dfa0491ceed824e7ebd23c80c9"
     },
     {
       "key": "LIB:PR-MEDBUNDLE",
@@ -2368,7 +2543,7 @@
       "approval": null,
       "asset_id": "PR-MEDBUNDLE",
       "name": "药包",
-      "source_sha256": "096107a08fdf9794ba22798f4ab4096c4fc0dee3cbe74561afa45edaf8294ef8"
+      "source_sha256": "58e1eab24e674f562d910f8e805921f2f2bd84189f00e507f092db29cf04ce31"
     },
     {
       "key": "LIB:PR-CLOUDBOX",
@@ -2385,7 +2560,7 @@
       "approval": null,
       "asset_id": "PR-CLOUDBOX",
       "name": "云令匣",
-      "source_sha256": "e8a44afcb22ee6ea0f9148ab29897815fbb7c992df5f84832294c59459e4ad70"
+      "source_sha256": "637901309e5d353168c8fd297233ab2cae7f9dc506f9473f1aa1a20e6efb1ed2"
     },
     {
       "key": "LIB:PR-POUCH",
@@ -2402,7 +2577,7 @@
       "approval": null,
       "asset_id": "PR-POUCH",
       "name": "麒麟锦囊",
-      "source_sha256": "5375899feb94a5ee62318ffe6c51135d0c17780e73a2688f66ab6450ca404e52"
+      "source_sha256": "b61ed647577698a997dd9042e03db91e1cd838a4a0bc8b30f2ae1522437e5814"
     },
     {
       "key": "LIB:PR-SEAL-R",
@@ -2419,7 +2594,7 @@
       "approval": null,
       "asset_id": "PR-SEAL-R",
       "name": "暗红封泥",
-      "source_sha256": "597af9b13d973026f4ea2353d4927bf81a7648a77dad3b66afe5ee10757e5617"
+      "source_sha256": "3e98dae682e40bba8b1755275f731d335b4867387804654d00be695161d05aea"
     },
     {
       "key": "LIB:PR-SEAL-G",
@@ -2436,7 +2611,7 @@
       "approval": null,
       "asset_id": "PR-SEAL-G",
       "name": "灰白封泥",
-      "source_sha256": "2263f7b34023b69307fb553b2f7acec083e7913a135c5d5fde6208a7dc157a20"
+      "source_sha256": "e1ae04b67023ab9478c7969fb6ca713895b1c3f2ccecb39ede6f8cc783aa8b93"
     },
     {
       "key": "LIB:PR-SEAL-B",
@@ -2453,7 +2628,7 @@
       "approval": null,
       "asset_id": "PR-SEAL-B",
       "name": "墨青封泥",
-      "source_sha256": "7d304ac49f3441cf2ac0323b35b211722f7166241e9283fa8515e7738dc19347"
+      "source_sha256": "02cde48b31e2ee450ea9f90d0833750235e01cf8bc402be9cb6cff6ffbc370c4"
     },
     {
       "key": "LIB:PR-MAP-NEW",
@@ -2470,7 +2645,7 @@
       "approval": null,
       "asset_id": "PR-MAP-NEW",
       "name": "有效路线图",
-      "source_sha256": "7a510508f278eca9e1e7b57c38c03dbbdcba1c8a26c09fe6aca57c3772676093"
+      "source_sha256": "616b2422daf39ae1c124187df873c095000be89ce82460cd6da3990d2a5bb4ca"
     },
     {
       "key": "LIB:PR-MAP-OLD",
@@ -2487,7 +2662,7 @@
       "approval": null,
       "asset_id": "PR-MAP-OLD",
       "name": "过期缺角地图",
-      "source_sha256": "46f94d3027528267d7daa0ff06e39516c746fe7a7d1edae51803f9c39a8cfd71"
+      "source_sha256": "6ad853bb8ee852db8b73d162a0786d6caef6e7c86d952f1f05ba2aea30592a23"
     },
     {
       "key": "LIB:PR-RECEIPT",
@@ -2504,7 +2679,7 @@
       "approval": null,
       "asset_id": "PR-RECEIPT",
       "name": "送达回执",
-      "source_sha256": "29b5522aacdfbf9970de7cc7e56ef3431b55ea9d6aa27d21ad3f9d2c5bcd94a9"
+      "source_sha256": "c4677dba4cb075022708eb3383b0c814affddaed46322e3923b9be97244a3db4"
     },
     {
       "key": "LIB:PR-BADGE",
@@ -2521,7 +2696,7 @@
       "approval": null,
       "asset_id": "PR-BADGE",
       "name": "身份木牌",
-      "source_sha256": "7d1b649241a4e566ef2a03416cd0a0007a8f1094f95b9701445c6d5e832dae99"
+      "source_sha256": "db7e71f323044f909ad39e017155eaa7f5e0611d3b5b4cd7d941230f138d215a"
     },
     {
       "key": "LIB:PR-STAMP",
@@ -2538,7 +2713,7 @@
       "approval": null,
       "asset_id": "PR-STAMP",
       "name": "封印印章",
-      "source_sha256": "21efb231550ac383e448e7af3384102d2df164e98c0c37fafa6161bcc612db60"
+      "source_sha256": "e11d646bc19b2a08c8d43c19b777343508f918d2e877c5c6459a29f333b027b9"
     },
     {
       "key": "LIB:PR-INK",
@@ -2555,7 +2730,7 @@
       "approval": null,
       "asset_id": "PR-INK",
       "name": "印泥盒",
-      "source_sha256": "771aa5746828c42a1ece814df96a10aecb388ea44f18ce2461a38b73ac30df05"
+      "source_sha256": "85622c4e2fdbd7ec5da6e29b8ee6b0dae4df6a676f6d436ed9945dfe80a71721"
     },
     {
       "key": "LIB:PR-BRUSH",
@@ -2572,7 +2747,7 @@
       "approval": null,
       "asset_id": "PR-BRUSH",
       "name": "毛笔",
-      "source_sha256": "9ae268f18ec276f514288b48a7153096b9a4bf64bd91fca065b0db676b4c33e2"
+      "source_sha256": "dcb07254ba0057cae28eb9a23a0ab32d0a51324dbb71b8c980563a2cf9fdedf8"
     },
     {
       "key": "LIB:PR-INKSTONE",
@@ -2589,7 +2764,7 @@
       "approval": null,
       "asset_id": "PR-INKSTONE",
       "name": "砚台",
-      "source_sha256": "cf8e2bc11f0e2cb7f322e8e1313d5c56820678e6a93384077b9fc00acb6a8bd3"
+      "source_sha256": "14ba293d0464f53b4c72b2f46cbb4f1826bf51255271e85b5b6c1aecf300737f"
     },
     {
       "key": "LIB:PR-ARCHIVEBOX",
@@ -2606,7 +2781,7 @@
       "approval": null,
       "asset_id": "PR-ARCHIVEBOX",
       "name": "档案木匣",
-      "source_sha256": "3601574ada3f85dbeb254c8e826b22a3170d8645a47a9f476ee6a8f4019a3457"
+      "source_sha256": "ad2fba90b4cd56bc10d31dd8c295e5824d361ffe6abc847841b3a635ccafb07d"
     },
     {
       "key": "LIB:PR-INDEX",
@@ -2623,7 +2798,7 @@
       "approval": null,
       "asset_id": "PR-INDEX",
       "name": "索引牌",
-      "source_sha256": "853ec20973578ad143067dea782e741a662eb1751393f2bb35af7ce070ced129"
+      "source_sha256": "136c370bb22c71a2805cbe66cb0a99aff5c461040ab0b29384063d99c38cc691"
     },
     {
       "key": "LIB:PR-COMPLAINT",
@@ -2640,7 +2815,7 @@
       "approval": null,
       "asset_id": "PR-COMPLAINT",
       "name": "湿损状纸",
-      "source_sha256": "ba0b5983e20eec4c25e7b1a367dcab0f58c98ea7203f44997430590a187fd93d"
+      "source_sha256": "0ef83857402e62286f478df48db6aa67c29ebea44b0b4b0caab35c2680a91142"
     },
     {
       "key": "LIB:PR-PERMIT",
@@ -2657,7 +2832,7 @@
       "approval": null,
       "asset_id": "PR-PERMIT",
       "name": "入京文牒",
-      "source_sha256": "bbf37567cb9ceb5fc951ad953dba2e4a1cdd7e1bd18ae153fe571ffccd1d7923"
+      "source_sha256": "4dc0b1d45e36f587a48138218f4c0c064d9e19eea46885ef75d5b081783513aa"
     },
     {
       "key": "LIB:PR-LETTERBOX",
@@ -2674,7 +2849,7 @@
       "approval": null,
       "asset_id": "PR-LETTERBOX",
       "name": "新信匣",
-      "source_sha256": "180cb0d26d5f36a2b912d83762089c923a7e741e327a5b73415a75209c3954df"
+      "source_sha256": "bf9e94641ebfa63cc95a8bf892d4c3a81adfd3f2d8a85efe066283b84f63a059"
     },
     {
       "key": "LIB:PR-TIE",
@@ -2691,7 +2866,7 @@
       "approval": null,
       "asset_id": "PR-TIE",
       "name": "文书绳",
-      "source_sha256": "1c5c8368f1dba2835d32fe5a2c07b125b6f45efab26514726503f799e7860673"
+      "source_sha256": "44cf201b1c52475a4f7e6118595715b5124151259cde334e0ca4382532584685"
     },
     {
       "key": "LIB:PR-CANDLE",
@@ -2708,7 +2883,7 @@
       "approval": null,
       "asset_id": "PR-CANDLE",
       "name": "蜡烛",
-      "source_sha256": "6a337e1d8254ae5e8c18999b1a5f619038a60b5d4973ae56bbf49a8f5a51a4ba"
+      "source_sha256": "c459f68204a1a871bf1e7d65e6d42aacab953038d80fff5177cd15d393326692"
     },
     {
       "key": "LIB:PR-STAND",
@@ -2725,7 +2900,7 @@
       "approval": null,
       "asset_id": "PR-STAND",
       "name": "烛台",
-      "source_sha256": "9e87a3654fceb5aef3a800f9999188b924ec757808522fd59fe65e8f8343edbc"
+      "source_sha256": "524405219103a3174f9ea603b17fac4938d7684b9ab2c8b46fd6fedc7fcaba67"
     },
     {
       "key": "LIB:PR-LANTERN",
@@ -2742,7 +2917,7 @@
       "approval": null,
       "asset_id": "PR-LANTERN",
       "name": "宫灯",
-      "source_sha256": "c239ea534e5ab73178c67d2e53ac184fe835d72d8dec7e9513636f2049565a95"
+      "source_sha256": "49b80f3e58793a4dc0175aaf321b076c48dd438a8577d3e74e3e2aed375b63d0"
     },
     {
       "key": "LIB:PR-BOTTLE",
@@ -2759,7 +2934,7 @@
       "approval": null,
       "asset_id": "PR-BOTTLE",
       "name": "药瓶",
-      "source_sha256": "957686c384d113419084eb065f671f3a0ad04752ba7a08bc214c002b6079488d"
+      "source_sha256": "1f3e599040bf12194c8cb11efc13081440dbe9874104cfab8cbc0e030692f402"
     },
     {
       "key": "LIB:PR-HERBS",
@@ -2776,7 +2951,7 @@
       "approval": null,
       "asset_id": "PR-HERBS",
       "name": "药材盘",
-      "source_sha256": "1fd049d5b7a634452ff711fa78c41e5c6942e55dff01162a813df3b597de830c"
+      "source_sha256": "71f60028412c126c2fafc28de456e90a76046c0ecd58db46680122b0fa40b2d6"
     },
     {
       "key": "LIB:PR-JUG",
@@ -2793,7 +2968,7 @@
       "approval": null,
       "asset_id": "PR-JUG",
       "name": "水壶",
-      "source_sha256": "7b12ca729beb350909fb4fc5a93d10375448306c73439ef5070df9f6c3aa8be1"
+      "source_sha256": "6c67de703f0bc97f7e808eb47c9a7cb061c6ef9e43159c689ea3225ad951e6e0"
     },
     {
       "key": "LIB:VH-CART",
@@ -2810,7 +2985,7 @@
       "approval": null,
       "asset_id": "VH-CART",
       "name": "木车车体",
-      "source_sha256": "9f48d37a441710b70ca74909f49f6e70f017fff629327cf7c635c12944cf06fb"
+      "source_sha256": "0d2f6e4edf0c898edb704624092e785ef53603a20d1d061345f42691380e5026"
     },
     {
       "key": "LIB:VH-CANOPY",
@@ -2827,7 +3002,7 @@
       "approval": null,
       "asset_id": "VH-CANOPY",
       "name": "车篷",
-      "source_sha256": "df76989c68dec4ec4dfb779d434f0ef94c3ec8b060c404ad713ab846400bb17b"
+      "source_sha256": "7edb336fa1b0fb6978ffe6619134711776ea42fb351385d4f53b98d968e346e4"
     },
     {
       "key": "LIB:VH-WHEEL",
@@ -2844,7 +3019,7 @@
       "approval": null,
       "asset_id": "VH-WHEEL",
       "name": "辐条车轮",
-      "source_sha256": "294676dbcd063d263774fe7adbeadd1eb8983e34a502223e4e00344f93310b28"
+      "source_sha256": "ae0190bfd725565bb042be4d99c9b50dfe526c4e28c978ecadf1e265608c3b4a"
     },
     {
       "key": "LIB:VH-AXLE",
@@ -2861,7 +3036,7 @@
       "approval": null,
       "asset_id": "VH-AXLE",
       "name": "完整车轴",
-      "source_sha256": "a4558ea6d23fc726b2901e83ac3e70540840c687a2bdd577665b50ee4581cf58"
+      "source_sha256": "f4505e3ce18db08a33911be033427493850c972e99d1c0d244ee8f70d7a4622f"
     },
     {
       "key": "LIB:VH-AXLE-BROKEN",
@@ -2878,7 +3053,7 @@
       "approval": null,
       "asset_id": "VH-AXLE-BROKEN",
       "name": "断裂车轴",
-      "source_sha256": "51871f9d7b988fc0df2d24fa43bcdb787319372ce945c82aaec809b6133c4191"
+      "source_sha256": "5d5019939ad5731a2206a1712945785a5289edfb495bbc89ed0d8b96c2473442"
     },
     {
       "key": "LIB:VH-BOARD",
@@ -2895,7 +3070,7 @@
       "approval": null,
       "asset_id": "VH-BOARD",
       "name": "车厢折叠板",
-      "source_sha256": "968cf52bb8ae9574a48f1c68f275aff916100a206be93afc2519e861b3ddd27c"
+      "source_sha256": "6877d1c726391b9e4bab2f4760352e3c1fc8b95efde09bbd72dc561c75548f5d"
     },
     {
       "key": "LIB:VH-DRAWBAR",
@@ -2912,7 +3087,7 @@
       "approval": null,
       "asset_id": "VH-DRAWBAR",
       "name": "辕木",
-      "source_sha256": "7520d1e888a09e6160f3d981fbc448a5f995abee96e5ffa3874b79df073a2981"
+      "source_sha256": "9c4a0135d633427a3dd151ab0890e57d8e330ae1fa76a8bf9ea2685053708617"
     },
     {
       "key": "LIB:VH-REINS",
@@ -2929,7 +3104,7 @@
       "approval": null,
       "asset_id": "VH-REINS",
       "name": "缰绳",
-      "source_sha256": "a42165c31badc345a02baad62e2949d421e64922bd3453c7394bf0af155c1114"
+      "source_sha256": "32d1047a92081967450f923c923398f4d1338daeba8c4325b8d91f2181a4747e"
     },
     {
       "key": "LIB:AR-WALL",
@@ -2946,7 +3121,7 @@
       "approval": null,
       "asset_id": "AR-WALL",
       "name": "室内墙体",
-      "source_sha256": "0704cfe04f560c18227bd4d03542ce0a095510deeeb89a4d2eca7e88068f5685"
+      "source_sha256": "30ed97b472b4af841b16af15ae7f3176810326391467001c97b2465bb6951aad"
     },
     {
       "key": "LIB:AR-FLOOR",
@@ -2963,7 +3138,7 @@
       "approval": null,
       "asset_id": "AR-FLOOR",
       "name": "木地板",
-      "source_sha256": "2f51cdba55ec659c1361848b48ca651f9d9de9a98d4b4cb59010be16b4989599"
+      "source_sha256": "50e09a61c8714988c086813b29212b5eb27612215c42affe351890636598e1b8"
     },
     {
       "key": "LIB:AR-BEAM",
@@ -2980,7 +3155,7 @@
       "approval": null,
       "asset_id": "AR-BEAM",
       "name": "屋梁",
-      "source_sha256": "86aecdffd37ae06dd8a323a1edeb7c22d695f709953b45558d1dc6d3ff28bb22"
+      "source_sha256": "0d1aada2495b372d67ea13d605ecb52f3b6a1fa5f054cae8d00490914bd1ce87"
     },
     {
       "key": "LIB:AR-COLUMN",
@@ -2997,7 +3172,7 @@
       "approval": null,
       "asset_id": "AR-COLUMN",
       "name": "廊柱",
-      "source_sha256": "5777c67f6dc856ccb922f89b93742a9443c085e46e94a2fdc4e2e536ca8cda11"
+      "source_sha256": "444b857542f777103cf3e99148502c993f0e714a1535677adcb05a2d406925b9"
     },
     {
       "key": "LIB:AR-ROOF",
@@ -3014,7 +3189,7 @@
       "approval": null,
       "asset_id": "AR-ROOF",
       "name": "瓦屋顶模块",
-      "source_sha256": "f3dd8a9bb01f18e8dd1ba39721d395edf00406da5730f11441bca447650157d8"
+      "source_sha256": "6309d92a1a9598a6e445e55b1baf64b7d41edcc462b1b6c77b34331f17669177"
     },
     {
       "key": "LIB:AR-WINDOW",
@@ -3031,7 +3206,7 @@
       "approval": null,
       "asset_id": "AR-WINDOW",
       "name": "格窗",
-      "source_sha256": "060717a09e740756c06ad0ecadb08be772d0685a889ea8b513c85d6d65052ecf"
+      "source_sha256": "e0bb7a7ead5b28acc69b8609da711dd12f837aaf00d9505afc109cab25e58c02"
     },
     {
       "key": "LIB:AR-DOOR",
@@ -3048,7 +3223,7 @@
       "approval": null,
       "asset_id": "AR-DOOR",
       "name": "木门",
-      "source_sha256": "faf0509f254aca41a9930b1eb07fbe13239bc1887fbdb1cf641ea946cd6d9b72"
+      "source_sha256": "bf4ca9d7a50726dd126dd0c381ec5e53f3007f14a6759323ad99e7c6549e682f"
     },
     {
       "key": "LIB:AR-BED",
@@ -3065,7 +3240,7 @@
       "approval": null,
       "asset_id": "AR-BED",
       "name": "床榻",
-      "source_sha256": "370063321dce17e05f993fa9fd6ea3c82ac798b61f9479f591bbe549de9e0e5e"
+      "source_sha256": "cdbf582fe7590dd607683e55a8429cf40916e833654720c8b65ce5f7a1efcf84"
     },
     {
       "key": "LIB:AR-DESK",
@@ -3082,7 +3257,7 @@
       "approval": null,
       "asset_id": "AR-DESK",
       "name": "长案",
-      "source_sha256": "7157560a505576ee63adb34427150a4f5a953afa22a1dd04f93b5d6b24401607"
+      "source_sha256": "dac2f58c902dfe6304ef2e97ed73aedcf3746f074d9bbc630cff0be6ef9f3ad6"
     },
     {
       "key": "LIB:AR-CABINET",
@@ -3099,7 +3274,7 @@
       "approval": null,
       "asset_id": "AR-CABINET",
       "name": "档案高柜",
-      "source_sha256": "e3f585ade186fa73125cad4cee7ab7c02d59d7b1f0da4794beb2bfa3a8512cab"
+      "source_sha256": "07782da7aa2f10d80e5da874e8325f7423063f22722333f06adfbcc33fd35505"
     },
     {
       "key": "LIB:AR-CHAIR",
@@ -3116,7 +3291,7 @@
       "approval": null,
       "asset_id": "AR-CHAIR",
       "name": "椅凳",
-      "source_sha256": "d204b8b1225c6f0d3cb0b2d7368422e215ea6210b083e95d693219393170f513"
+      "source_sha256": "9f4f4ed7e8b1a1f6967fe1510a78540dcacb46e68479a56a3b0f9d04a012c496"
     },
     {
       "key": "LIB:AR-AWNING",
@@ -3133,7 +3308,7 @@
       "approval": null,
       "asset_id": "AR-AWNING",
       "name": "路旁雨棚",
-      "source_sha256": "d4287aa946bfe49b8c86357f9bf99e625490df4bb4fcd69e6b7d38bbe6ac6554"
+      "source_sha256": "33727c6748849e20c7dffcaee11beaf5f09e91e901b98e10b90e3b6a89500321"
     },
     {
       "key": "LIB:AR-GATEWALL",
@@ -3150,7 +3325,7 @@
       "approval": null,
       "asset_id": "AR-GATEWALL",
       "name": "城墙",
-      "source_sha256": "332d31819d51044e5fa089d7692d1df1cce1d403e95b7b9434300e5138f624c3"
+      "source_sha256": "cec19c9df23acd07a09cf77f0a6b9806fc87deaeaa3c5e513b8e67e3e7e46cd3"
     },
     {
       "key": "LIB:AR-GATE",
@@ -3167,7 +3342,7 @@
       "approval": null,
       "asset_id": "AR-GATE",
       "name": "城门门洞",
-      "source_sha256": "4c071b7700f8be5bd4c7c4b0cb1b37bd4fab4961463450c6f79dc703ef6c2438"
+      "source_sha256": "787ca36499d9446f90f7531b6462fa8f13a5af7eaf546eb14b17cc354ef8e651"
     },
     {
       "key": "LIB:AR-GATELEAF",
@@ -3184,7 +3359,7 @@
       "approval": null,
       "asset_id": "AR-GATELEAF",
       "name": "朱门门扇",
-      "source_sha256": "4769599e29a8087c97b0d06c6f063f94c0f312eb72fd7b8c511a63c2947f313f"
+      "source_sha256": "f5a6f4da056395d9e9989fe7e46df7c111b0b6bcac0da3be021217780e3d6f8f"
     },
     {
       "key": "LIB:AR-LIGHT",
@@ -3201,7 +3376,7 @@
       "approval": null,
       "asset_id": "AR-LIGHT",
       "name": "宫灯悬架",
-      "source_sha256": "138f73ed3f1bce3172d78153d30c769c6dd81a28a6e3b820f5a16aa3416406ae"
+      "source_sha256": "89d1ab9ba8a2a3692fe9bb2dc48cb27eb9481b32f2ed3cf8c42e8dc37aebd725"
     },
     {
       "key": "LIB:AR-STEP",
@@ -3218,7 +3393,7 @@
       "approval": null,
       "asset_id": "AR-STEP",
       "name": "门槛台阶",
-      "source_sha256": "cc5eb4a7e8a1b84524b12a3c83dd1f4628b602800a41856ba4b2d2bebef68be6"
+      "source_sha256": "0e69fe33bbf09725ff86f268b459f6ad2bb9f666b1b3703bccb3a10b51f10f33"
     },
     {
       "key": "LIB:AR-BRIDGE",
@@ -3235,7 +3410,7 @@
       "approval": null,
       "asset_id": "AR-BRIDGE",
       "name": "木桥",
-      "source_sha256": "9073de51e21299f416ca2502a257f014ad458b23c24b2567aec1d7dec957e836"
+      "source_sha256": "c32e39db6421c3cf280527fa8b3ca5a73147ef4296626be82461e5ea4e42273c"
     },
     {
       "key": "LIB:ENV-DIRT",
@@ -3252,7 +3427,7 @@
       "approval": null,
       "asset_id": "ENV-DIRT",
       "name": "泥土道路",
-      "source_sha256": "e4c65fd49d9611e1ed0a976b9ee16c68c37b24922e5fb9b680a54e488bbbc47c"
+      "source_sha256": "4819879bc33bac3603f06496fa9bc21a720ed13f4f5de299b900e200327bac75"
     },
     {
       "key": "LIB:ENV-SNOWROAD",
@@ -3269,7 +3444,7 @@
       "approval": null,
       "asset_id": "ENV-SNOWROAD",
       "name": "雪道路面",
-      "source_sha256": "c8b98d69372f530404936a0d24e72c640b7a619e17834af9e9c2562d9e51a08d"
+      "source_sha256": "09d8c382a7f4541fc32101d902050f9541004c147cd4029005e587ddbac520dc"
     },
     {
       "key": "LIB:ENV-PAVING",
@@ -3286,7 +3461,7 @@
       "approval": null,
       "asset_id": "ENV-PAVING",
       "name": "湿石板路",
-      "source_sha256": "18ac5f8ae78050a812daa752673bafb3428d3fca56fec6ed7f87f5bcc8839760"
+      "source_sha256": "b0b0a61fb3980a3395853bb31bc8bbbfe52694d0fbd5518cb51181c17e248eae"
     },
     {
       "key": "LIB:ENV-SNOWBANK",
@@ -3303,7 +3478,7 @@
       "approval": null,
       "asset_id": "ENV-SNOWBANK",
       "name": "雪堆",
-      "source_sha256": "e688f1593bf5c26234a333e55f868a96d80a23c74a2acfeddb0e8b12db1ce7f2"
+      "source_sha256": "9554db16dc3aefe18682c0b518d90a2ee7d9a5fa1c9c879bc965c3d4832aac01"
     },
     {
       "key": "LIB:ENV-ROCK",
@@ -3320,7 +3495,7 @@
       "approval": null,
       "asset_id": "ENV-ROCK",
       "name": "山石",
-      "source_sha256": "ffe917365eb77d45b17003b98e8f18f09e94f130689cb0ed1bd89f567339c4ec"
+      "source_sha256": "2c160f90f7233218aa15b1fda0bc96217221ff10e341306433a392a2039009a8"
     },
     {
       "key": "LIB:ENV-BROKENWOOD",
@@ -3337,7 +3512,7 @@
       "approval": null,
       "asset_id": "ENV-BROKENWOOD",
       "name": "断木",
-      "source_sha256": "a32981d4b4613fd03df3314ded171a336a2bf149b657b760cfee3cb2db5c1cfe"
+      "source_sha256": "4c72c728aea103eb4b375edb9bd7e40236a1549f1d0c7e8ad5798e46658bccfe"
     },
     {
       "key": "LIB:ENV-FLAG",
@@ -3354,7 +3529,7 @@
       "approval": null,
       "asset_id": "ENV-FLAG",
       "name": "残旗与旗杆",
-      "source_sha256": "f885f824e99c5f00135e4148623efe4cd907f218c5da608e6a4adf7a80396153"
+      "source_sha256": "69ea3e683d67fc39f89d28d3d9ebe8626bdde66fc7e730e27dbf4b721579762e"
     },
     {
       "key": "LIB:ENV-TREE",
@@ -3371,7 +3546,7 @@
       "approval": null,
       "asset_id": "ENV-TREE",
       "name": "落叶树体块",
-      "source_sha256": "cf8e514b5cf2d7b2a89cdde6aafd110fb686f49d282510783ea07191619b66ca"
+      "source_sha256": "db2a6d42b8c91fbcf086b3d4351e75f830a6ae044b68d726200a93bea6544c00"
     },
     {
       "key": "LIB:ENV-BRAZIER",
@@ -3388,10 +3563,10 @@
       "approval": null,
       "asset_id": "ENV-BRAZIER",
       "name": "远处火盆",
-      "source_sha256": "db960119d15dc2892288f551e29bed2db3fdd9b4dfe8aa72c856e9e9b63b7d7b"
+      "source_sha256": "daae228683d323dcfae6a171671a33edbef3af74d2840b03d91976713c671c91"
     }
   ],
   "approved_count": 0,
   "scope_count": 192,
-  "note": "100 real reusable proxy models plus 92 production scopes. Proxies and the P01 assembly are unapproved; no completed scene or motion reviews implied."
+  "note": "100 real reusable proxy models plus 92 production scopes. Proxies and the P01 assembly are unapproved; seven representative static scenes remain unapproved; no completed scene or motion reviews implied."
 }

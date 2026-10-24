@@ -39,6 +39,7 @@
 - [制作模型优先组合](docs/MODEL-SELECTION.md)
 - [AI Canvas 三集制作工作包](production/README.md)
 - [首批八图审阅与人工检查](production/REFERENCE-REVIEW.md)
+- [P01 箱盖几何修正](production/p01-lid-repair-v2/README.md)
 
 ## 评审重点
 

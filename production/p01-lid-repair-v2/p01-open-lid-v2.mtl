@@ -1,0 +1,35 @@
+newmtl base
+Kd 0.56078 0.61569 0.65490
+Ka 0.25 0.25 0.25
+
+newmtl front_wall
+Kd 0.56078 0.61569 0.65490
+Ka 0.25 0.25 0.25
+
+newmtl rear_wall
+Kd 0.56078 0.61569 0.65490
+Ka 0.25 0.25 0.25
+
+newmtl left_wall
+Kd 0.56078 0.61569 0.65490
+Ka 0.25 0.25 0.25
+
+newmtl right_wall
+Kd 0.56078 0.61569 0.65490
+Ka 0.25 0.25 0.25
+
+newmtl lid_shell
+Kd 0.71765 0.76078 0.78824
+Ka 0.25 0.25 0.25
+
+newmtl lid_inner_panel
+Kd 0.80000 0.83922 0.85882
+Ka 0.25 0.25 0.25
+
+newmtl hinge_1
+Kd 0.64314 0.52941 0.30980
+Ka 0.25 0.25 0.25
+
+newmtl hinge_2
+Kd 0.64314 0.52941 0.30980
+Ka 0.25 0.25 0.25

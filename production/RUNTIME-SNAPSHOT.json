@@ -1,9 +1,9 @@
 {
   "checked_at": "2026-10-24T17:33:23+08:00",
-  "phase": "reference_images_ready_for_user_review",
+  "phase": "awaiting_p01_lid_repair_budget_confirmation",
   "board_name": "琅琊云令 三集制作总工作流",
-  "canvas_revision": 20,
-  "canvas_nodes": 70,
+  "canvas_revision": 21,
+  "canvas_nodes": 74,
   "existing_benchmark_media_reused": 4,
   "asset_design_records": 23,
   "episode_scene_counts": [
@@ -56,5 +56,9 @@
   "submitted_generation_estimate": 496,
   "actual_settled_credits": null,
   "user_artistic_approval": "pending",
-  "current_remaining_quote": 0
+  "current_remaining_quote": 0,
+  "p01_original_review": "blocked_lid_geometry",
+  "p01_repair_quote": 62,
+  "p01_repair_authorized": false,
+  "p01_repair_generated": false
 }

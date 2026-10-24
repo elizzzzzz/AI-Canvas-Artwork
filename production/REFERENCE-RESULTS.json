@@ -140,12 +140,15 @@
       "effective_prompt_exact_match": true,
       "reference_keys": [],
       "reference_images_count_from_task": 0,
-      "review_status": "needs_prop_alignment",
+      "review_status": "blocked_lid_geometry",
       "review_notes": [
-        "旧令尺寸纹样需与角色腰佩统一",
-        "封签字形不直接采用"
+        "用户复核指出盖板未绕后沿铰链正确转起，近似水平悬浮，结构不合格",
+        "初次检查遗漏该问题；保留v1，仅作问题留档",
+        "旧令尺寸纹样及封签字形仍需后续统一"
       ],
-      "approved_for_video": false
+      "approved_for_video": false,
+      "followup_issue_source": "user_manual_review",
+      "repair_plan": "p01-lid-repair-v2/README.md"
     },
     {
       "key": "KF01",

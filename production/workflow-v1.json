@@ -3943,5 +3943,13 @@
       "path": "production/action-coverage-v1.json",
       "sha256": "8aa569fb67a5eca3a0c1631ec8b4b49be879b41ca7fb343851ae7d8bdd5780fe"
     }
+  },
+  "motion_blockouts": {
+    "version": 1,
+    "status": "motion_blockouts_v1_pending_24fps_review",
+    "manifest": {
+      "path": "production/motion-blockouts/manifest-v1.json",
+      "sha256": "1a032954965e5af67e8e1b8de611018047484f3cb530415c6c8ae7a41ee27f5c"
+    }
   }
 }

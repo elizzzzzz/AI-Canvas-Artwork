@@ -116,5 +116,12 @@
       "EP03": 165
     },
     "manifest": "production/action-coverage-v1.json"
+  },
+  "motion_blockouts": {
+    "clip_count": 42,
+    "target_fps": 24,
+    "status": "motion_blockouts_v1_pending_24fps_review",
+    "manifest": "production/motion-blockouts/manifest-v1.json",
+    "full_frame_evidence": false
   }
 }

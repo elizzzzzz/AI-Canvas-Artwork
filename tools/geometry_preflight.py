@@ -23,7 +23,8 @@ def source_hash(record, blueprint):
     payload = {'policy': POLICY_VERSION, 'record': record, 'asset_manifest': blueprint['asset_manifest'],
                'asset_library': blueprint.get('asset_library'),
                'scene_blockouts': blueprint.get('scene_blockouts'),
-               'action_coverage': blueprint.get('action_coverage')}
+               'action_coverage': blueprint.get('action_coverage'),
+               'motion_blockouts': blueprint.get('motion_blockouts')}
     return hashlib.sha256(json.dumps(payload, ensure_ascii=False, sort_keys=True,
                                      separators=(',', ':')).encode()).hexdigest()
 
@@ -131,6 +132,25 @@ def load_action_coverage(blueprint, root):
     return manifest
 
 
+def load_motion_blockouts(blueprint, root):
+    refs=blueprint.get('motion_blockouts')
+    if refs is None: return None
+    errors=[]; path=checked_file(refs.get('manifest'),root,'motion manifest',errors)
+    if errors: raise ValueError('; '.join(errors))
+    manifest=json.loads(path.read_text()); clips=manifest.get('clips',[])
+    expected={c['key'] for shot in blueprint['shots'] if shot.get('action_scene') for c in shot['clips']}
+    actual={c.get('clip_key') for c in clips}
+    if actual != expected or len(clips)!=42: raise ValueError('motion manifest does not cover exact 42 action clips')
+    for item in clips:
+        if item.get('target_fps') != 24 or item.get('sample_count') != int(round(item['duration_seconds']*24))+1:
+            raise ValueError('motion clip frame sampling is not 24fps plus ending boundary')
+        if item.get('camera',{}).get('mode') != 'first_person' or not item.get('camera',{}).get('path_points'):
+            raise ValueError('motion clip lacks first-person camera path')
+        for label,artifact in item.get('evidence',{}).items(): checked_file(artifact,root,item['clip_key']+':'+label,errors)
+    if errors: raise ValueError('; '.join(errors))
+    return manifest
+
+
 def artifact_set_hash(entry):
     payload = {'evidence': entry.get('evidence'), 'report': entry.get('report')}
     return hashlib.sha256(json.dumps(payload, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
@@ -202,6 +222,7 @@ def main():
         library = load_asset_library(blueprint, root)
         load_scene_blockouts(blueprint, root)
         load_action_coverage(blueprint, root)
+        load_motion_blockouts(blueprint, root)
     except (ValueError, KeyError, OSError, TypeError) as exc:
         print(json.dumps({'allowed': False, 'error': str(exc)}, ensure_ascii=False)); return 2
     expected = expected_sources(blueprint, library)

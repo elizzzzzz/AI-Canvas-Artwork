@@ -22,3 +22,5 @@ Current state: 100 actual reusable GLB proxy models are built, with 34 logical-s
 - After changing canonical scene drafts run `python3 -m tools.scene_blockouts` then `python3 -m tools.sync_asset_coverage`. The preflight hashes the scene manifest, all its declared artifacts and source GLBs. Static representative cameras never count as full clip motion review.
 
 - Action coverage is tracked in `production/action-coverage-v1.json`; every episode must remain at or above 50% action seconds while preserving first-person camera rules. This planning ratio never substitutes for 3D motion evidence.
+
+- Motion draft sources live in `production/motion-blockouts/manifest-v1.json`; changes to action timing, scene camera or referenced entities invalidate the motion source hash. A motion draft is never a full-frame report.

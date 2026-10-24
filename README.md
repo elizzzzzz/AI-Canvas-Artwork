@@ -63,3 +63,4 @@
 
 本仓库用于内部测试。当前版本可以保留《琅琊榜》相关人物和世界观符号，以便验证创意方向；若转为公开发布，需要另行处理版权、原创化和内容合规问题。
 - [三集动作版分镜与审核入口](docs/ACTION-BLOCKING-PLAN.md)
+- [42段动作运动草稿](production/motion-blockouts/README.md)

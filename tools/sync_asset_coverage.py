@@ -36,6 +36,10 @@ def main():
     if action_manifest:
         blueprint['action_coverage'] = {'version': 1, 'status': action_manifest.get('status'),
             'manifest': ref('production/action-coverage-v1.json')}
+    motion_manifest = read('production/motion-blockouts/manifest-v1.json') if (ROOT / 'production/motion-blockouts/manifest-v1.json').is_file() else None
+    if motion_manifest:
+        blueprint['motion_blockouts'] = {'version': 1, 'status': motion_manifest.get('status'),
+            'manifest': ref('production/motion-blockouts/manifest-v1.json')}
     write('production/workflow-v1.json', blueprint)
     expected = expected_sources(blueprint, library)
     repair = read('production/p01-lid-repair-v2/repair-plan.json')

@@ -106,3 +106,5 @@
 - [三集动作版分镜与审核入口](docs/ACTION-BLOCKING-PLAN.md)
 - [42段动作运动草稿](production/motion-blockouts/README.md)
 - [高风险动作逐帧灰模证据](production/motion-evidence-v1/README.md)
+- [导演版连续性预演](production/final-cut-v1/README.md)
+- [成片连续性控制](docs/FINAL-CUT-CONTINUITY.md)

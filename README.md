@@ -110,3 +110,4 @@
 - [成片连续性控制](docs/FINAL-CUT-CONTINUITY.md)
 - [最终成片锁定表](docs/FINAL-CUT-LOCK.md)
 - [192范围3D正式审核操作手册](docs/3D-APPROVAL-RUNBOOK.md)
+- [本地一键审核台](tools/review_console.py)

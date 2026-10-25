@@ -183,3 +183,5 @@
 - 将导演版连续性预演拆为 EP01/EP02/EP03 三条独立预演，并建立最终成片锁定表，明确每集观众信息、主任务、动作转折、支线故障和结尾钩子。
 
 - 新增《192范围3D正式审核操作手册》，把资产、场景、视频、试跑和修图范围拆成证据包、人工检查、report、签核和 exact-scope preflight 五步流程。
+- 2026-10-26：修复 AICanvas 视频工作流节点配置。旧的 `frames/first_frame` 绑定改为独立图片输入节点 + `reference` 模式；已放行旧运行中的人工审核点。EP02-S07 雨廊追截和 EP03-S05 车轴失控均完成正式 H3 生成，输出参数与节点状态记录在 `production/hackathon-demo/formal-generation-v1.json`，并生成 `qiniu-langya-formal-pilot-preview-v1.mp4` 供连贯性复核。
+

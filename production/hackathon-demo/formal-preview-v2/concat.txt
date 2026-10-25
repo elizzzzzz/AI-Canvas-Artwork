@@ -1,0 +1,8 @@
+file '/Users/elizhang/.codex/worktrees/hackathon-deliverables/灯红视频/production/hackathon-demo/formal-preview-v2/normalized/01-title.mp4'
+file '/Users/elizhang/.codex/worktrees/hackathon-deliverables/灯红视频/production/hackathon-demo/formal-preview-v2/normalized/02-ep01s07-repair-v2.mp4'
+file '/Users/elizhang/.codex/worktrees/hackathon-deliverables/灯红视频/production/hackathon-demo/formal-preview-v2/normalized/03-title.mp4'
+file '/Users/elizhang/.codex/worktrees/hackathon-deliverables/灯红视频/production/hackathon-demo/formal-preview-v2/normalized/04-ep02s07.mp4'
+file '/Users/elizhang/.codex/worktrees/hackathon-deliverables/灯红视频/production/hackathon-demo/formal-preview-v2/normalized/05-title.mp4'
+file '/Users/elizhang/.codex/worktrees/hackathon-deliverables/灯红视频/production/hackathon-demo/formal-preview-v2/normalized/06-ep03s05a-repair-v2.mp4'
+file '/Users/elizhang/.codex/worktrees/hackathon-deliverables/灯红视频/production/hackathon-demo/formal-preview-v2/normalized/07-ep03s05b-repair-v2.mp4'
+file '/Users/elizhang/.codex/worktrees/hackathon-deliverables/灯红视频/production/hackathon-demo/formal-preview-v2/normalized/08-end.mp4'

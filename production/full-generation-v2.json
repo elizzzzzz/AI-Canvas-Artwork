@@ -2,10 +2,10 @@
   "version": 2,
   "created_at": "2026-10-26T02:35:26.765081+08:00",
   "board_id": "6851506d-6617-46f5-a06e-a2e9954f2ea0",
-  "canvas_revision": 73,
+  "canvas_revision": 100,
   "status": "running_formal_full_video_queue",
-  "model": "minimax/minimax-h3",
-  "resolution": "768P",
+  "model": "doubao-seedance-2-5-260628",
+  "resolution": "480p",
   "aspect": "9:16",
   "gate": "pilot_ready=true",
   "clip_count": 67,
@@ -112,8 +112,11 @@
       "node_id": "a50e4b73-b377-4525-92c8-6c33b2be8ae8",
       "title": "FULL EP01-S05-02 正式片段",
       "duration": 7,
-      "status": "submitted",
-      "run_id": "6100756a-aaa0-468c-8182-f1ad87e931ea"
+      "status": "completed",
+      "run_id": "6100756a-aaa0-468c-8182-f1ad87e931ea",
+      "local_file": "production/full-generation-v2/media/EP01-S05-02.mp4",
+      "duration_actual": 7.292,
+      "media_asset_id": "db4ab264-ae41-4769-839b-45507847d36e"
     },
     {
       "key": "EP01-S06-01",
@@ -145,8 +148,11 @@
       "node_id": "553745d3-e2ef-432e-b050-28cab3862680",
       "title": "FULL EP01-S07-01 正式片段",
       "duration": 8,
-      "status": "submitted",
-      "run_id": "a5ee2c69-5aab-4ee2-bc3d-9dc478f772d8"
+      "status": "completed",
+      "run_id": "a5ee2c69-5aab-4ee2-bc3d-9dc478f772d8",
+      "local_file": "production/full-generation-v2/media/EP01-S07-01.mp4",
+      "duration_actual": 8,
+      "media_asset_id": "b9445aae-aa3a-4efc-9aac-425b8ad0fb0a"
     },
     {
       "key": "EP01-S07-02",
@@ -154,8 +160,11 @@
       "node_id": "5c262a05-f235-4ff5-8317-63c91c0be8f6",
       "title": "FULL EP01-S07-02 正式片段",
       "duration": 8,
-      "status": "submitted",
-      "run_id": "daea4692-2f44-4bba-b01c-e2dbce379e2e"
+      "status": "completed",
+      "run_id": "daea4692-2f44-4bba-b01c-e2dbce379e2e",
+      "local_file": "production/full-generation-v2/media/EP01-S07-02.mp4",
+      "duration_actual": 8,
+      "media_asset_id": "23435eb5-5cb5-4ad6-a6e8-f8c7132d904d"
     },
     {
       "key": "EP01-S08-01",
@@ -163,7 +172,11 @@
       "node_id": "998490f6-8f7d-430c-bf86-e9798b7c185f",
       "title": "FULL EP01-S08-01 正式片段",
       "duration": 7,
-      "status": "queued"
+      "status": "completed",
+      "run_id": "46c1d06f-6939-4f95-aa6e-a1ce63f1436c",
+      "local_file": "production/full-generation-v2/media/EP01-S08-01.mp4",
+      "duration_actual": 7.292,
+      "media_asset_id": "9120f00f-a359-40e0-957c-23535e9d8fbd"
     },
     {
       "key": "EP01-S08-02",
@@ -171,7 +184,11 @@
       "node_id": "929b8818-21c7-4c32-ac08-0bf5ef3fcd8a",
       "title": "FULL EP01-S08-02 正式片段",
       "duration": 7,
-      "status": "queued"
+      "status": "completed",
+      "run_id": "63744656-c571-4e4e-9b1a-2282e19bee89",
+      "local_file": "production/full-generation-v2/media/EP01-S08-02.mp4",
+      "duration_actual": 7.3,
+      "media_asset_id": "76befb04-754a-4e2c-b174-816a410af27f"
     },
     {
       "key": "EP01-S09-01",
@@ -179,7 +196,11 @@
       "node_id": "60debb1c-9fb2-4c14-833e-123a576f0679",
       "title": "FULL EP01-S09-01 正式片段",
       "duration": 6,
-      "status": "queued"
+      "status": "completed",
+      "run_id": "9e15cb2e-a464-433f-aa13-1722c3d20431",
+      "local_file": "production/full-generation-v2/media/EP01-S09-01.mp4",
+      "duration_actual": 6.583333,
+      "media_asset_id": "d777db22-fb78-4620-a6bd-fe65c7db37d4"
     },
     {
       "key": "EP01-S09-02",
@@ -187,7 +208,11 @@
       "node_id": "6df2fc9d-f20a-4306-ae0d-ee2098b43fbf",
       "title": "FULL EP01-S09-02 正式片段",
       "duration": 7,
-      "status": "queued"
+      "status": "completed",
+      "run_id": "fc5304e1-da51-4706-b574-25956ed7cf44",
+      "local_file": "production/full-generation-v2/media/EP01-S09-02.mp4",
+      "duration_actual": 7.292,
+      "media_asset_id": "a404c807-3f9e-4f1e-8262-bdc50c6f8476"
     },
     {
       "key": "EP01-S10-01",
@@ -195,7 +220,11 @@
       "node_id": "fb0aa5a7-b27d-4cf9-b5ca-3fed7f29a324",
       "title": "FULL EP01-S10-01 正式片段",
       "duration": 6,
-      "status": "queued"
+      "status": "completed",
+      "run_id": "9993b366-8cb4-47a1-8823-b74eb0279201",
+      "local_file": "production/full-generation-v2/media/EP01-S10-01.mp4",
+      "duration_actual": 6.583008,
+      "media_asset_id": "9756db91-7682-47d0-8ee8-0576d1af4306"
     },
     {
       "key": "EP01-S10-02",
@@ -203,7 +232,11 @@
       "node_id": "0f4f54bc-5e81-431e-ba34-8aa601d6bf13",
       "title": "FULL EP01-S10-02 正式片段",
       "duration": 6,
-      "status": "queued"
+      "status": "completed",
+      "run_id": "3bf5318f-edd6-4816-b3ce-4fbc464d8501",
+      "local_file": "production/full-generation-v2/media/EP01-S10-02.mp4",
+      "duration_actual": 6.583008,
+      "media_asset_id": "2ea23b46-f829-4dd5-9de2-1808313034e6"
     },
     {
       "key": "EP01-S11-01",
@@ -211,7 +244,11 @@
       "node_id": "be101549-b1d9-4bfc-a718-70912d5e372d",
       "title": "FULL EP01-S11-01 正式片段",
       "duration": 8,
-      "status": "queued"
+      "status": "completed",
+      "run_id": "2d8aa585-44af-433b-bf50-dd4cd2a57cf0",
+      "local_file": "production/full-generation-v2/media/EP01-S11-01.mp4",
+      "duration_actual": 8,
+      "media_asset_id": "f7cae5d6-9636-4fbc-9fd1-e2151fb04f15"
     },
     {
       "key": "EP01-S11-02",
@@ -219,7 +256,12 @@
       "node_id": "5d0daf15-eb0d-45c9-bc23-f14718c5060d",
       "title": "FULL EP01-S11-02 正式片段",
       "duration": 8,
-      "status": "queued"
+      "status": "completed",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p",
+      "local_file": "production/full-generation-v2/media/EP01-S11-02.mp4",
+      "duration_actual": 8,
+      "media_asset_id": "f7850c1d-68b0-46f1-9e77-f05f681e0650"
     },
     {
       "key": "EP02-S01-01",
@@ -227,7 +269,12 @@
       "node_id": "ef42b5ec-1f72-4236-b18c-4d975b03d53a",
       "title": "FULL EP02-S01-01 正式片段",
       "duration": 6,
-      "status": "queued"
+      "status": "completed",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p",
+      "local_file": "production/full-generation-v2/media/EP02-S01-01.mp4",
+      "duration_actual": 6.583333,
+      "media_asset_id": "ebae1840-9a72-45cf-a7a0-c6fa753a754c"
     },
     {
       "key": "EP02-S01-02",
@@ -235,7 +282,12 @@
       "node_id": "5ed22c52-8244-42e8-ac9e-8fefddb231f4",
       "title": "FULL EP02-S01-02 正式片段",
       "duration": 6,
-      "status": "queued"
+      "status": "completed",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p",
+      "local_file": "production/full-generation-v2/media/EP02-S01-02.mp4",
+      "duration_actual": 6.583333,
+      "media_asset_id": "037f5c85-cd3a-46b0-920a-9c43201c58da"
     },
     {
       "key": "EP02-S02-01",
@@ -243,7 +295,12 @@
       "node_id": "a72f8685-c2eb-4f9c-8288-3d65f1bedca7",
       "title": "FULL EP02-S02-01 正式片段",
       "duration": 6,
-      "status": "queued"
+      "status": "completed",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p",
+      "local_file": "production/full-generation-v2/media/EP02-S02-01.mp4",
+      "duration_actual": 6.583333,
+      "media_asset_id": "a181777e-c625-49f8-83fa-dd4dbcadd77b"
     },
     {
       "key": "EP02-S02-02",
@@ -251,7 +308,13 @@
       "node_id": "0aea159b-4fd4-4e3b-b0b9-309331d6b385",
       "title": "FULL EP02-S02-02 正式片段",
       "duration": 7,
-      "status": "queued"
+      "status": "completed",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p",
+      "run_id": "76448241-854c-4f14-9c03-ef229f4ccb06",
+      "local_file": "production/full-generation-v2/media/EP02-S02-02.mp4",
+      "duration_actual": 7.072,
+      "media_asset_id": "9e013535-d27b-4338-99dc-5cd6d5dec417"
     },
     {
       "key": "EP02-S03-01",
@@ -259,7 +322,13 @@
       "node_id": "830781b0-ec02-4f71-9256-e7bdcb7fcc53",
       "title": "FULL EP02-S03-01 正式片段",
       "duration": 7,
-      "status": "queued"
+      "status": "completed",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p",
+      "run_id": "3e36f7a5-26ab-4091-9474-5909f2d605d4",
+      "local_file": "production/full-generation-v2/media/EP02-S03-01.mp4",
+      "duration_actual": 7.072,
+      "media_asset_id": "2d71ee40-418f-454a-b2a4-56ccbfbbe435"
     },
     {
       "key": "EP02-S03-02",
@@ -267,7 +336,13 @@
       "node_id": "cbf6a915-f5ed-47f2-8948-cb6b496cfdb4",
       "title": "FULL EP02-S03-02 正式片段",
       "duration": 8,
-      "status": "queued"
+      "status": "completed",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p",
+      "run_id": "27e8c397-f898-418a-a012-b790f3a4087b",
+      "local_file": "production/full-generation-v2/media/EP02-S03-02.mp4",
+      "duration_actual": 8.064,
+      "media_asset_id": "0084afc7-3954-4073-bcad-8630b3707d9c"
     },
     {
       "key": "EP02-S04-01",
@@ -275,7 +350,10 @@
       "node_id": "67cf5ff4-4ac7-4180-88ff-3e91027820bf",
       "title": "FULL EP02-S04-01 正式片段",
       "duration": 6,
-      "status": "queued"
+      "status": "submitted",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p",
+      "run_id": "e06e93cd-92c3-44a6-993d-4a22fe7b2f61"
     },
     {
       "key": "EP02-S04-02",
@@ -283,7 +361,10 @@
       "node_id": "8ee967f6-bf0a-4432-ad1c-b2d8d69a328c",
       "title": "FULL EP02-S04-02 正式片段",
       "duration": 6,
-      "status": "queued"
+      "status": "submitted",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p",
+      "run_id": "de737283-e220-4711-8696-9ba225ffb9e0"
     },
     {
       "key": "EP02-S05-01",
@@ -291,7 +372,10 @@
       "node_id": "20b165b5-3103-4f8e-9393-127ad7e25309",
       "title": "FULL EP02-S05-01 正式片段",
       "duration": 8,
-      "status": "queued"
+      "status": "submitted",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p",
+      "run_id": "47d29ce3-5b07-4580-9117-646da465951c"
     },
     {
       "key": "EP02-S05-02",
@@ -299,7 +383,9 @@
       "node_id": "97294426-06c4-422e-8c05-0f4c165e67f7",
       "title": "FULL EP02-S05-02 正式片段",
       "duration": 8,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP02-S06-01",
@@ -307,7 +393,9 @@
       "node_id": "dbac211e-eba7-4653-ac13-fdae519cdec9",
       "title": "FULL EP02-S06-01 正式片段",
       "duration": 8,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP02-S06-02",
@@ -315,7 +403,9 @@
       "node_id": "e3e0b80f-23f3-452d-8fc4-8631ebdfb66d",
       "title": "FULL EP02-S06-02 正式片段",
       "duration": 8,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP02-S07-01",
@@ -323,7 +413,9 @@
       "node_id": "34c03503-0fe4-47d1-b319-38814c3e14f6",
       "title": "FULL EP02-S07-01 正式片段",
       "duration": 9,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP02-S07-02",
@@ -331,7 +423,9 @@
       "node_id": "174cffe7-0192-467c-a57c-12866e686735",
       "title": "FULL EP02-S07-02 正式片段",
       "duration": 9,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP02-S08-01",
@@ -339,7 +433,9 @@
       "node_id": "2ee9ae62-f3a4-4966-8960-4070ea1fb1a1",
       "title": "FULL EP02-S08-01 正式片段",
       "duration": 7,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP02-S08-02",
@@ -347,7 +443,9 @@
       "node_id": "3dfe0117-6888-4f89-9229-27ece8b7bab5",
       "title": "FULL EP02-S08-02 正式片段",
       "duration": 7,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP02-S09-01",
@@ -355,7 +453,9 @@
       "node_id": "72ab89b3-20d5-43a3-9200-ed52cf686d33",
       "title": "FULL EP02-S09-01 正式片段",
       "duration": 6,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP02-S09-02",
@@ -363,7 +463,9 @@
       "node_id": "b6cba19a-f4f9-4d55-b595-7df99c8a973b",
       "title": "FULL EP02-S09-02 正式片段",
       "duration": 7,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP02-S10-01",
@@ -371,7 +473,9 @@
       "node_id": "42295dd8-e136-428d-b83b-9f70afae7c93",
       "title": "FULL EP02-S10-01 正式片段",
       "duration": 6,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP02-S10-02",
@@ -379,7 +483,9 @@
       "node_id": "9f40d4a4-9a3c-4878-b47a-5d469c31f46c",
       "title": "FULL EP02-S10-02 正式片段",
       "duration": 6,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP02-S11-01",
@@ -387,7 +493,9 @@
       "node_id": "b4408fbd-6f17-4940-8b9b-5389f05bc969",
       "title": "FULL EP02-S11-01 正式片段",
       "duration": 7,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP02-S11-02",
@@ -395,7 +503,9 @@
       "node_id": "fe9fa2c8-b9ac-43a1-a1bc-202f65051862",
       "title": "FULL EP02-S11-02 正式片段",
       "duration": 7,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S01-01",
@@ -403,7 +513,9 @@
       "node_id": "82f128e3-fb5a-47de-847f-e83284fe572f",
       "title": "FULL EP03-S01-01 正式片段",
       "duration": 6,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S01-02",
@@ -411,7 +523,9 @@
       "node_id": "a285922f-e25e-46e9-8c0b-c05df776a9a6",
       "title": "FULL EP03-S01-02 正式片段",
       "duration": 6,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S02-01",
@@ -419,7 +533,9 @@
       "node_id": "4b82b1e6-77f6-4e5f-8ed8-2a05940f8532",
       "title": "FULL EP03-S02-01 正式片段",
       "duration": 6,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S02-02",
@@ -427,7 +543,9 @@
       "node_id": "1bd56d04-c506-4aa8-8f65-1734f1a2a8bd",
       "title": "FULL EP03-S02-02 正式片段",
       "duration": 7,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S03-01",
@@ -435,7 +553,9 @@
       "node_id": "37ef4b2c-4a57-412f-b50d-761e97a7be68",
       "title": "FULL EP03-S03-01 正式片段",
       "duration": 6,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S03-02",
@@ -443,7 +563,9 @@
       "node_id": "74c68c51-1f34-4aa5-ada2-6c485bbda1fc",
       "title": "FULL EP03-S03-02 正式片段",
       "duration": 7,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S04-01",
@@ -451,7 +573,9 @@
       "node_id": "7b985b67-6577-404d-ada6-f655877e1dd4",
       "title": "FULL EP03-S04-01 正式片段",
       "duration": 6,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S04-02",
@@ -459,7 +583,9 @@
       "node_id": "fd1a6abf-5def-47c4-b552-e56ae7eced3b",
       "title": "FULL EP03-S04-02 正式片段",
       "duration": 7,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S05-01",
@@ -467,7 +593,9 @@
       "node_id": "6ea1065b-54cf-4800-91eb-62d977a7559c",
       "title": "FULL EP03-S05-01 正式片段",
       "duration": 6,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S05-02",
@@ -475,7 +603,9 @@
       "node_id": "960d23aa-85de-4c81-b442-f98e3eef2c7d",
       "title": "FULL EP03-S05-02 正式片段",
       "duration": 7,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S06-01",
@@ -483,7 +613,9 @@
       "node_id": "30d5eb61-7f6e-44c9-a7af-7fc30de2918a",
       "title": "FULL EP03-S06-01 正式片段",
       "duration": 6,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S06-02",
@@ -491,7 +623,9 @@
       "node_id": "bfb30f4f-7c68-4109-a31b-d82ebfe10c25",
       "title": "FULL EP03-S06-02 正式片段",
       "duration": 7,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S07-01",
@@ -499,7 +633,9 @@
       "node_id": "9bc8d9e9-b49a-475c-abc6-da505fbc3ee8",
       "title": "FULL EP03-S07-01 正式片段",
       "duration": 8,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S07-02",
@@ -507,7 +643,9 @@
       "node_id": "0a340e8b-7631-426d-8c08-ab2499ee1eb8",
       "title": "FULL EP03-S07-02 正式片段",
       "duration": 8,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S08-01",
@@ -515,7 +653,9 @@
       "node_id": "23db24da-24c0-4c74-8bdc-96da3f67ac21",
       "title": "FULL EP03-S08-01 正式片段",
       "duration": 8,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S08-02",
@@ -523,7 +663,9 @@
       "node_id": "3eceb2de-336d-48f5-9a7f-7c309b30eebb",
       "title": "FULL EP03-S08-02 正式片段",
       "duration": 8,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S09-01",
@@ -531,7 +673,9 @@
       "node_id": "efa500b1-989f-4259-a3e0-5bb6eff33076",
       "title": "FULL EP03-S09-01 正式片段",
       "duration": 7,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S09-02",
@@ -539,7 +683,9 @@
       "node_id": "fe587cf3-1870-48bb-afa7-92eb3eb53dcc",
       "title": "FULL EP03-S09-02 正式片段",
       "duration": 8,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S10-01",
@@ -547,7 +693,9 @@
       "node_id": "bd69f17c-5979-41d7-9b71-7ac0470c28f4",
       "title": "FULL EP03-S10-01 正式片段",
       "duration": 7,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S10-02",
@@ -555,7 +703,9 @@
       "node_id": "bdaec338-b0b8-4098-a22a-98710c444019",
       "title": "FULL EP03-S10-02 正式片段",
       "duration": 8,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S11-01",
@@ -563,7 +713,9 @@
       "node_id": "7f816879-7761-4767-b9c3-755a9af2a7f2",
       "title": "FULL EP03-S11-01 正式片段",
       "duration": 5,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S11-02",
@@ -571,7 +723,9 @@
       "node_id": "16746f4c-4589-4235-a667-f4c111a95f24",
       "title": "FULL EP03-S11-02 正式片段",
       "duration": 5,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S12-01",
@@ -579,7 +733,9 @@
       "node_id": "496d3bcf-f73e-4f9c-99fe-a2a39da79c6c",
       "title": "FULL EP03-S12-01 正式片段",
       "duration": 8,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     },
     {
       "key": "EP03-S12-02",
@@ -587,10 +743,14 @@
       "node_id": "fa9d16f7-b28d-4c03-9408-4d0aec65b0e3",
       "title": "FULL EP03-S12-02 正式片段",
       "duration": 8,
-      "status": "queued"
+      "status": "queued",
+      "model": "doubao-seedance-2-5-260628",
+      "resolution": "480p"
     }
   ],
   "started_at": "2026-10-26T02:37:11.764579+08:00",
-  "completed_count": 10,
-  "failed_count": 0
+  "completed_count": 27,
+  "failed_count": 0,
+  "model_switched_at": "2026-10-26T02:54:31.523995+08:00",
+  "switched_count": 47
 }

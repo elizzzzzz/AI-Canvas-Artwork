@@ -101,5 +101,7 @@ Gemini 3.1 Flash Image 当前 `1k` 报价每张 62 积分，8 张约 496 积分�
 - 批量节点：67 个正式视频节点，MiniMax-H3，768P，9:16。
 - 运行策略：最多 3 个并行任务，完成后自动下载、校验并按集拼接。
 - 成片形式：不插入 PPT 式章节卡；保留动作连续性，必要信息使用画面内书法字幕。
-- 当前调度状态：见 [full-generation-v2.json](full-generation-v2.json) 和 `full-generation-v2/runner.log`。
+- 当前状态：67/67 片段已生成，三集与全片合片已完成。
 - 正式成片输出：队列全部完成后写入 `production/full-generation-v2/episode-1-final-v1.mp4`、`episode-2-final-v1.mp4`、`episode-3-final-v1.mp4` 与 `langya-cloud-order-final-v1.mp4`。
+
+- 最终交付：[GitHub Release internal-final-v1](https://github.com/elizzzzzz/AI-Canvas-Artwork/releases/tag/internal-final-v1)。

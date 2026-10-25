@@ -23,3 +23,6 @@
 ```bash
 python3 tools/build_continuity_preview.py
 ```
+
+
+三集独立预演见 [EP01](EP01-previs-v1.mp4)、[EP02](EP02-previs-v1.mp4)、[EP03](EP03-previs-v1.mp4)；镜头锁定见 [最终成片锁定表](../../docs/FINAL-CUT-LOCK.md)。

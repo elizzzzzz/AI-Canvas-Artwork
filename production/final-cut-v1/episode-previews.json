@@ -1,0 +1,32 @@
+{
+  "EP01": {
+    "title": "第一集《梅岭旧令》",
+    "clips": [
+      "EP01-S02-01",
+      "EP01-S07-01",
+      "EP01-S06-01"
+    ],
+    "file": "production/final-cut-v1/EP01-previs-v1.mp4",
+    "status": "continuity_previs_not_final_media"
+  },
+  "EP02": {
+    "title": "第二集《麒麟锦囊》",
+    "clips": [
+      "EP02-S05-01",
+      "EP02-S07-01",
+      "EP02-S08-01"
+    ],
+    "file": "production/final-cut-v1/EP02-previs-v1.mp4",
+    "status": "continuity_previs_not_final_media"
+  },
+  "EP03": {
+    "title": "第三集《入京》",
+    "clips": [
+      "EP03-S02-01",
+      "EP03-S05-01",
+      "EP03-S10-01"
+    ],
+    "file": "production/final-cut-v1/EP03-previs-v1.mp4",
+    "status": "continuity_previs_not_final_media"
+  }
+}

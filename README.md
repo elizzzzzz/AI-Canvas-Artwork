@@ -108,3 +108,4 @@
 - [高风险动作逐帧灰模证据](production/motion-evidence-v1/README.md)
 - [导演版连续性预演](production/final-cut-v1/README.md)
 - [成片连续性控制](docs/FINAL-CUT-CONTINUITY.md)
+- [最终成片锁定表](docs/FINAL-CUT-LOCK.md)

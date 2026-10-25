@@ -91,3 +91,5 @@ Gemini 3.1 Flash Image 当前 `1k` 报价每张 62 积分，8 张约 496 积分�
 动作版分镜和审核入口见 [三集动作版分镜与审核入口](../docs/ACTION-BLOCKING-PLAN.md)。三集动作时长分别为 84/150 秒、101/155 秒、114/165 秒；这是分镜规划指标，不代表动作镜头已完成 3D 或视频审核。
 
 动作片段运动草稿见 [42 段动作运动草稿](motion-blockouts/README.md)。该目录只包含第一人称相机路径和待审核检查点，尚未提供逐帧动画证据。
+
+三个高风险动作片段的逐帧灰模证据见 [motion-evidence-v1](motion-evidence-v1/README.md)，目前仍待人工签核。

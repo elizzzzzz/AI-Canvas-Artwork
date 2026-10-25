@@ -1,0 +1,657 @@
+{
+  "2": {
+    "part_name": "roadbed",
+    "instance_id": "road_-1.7_-3",
+    "asset_id": "ENV-SNOWROAD"
+  },
+  "4": {
+    "part_name": "roadbed",
+    "instance_id": "road_-1.7_3",
+    "asset_id": "ENV-SNOWROAD"
+  },
+  "6": {
+    "part_name": "roadbed",
+    "instance_id": "road_-1.7_9",
+    "asset_id": "ENV-SNOWROAD"
+  },
+  "8": {
+    "part_name": "roadbed",
+    "instance_id": "road_1.7_-3",
+    "asset_id": "ENV-SNOWROAD"
+  },
+  "10": {
+    "part_name": "roadbed",
+    "instance_id": "road_1.7_3",
+    "asset_id": "ENV-SNOWROAD"
+  },
+  "12": {
+    "part_name": "roadbed",
+    "instance_id": "road_1.7_9",
+    "asset_id": "ENV-SNOWROAD"
+  },
+  "14": {
+    "part_name": "snowbank",
+    "instance_id": "edge_-3.8_1",
+    "asset_id": "ENV-SNOWBANK"
+  },
+  "16": {
+    "part_name": "snowbank",
+    "instance_id": "edge_-3.8_6",
+    "asset_id": "ENV-SNOWBANK"
+  },
+  "18": {
+    "part_name": "snowbank",
+    "instance_id": "edge_-3.8_11",
+    "asset_id": "ENV-SNOWBANK"
+  },
+  "20": {
+    "part_name": "snowbank",
+    "instance_id": "edge_3.8_1",
+    "asset_id": "ENV-SNOWBANK"
+  },
+  "22": {
+    "part_name": "snowbank",
+    "instance_id": "edge_3.8_6",
+    "asset_id": "ENV-SNOWBANK"
+  },
+  "24": {
+    "part_name": "snowbank",
+    "instance_id": "edge_3.8_11",
+    "asset_id": "ENV-SNOWBANK"
+  },
+  "26": {
+    "part_name": "bed",
+    "instance_id": "cart_body",
+    "asset_id": "VH-CART"
+  },
+  "27": {
+    "part_name": "left_rail",
+    "instance_id": "cart_body",
+    "asset_id": "VH-CART"
+  },
+  "28": {
+    "part_name": "right_rail",
+    "instance_id": "cart_body",
+    "asset_id": "VH-CART"
+  },
+  "29": {
+    "part_name": "rear_board",
+    "instance_id": "cart_body",
+    "asset_id": "VH-CART"
+  },
+  "30": {
+    "part_name": "shaft",
+    "instance_id": "cart_body",
+    "asset_id": "VH-CART"
+  },
+  "31": {
+    "part_name": "shaft",
+    "instance_id": "cart_body",
+    "asset_id": "VH-CART"
+  },
+  "33": {
+    "part_name": "rim",
+    "instance_id": "wheel_left",
+    "asset_id": "VH-WHEEL"
+  },
+  "34": {
+    "part_name": "hub",
+    "instance_id": "wheel_left",
+    "asset_id": "VH-WHEEL"
+  },
+  "35": {
+    "part_name": "spoke",
+    "instance_id": "wheel_left",
+    "asset_id": "VH-WHEEL"
+  },
+  "36": {
+    "part_name": "spoke",
+    "instance_id": "wheel_left",
+    "asset_id": "VH-WHEEL"
+  },
+  "37": {
+    "part_name": "spoke",
+    "instance_id": "wheel_left",
+    "asset_id": "VH-WHEEL"
+  },
+  "38": {
+    "part_name": "spoke",
+    "instance_id": "wheel_left",
+    "asset_id": "VH-WHEEL"
+  },
+  "39": {
+    "part_name": "spoke",
+    "instance_id": "wheel_left",
+    "asset_id": "VH-WHEEL"
+  },
+  "40": {
+    "part_name": "spoke",
+    "instance_id": "wheel_left",
+    "asset_id": "VH-WHEEL"
+  },
+  "41": {
+    "part_name": "spoke",
+    "instance_id": "wheel_left",
+    "asset_id": "VH-WHEEL"
+  },
+  "42": {
+    "part_name": "spoke",
+    "instance_id": "wheel_left",
+    "asset_id": "VH-WHEEL"
+  },
+  "43": {
+    "part_name": "spoke",
+    "instance_id": "wheel_left",
+    "asset_id": "VH-WHEEL"
+  },
+  "44": {
+    "part_name": "spoke",
+    "instance_id": "wheel_left",
+    "asset_id": "VH-WHEEL"
+  },
+  "45": {
+    "part_name": "spoke",
+    "instance_id": "wheel_left",
+    "asset_id": "VH-WHEEL"
+  },
+  "46": {
+    "part_name": "spoke",
+    "instance_id": "wheel_left",
+    "asset_id": "VH-WHEEL"
+  },
+  "48": {
+    "part_name": "rim",
+    "instance_id": "wheel_right",
+    "asset_id": "VH-WHEEL"
+  },
+  "49": {
+    "part_name": "hub",
+    "instance_id": "wheel_right",
+    "asset_id": "VH-WHEEL"
+  },
+  "50": {
+    "part_name": "spoke",
+    "instance_id": "wheel_right",
+    "asset_id": "VH-WHEEL"
+  },
+  "51": {
+    "part_name": "spoke",
+    "instance_id": "wheel_right",
+    "asset_id": "VH-WHEEL"
+  },
+  "52": {
+    "part_name": "spoke",
+    "instance_id": "wheel_right",
+    "asset_id": "VH-WHEEL"
+  },
+  "53": {
+    "part_name": "spoke",
+    "instance_id": "wheel_right",
+    "asset_id": "VH-WHEEL"
+  },
+  "54": {
+    "part_name": "spoke",
+    "instance_id": "wheel_right",
+    "asset_id": "VH-WHEEL"
+  },
+  "55": {
+    "part_name": "spoke",
+    "instance_id": "wheel_right",
+    "asset_id": "VH-WHEEL"
+  },
+  "56": {
+    "part_name": "spoke",
+    "instance_id": "wheel_right",
+    "asset_id": "VH-WHEEL"
+  },
+  "57": {
+    "part_name": "spoke",
+    "instance_id": "wheel_right",
+    "asset_id": "VH-WHEEL"
+  },
+  "58": {
+    "part_name": "spoke",
+    "instance_id": "wheel_right",
+    "asset_id": "VH-WHEEL"
+  },
+  "59": {
+    "part_name": "spoke",
+    "instance_id": "wheel_right",
+    "asset_id": "VH-WHEEL"
+  },
+  "60": {
+    "part_name": "spoke",
+    "instance_id": "wheel_right",
+    "asset_id": "VH-WHEEL"
+  },
+  "61": {
+    "part_name": "spoke",
+    "instance_id": "wheel_right",
+    "asset_id": "VH-WHEEL"
+  },
+  "63": {
+    "part_name": "beam",
+    "instance_id": "axle_01",
+    "asset_id": "VH-AXLE"
+  },
+  "65": {
+    "part_name": "canopy_arch",
+    "instance_id": "cart_canopy",
+    "asset_id": "VH-CANOPY"
+  },
+  "66": {
+    "part_name": "canopy_arch",
+    "instance_id": "cart_canopy",
+    "asset_id": "VH-CANOPY"
+  },
+  "67": {
+    "part_name": "canopy_arch",
+    "instance_id": "cart_canopy",
+    "asset_id": "VH-CANOPY"
+  },
+  "68": {
+    "part_name": "canopy_arch",
+    "instance_id": "cart_canopy",
+    "asset_id": "VH-CANOPY"
+  },
+  "69": {
+    "part_name": "canopy_arch",
+    "instance_id": "cart_canopy",
+    "asset_id": "VH-CANOPY"
+  },
+  "70": {
+    "part_name": "canopy_arch",
+    "instance_id": "cart_canopy",
+    "asset_id": "VH-CANOPY"
+  },
+  "71": {
+    "part_name": "canopy_arch",
+    "instance_id": "cart_canopy",
+    "asset_id": "VH-CANOPY"
+  },
+  "72": {
+    "part_name": "canopy_arch",
+    "instance_id": "cart_canopy",
+    "asset_id": "VH-CANOPY"
+  },
+  "73": {
+    "part_name": "canopy_arch",
+    "instance_id": "cart_canopy",
+    "asset_id": "VH-CANOPY"
+  },
+  "74": {
+    "part_name": "canopy_arch",
+    "instance_id": "cart_canopy",
+    "asset_id": "VH-CANOPY"
+  },
+  "75": {
+    "part_name": "canopy_arch",
+    "instance_id": "cart_canopy",
+    "asset_id": "VH-CANOPY"
+  },
+  "76": {
+    "part_name": "canopy_arch",
+    "instance_id": "cart_canopy",
+    "asset_id": "VH-CANOPY"
+  },
+  "77": {
+    "part_name": "canopy_arch",
+    "instance_id": "cart_canopy",
+    "asset_id": "VH-CANOPY"
+  },
+  "78": {
+    "part_name": "canopy_arch",
+    "instance_id": "cart_canopy",
+    "asset_id": "VH-CANOPY"
+  },
+  "79": {
+    "part_name": "canopy_arch",
+    "instance_id": "cart_canopy",
+    "asset_id": "VH-CANOPY"
+  },
+  "80": {
+    "part_name": "canopy_arch",
+    "instance_id": "cart_canopy",
+    "asset_id": "VH-CANOPY"
+  },
+  "81": {
+    "part_name": "canopy_arch",
+    "instance_id": "cart_canopy",
+    "asset_id": "VH-CANOPY"
+  },
+  "82": {
+    "part_name": "canopy_arch",
+    "instance_id": "cart_canopy",
+    "asset_id": "VH-CANOPY"
+  },
+  "83": {
+    "part_name": "canvas_roof",
+    "instance_id": "cart_canopy",
+    "asset_id": "VH-CANOPY"
+  },
+  "86": {
+    "part_name": "barrel",
+    "instance_id": "horse_01",
+    "asset_id": "AN-HORSE"
+  },
+  "87": {
+    "part_name": "hindquarters",
+    "instance_id": "horse_01",
+    "asset_id": "AN-HORSE"
+  },
+  "89": {
+    "part_name": "neck",
+    "instance_id": "horse_01",
+    "asset_id": "AN-HORSE"
+  },
+  "91": {
+    "part_name": "skull",
+    "instance_id": "horse_01",
+    "asset_id": "AN-HORSE"
+  },
+  "92": {
+    "part_name": "ear",
+    "instance_id": "horse_01",
+    "asset_id": "AN-HORSE"
+  },
+  "93": {
+    "part_name": "eye",
+    "instance_id": "horse_01",
+    "asset_id": "AN-HORSE"
+  },
+  "94": {
+    "part_name": "ear",
+    "instance_id": "horse_01",
+    "asset_id": "AN-HORSE"
+  },
+  "95": {
+    "part_name": "eye",
+    "instance_id": "horse_01",
+    "asset_id": "AN-HORSE"
+  },
+  "97": {
+    "part_name": "upper_leg_0",
+    "instance_id": "horse_01",
+    "asset_id": "AN-HORSE"
+  },
+  "99": {
+    "part_name": "lower_leg_0",
+    "instance_id": "horse_01",
+    "asset_id": "AN-HORSE"
+  },
+  "100": {
+    "part_name": "hoof_0",
+    "instance_id": "horse_01",
+    "asset_id": "AN-HORSE"
+  },
+  "102": {
+    "part_name": "upper_leg_1",
+    "instance_id": "horse_01",
+    "asset_id": "AN-HORSE"
+  },
+  "104": {
+    "part_name": "lower_leg_1",
+    "instance_id": "horse_01",
+    "asset_id": "AN-HORSE"
+  },
+  "105": {
+    "part_name": "hoof_1",
+    "instance_id": "horse_01",
+    "asset_id": "AN-HORSE"
+  },
+  "107": {
+    "part_name": "upper_leg_2",
+    "instance_id": "horse_01",
+    "asset_id": "AN-HORSE"
+  },
+  "109": {
+    "part_name": "lower_leg_2",
+    "instance_id": "horse_01",
+    "asset_id": "AN-HORSE"
+  },
+  "110": {
+    "part_name": "hoof_2",
+    "instance_id": "horse_01",
+    "asset_id": "AN-HORSE"
+  },
+  "112": {
+    "part_name": "upper_leg_3",
+    "instance_id": "horse_01",
+    "asset_id": "AN-HORSE"
+  },
+  "114": {
+    "part_name": "lower_leg_3",
+    "instance_id": "horse_01",
+    "asset_id": "AN-HORSE"
+  },
+  "115": {
+    "part_name": "hoof_3",
+    "instance_id": "horse_01",
+    "asset_id": "AN-HORSE"
+  },
+  "116": {
+    "part_name": "tail",
+    "instance_id": "horse_01",
+    "asset_id": "AN-HORSE"
+  },
+  "118": {
+    "part_name": "saddle_pad",
+    "instance_id": "saddle_01",
+    "asset_id": "EQ-SADDLE"
+  },
+  "119": {
+    "part_name": "seat",
+    "instance_id": "saddle_01",
+    "asset_id": "EQ-SADDLE"
+  },
+  "122": {
+    "part_name": "chest_base",
+    "instance_id": "medicine_chest",
+    "asset_id": "PR-CHEST"
+  },
+  "123": {
+    "part_name": "front_wall",
+    "instance_id": "medicine_chest",
+    "asset_id": "PR-CHEST"
+  },
+  "124": {
+    "part_name": "rear_wall",
+    "instance_id": "medicine_chest",
+    "asset_id": "PR-CHEST"
+  },
+  "125": {
+    "part_name": "left_wall",
+    "instance_id": "medicine_chest",
+    "asset_id": "PR-CHEST"
+  },
+  "126": {
+    "part_name": "right_wall",
+    "instance_id": "medicine_chest",
+    "asset_id": "PR-CHEST"
+  },
+  "128": {
+    "part_name": "lid_board",
+    "instance_id": "medicine_chest",
+    "asset_id": "PR-CHEST"
+  },
+  "129": {
+    "part_name": "lid_inner_frame",
+    "instance_id": "medicine_chest",
+    "asset_id": "PR-CHEST"
+  },
+  "130": {
+    "part_name": "hinge_barrel",
+    "instance_id": "medicine_chest",
+    "asset_id": "PR-CHEST"
+  },
+  "131": {
+    "part_name": "hinge_barrel",
+    "instance_id": "medicine_chest",
+    "asset_id": "PR-CHEST"
+  },
+  "132": {
+    "part_name": "front_latch",
+    "instance_id": "medicine_chest",
+    "asset_id": "PR-CHEST"
+  },
+  "133": {
+    "part_name": "lid_latch",
+    "instance_id": "medicine_chest",
+    "asset_id": "PR-CHEST"
+  },
+  "135": {
+    "part_name": "paper_sheet",
+    "instance_id": "chest_report",
+    "asset_id": "PR-REPORT"
+  },
+  "137": {
+    "part_name": "paper_sheet",
+    "instance_id": "backup_scroll",
+    "asset_id": "PR-BACKUP"
+  },
+  "141": {
+    "part_name": "thigh_L",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "143": {
+    "part_name": "shin_L",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "144": {
+    "part_name": "boot_L",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "146": {
+    "part_name": "thigh_R",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "148": {
+    "part_name": "shin_R",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "149": {
+    "part_name": "boot_R",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "150": {
+    "part_name": "robe_skirt",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "151": {
+    "part_name": "torso",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "152": {
+    "part_name": "neck",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "154": {
+    "part_name": "head",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "155": {
+    "part_name": "hair",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "156": {
+    "part_name": "hair_bun",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "157": {
+    "part_name": "nose",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "158": {
+    "part_name": "eye",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "159": {
+    "part_name": "eye",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "161": {
+    "part_name": "upper_arm_L",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "163": {
+    "part_name": "sleeve_L",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "164": {
+    "part_name": "hand_proxy_L",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "166": {
+    "part_name": "upper_arm_R",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "168": {
+    "part_name": "sleeve_R",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "169": {
+    "part_name": "hand_proxy_R",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "170": {
+    "part_name": "belt",
+    "instance_id": "scribe_01",
+    "asset_id": "CH-SCRIBE"
+  },
+  "172": {
+    "part_name": "trunk",
+    "instance_id": "road_tree",
+    "asset_id": "ENV-TREE"
+  },
+  "173": {
+    "part_name": "branch",
+    "instance_id": "road_tree",
+    "asset_id": "ENV-TREE"
+  },
+  "174": {
+    "part_name": "branch",
+    "instance_id": "road_tree",
+    "asset_id": "ENV-TREE"
+  },
+  "175": {
+    "part_name": "branch",
+    "instance_id": "road_tree",
+    "asset_id": "ENV-TREE"
+  },
+  "176": {
+    "part_name": "branch",
+    "instance_id": "road_tree",
+    "asset_id": "ENV-TREE"
+  },
+  "177": {
+    "part_name": "branch",
+    "instance_id": "road_tree",
+    "asset_id": "ENV-TREE"
+  },
+  "178": {
+    "part_name": "branch",
+    "instance_id": "road_tree",
+    "asset_id": "ENV-TREE"
+  }
+}

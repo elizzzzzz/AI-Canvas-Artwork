@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "status": "selected_motion_evidence_v1_pending_human_review",
+  "target_fps": 24,
+  "clip_count": 9,
+  "clips": [
+    {
+      "clip_key": "EP01-S07-01",
+      "manifest": {
+        "path": "production/motion-evidence-v1/EP01-S07-01/manifest.json",
+        "sha256": "0c15f3894f775cdcf202eac85cff567cd6a60b6a7fefe30295751a682a175d3f"
+      },
+      "sample_count": 193
+    },
+    {
+      "clip_key": "EP02-S07-01",
+      "manifest": {
+        "path": "production/motion-evidence-v1/EP02-S07-01/manifest.json",
+        "sha256": "3a86d5f61fbc9c556fd16c365792bc41019d910f9546275a53a974d1149d60da"
+      },
+      "sample_count": 217
+    },
+    {
+      "clip_key": "EP03-S05-01",
+      "manifest": {
+        "path": "production/motion-evidence-v1/EP03-S05-01/manifest.json",
+        "sha256": "325c68406589f30817e2ea5025de4eed637e9fdcf6b9def47b13ddaf994457bf"
+      },
+      "sample_count": 145
+    },
+    {
+      "clip_key": "EP01-S02-01",
+      "manifest": {
+        "path": "production/motion-evidence-v1/EP01-S02-01/manifest.json",
+        "sha256": "4c5afcbed81ff10f65636f161fc7200c70c8b446a4f81234afe9f2f757042830"
+      },
+      "sample_count": 145
+    },
+    {
+      "clip_key": "EP02-S05-01",
+      "manifest": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/manifest.json",
+        "sha256": "70473c6b9b86fc2b8fa0abe569c06f4318af656a75969d29f26d4ac80f930bef"
+      },
+      "sample_count": 193
+    },
+    {
+      "clip_key": "EP03-S10-01",
+      "manifest": {
+        "path": "production/motion-evidence-v1/EP03-S10-01/manifest.json",
+        "sha256": "f96fc140309224a63c8ab28e1a7d7ffbb4ac95745259c74c9dd62c8e7847b713"
+      },
+      "sample_count": 169
+    },
+    {
+      "clip_key": "EP03-S02-01",
+      "manifest": {
+        "path": "production/motion-evidence-v1/EP03-S02-01/manifest.json",
+        "sha256": "b66642377af42583797d28c92b9a5854050762851f786c1fd4cb434d0dd549c9"
+      },
+      "sample_count": 145
+    },
+    {
+      "clip_key": "EP02-S08-01",
+      "manifest": {
+        "path": "production/motion-evidence-v1/EP02-S08-01/manifest.json",
+        "sha256": "ca073d9b98d52bb82183c38cfe6ced6adcf63f8eef32e095facb94fb8300da63"
+      },
+      "sample_count": 169
+    },
+    {
+      "clip_key": "EP03-S08-01",
+      "manifest": {
+        "path": "production/motion-evidence-v1/EP03-S08-01/manifest.json",
+        "sha256": "5cfd174fc3ad3feba063042dd0aab53e7b7665763b51fd59ab3c33955ff7c1e5"
+      },
+      "sample_count": 193
+    }
+  ],
+  "limitation": "Nine selected high-risk clips only; remaining 33 action clips still have motion plans only."
+}

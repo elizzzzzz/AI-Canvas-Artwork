@@ -24,3 +24,4 @@ Current state: 100 actual reusable GLB proxy models are built, with 34 logical-s
 - Action coverage is tracked in `production/action-coverage-v1.json`; every episode must remain at or above 50% action seconds while preserving first-person camera rules. This planning ratio never substitutes for 3D motion evidence.
 
 - Motion draft sources live in `production/motion-blockouts/manifest-v1.json`; changes to action timing, scene camera or referenced entities invalidate the motion source hash. A motion draft is never a full-frame report.
+- Selected rendered motion evidence lives in `production/motion-evidence-v1/`; it is a draft evidence package only. Keep every frame, depth image and object-ID hash current, and never convert `rendered_motion_draft_pending_human_review` into approval without named human review.

@@ -1,0 +1,3890 @@
+{
+  "clip_key": "EP02-S05-01",
+  "scene_key": "SC05",
+  "profile": "confrontation",
+  "duration_seconds": 8,
+  "target_fps": 24,
+  "sample_count": 193,
+  "pov_owner": "谢听云",
+  "status": "rendered_motion_draft_pending_human_review",
+  "approved_for_generation": false,
+  "entity_motion_note": "Procedural graybox transforms only; no physics solver or rig.",
+  "camera_source": {
+    "path": "production/scene-blockouts/SC05/SC05-camera.json",
+    "sha256": "0d55da9feab83e811753a5d56e387d55a4ff929edcd348853c0b1e13c350dc14"
+  },
+  "samples": [
+    {
+      "frame": 0,
+      "time_seconds": 0.0,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0000.png",
+        "sha256": "35a9cf4de7113e26a3250dc24b03fe7272eb56e9e224bc9cba7689c2de97c37f"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0000-depth-mm.png",
+        "sha256": "fb32782b21253a72f910fbd1e1b7b860b02111dff92a5e2bb76a5f2e87303c3e"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0000-object-ids.png",
+        "sha256": "6088ec98ed0a5a51bfce5fe0b2027cdc87e506dcf4efda42c5688f0b2199d611"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0000-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 1,
+      "time_seconds": 0.041667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0001.png",
+        "sha256": "0ff6ef7a6f3d2a43ff6f1e4f593d0231ea6ca07702927a7c218c6e212067bac0"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0001-depth-mm.png",
+        "sha256": "66fe2056ed5b4ec3963546b757d82b6a580d9e6537995c8a78404e720308bb7b"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0001-object-ids.png",
+        "sha256": "516fc7618048e34a34b661278ecd5997d71e1c19b61903dfc153ddeb19264c89"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0001-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 2,
+      "time_seconds": 0.083333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0002.png",
+        "sha256": "14e9c4612bd40dc044c2b8d4999857a004295699b078f5327d81448c9bc7c942"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0002-depth-mm.png",
+        "sha256": "d01d1b15706ec010d82270736d750d2e92734428099ee2a405ba561252fa58ea"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0002-object-ids.png",
+        "sha256": "82df67d43310923ed8e8869119037bd557013d597ae2a6ac484a08afb8831256"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0002-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 3,
+      "time_seconds": 0.125,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0003.png",
+        "sha256": "6b03cc305f9ced495716e07fddc098d4af7c0fe8532285474e593db2f685739a"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0003-depth-mm.png",
+        "sha256": "1f489cc262828b6d848a72b5d8cf084eca4e73f9cbcce3799d21412e498b99ec"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0003-object-ids.png",
+        "sha256": "a7d5c243333391b61a9b3d006138f4ba131e2f8bed0c6ad99c52f378e03af776"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0003-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 4,
+      "time_seconds": 0.166667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0004.png",
+        "sha256": "4e638a43ac958b1472b264b639e69815e731b95ea88761b92a986be0efee836e"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0004-depth-mm.png",
+        "sha256": "39ba0b0434b62fe70f2a5a4eb070c2620e9ad06a8a872295116f3392afa0b5bd"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0004-object-ids.png",
+        "sha256": "43d2ec1bdcdf09661b65f9f569cd92ae6cc0e74d477e0f600fda8e7bd57ca695"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0004-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 5,
+      "time_seconds": 0.208333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0005.png",
+        "sha256": "486745d0f1b8d82d03fe6886836439f3d3978b8c7ec4956260e6257266be18c3"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0005-depth-mm.png",
+        "sha256": "65ee660120da9af1a4fe71ca296dbc7f39d35facfb5ed12494829e448a512b1f"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0005-object-ids.png",
+        "sha256": "3ffbe6964b8baa32ff8bb25557eab68e1a30428fa592a56668e8a1ddae625142"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0005-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 6,
+      "time_seconds": 0.25,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0006.png",
+        "sha256": "b6aa3e3df91b125b2d3e36b305ae933e41f5bc5a4fe3a9e0cc4abcc5718fffa0"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0006-depth-mm.png",
+        "sha256": "e09b610c023391d88f44297cdc31f63518f471203f83802d1bc7b5d5322b3113"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0006-object-ids.png",
+        "sha256": "106b1773073c1a1f37c52cccee8cfaa218d4e30c4ba5f81b808b20d71a0b20d7"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0006-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 7,
+      "time_seconds": 0.291667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0007.png",
+        "sha256": "d2519806c674fda59d619d77fe5285f94fe7d21589c1f084f6a118dbf24c7a95"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0007-depth-mm.png",
+        "sha256": "82b619a727c19febf839b2feb86205208020b20017f82d088e634a3755836228"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0007-object-ids.png",
+        "sha256": "7fb3c82ba78f58bc305118ffe0b9a89296a3e6e5628b82c4ea64c5acaac00c13"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0007-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 8,
+      "time_seconds": 0.333333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0008.png",
+        "sha256": "eb97a2516b110ecbea98a2b87fbeaff3c3cfb8ed2189070be6c5fb76119a0c51"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0008-depth-mm.png",
+        "sha256": "97db15744858439014daab766d4422f3aa0d5b672f7ac6f09849d4a44a4498f1"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0008-object-ids.png",
+        "sha256": "1db0bc4e82480e71ad5adf822a9b74feb0ff935afb6e90d287d0a6f984ad7a68"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0008-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 9,
+      "time_seconds": 0.375,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0009.png",
+        "sha256": "8bd4c9d76663f67d32ac41bb47bd6bb04f755265124c3e199dcab6d55720d649"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0009-depth-mm.png",
+        "sha256": "9d132ee3829bb9398152bdc37ce3a0d953080b6f92631e341c879fa7cfc9a7c7"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0009-object-ids.png",
+        "sha256": "f6abf768900bcb9007f04a8d5865bbb7713411d2bfe4c354ea1191f3f20cd3d1"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0009-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 10,
+      "time_seconds": 0.416667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0010.png",
+        "sha256": "95393073a8c67fd0694579482b550b1088a70eebbbc8122dd09e4f4f4faf66fc"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0010-depth-mm.png",
+        "sha256": "3b3f39bc49fa8d8558933ef6841d52d7b7a533b76eb99a1d8c19544d58fca2d0"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0010-object-ids.png",
+        "sha256": "64d2ccff6c117eb03220cbac1a979820cfa8be2a3033bed5e67b4c459c8b1289"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0010-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 11,
+      "time_seconds": 0.458333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0011.png",
+        "sha256": "09d0d9edd17855bbfe2113062d172c9c6199ac79af366c890703df225e6cfcc9"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0011-depth-mm.png",
+        "sha256": "fa4af27cdcd12ef96af581327f2b3723bdd9780bff98ab1d7970c0aed07bf6f7"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0011-object-ids.png",
+        "sha256": "09ee551aa356e45bf806b9d0a96d2b8a17554138b7e72300f204c9a1580b4769"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0011-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 12,
+      "time_seconds": 0.5,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0012.png",
+        "sha256": "569d44f17cb6f5c9a3c96b4cd701505c27b94f996c035fb7c2301a73b73e4806"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0012-depth-mm.png",
+        "sha256": "de345d8c11aa5f202ad4f537d264fc9045510cd5b527273f40e9e26df37fef60"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0012-object-ids.png",
+        "sha256": "ae2b25847fd6d74ec867b1e95410beb03b3992a1724a6b5f3b540d8e5b809f1f"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0012-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 13,
+      "time_seconds": 0.541667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0013.png",
+        "sha256": "5c5cc1aa7bbd86a683c26a61e7f7b9628b3aed71518183f61b12a0a2d6e86fa0"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0013-depth-mm.png",
+        "sha256": "e12052dc0d1b79bf31d7415c46415513e5c56bb2f80cac8c57e056577a60d172"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0013-object-ids.png",
+        "sha256": "a1ce53a25965d50e4c0ee2c840951cdb6ffb39f1db02e05a0905ab520dbbc162"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0013-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 14,
+      "time_seconds": 0.583333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0014.png",
+        "sha256": "4b687be3c029d750eac00f43e83e0820c118cbe1cfdae1fe06850c02d157d762"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0014-depth-mm.png",
+        "sha256": "c11263483d672b55c6f8805da287c291f09ed15c02e508ebd32510b88b4119a1"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0014-object-ids.png",
+        "sha256": "49785914b66234d8a50440f75fe0f28a7174ece57fcc11977576f1dd0f145927"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0014-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 15,
+      "time_seconds": 0.625,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0015.png",
+        "sha256": "5379bace76d211941b6abdddaa29cd02af0fda390a69b2766d50dc493230119d"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0015-depth-mm.png",
+        "sha256": "e9c83a87d739b0b0f08f8ef0ad1a15f3d8cca2d8d673f5bc84c05e5f79d24961"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0015-object-ids.png",
+        "sha256": "65a7c079fbdd0f590f49415533db5fe061d610d9f37a71990148152b78f75430"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0015-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 16,
+      "time_seconds": 0.666667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0016.png",
+        "sha256": "f17a048e0458bb470af461f3d1a0ae13e134fcd31894b3e897bb27fb8e23ca47"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0016-depth-mm.png",
+        "sha256": "8b46d716ca38501b89ee832961b06f59a49df0316ed4420e17e7373d584f7927"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0016-object-ids.png",
+        "sha256": "821ca13128c08fb851a718bf80b4681f0b75b6cd4065d29b9af1e69e9a417c33"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0016-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 17,
+      "time_seconds": 0.708333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0017.png",
+        "sha256": "8d6a11f334ed1ea5dbee34082e689cd309910ee9af82a1342849e71dcb8c6ad2"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0017-depth-mm.png",
+        "sha256": "ecbc28861ff0febf6a54d1fcd6e1c33cc4c4013aa4fea88787755d6e02eff914"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0017-object-ids.png",
+        "sha256": "4428654c6112703b6c449acca51c1e0fa1808cc6a871b2484e4d6f462c16a0c0"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0017-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 18,
+      "time_seconds": 0.75,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0018.png",
+        "sha256": "c4c49f8f98fa47555ee7ef01c1625b969b7e6f885d2739181675a47a4470a680"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0018-depth-mm.png",
+        "sha256": "7d735e31e88167d08857074d8a9b399bbfe579be489f47b84736027dc1f9ff99"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0018-object-ids.png",
+        "sha256": "ddc577cc1c7faede818f79b6435bd29710a0cbb0a81b6c67ab0d2c5340e4c9c2"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0018-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 19,
+      "time_seconds": 0.791667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0019.png",
+        "sha256": "575d7acc748562b2025867b7a8afc71f5f77cd986c892d72554663fbb8597f4a"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0019-depth-mm.png",
+        "sha256": "2c51e995c6257f79fd1849ec64f7760dcf3f3f0030b86c851eb48fe9126dd6bc"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0019-object-ids.png",
+        "sha256": "472bb65c5a47b41e56d79c336e31e2008a5368d599d2727467d562a2b9385d9a"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0019-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 20,
+      "time_seconds": 0.833333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0020.png",
+        "sha256": "5d35c34428fb87f2e75a28e9d72e27a367844d73a102b9a7aeb7a904bd8f6f91"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0020-depth-mm.png",
+        "sha256": "ad1e35d9f0ad4d25277b061134d867766d7d4e05d263ef189c144bf7de1f4036"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0020-object-ids.png",
+        "sha256": "594eae527461d68340f2fa4c253f7b43a5875ebdd9eddde6b64ae350129a8ebe"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0020-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 21,
+      "time_seconds": 0.875,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0021.png",
+        "sha256": "e175702a95f095bfc27698e8c288af022317705c2ab146feed9b4400b9c341b4"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0021-depth-mm.png",
+        "sha256": "ffdd7571d5267d8b47e03128e3a4a946944c823507374cb940126a1a443ce1db"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0021-object-ids.png",
+        "sha256": "729d99b61ffbe460d9bc3e56e94dc069cf498103bf155a372592694d6115c007"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0021-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 22,
+      "time_seconds": 0.916667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0022.png",
+        "sha256": "dd8ff30ef0946cecfe0f674c72837a361f3ae14a5144ec7c7287f96b033eddf8"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0022-depth-mm.png",
+        "sha256": "d6136ab9e5e4456fbd3da4d66e0f8b889b48fcf51f2cb5163437d40a6f799cc7"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0022-object-ids.png",
+        "sha256": "fcd1dc7a3d0131e525901a9617409862a885b95b2d37a21decca92ed51ace2a2"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0022-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 23,
+      "time_seconds": 0.958333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0023.png",
+        "sha256": "cc90a88ccd9df543e68f13c99357d4763276e1dbeaaa61115f81138cc9d8245b"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0023-depth-mm.png",
+        "sha256": "37101dc769e901af370a2c53dc5b7f6cb3abc694985f9f9efc9e4e1135493e45"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0023-object-ids.png",
+        "sha256": "598988b1ffbd0b737552a7eeb925c0bce2646974bc986b78fe6c88dcd4f2d896"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0023-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 24,
+      "time_seconds": 1.0,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0024.png",
+        "sha256": "7129868895eec961328d739481a6e9875ad9786058f7c44112ca3759853752c5"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0024-depth-mm.png",
+        "sha256": "d4a37693b4923a8d643fa2b6aaa5c7f204afec3e9fa274689726bf36e49e14b2"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0024-object-ids.png",
+        "sha256": "c9bd47cd5b400c54514e0bd68ed692c1b8ca43cb9a961dbebb58a9e28b777542"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0024-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 25,
+      "time_seconds": 1.041667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0025.png",
+        "sha256": "a3b2b47a1a6b5a0070c683dc065a6d31fe35c2affc8e1905071354a2738f8042"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0025-depth-mm.png",
+        "sha256": "0adbc4f5fb577181473057c031957736b2fe059e5e90e76bae9e4687954cd5e0"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0025-object-ids.png",
+        "sha256": "1ecf126aed3a5def50ca50082d84677fbb6fcbbb80b667af2f1285460314d047"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0025-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 26,
+      "time_seconds": 1.083333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0026.png",
+        "sha256": "802ffc2660f6b9d054445b43c7848de34ef62834a5925141fe77f28933e4b46e"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0026-depth-mm.png",
+        "sha256": "4cf659d07f2591b213e9cb8eda312407cb3f08ba207d002e69db3b6a4d73905e"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0026-object-ids.png",
+        "sha256": "dbc9b8b92269b9d8b39e3978d6f8ca0493f588d84424f61b962d81f6678cc1ee"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0026-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 27,
+      "time_seconds": 1.125,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0027.png",
+        "sha256": "91d3b956e4a276d43d8fbfb1e2d3d6dd590fb597130d55a0232f089ef6858d29"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0027-depth-mm.png",
+        "sha256": "ba37be331f7bd68ad0ce463ef4ea61814201a6e92dff117b14563a2796a19715"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0027-object-ids.png",
+        "sha256": "b5bb6b517dd4b514eab7964357e068eccfead1ea99bcb316a9ddfb441b7f39d6"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0027-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 28,
+      "time_seconds": 1.166667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0028.png",
+        "sha256": "78f355b04364838dd8801b58bf0da52aaab380319b5ffe851a058ec58519c6d7"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0028-depth-mm.png",
+        "sha256": "25ae3d01aa37cb9ae7ac4d1452980dd8ed4be1b2488ea0d79c807b4890a6aa94"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0028-object-ids.png",
+        "sha256": "0efda5db1b79a4e4f84f2926b90754bfb641b3fd5e67ba1ccfd691ef1dfac872"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0028-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 29,
+      "time_seconds": 1.208333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0029.png",
+        "sha256": "851219b4c4df0ef1f62dcd6893c1cba1581f6757a6e9ba83c69d70ee51572a40"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0029-depth-mm.png",
+        "sha256": "65082930efc59dbc9772815b8b142b73c3f78a0d6d0429c9cbfba24a5e8622e4"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0029-object-ids.png",
+        "sha256": "8b32e692835eaa53f30e64c019589fec77f842a83e053cc815a1dae49a106ec8"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0029-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 30,
+      "time_seconds": 1.25,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0030.png",
+        "sha256": "b2ee69a00815c8a00e82865450bb6b5296fac6a93a0c5df79b32a343a988eff4"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0030-depth-mm.png",
+        "sha256": "7bddd1f03de369d53e59dd9b91643c6d01a0e80fd9f62318487e83b3b4e7aa09"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0030-object-ids.png",
+        "sha256": "d460cbbbb3efbcef5210df825f4fd7d321f48608e031db213af5a45d682d8140"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0030-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 31,
+      "time_seconds": 1.291667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0031.png",
+        "sha256": "a1d9e186abd9e6d540bab4d7eead6b9fb08ca15820a55e5cd12d765689526d4e"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0031-depth-mm.png",
+        "sha256": "3bafbeef5ae59bddf86b034309fadb722de4a51c354b5b5a0e0483746d794a19"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0031-object-ids.png",
+        "sha256": "4ca986edc0670adc4cbd4a371030bcf2f07b1ff68ce821b0f01be0e8f607293d"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0031-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 32,
+      "time_seconds": 1.333333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0032.png",
+        "sha256": "e7f5fe23564bcc85a3457cab91dd2840fc7b6684f9eae9e745f3f88bdab85e5a"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0032-depth-mm.png",
+        "sha256": "0105aa6154241f4a6b72c36ac47d610365f5f34b1550aa8cd6cb8106f916b60b"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0032-object-ids.png",
+        "sha256": "16ffde35053f0f526bf77bb0210166e0e2e3d39fa71d0fa169ec2e9c58d2cf26"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0032-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 33,
+      "time_seconds": 1.375,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0033.png",
+        "sha256": "bd4a85821292f629df53bc3250994bd09981494af0b23edb1963d133f5c4f822"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0033-depth-mm.png",
+        "sha256": "1c268895f8949ec1c2dab13939c388b0e795b0c7a915e7596641e9f5a378d751"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0033-object-ids.png",
+        "sha256": "873c64d5b47e800b204d6bf6b417fd074fa587955835c2940d1293538e110cdc"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0033-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 34,
+      "time_seconds": 1.416667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0034.png",
+        "sha256": "8a0ab742b1624304930e0dedcd4ad6c234e0b90443c4996b17a9d6a62c809e72"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0034-depth-mm.png",
+        "sha256": "e5c62125b86c3db211b5d089a2e7fefed8dbc275c7c7d70587181c78f193a6a2"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0034-object-ids.png",
+        "sha256": "69ff822a6ce1fcd181d2bd6627d7a6d26cc7ee9b9eef4a7191c259d40f837412"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0034-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 35,
+      "time_seconds": 1.458333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0035.png",
+        "sha256": "5ffb94682d64f048656d1e81ff3a87d71a3b7462ff0cfa4742e004fd83750324"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0035-depth-mm.png",
+        "sha256": "ec59d83382264dfbe2618957630598ae9b29282451876eefc000f1bc53d7c7e7"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0035-object-ids.png",
+        "sha256": "0a77559e937a3db2eef3504e360c255075089ea0aa39d79bfe95b8068b762f34"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0035-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 36,
+      "time_seconds": 1.5,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0036.png",
+        "sha256": "daaa902b6135a2067a2a234c466974f239fc494cf6a53fbc4d86632de98cbc3d"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0036-depth-mm.png",
+        "sha256": "c84c064d627b032fd4e9e52272fcb5547733cb923678241f140807c4c78565a8"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0036-object-ids.png",
+        "sha256": "42cc8298baad315b69a8697b46df4bfd3a0f6e8ccce7ced2e55ca821013254fd"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0036-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 37,
+      "time_seconds": 1.541667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0037.png",
+        "sha256": "8313a2f7a1706b11947059374faf339e0285cb6ac79d6608279c66cf8b9b26b0"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0037-depth-mm.png",
+        "sha256": "8a183b7bae8c637e76b577e9f7c7f2e233d2b513c1d3544a44d5b27aae95b0c3"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0037-object-ids.png",
+        "sha256": "3493ad45506e5a8528f31fdc34cb6c0a118ae86502de3bd9f4e874c06fefbaee"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0037-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 38,
+      "time_seconds": 1.583333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0038.png",
+        "sha256": "6ae173287e97757e76db2159f18f6eef23989c7d2b910331b78e1c843dbf3e4e"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0038-depth-mm.png",
+        "sha256": "5189d2eee456389b77381ee42169bc962f4af18b0f907bf6d900015e1e8cd4fa"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0038-object-ids.png",
+        "sha256": "2cb53153392e6411259b79f6b6606db9a54e1dcaa0975f0eea2fe5f40532430d"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0038-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 39,
+      "time_seconds": 1.625,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0039.png",
+        "sha256": "c9120a8c2210f51ba8019dc3fc854287bbcd702c65e56d657e28c619feb45c6e"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0039-depth-mm.png",
+        "sha256": "238cbcfaa4c01d7b95916aae0f599a41d4dcbc604c49f50136a5f477ad945fbb"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0039-object-ids.png",
+        "sha256": "95561485b873fb7cb8ab10d9e556b949929dc03a97f5e3e5292c2c092fdfca36"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0039-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 40,
+      "time_seconds": 1.666667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0040.png",
+        "sha256": "b8181568469179e05fad2ddd4f1f6d477b2fdfd3cb75b55b6a09383aac7bca1f"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0040-depth-mm.png",
+        "sha256": "24d03f39366142371f679f8f1297286f2805a124aa285b3ea5ac648fb0a6a8b5"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0040-object-ids.png",
+        "sha256": "4ea6c5e68342063388a490dac627540dd12c601ed6b6aade335650e5c63a872a"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0040-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 41,
+      "time_seconds": 1.708333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0041.png",
+        "sha256": "88d9a4fd2595eee6049530a7281941289c9a8061fcf6d2b98e37c2ec7f3edfa5"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0041-depth-mm.png",
+        "sha256": "fcaaa796020ba7beca454943b43c6f228d2c28a50e9034dc9309db067b61865e"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0041-object-ids.png",
+        "sha256": "f4029e5b491abf89a2be100b2648f2317ea6a96971e5d47f731326ecf1d1e1ad"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0041-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 42,
+      "time_seconds": 1.75,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0042.png",
+        "sha256": "2d9118333ec7b20bbcbe7bd985fc254901b65287ccf78ebce06ddb043a29fe62"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0042-depth-mm.png",
+        "sha256": "a8b8383c0f2c6c1982c6cc86d438665d067574abd9c6b0a9c1d72199f9c59921"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0042-object-ids.png",
+        "sha256": "d63d0f31a9d566d88972ef89119820b37393e5584b5ca8fa8f0054f26a86544e"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0042-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 43,
+      "time_seconds": 1.791667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0043.png",
+        "sha256": "6f5139bc21562a4af0a915779f7233c6036306d0d84e3288c1f99a290d7f7c0e"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0043-depth-mm.png",
+        "sha256": "c7c2dd864a76657c519db597da47d2642f9bb1c4a473d31c72b2dd9623ee90cf"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0043-object-ids.png",
+        "sha256": "d674118307f6f7796400b6153299effe27aab01376b98214b933f8541c885565"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0043-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 44,
+      "time_seconds": 1.833333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0044.png",
+        "sha256": "e0458db6f6f9dbbf94c3f2842349e87deb92fe78f182696993d0109e7b8be10d"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0044-depth-mm.png",
+        "sha256": "c48ebd061b9c867754460a6ddf81aae3ddb328f58508ea2103aaa5cf88de1e53"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0044-object-ids.png",
+        "sha256": "59a65f2a53fc6e7f22a9b437266af453b44ff63e978143f979af9f807954d61b"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0044-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 45,
+      "time_seconds": 1.875,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0045.png",
+        "sha256": "1bd1af3dd4b83ea0d2fb1762a13cb1f17385081d188bc1839424aca5997eda3b"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0045-depth-mm.png",
+        "sha256": "19bc88f59a3fff2eab5b7bfcf3805cbeba38061220dcff2303812f31bebbd9ba"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0045-object-ids.png",
+        "sha256": "5e6fab1bdc97f5b26fe088c2191d44b35f0940a6636ddb9cc9fafdfb6de9bedf"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0045-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 46,
+      "time_seconds": 1.916667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0046.png",
+        "sha256": "9c0a3c4189939adf2050d78fb096c6869b8a43c0097c80eb00693dbc4e99eb8a"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0046-depth-mm.png",
+        "sha256": "01f43d9d86dba8dafd5d489922c93378e6edd57de4ea80a76a69f25dc8f39fdc"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0046-object-ids.png",
+        "sha256": "1ac183ec474539f566c1689da0001f09a02c19960927e0828454b53ce351d05b"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0046-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 47,
+      "time_seconds": 1.958333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0047.png",
+        "sha256": "27a8d4b44fd55c91e5e28624ddd1ce7bf587e4ed550a65504f3cf48c6da43112"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0047-depth-mm.png",
+        "sha256": "2f898e6bf9d9b2be0e7abb1a079c3885beaab6ac023e9e3b3b6c4d0321f35dc2"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0047-object-ids.png",
+        "sha256": "7c3223fd599b0ca32779b5708f89082f67399c7b7584b60325693bb4a30999f4"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0047-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 48,
+      "time_seconds": 2.0,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0048.png",
+        "sha256": "926295ce82ed907f7e1c0d539f5cc16fac52b2884e880c7ff8c7275d03048ae8"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0048-depth-mm.png",
+        "sha256": "3de244a217081c745a9e9d2a55da6e01764d15bb3975d10c7f8f38d2ee26e5c2"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0048-object-ids.png",
+        "sha256": "dabdb3bfe986854695aafccd278637737ff825f2945d855425123094cf9778fd"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0048-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 49,
+      "time_seconds": 2.041667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0049.png",
+        "sha256": "52c71eed4ea113d89fd030416799bc349455a6d51f2cdadec222971269d3a15a"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0049-depth-mm.png",
+        "sha256": "fc197df22c55ea77f9868bc64ba6d397d1d104c068dbcea732bf2ed8505473ef"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0049-object-ids.png",
+        "sha256": "0d6b3df6871fe30fdff5e52e7e44cc6b6773954fdbb2ea8f4831cf1666d1431c"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0049-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 50,
+      "time_seconds": 2.083333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0050.png",
+        "sha256": "604f8c3bd155c1312a5bcdece1ff99a8299dcb833cddf38d39d3a45a369a8565"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0050-depth-mm.png",
+        "sha256": "a3f10acd4c46261f278093be146de924be836530db2b2edd5c026d91ab771087"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0050-object-ids.png",
+        "sha256": "276eb02c4a13f3e4ec3663905ce6ccea43467d9a9d622314c1e6a9dcff199f53"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0050-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 51,
+      "time_seconds": 2.125,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0051.png",
+        "sha256": "94b0a32b419e204e5ffb020fcf2fba8f1720716e47329eca8f999647e88f509b"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0051-depth-mm.png",
+        "sha256": "60ffc118e45acd05192bdcc96130e731e7e0e5dc6525487ccd8f42895d318dd9"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0051-object-ids.png",
+        "sha256": "58c6bc6398c5450256ee96ba12288a64909e9886092b7250f92c3e2348b0d969"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0051-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 52,
+      "time_seconds": 2.166667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0052.png",
+        "sha256": "87d7f87b5ddf6bf3b1961c56ae59ccd30a20923f208cbd499da88e5bd9dce29b"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0052-depth-mm.png",
+        "sha256": "3c5dd8ec9db9c626d31f024ff70f1c85acfc57e96a276c7f77ce939a4a665514"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0052-object-ids.png",
+        "sha256": "2a5b1cd0bef3ff245ef77c1e998c5d13cb12d606b7d5d63641d38c664e891c8e"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0052-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 53,
+      "time_seconds": 2.208333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0053.png",
+        "sha256": "9c5ba70e2de39a61fb628c090dbb1c06757e80bb6be6b126c7edb2727f547c7c"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0053-depth-mm.png",
+        "sha256": "d87283e6c6c4ecc0c87833dad1b5424c0da8857c95c7b04cdb031f2c527cabc2"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0053-object-ids.png",
+        "sha256": "e1c0d2b2f144592d63895b16a5a3e787b9269dd4c202ba23dc0c12226f643cb3"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0053-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 54,
+      "time_seconds": 2.25,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0054.png",
+        "sha256": "ff7c0aa4f0ba1a07791572d7648f56eb39dee117f661bb3db4b82aa0707f2849"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0054-depth-mm.png",
+        "sha256": "a21679dfb7efcd534198a17b14afe8f8c47684015589b4104a5aec3264271a7b"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0054-object-ids.png",
+        "sha256": "0f0f628487f52930234d7ef250516f75f6b6678f1f8c1d3c552e35334e2d1a81"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0054-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 55,
+      "time_seconds": 2.291667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0055.png",
+        "sha256": "005b6d8422838b7d3ba9363ea5c1793dc5b25764883cb738a122f162e7d35e72"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0055-depth-mm.png",
+        "sha256": "3c63853a708b69c36fcfe3c25d2b8301c984cd0faec86dd08e1cb6ce25999c22"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0055-object-ids.png",
+        "sha256": "bf032d66e0b43dd88f87be641a692296377d4292c553cc62aca84b5ef5d1149b"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0055-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 56,
+      "time_seconds": 2.333333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0056.png",
+        "sha256": "3309ec792fdc636f2ec5493fa1740cacc7800c49ddccb16c2155c45161bb7a70"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0056-depth-mm.png",
+        "sha256": "2cbc3395386102394274a2a8b037054355f02ff2dfbe8aa0e25026c18838456a"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0056-object-ids.png",
+        "sha256": "9be88f8a68e60e0dff1abe6235789b6fbd79b4e9d7e94323cbcb29cfe72ce310"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0056-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 57,
+      "time_seconds": 2.375,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0057.png",
+        "sha256": "bd7a7287b888808251310b5b787fad90600fb0c4dc6142cf5417212974fe4ea7"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0057-depth-mm.png",
+        "sha256": "72a47c6ad7d359e800c25ac9ca759186196dbf92c431b7f47daf6a88f65e6a42"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0057-object-ids.png",
+        "sha256": "3b7fa88cac4581abe2ec1e23d0578e43a27340694b74dee1771cd37f554bba7c"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0057-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 58,
+      "time_seconds": 2.416667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0058.png",
+        "sha256": "93b44f3d289a802fc4b6ef6be7c3eeb3af9d42959d64b4631996af7b6e6b9c85"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0058-depth-mm.png",
+        "sha256": "510e981ce4a88dbc5982a481fbda392293b9449b7cb49d9a292c27e95a83f21b"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0058-object-ids.png",
+        "sha256": "61ada15c1287e45740d18b14fc348c0f79fbb38d3fcd474139e7500ff17cb262"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0058-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 59,
+      "time_seconds": 2.458333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0059.png",
+        "sha256": "9ee0fc6b770ff0e10bd76c07dfd5edd877dd04ae44bfa971458df511aa6fa285"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0059-depth-mm.png",
+        "sha256": "97dd4ea274e7a94dc3e5c9e001da823e2b1da683fa77271be0e8f02eeb1bcac2"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0059-object-ids.png",
+        "sha256": "0c342a1d119335db8e3d735d88b6df8e1dd3a6aec323c7cb837948e3ad0284e1"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0059-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 60,
+      "time_seconds": 2.5,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0060.png",
+        "sha256": "646232a5b6dd3c33577798a837bc5494e41df9254900a97525db11b72cc4fcc5"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0060-depth-mm.png",
+        "sha256": "32dac46d0c598d58b961acd4d2b7d8b8b090f6ce55878accd7db546219dc569f"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0060-object-ids.png",
+        "sha256": "35f54002f703908dbcdd1baba3a94c365b320f0f75a7a66fb8806261d7ccddea"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0060-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 61,
+      "time_seconds": 2.541667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0061.png",
+        "sha256": "a3c47dba1d90a835006bca220ddd8e1fe57db43893414cb71fce2f850c43768a"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0061-depth-mm.png",
+        "sha256": "0b00c7e80705bda83b7d278d822d59186d2356dfa5146be68feba34e47af28cc"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0061-object-ids.png",
+        "sha256": "967ddffd2b7c0065d48afd2fe7c1920237c0cee992176d3c40752bdec6df0d4c"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0061-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 62,
+      "time_seconds": 2.583333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0062.png",
+        "sha256": "be866ad7bcaf82c00bd2fe797195c0635b87e9856398ecf82d3d502336b7f6fb"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0062-depth-mm.png",
+        "sha256": "cc150f89035b5fce2c183bd78214e90a72b5cb3f2101fe1a1c5d969631249eee"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0062-object-ids.png",
+        "sha256": "1d495b6481e5f09dc11e240a19a3f67e169ebed2e483af3624d5c3e913215abb"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0062-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 63,
+      "time_seconds": 2.625,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0063.png",
+        "sha256": "8ae055a7abf2fcdf0048fde4bb8463e55fe60b5ab0e5222cd4ca5269764a373c"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0063-depth-mm.png",
+        "sha256": "5cb3e9410e187dc9628df7f79b860dae5a26e9655644d4b1a0d206cd67844111"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0063-object-ids.png",
+        "sha256": "dbfc680f70fbc68c484d0933ac2c578b8608ed0ccf4a2938fa94c184a4b6ac94"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0063-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 64,
+      "time_seconds": 2.666667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0064.png",
+        "sha256": "7074419485febdf851f45da83b22adc28ef6830942a5a901737cf02b197995b9"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0064-depth-mm.png",
+        "sha256": "9cdc85d6ab1ba8a80a458ef950711d4c0ffb469acc29ba5909eeefc0c3808665"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0064-object-ids.png",
+        "sha256": "dd61e1f72a0e9abf8412c4eef11207fb26ff3777adb504c44101a69e65195c0e"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0064-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 65,
+      "time_seconds": 2.708333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0065.png",
+        "sha256": "fb2910b326c8a0b7fd787285332fff501994876eca7c8b0ae71f4cb20127a5f9"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0065-depth-mm.png",
+        "sha256": "e1663bfe7fbb73c50de3102bb6998b96ff03f0d57b719c12b4dcb1097b731be9"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0065-object-ids.png",
+        "sha256": "62ba362e2e26126e374cde95e709de70020511c8f84af3e189f4729ac618ef9a"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0065-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 66,
+      "time_seconds": 2.75,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0066.png",
+        "sha256": "a8e83601ceb66a002b7b43df3778385cfcba0d5934df7d23dcfd93c37c4d7a2c"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0066-depth-mm.png",
+        "sha256": "0fcab0cc5160615e64bd9e930816d469c2aa2534b5bd719a0a6e36d8293358e3"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0066-object-ids.png",
+        "sha256": "d9fc08d23602bff282b2854747c93349833ae5891e968b79bb73fcc5d23da949"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0066-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 67,
+      "time_seconds": 2.791667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0067.png",
+        "sha256": "2882ad9187d750e2d7e38a3ec30e021b61b5549ad7ffb3db51a039b981270ba0"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0067-depth-mm.png",
+        "sha256": "979d9a98a47258c3f6d0701e95a3d45f9ae22ed556b973b473a78da993347ad7"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0067-object-ids.png",
+        "sha256": "f2e9fe5282e37b69789e6e06a2c5b5e1adbcb2527bf7def93b799a4baa12d1e6"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0067-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 68,
+      "time_seconds": 2.833333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0068.png",
+        "sha256": "0dc6acf2803bf61463086289e580d066ec5754031ff44e16508aa7976b303209"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0068-depth-mm.png",
+        "sha256": "9a37129658df1972fb6d33ff1a081651b5c808509e7ad6584c64094daacf8da8"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0068-object-ids.png",
+        "sha256": "da213ceb20ccc0088db0aafcede69dde6518eece3eb68e46e43a0ed6eed09cc6"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0068-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 69,
+      "time_seconds": 2.875,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0069.png",
+        "sha256": "43ece0afd90b177dcec2240a9a3232789003dce687fcb4c0f9fcf23803f17df3"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0069-depth-mm.png",
+        "sha256": "95e9997e1611d8f0cfab2ba49e17b8d21bcd7660ad7120106d0184ded4d47c0e"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0069-object-ids.png",
+        "sha256": "e90c6b1e34fc30c75c9e3cca5c81e4fbf680bafe7b219613169c1aa8faf0116a"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0069-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 70,
+      "time_seconds": 2.916667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0070.png",
+        "sha256": "fadbe7d673bb09d044aedf7f06c6fd17b3f4aaa4da43017e22d1d695d7e89869"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0070-depth-mm.png",
+        "sha256": "aab3672ebdabc8268263e53da8c6fa6be8613ff1205a08224da431add68b7455"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0070-object-ids.png",
+        "sha256": "07dd04327df030f3ebca6681bff41d0b42d87b5bbd581d59f346c291b1bc227b"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0070-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 71,
+      "time_seconds": 2.958333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0071.png",
+        "sha256": "89830d8aa0a1dd188a624024206e40b82c0ca25904a18a831f2253988d1673af"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0071-depth-mm.png",
+        "sha256": "10f7876ca68bebc337886273b77d885a0a4899a394ca13116b3393851d14e17d"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0071-object-ids.png",
+        "sha256": "2b597201d2d1397fe05af74165ca74f9b8a17dba93b8f266f051c82483a1b44a"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0071-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 72,
+      "time_seconds": 3.0,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0072.png",
+        "sha256": "be55453fc87593199b823e30ddd64ef3bbd71ecd3aed1e58f6f4b0d82d884439"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0072-depth-mm.png",
+        "sha256": "a42496736907629946b817a6ebb139df6a8b4b504e96883a8eaed91d523782c9"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0072-object-ids.png",
+        "sha256": "c6c98d221329ca9e1b08d538a83e87896ea619617cae3e0d11a8bfee19485320"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0072-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 73,
+      "time_seconds": 3.041667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0073.png",
+        "sha256": "ee266c22dfa2aa6399fb3f3a91258d61833705055001332dd2db430b73e156d8"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0073-depth-mm.png",
+        "sha256": "8368aa418f39f62d13b6f993b080d019cd8f8e81507417f04ebed2b70c32e039"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0073-object-ids.png",
+        "sha256": "dc33eb728e05081d87f6d15b9fe1ccc3a545dab23e43d5c49b1b2b98ef3b8f99"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0073-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 74,
+      "time_seconds": 3.083333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0074.png",
+        "sha256": "1fff6cfeff8efc4786d47251f125f1a8a89909cb4a76afb5862289c57f720c80"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0074-depth-mm.png",
+        "sha256": "c5df95cf6b41643c42799b0cb1c549a4caa01c1da59a9405da9d1550ccdbed3b"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0074-object-ids.png",
+        "sha256": "bb8b6142a3bd49c5023ad89494d77088995819bf8ffb588e455b25e43fa18d9e"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0074-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 75,
+      "time_seconds": 3.125,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0075.png",
+        "sha256": "1888afe49230cd5b85f468d8ecf8944a38685c8d715b5d4ad51b192c38619874"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0075-depth-mm.png",
+        "sha256": "6cd147ca6de05d8b48460168b1a56d1c5b7349fd7364fc3ef9c1aee68d2860f7"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0075-object-ids.png",
+        "sha256": "8b16104b2e4c0cc21ee6c28597febe4158f220816222b7015313bd3667a430c6"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0075-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 76,
+      "time_seconds": 3.166667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0076.png",
+        "sha256": "3d4b86e457ecf6ddf79257b3f1ab3e97473a4399ffa803796ed7b9eecb56d0dc"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0076-depth-mm.png",
+        "sha256": "9d1991fc26cfada7396c38010b92d0402ce23a5ead7bbd4b8b2f32ac2595aae1"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0076-object-ids.png",
+        "sha256": "1010122b84b6c83849590a9eba26c59be814fd0c78177332acedf750b608eeb0"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0076-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 77,
+      "time_seconds": 3.208333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0077.png",
+        "sha256": "8358c463ca09c32ca24798d808ec0f37ddf93da63d774ebb98cbad5d00e6dad2"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0077-depth-mm.png",
+        "sha256": "2ef75ff84f8bbd822abfb3899674a10b8eab1f930378a810a26efb078271bf6f"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0077-object-ids.png",
+        "sha256": "8b94f5fdcbd7024b2bdaac2c2037702da23bfb243ec83f22b01feb58789a8925"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0077-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 78,
+      "time_seconds": 3.25,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0078.png",
+        "sha256": "4e5e6556075576812b2e82768e9668e17ac0adc5e63f3d6bd054d5e1f9a96a3b"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0078-depth-mm.png",
+        "sha256": "6221f350f25f687422e9358363e45949176fde2ab011b96b601c2d9ff1436a48"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0078-object-ids.png",
+        "sha256": "1da3f0b26ff30b850c242903f8639a74f0aff4d175ac11c0a2807ced0f3e568f"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0078-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 79,
+      "time_seconds": 3.291667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0079.png",
+        "sha256": "237efa021f52a2f8ee7216183fc4a8242ec70d46813efb8e300915ec209f8173"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0079-depth-mm.png",
+        "sha256": "42896a50679e40cf8088bceb1a1e55b2cc92984d1d32439cb40d8dfd5c801e82"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0079-object-ids.png",
+        "sha256": "f29804bf1badd8ab398366da01c505cca740036033935f86ba9ae320a08b8435"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0079-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 80,
+      "time_seconds": 3.333333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0080.png",
+        "sha256": "b03d32a074da32f2ddba38f1dba835ebf91f352e3a75934f51aa007294f8cd9d"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0080-depth-mm.png",
+        "sha256": "cddb19e50d15fa51a189225da6d76bb89f3f0fce2eb03135f3503eae4e60e350"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0080-object-ids.png",
+        "sha256": "20a8b48eba11586c724807b0f5bb2369cc9d734cd63edcd6f0e5cad0ebab26e1"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0080-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 81,
+      "time_seconds": 3.375,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0081.png",
+        "sha256": "fb48e3399a682a623b78a3c5615655458d9ed63f9a074b2c2f0a9926b4b57fce"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0081-depth-mm.png",
+        "sha256": "f644b4422eb5e33bd4eaf9fd52114b1e6689067565439b1b8e99c293a249d1b6"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0081-object-ids.png",
+        "sha256": "482e3ba5c4253934278b65e3c49d805d82796ca002c9dfc7208593bacef2fd6a"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0081-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 82,
+      "time_seconds": 3.416667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0082.png",
+        "sha256": "3f7cc3ab516b41a4e1a9ecfd694fa1150e4fb203139eee458e11cd371ae273b0"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0082-depth-mm.png",
+        "sha256": "72c37f128dfd0e1bc41f311ff98e389bd810cf315d4a8dc8457a1853f7d095ce"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0082-object-ids.png",
+        "sha256": "76087ae41aebe0797738bc64a1855c7d28f4d22510479fb16d7ef79a1ff96dd7"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0082-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 83,
+      "time_seconds": 3.458333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0083.png",
+        "sha256": "a623cecebf6dbc15467dee2a47ad6ef9aef8567b78496ab04428066773a00b7c"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0083-depth-mm.png",
+        "sha256": "ccfa2797c894d26a58fac60bc16cb456c6c361f20f17a44e9b31ae5a9a245e96"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0083-object-ids.png",
+        "sha256": "d22781046e8ce1dcdf80c65fe6c352956183125f366d586760e92ab4dc1b03f1"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0083-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 84,
+      "time_seconds": 3.5,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0084.png",
+        "sha256": "3975152ba73d9ecc1a2d96b91be9a161cd6ab78fb7871c2379b624b5073184ea"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0084-depth-mm.png",
+        "sha256": "28cf2c762e66bbe13cfb0fd54372f39e74aa0d13c359093917ecb97e9fbaa35f"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0084-object-ids.png",
+        "sha256": "7fd23f426c6ddc84a7b411619021bc30b17f758787a7317e183282a9b91d802c"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0084-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 85,
+      "time_seconds": 3.541667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0085.png",
+        "sha256": "f1e2e8bb9da2b408155fe3f04fe3fdd5b288266e21fc36d2473e05eabd5f7b61"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0085-depth-mm.png",
+        "sha256": "a0b7c07d1fec1ddfef4aeba5b78424c4fdd3f68a71a7e5bf73db554391944d8f"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0085-object-ids.png",
+        "sha256": "c66ee8f9ba269db278a804340088ef6f508033b1f4545ac1d64b8b52c1730beb"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0085-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 86,
+      "time_seconds": 3.583333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0086.png",
+        "sha256": "50ee43d1bb70363ae280fe7c10bcc601b9929e0abfa7d50cf91700626df010e8"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0086-depth-mm.png",
+        "sha256": "169b5f2ff2b4d7e968de34f8b01a14b0ae0ec4057c5be4e3252988cda60ee1d7"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0086-object-ids.png",
+        "sha256": "af4d6766345cb6a134bc07e3d73dddc4785a98e769fc9d0b7ec8d776f84f3918"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0086-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 87,
+      "time_seconds": 3.625,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0087.png",
+        "sha256": "74c311df318877aec1078bace18439ed98c06daddd398841a5cc4c740504e86e"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0087-depth-mm.png",
+        "sha256": "75bcc9380103762ccd018a52225412e44fa0a31419a1e6e7ae16e81080204c32"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0087-object-ids.png",
+        "sha256": "b11440b646a9bf04bc22a0d3ffeb84e20e0fe54f48fe8f7f18053892819340df"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0087-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 88,
+      "time_seconds": 3.666667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0088.png",
+        "sha256": "8b77246dd264212f550a1757c088f40599adc0a5fc97a1868a615e973039ca2b"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0088-depth-mm.png",
+        "sha256": "2d4e81eedf86f930151cf19808844db438d97e672180ded439f4e3f1f17c30d1"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0088-object-ids.png",
+        "sha256": "628a41732ab8c2993563e755222fcb072ec7f8c489699a857f80f271e990f894"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0088-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 89,
+      "time_seconds": 3.708333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0089.png",
+        "sha256": "3e31f3a7c8947c1f1e66b9a4f56536ec472f2897935dd2cb1a6863df5ac327d8"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0089-depth-mm.png",
+        "sha256": "e4ccb2d8a58a2446b9f44ef1726dc419a2d670b72349f2d2e59cf3dc52824713"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0089-object-ids.png",
+        "sha256": "a4e7f311480ceeee4f5791aa997ed79f2e3d33190c97fefac76e5031d31e90d1"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0089-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 90,
+      "time_seconds": 3.75,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0090.png",
+        "sha256": "1b7ffde026f248d8c25109c9312f6f0c36b38c854f24d46debfb4b2e7ade3964"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0090-depth-mm.png",
+        "sha256": "bfd2dc1e935fb066ea2c91a6c8925ac955534c46048e6f0e6f02e2a0ce4738f8"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0090-object-ids.png",
+        "sha256": "0f6533d1a2b381d7953ce103c580015944238040cdad68b2456e4c66efcb7bfe"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0090-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 91,
+      "time_seconds": 3.791667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0091.png",
+        "sha256": "75b8468f138ef5541966058386cd56c64d7dd3e846fa65941a5a77c98c5beb19"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0091-depth-mm.png",
+        "sha256": "9bb90ac6688e65e22f3d58c4af9cad488b4359bada4ecf52ac53e655bbe7c0dc"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0091-object-ids.png",
+        "sha256": "22e2796d95885ef8649880ed191b5e0149ce7204ef95fca3c171d5065f253576"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0091-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 92,
+      "time_seconds": 3.833333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0092.png",
+        "sha256": "ec54dda3c5e131d03604aeb1b62964ef5d5911545ed886186791f75de2072f0e"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0092-depth-mm.png",
+        "sha256": "824b836328b90fcec66552a0354e82dbc6b798818c0bec1eef2d027797fff442"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0092-object-ids.png",
+        "sha256": "685be9eadbee3a2b089e6634bf43fe0c56f996e48ebcd4c07327905bce33da49"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0092-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 93,
+      "time_seconds": 3.875,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0093.png",
+        "sha256": "ff387150b2f549bdf85a4252fbd7ac04e23c8affeb4ea34ab61141fed7c9eecc"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0093-depth-mm.png",
+        "sha256": "2b020d74e8a778d8a1cfad85cf19d462516e2b550ea935e04fb1beedd81257e5"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0093-object-ids.png",
+        "sha256": "0d853a9f868319fe60f07bcbaef0055b52d459e634c0ac8364018017203d0664"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0093-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 94,
+      "time_seconds": 3.916667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0094.png",
+        "sha256": "afaf6d4152dad373c8723ec4e64e57dda4d1e6a36c9485f9bb1420a1f9e36ac7"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0094-depth-mm.png",
+        "sha256": "07a7a272605fb46feca0e6d7c9daa8505b9653922d1cb46749216d6e2a2b03af"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0094-object-ids.png",
+        "sha256": "18faf68c8360a3e10fccef92980ac9be697b7759922195ea25a5242a0468374f"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0094-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 95,
+      "time_seconds": 3.958333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0095.png",
+        "sha256": "0e3f1af56a81a591bee580745295fb4dabde26b093ccf1fee0fa9c5f519b9bc5"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0095-depth-mm.png",
+        "sha256": "41afd3191d84b5238894363688a694477ad8f69565cee33df56507fea11e6a63"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0095-object-ids.png",
+        "sha256": "2d2ba05d00bedfb2734323dec68b76207f3284282dc70edce6fa3d63b1eaf532"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0095-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 96,
+      "time_seconds": 4.0,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0096.png",
+        "sha256": "3c7934a510fa79bba66a296c655c272f7e1f0ce8847b5f9bebe2de89b3292b8f"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0096-depth-mm.png",
+        "sha256": "8f523929a70f445f01bf6c4d26fc6ccf2243a13d96d9b6de952d5ee2e6a98f0e"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0096-object-ids.png",
+        "sha256": "a2c8aca707f038d27e17267b089f313d601b28559eb8ff71c1003e63bca05fd2"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0096-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 97,
+      "time_seconds": 4.041667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0097.png",
+        "sha256": "8ebf351e09b372689c849db0d5237f4e076ce55c5903eb5c6856976adf468895"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0097-depth-mm.png",
+        "sha256": "77a6097b5a7927f36fbce82705111c13224baa2f611d1194fbc1f4f29ffc3355"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0097-object-ids.png",
+        "sha256": "b340b7a0b283917b87f52138fa3e10cff62f0f68c58d61340aa27fd9395570cd"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0097-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 98,
+      "time_seconds": 4.083333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0098.png",
+        "sha256": "d859b2955fc3a512636a7f926042aa250d47f609001ec97a8be3563bbae2e541"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0098-depth-mm.png",
+        "sha256": "409c42304516adc09eece98a6ae9fbbea47d48aba92ff00eb4f039130c4e8431"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0098-object-ids.png",
+        "sha256": "8077460034bda0fd3fc8cbe73d1e3bb260a3b0c4d182ae6afc7b421510fd651c"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0098-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 99,
+      "time_seconds": 4.125,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0099.png",
+        "sha256": "d07b804bbec0ab4962e8b43cae9a7cc7a37dfe6a5bbb72c1317cec5edd7cabe8"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0099-depth-mm.png",
+        "sha256": "d89bae5c1c9978fe5ac2632dfcc96beafb860e02c7bb2e071688a9c1789bf666"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0099-object-ids.png",
+        "sha256": "1deccee450d333af5e2b921c249945ae4bd231302fefc255f05c5c711a1f543e"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0099-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 100,
+      "time_seconds": 4.166667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0100.png",
+        "sha256": "555bd2f8f334c9073101f554a9faa1d09d114b1d1f367c024d797a9c2b1ed0e7"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0100-depth-mm.png",
+        "sha256": "5e17bc704becbf5c8579fe8edf7138559912e14c67154f5d7fbe6e4e5e857118"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0100-object-ids.png",
+        "sha256": "0831b34e4e79ad0b2c4fdfd3191b7eba5896445e145d9174880f7efcd88a1df3"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0100-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 101,
+      "time_seconds": 4.208333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0101.png",
+        "sha256": "344ac68c5fa05a03b52a9530481b45e2254d8ad6ff7612b8cb4dbe464f1d0189"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0101-depth-mm.png",
+        "sha256": "2141ed8b9339c24e7481dd97a5d2b72ba8b44e88ef80f1c3737c819d79e1b749"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0101-object-ids.png",
+        "sha256": "f64ae244317fd1380ed4b59a5e17dcd444e89663ecab0ac5576c49e48835a0a0"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0101-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 102,
+      "time_seconds": 4.25,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0102.png",
+        "sha256": "d7567a654da29a53e4af0a32b776d0c504242898a829dc388053036329a5a216"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0102-depth-mm.png",
+        "sha256": "828bfc74081b330f79f65fe9a6e3fc012c9092ffb5fae83e0a007566ac48288e"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0102-object-ids.png",
+        "sha256": "77fec58778d5937a4659241b860585c06d98b6365cadacb39004f0ed55723307"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0102-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 103,
+      "time_seconds": 4.291667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0103.png",
+        "sha256": "3f20e7c9bfcdad4e0ef01bb6f1ddd2195e7a683c4b3cf3181e5a3dc7bbb6f4f1"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0103-depth-mm.png",
+        "sha256": "2bd54d00559c9b9cdfa8389005848e0284ae36ee5fe89532caa9a0095bd76dd1"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0103-object-ids.png",
+        "sha256": "1174debabc0f3719c4355d35f4fea7b4f634e24af59800075b2a64bc59cd5bc0"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0103-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 104,
+      "time_seconds": 4.333333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0104.png",
+        "sha256": "1c362b80aad8aa54bf9dc0ba460b67a5fe5e591f752f2d66664a432b0d291423"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0104-depth-mm.png",
+        "sha256": "3bfaad46672c6577f43e9c61b1f874c052387b180cb4be1d034eee127761b708"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0104-object-ids.png",
+        "sha256": "54fdae99e5de9e957723c14ecf140608e5643cbd1269ea6ba98cc00372289c1e"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0104-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 105,
+      "time_seconds": 4.375,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0105.png",
+        "sha256": "a3bb0f61e496e4e888b497d5fcef533b16cf086b09fac5ffb9fd7f37205ff407"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0105-depth-mm.png",
+        "sha256": "0d055a876c7298b8f78eb9ad7314956d4818d6358a5db657c94601dbd12439b7"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0105-object-ids.png",
+        "sha256": "c4ff4b30b7bcc5cb6d1b7f2bac9095bd0dd81095df4ce1994f1d6ae90af28794"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0105-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 106,
+      "time_seconds": 4.416667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0106.png",
+        "sha256": "c000adc582a5e0c5ce94784b3b45fd9bdd5de5c892440c978dea10a8aef2d730"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0106-depth-mm.png",
+        "sha256": "ed5407baae36d87315a3cc082a08d9a75f88ad653d0f6fa0c2434cfb1b440247"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0106-object-ids.png",
+        "sha256": "3efe138596e844c7949a8cb0fe31b1812798b3c5f14f7426352bde2a7a6b9f76"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0106-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 107,
+      "time_seconds": 4.458333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0107.png",
+        "sha256": "5b3ac0236518556f412eee2d016b0a308753212dc9c8026a693c08a8c4030068"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0107-depth-mm.png",
+        "sha256": "f12c866f37bcae8b4f744685a1834d9f7242b9c12672992de19e33ffce7bcdf0"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0107-object-ids.png",
+        "sha256": "ede033243ad838690033dd3da308745943e667b4562aaecfe6dd66076b36fef4"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0107-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 108,
+      "time_seconds": 4.5,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0108.png",
+        "sha256": "1990640ce47bc993d1854d144fd7a28ba111fb9c0fff019bdfaa39c58ad10ed3"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0108-depth-mm.png",
+        "sha256": "a1d35fb9db561ba031c5e658f3c14def7e52773163d371f1df182362d0e174ef"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0108-object-ids.png",
+        "sha256": "da9cf6b3cd427ff2b7b9ae7d5c72731bf77e6ec713974ae48a13cb2a90cc75e4"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0108-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 109,
+      "time_seconds": 4.541667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0109.png",
+        "sha256": "d4f73555faecef019371283675ddadd35149231cb2ef6d94a8efff7f05b9d68d"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0109-depth-mm.png",
+        "sha256": "b848525496e00c5cdc618467d6f852ef63e0cc3d7497bf7e06a51d716e28982b"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0109-object-ids.png",
+        "sha256": "f9f64187ce99d3469477b18b2ff149e65ce7c08df660a270115baac2bdedcdba"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0109-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 110,
+      "time_seconds": 4.583333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0110.png",
+        "sha256": "122b227ceec92aedcf247af85c6fdac8e56e5d884653e4379339af4b051bdbb4"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0110-depth-mm.png",
+        "sha256": "a139dcdbb4a450e0b2994e4a805a14a6f5ae7d77d786bf50d4c2877bef5329fb"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0110-object-ids.png",
+        "sha256": "3c2aec1aabbf8465a1496b51d8f9f3559a9b64ea8ce3b971e05431b83d805644"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0110-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 111,
+      "time_seconds": 4.625,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0111.png",
+        "sha256": "24299bb09054454b789b34d42b5433e2174f0da32b63c1918bdff038ef390e5f"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0111-depth-mm.png",
+        "sha256": "d8100cdec0cec7a6ee3ef734fb1b0b15e0736f4a58812b39c258bdd734ad1bd1"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0111-object-ids.png",
+        "sha256": "9ce11d5e264b11781e1721d6519d562b11f5a988fe5f8505b2ff109edb37a93b"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0111-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 112,
+      "time_seconds": 4.666667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0112.png",
+        "sha256": "577668695f5003a84538ab26d8182bc6af9e370edf3e3c2911565aaed03b29ec"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0112-depth-mm.png",
+        "sha256": "d840e16218730d6377b07182ba02a70bb0e5f1fdaa249f5716ed6ba7d6518569"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0112-object-ids.png",
+        "sha256": "051912b649b24ccf9e7af59a52230a9622fc870d9ab41d0b5f55263b4a31b51b"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0112-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 113,
+      "time_seconds": 4.708333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0113.png",
+        "sha256": "0cae63f400028a6c9e99971080b9aa85f1c074ee6b8e9428995f9cbca947a4ec"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0113-depth-mm.png",
+        "sha256": "7003b415ea05374d5f69650a1d40adaaccdaeb5fe3ff3c0a7aae436413a87481"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0113-object-ids.png",
+        "sha256": "237700a464318c126ade5bf5a343f4368620c263b50d73f34991870b83169586"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0113-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 114,
+      "time_seconds": 4.75,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0114.png",
+        "sha256": "0762bf7f9bde3527d5ddd5f7c0bda8f93fc7765cdc52d65c4c58c1ba6a501069"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0114-depth-mm.png",
+        "sha256": "c6947c7b8664751f5f35163d1e34233271f809b5d51f9ada010257fb3a1faab5"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0114-object-ids.png",
+        "sha256": "cc096d30d8595a17ec0d584ecd4ec7a1039a63c16049a908e95c85976b4c1bb6"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0114-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 115,
+      "time_seconds": 4.791667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0115.png",
+        "sha256": "9f96397ed66fe1cef9078ccd81f69ab6094cc568125af18deac689a355a69958"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0115-depth-mm.png",
+        "sha256": "9124303ba4d0a1d2c3291c88c60e65dbc280f6a778c8af802ac0ea99fc584c68"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0115-object-ids.png",
+        "sha256": "97624ec4399a5519834d1e423d869d960e7b436ce80c24b1a745bc35b296accc"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0115-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 116,
+      "time_seconds": 4.833333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0116.png",
+        "sha256": "3643276924b7519c709714baf5a5bf3196447c345dac3a6267dc0a757c10af83"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0116-depth-mm.png",
+        "sha256": "95c1ca0a65f3f6e45cb798be86f8bbd051918a8ea581f4bccf3bdc3755e333ab"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0116-object-ids.png",
+        "sha256": "c6e29ec03f1ed53151cf7b6bfa2d968ae4295a054e3a4da152149d57a91c1bd7"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0116-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 117,
+      "time_seconds": 4.875,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0117.png",
+        "sha256": "a14f2f6dfd1a5c64aa472521f185284aad82883bcd835671e1788025c2453f44"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0117-depth-mm.png",
+        "sha256": "5f582582696a60f71355acc594631f2bf64eb6d237ddcab652811fde1f94ea5b"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0117-object-ids.png",
+        "sha256": "af592da269b622feb53a5602f3ac0acb056d3bee756d826f792a79d9d41b05bf"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0117-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 118,
+      "time_seconds": 4.916667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0118.png",
+        "sha256": "5b17060b237f37685398051a5aa1bd9536a073deda4a22c98751acda3513406c"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0118-depth-mm.png",
+        "sha256": "63e2925bf50974f1a7ee97f97a42ba6d9a5b266c258cdd06d8f4c3322bd68d78"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0118-object-ids.png",
+        "sha256": "5a60002cd3812e5e71ef5da4ebc0fc22c64ff5ecfb049181d3d1b1382036ea29"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0118-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 119,
+      "time_seconds": 4.958333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0119.png",
+        "sha256": "7adcdfbe37e397df813751651add232f309c41d84ccb58b1718864bcf949586a"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0119-depth-mm.png",
+        "sha256": "ce2f2072fce33a4899d979c74749b305ccd74fd852fa0ab88d084ef45c485ff7"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0119-object-ids.png",
+        "sha256": "f251907bc6af1eb90b6d458eaa5c9405de93d3d86ab7bd21d9907903f5c3e3b1"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0119-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 120,
+      "time_seconds": 5.0,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0120.png",
+        "sha256": "7463a87d8b3a927603cf56a75fe8afbe29a4965fb0c6c5714deb1d553af9e62e"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0120-depth-mm.png",
+        "sha256": "40d1b54cb36dff0c7c302e0860c25db41f1af23428aa120878eef469addf94cf"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0120-object-ids.png",
+        "sha256": "e2a913f412528e14de3178d1b3ce9e4abc53b9f1a030c3719d3dfbd4d3d36551"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0120-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 121,
+      "time_seconds": 5.041667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0121.png",
+        "sha256": "09e17b5dea0c06cfe2308347ed445cf2293565fd40b3b8a9233f26985014c9a5"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0121-depth-mm.png",
+        "sha256": "89e3e51fb4a9ea8ccb02de2de34a0df9f45a744e9316c4a85d3545b352b2a3ec"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0121-object-ids.png",
+        "sha256": "d44fec8444615a0996787a1b88e39845a8bcf1dbd768c96389410a69ce4d0a99"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0121-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 122,
+      "time_seconds": 5.083333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0122.png",
+        "sha256": "468e71ba39abcc35a1d0006093023667c69ff829a1989138f9bfe61a3e0c9201"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0122-depth-mm.png",
+        "sha256": "2b499d690935bd62671525b7b37c0ab68df7d212239b7c24173ed70f3c187ef5"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0122-object-ids.png",
+        "sha256": "bd47da1673150e28346f24b64c1d31524cee4b3c554eb07fd1f4a33c7a23507d"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0122-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 123,
+      "time_seconds": 5.125,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0123.png",
+        "sha256": "6bc211bc329cf6078fc71f8e1ac790175e98c41477583105a37c79957bbcb2b6"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0123-depth-mm.png",
+        "sha256": "981e4991d65734ed277ed81ceeaeccc2ab9a9f704085f649e54a96e388d1688a"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0123-object-ids.png",
+        "sha256": "84d5a237c75c55be696cb3c911a4f81bdefb12f2c440f0a8057db6f1ffd7aff7"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0123-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 124,
+      "time_seconds": 5.166667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0124.png",
+        "sha256": "e9e954b62d50e8643314c630d2cd609bd3e2fb11c6ce0105dc3160508d933fcd"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0124-depth-mm.png",
+        "sha256": "58f2a71708e87918f0e6ae6c5b3d7c850fc5bfaad22619520d11c295336bf893"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0124-object-ids.png",
+        "sha256": "48671cd4d34f2081936ebb299ef3405d1230190bb6cba596871664ec1b73f4fa"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0124-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 125,
+      "time_seconds": 5.208333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0125.png",
+        "sha256": "f4e9bccfc3569189cf22fc1c3ae2ad67fa49f050ff3552cf74e20a487a2886fd"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0125-depth-mm.png",
+        "sha256": "83df0e44daca9055c29fd3f0c9e170a6b35eadf71cf4ecc5c06349dc4b5a4d17"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0125-object-ids.png",
+        "sha256": "ba5f9a2f519a3174403d9607c48e7aeb4a17d1d4e6e7110ad4d6f1101c6fc6e7"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0125-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 126,
+      "time_seconds": 5.25,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0126.png",
+        "sha256": "bbbc07f1c4c04448be67a05978675894e63f7bf5d025639b8eb2f518292ebad2"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0126-depth-mm.png",
+        "sha256": "3a1f648130d621758abffbf6855ea81da49c045b61989dfd9ea6f344a8f169f1"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0126-object-ids.png",
+        "sha256": "64975da3299e00b87f8e3c6398dda19d10df9ef43768163e2a94454fb0419d91"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0126-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 127,
+      "time_seconds": 5.291667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0127.png",
+        "sha256": "88ccd4133f577fb20c0e9c607ed582de9c6d07c6553bc948fb9de912bb75e496"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0127-depth-mm.png",
+        "sha256": "d442a4649de4601d0c08533514df70bc2221530abe2df90af766c10b6aa5bc88"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0127-object-ids.png",
+        "sha256": "c789e0f75b4117be34f4473440a40537677000c32f43de93a16ce017ce3090de"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0127-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 128,
+      "time_seconds": 5.333333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0128.png",
+        "sha256": "54b4646f97053efd29c3e428b6c278d9aa72bdad87c367711d44146c6d23ca9b"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0128-depth-mm.png",
+        "sha256": "dc59883a580c6399361cb43df27419b1b4b29548fdd7835168ff493b72ef2e77"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0128-object-ids.png",
+        "sha256": "5d440751e3bdd5c35346d942fc45ff1359f46d261aa92dac3ad258f64e423986"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0128-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 129,
+      "time_seconds": 5.375,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0129.png",
+        "sha256": "02ed0d02b52677db67107e1ba6c3260b5dff9d6bd997eff4143f29a6775abb8e"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0129-depth-mm.png",
+        "sha256": "6f1d631274a37ff0016437d25b0239ceb68bdc9f412b7ce82865ddb04a2b6161"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0129-object-ids.png",
+        "sha256": "cd67d14fadb793809991d1c79d47b595073f6e579538c2cd3963253c905d1886"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0129-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 130,
+      "time_seconds": 5.416667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0130.png",
+        "sha256": "746f16774ecd3911d412e93572f9138fa9627e62b330e30732b53478791f829b"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0130-depth-mm.png",
+        "sha256": "885d972b22e14b902ab28dbee1e9097d467611a9887baea1124e32f7f1195e5c"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0130-object-ids.png",
+        "sha256": "3aaf655248c1258c92e471c401c03a1dd310dcdb71369448273f154465c811ec"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0130-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 131,
+      "time_seconds": 5.458333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0131.png",
+        "sha256": "a4da30f6a7ef9a47d81c43874a94a9609d8df80856c79ae5c470d3a1037e79b9"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0131-depth-mm.png",
+        "sha256": "4b2c483e4dd0b175eb3cb4c53c25dc2311de5b4e8e846e9ce2f4789e4f4cf20c"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0131-object-ids.png",
+        "sha256": "7ad74f06e17c69680f9f3ebef1564ef4c922dd55003d4ceb3ddb78d4130d87d6"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0131-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 132,
+      "time_seconds": 5.5,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0132.png",
+        "sha256": "e53a1cff0f5bc5a1e18ed47383f2d54191ad3b50b9dcf41e0ff6e973e16d1c23"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0132-depth-mm.png",
+        "sha256": "30600cada0fd97eea046f53cc9ea4e69bc0db4306d0dd086048aa72ca232eec4"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0132-object-ids.png",
+        "sha256": "153bb765dba35627d6e44ae1efa4d88acafa4c7f500a662c654e373ae64fbeda"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0132-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 133,
+      "time_seconds": 5.541667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0133.png",
+        "sha256": "2215c07267d211c11516df848376dab67661eca9402e4a22fc7a541516ad61ae"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0133-depth-mm.png",
+        "sha256": "24e591fd07700d4fff263ea8d9f0a54c84f6224e91009bf8857ac7b6079ee9f8"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0133-object-ids.png",
+        "sha256": "3912814b2f8284b40b1d047c3aff217e7c4fb7c797c17ef646d1ac3e85d7fa6f"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0133-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 134,
+      "time_seconds": 5.583333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0134.png",
+        "sha256": "e084a7998d889e1775e7ade41138e5f6705e2136e002469885108b37e2190d07"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0134-depth-mm.png",
+        "sha256": "0d3689de8d8649dd4f39139975d355baf226be9cc7d1042ff1857bfd83b7b236"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0134-object-ids.png",
+        "sha256": "cbeb4a9581b86156916ff91758d4343762163283b617ab95ea2bb82beda808c4"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0134-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 135,
+      "time_seconds": 5.625,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0135.png",
+        "sha256": "32f0e2c4c66533ebfb48b70cf01a500eedcfead2370b71672be57829aa859505"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0135-depth-mm.png",
+        "sha256": "3c57900265f39ee902bf6913f598fb79bce3a2f6be9545f91f41cda42719b728"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0135-object-ids.png",
+        "sha256": "431b01024e34170e68972641546e87bd82be0502e104286fab0e9112876beb95"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0135-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 136,
+      "time_seconds": 5.666667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0136.png",
+        "sha256": "ef19db61d148b59654d0856bd24f40bde319755df73413426d85595895b9b61e"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0136-depth-mm.png",
+        "sha256": "d3fcbd9f64f2d7a03467d8c98136a1340537abc6383dae5ff42f23dd345bb9ec"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0136-object-ids.png",
+        "sha256": "abf2f320b04ccbe4db4e2415a4f5c31483a2ec274e7826fd4e5373812b288cfc"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0136-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 137,
+      "time_seconds": 5.708333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0137.png",
+        "sha256": "e791a6a47f6aa4f25b4b51bc8fdd77f353567093e11800d33738153416dcb9a0"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0137-depth-mm.png",
+        "sha256": "9e6b2fa6e5def17a406e7d79fa64dbfe920f81355e4abf72d21483233d5222f1"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0137-object-ids.png",
+        "sha256": "52d0e1ff6631a074273485ca921bb49786dfed402d458f095aa2ad8b266d49a5"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0137-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 138,
+      "time_seconds": 5.75,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0138.png",
+        "sha256": "a1e4c1eb3d31183555a530866c58c7d9e49afc285f0bea8150820f03d2c0559c"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0138-depth-mm.png",
+        "sha256": "1cde7d16ba4b6cc37fc997480df859f6013c12866d1950db7ad2500b7b19b5e5"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0138-object-ids.png",
+        "sha256": "6e512136f1f6317512fd066bf59fe09c4b5cc2611b814af1ee6a240721b8b59f"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0138-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 139,
+      "time_seconds": 5.791667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0139.png",
+        "sha256": "2daf88a9e50ae155ec1f47817f396dcd4b271e55fe77f1bffe64d58d11ffd6bf"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0139-depth-mm.png",
+        "sha256": "64cd84c7ff9b42dbd71b790bc7869b61d2054c5058b66924ebe98a031471d3ed"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0139-object-ids.png",
+        "sha256": "83d7db7aceb724e97e839713f20480bff7023c320f3d299b20a58eb5923c0a1f"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0139-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 140,
+      "time_seconds": 5.833333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0140.png",
+        "sha256": "b2ac9544fee01e261fde7f08267bd42d4f0f14c248e447812b83202835ea8a99"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0140-depth-mm.png",
+        "sha256": "97252c5af86c80c8b348803a1e2e0a2e5e232e53bb61ee1a2046b025f043bf5d"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0140-object-ids.png",
+        "sha256": "18668cdebe6ccf56f21fa7ab42c280369c9674e539823a1e8a1768d43138a38a"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0140-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 141,
+      "time_seconds": 5.875,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0141.png",
+        "sha256": "c020dd625fb85a37a05e621596beb157f354e6a8915d94a74cbd069a1685dba4"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0141-depth-mm.png",
+        "sha256": "058f065ec28f2f286f7e923bf1a986b0893debc0ae3b96713ea08b394879112d"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0141-object-ids.png",
+        "sha256": "ccc1f283fbaba2e43b12136524073210c5c584d463bce6784a4ccc878f042f00"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0141-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 142,
+      "time_seconds": 5.916667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0142.png",
+        "sha256": "7b20013b7516d7a0b9bf42b134df32adf97592511b3c0fc75fd930b1bd31952f"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0142-depth-mm.png",
+        "sha256": "3b9a8135723ffdad0d6aa930ea447e148cd3bc8148a5a0f44e6f6d2c27432a04"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0142-object-ids.png",
+        "sha256": "c90fa1c0ce04cdb6761ed5bce782403b89b6d92fcc435172e86ad3d8c1f65f75"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0142-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 143,
+      "time_seconds": 5.958333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0143.png",
+        "sha256": "6921caf0c70f877c1201dd6f4c03b6f3893b71ad52ce2b74d00e5c2e9d65d2d8"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0143-depth-mm.png",
+        "sha256": "ad66454491172edb8f19e8c61b33192816e9822aeab036403a0d3960a43cfecc"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0143-object-ids.png",
+        "sha256": "476063e3449650a4c2d86f5bb8ee4e73ff571b411f2f481942e230a8edcfac45"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0143-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 144,
+      "time_seconds": 6.0,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0144.png",
+        "sha256": "4c659c323f70f8b1395485d699922ee8a0c155ad16c0c359cf3daf4817d8868f"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0144-depth-mm.png",
+        "sha256": "ef88898476b5fd1abf8039f5e2705ecd15b6212052b4c3405088df9fceeadb97"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0144-object-ids.png",
+        "sha256": "b49f15c92321fe31cdd69a3ee3ad8924aafe793b7ac6e623df7faad56ab829cc"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0144-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 145,
+      "time_seconds": 6.041667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0145.png",
+        "sha256": "a36920eeadeb5ce93ebb6fade2a288b2b700d8b6c0bc8b00bacd7e0f1b2bb2fd"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0145-depth-mm.png",
+        "sha256": "419d1d70057e9109e4deb8ce0008cc5f391394d65d6a7306a50fce0095271ba9"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0145-object-ids.png",
+        "sha256": "400f5f4c392c57a7925af716aaac5a6fac7966f535ac0e957c0ef62fbc729478"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0145-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 146,
+      "time_seconds": 6.083333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0146.png",
+        "sha256": "146cd6f9143932980bdec274cedfecdd4f01948e5408e6503827d57291e972ff"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0146-depth-mm.png",
+        "sha256": "879e29ef64a17ec1bae5a8ce27a9a9e98391ec68bb393721d3e8ba5f753cd028"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0146-object-ids.png",
+        "sha256": "19e29906fabf69fd0f08c3437f2c473079265ae89214f6430057be61f32d4364"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0146-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 147,
+      "time_seconds": 6.125,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0147.png",
+        "sha256": "d32ecd5ce2ecee81c868e522da872f9fd60a0942a50ff087445d73fe471a9756"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0147-depth-mm.png",
+        "sha256": "486b78d791aae6aab3c0216d4cf480763f9edc6aa421e32fa55fc0ac98780e02"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0147-object-ids.png",
+        "sha256": "62b4feb2b2170d2f979b0ffcf6b0ee6950d1390525021138eefe743eb26259de"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0147-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 148,
+      "time_seconds": 6.166667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0148.png",
+        "sha256": "b3ccc1d17f20a274e7edb146003d0bbddcfb1866ed8840eeaa250eee9b688328"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0148-depth-mm.png",
+        "sha256": "c236257064f0507b283d289997083cc8395b494d3d532628f06cd4276e80e02b"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0148-object-ids.png",
+        "sha256": "c152594917846485a70cedb6f5a9e82a74ffa6e8c4165c2042f16de6cb33c397"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0148-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 149,
+      "time_seconds": 6.208333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0149.png",
+        "sha256": "569c73e0e869a92b4489f10c969f8150537766ce516ba55f99d4ec1bf9c8fd76"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0149-depth-mm.png",
+        "sha256": "7fc261fe9b5fec81ace433fee8152b23e88cd1daf15f4caf46f091ead82c2b37"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0149-object-ids.png",
+        "sha256": "e6d9c96e43897cc3754a86a8bc31aec608ba0ca89657e623069bb192159c8d6c"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0149-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 150,
+      "time_seconds": 6.25,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0150.png",
+        "sha256": "c2b9c15661fddeef1fcfb95ddfd94417584f021c8f2c771fda9f0a4dfbd64043"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0150-depth-mm.png",
+        "sha256": "1e030f9cb221185373194cfa0a9e1dfafbd799ba46455c85fb48be377b86ef42"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0150-object-ids.png",
+        "sha256": "390e6f24c7087d6e1047f17a501d0dd953fa7753e7938aa580f635d19e50ea46"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0150-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 151,
+      "time_seconds": 6.291667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0151.png",
+        "sha256": "11c4e8d88e502c09e7614e44df4545cdb4c9bab1de33522c45ec0f858d15ce07"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0151-depth-mm.png",
+        "sha256": "896993c9f87453e8d4d8e59fa83db8b62c1283ba96772134abaa2833381e2796"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0151-object-ids.png",
+        "sha256": "41490b4e2e6e1522b321c1d1612b0d8d6844993256befc29a8eee5d473a0aae7"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0151-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 152,
+      "time_seconds": 6.333333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0152.png",
+        "sha256": "7de3929b2a7f9fc2c78ed35e64d0a09129b5ba0690d18701d2705fc50a3217b0"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0152-depth-mm.png",
+        "sha256": "6c57519abb6b2ec3510a428a6a38a07a996165207b5504366d5fa9bcf1ebb2e2"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0152-object-ids.png",
+        "sha256": "21e09fd59701853ab876fa372980daeae46cdf85153558975499a2d8dafb20ae"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0152-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 153,
+      "time_seconds": 6.375,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0153.png",
+        "sha256": "3809491fe7162dffed35056ea85fbe1243ad8bcf77defbb17a102492234e3486"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0153-depth-mm.png",
+        "sha256": "f455fa863508a805d9481e1f10774be388c80806cdbe2c86f9727408848d87f9"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0153-object-ids.png",
+        "sha256": "4e45eb870833c90c2b07cada89900703daca049b14da70ba3f3b969118181951"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0153-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 154,
+      "time_seconds": 6.416667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0154.png",
+        "sha256": "233c69050c2507db1baf333a83e2a5558474db28bf7be73e7573369bf9e7bce2"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0154-depth-mm.png",
+        "sha256": "a8270229789a92e628ce49a6dcbe928149434e14c5201b70d47bd057e42c6658"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0154-object-ids.png",
+        "sha256": "190c75539b7c939d02aaf679b9acf6be0df6f9d411f6a371a55a47a570caba14"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0154-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 155,
+      "time_seconds": 6.458333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0155.png",
+        "sha256": "6e9a3823a79cbf8827a143e212ae9c35321747649f496fac04e4609a3fd23305"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0155-depth-mm.png",
+        "sha256": "bce379ba6de9ebae21036be546529611b2583129dd2f2c5abfd4cfbcc5e49d34"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0155-object-ids.png",
+        "sha256": "743ffa0b216c71164f51d1df7a85e2fc7443ed5c64214d61d6098ad595461357"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0155-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 156,
+      "time_seconds": 6.5,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0156.png",
+        "sha256": "50c05133b47dac255574a0710577c726711b01de654a56a38c94a1c078a657d7"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0156-depth-mm.png",
+        "sha256": "c9141d878a3314d2f554965183e1f96e72362cdc4909717e0c0dc4bd47ff4f80"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0156-object-ids.png",
+        "sha256": "f01bcf4f6096fb9594027fbd5153f4b4f04539bab40dbaf6f45397eed6e641c5"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0156-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 157,
+      "time_seconds": 6.541667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0157.png",
+        "sha256": "89061a027ae4941d0fdbf71a363a182ace1be471fed3feba2b41bd486779eb1f"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0157-depth-mm.png",
+        "sha256": "0564cac0b5d19dfc600f637e1a066275260eb69af6be2bb208db623305d71433"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0157-object-ids.png",
+        "sha256": "918aa5832f2265e53e8958f7b1cf05f07d580cab98ecfb3765f91cca27eaf065"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0157-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 158,
+      "time_seconds": 6.583333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0158.png",
+        "sha256": "81ad518c3c46edd4f6a677d98e7471e58d3fca54bd05c89917d3bf01889c5b8e"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0158-depth-mm.png",
+        "sha256": "560b8f0b3033cbbaf417ad0a5c7be1c2cf7ba52ec098d3b9160795ddd04f4598"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0158-object-ids.png",
+        "sha256": "4a69070fce99651be3f13fadae021e1ed0137a132a3f7a59dd283954f559310e"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0158-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 159,
+      "time_seconds": 6.625,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0159.png",
+        "sha256": "944de71d052c9ab7eaaaf7941c44aede8f1b88ec1b05166d9e984ea03eed67d7"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0159-depth-mm.png",
+        "sha256": "765746793e495b8e872d6b2256d341a87e8437f6025f0f74f3bacf93ae7f09fa"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0159-object-ids.png",
+        "sha256": "829a9a1114f06b38a0c586eee0aff4683fa80cb636c32ee672136cca7b8ef24a"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0159-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 160,
+      "time_seconds": 6.666667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0160.png",
+        "sha256": "09a0d7b598724beaa4b24c294b18fb9dcbd584161fc18a3fab7df16908150aad"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0160-depth-mm.png",
+        "sha256": "9ef50a7ac3b1e4bd7a77916e0cc64ee5a55366413e5869668a7f2342d64b1204"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0160-object-ids.png",
+        "sha256": "b9104d23786590e891184e7df8ac4cabf44faad827aa2fee2b233035e99269ba"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0160-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 161,
+      "time_seconds": 6.708333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0161.png",
+        "sha256": "f62a8f1a7a6ea67da244bb2d84948bb998bd8b4b1820199fa42e588334cddc3c"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0161-depth-mm.png",
+        "sha256": "46bf2fa064714db6398375514f7b1cf0cd1c2fb093ee3aa8930f52692fca35a5"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0161-object-ids.png",
+        "sha256": "a940933d5541f6f858738bfa6c4983a6e53725499effd9c8ecca5ae6e774bc9a"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0161-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 162,
+      "time_seconds": 6.75,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0162.png",
+        "sha256": "49a46ee152f37418ff356e32293ee1abf8e697b3f9945626019bfdafb733d15c"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0162-depth-mm.png",
+        "sha256": "2b95a91696ab161dd0f2491679317753e3930a89041bf99a51e2fc190b0e7e81"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0162-object-ids.png",
+        "sha256": "174d5dfde3689565fda7984ba112d3f3f7b02d9fe9ca31664663592ddcb78652"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0162-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 163,
+      "time_seconds": 6.791667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0163.png",
+        "sha256": "9c89337da98f1340f198f76068fabee2abddb5e06aabf6b486052f68b914ca2b"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0163-depth-mm.png",
+        "sha256": "0e618058f93adca685d4d4d71d181454e5909f52675d94cfbea8cf126176e9dc"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0163-object-ids.png",
+        "sha256": "70434ad9db916078113ac1e3445f5fdae27dbe6f24e244a8fc353cbe3f2ea158"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0163-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 164,
+      "time_seconds": 6.833333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0164.png",
+        "sha256": "7a1cc7eed389473c2ade13db8ee96f855995aa4a86866a53053f826e425fa3d2"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0164-depth-mm.png",
+        "sha256": "0bc5c6716ca04896249f33603090b6f1acc979f7cdfe847cf9a28517e3aacf9e"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0164-object-ids.png",
+        "sha256": "0b0b0b8f1ee7b08e9cfed8ed2ff1d46faec2892c3841e54ce9000603605f9665"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0164-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 165,
+      "time_seconds": 6.875,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0165.png",
+        "sha256": "e65404ce0be51667a9ab73d750dfc37658f3a611b696d43d09ed33c53d3e7da2"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0165-depth-mm.png",
+        "sha256": "47cd2af0e429dc9a5f714154522b2dc7853fc7060d91d62f94bfb4f8d18dfe32"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0165-object-ids.png",
+        "sha256": "2c51a6094e22454db05c4f19f22b2254a56ee2fb7614f541e52aafef94489c7b"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0165-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 166,
+      "time_seconds": 6.916667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0166.png",
+        "sha256": "9bb4c9321b6f326e0d8ff1ce1ea6368cca6dce8c3f6af0afd0ad6520a0c2fa6d"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0166-depth-mm.png",
+        "sha256": "a699b9d94378b1a8863dad5e9b1454024792294e1e8bbf3fe03c9ea08262b327"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0166-object-ids.png",
+        "sha256": "a780fddbb071b77137c9fa66bd2d52f9b5a9840eba2acc32608d804ca9589243"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0166-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 167,
+      "time_seconds": 6.958333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0167.png",
+        "sha256": "59b613a2c371951263537f9a52ded8194a19e99a9721d8afa8d048c2724a7fd0"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0167-depth-mm.png",
+        "sha256": "274485abeb1fe5613d3881b6e663922d3a082713a08244f635fed9226a0dd53e"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0167-object-ids.png",
+        "sha256": "054d9ab89eb1613d9d128c8d7a80102a849f005136ac5aff768dcf04def5f6a5"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0167-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 168,
+      "time_seconds": 7.0,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0168.png",
+        "sha256": "2c89ee3a8b7534f71182e73734de18f1a928d68a5c654c2caf91ee5060bc9a23"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0168-depth-mm.png",
+        "sha256": "43466aec175341dc854ac4782cf772adabf466ae427f36ab1d0ee8384e7b98f1"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0168-object-ids.png",
+        "sha256": "84e842ba06bfcaecee407d7a63b3277d0f4f21c41d1f79666db06a1e5299164c"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0168-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 169,
+      "time_seconds": 7.041667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0169.png",
+        "sha256": "7a7306b19192dee96bf4ebe7c207d8c8b57f8ff2f6953dd33af68cd7cb1eb126"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0169-depth-mm.png",
+        "sha256": "673bc29c2fa5b3e5ef885c1a56f71e14d950a959fca1bb844b27b95083787b0b"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0169-object-ids.png",
+        "sha256": "f23dfe31d1661a0d33834997816000aa3f45ab38641dce2d57ecce88cffcab83"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0169-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 170,
+      "time_seconds": 7.083333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0170.png",
+        "sha256": "7a26c39426d82759fb546d371835ba9af5a43b4a11887b7ec6d2cbf41cc852cb"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0170-depth-mm.png",
+        "sha256": "e3435ac003957293ad67a9131d92c5b9163eea74d47d35b89b7ec11e56a03d1d"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0170-object-ids.png",
+        "sha256": "6b7198b56b6131cfb7b1c94510754a64eb1c75eeae5c304c59fd2493c8769e3f"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0170-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 171,
+      "time_seconds": 7.125,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0171.png",
+        "sha256": "2093280b4a1cf3daa47345ef6c26465cbb1d2f61fce1b06ffe58b3555ee340bf"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0171-depth-mm.png",
+        "sha256": "47763f9531861ca9cf54a46abd0c88be76a0b07f9c267ea6a727c80eec0eedc6"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0171-object-ids.png",
+        "sha256": "8db97836291e2c8f0c41da62796e10cb9782e14c61605d1093f010fb29e4e62f"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0171-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 172,
+      "time_seconds": 7.166667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0172.png",
+        "sha256": "15de26300602818bd3d998aa34754410ae9df5d0b5c02a1fbaff4bfb4fadf6ac"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0172-depth-mm.png",
+        "sha256": "4d9af2c647e5e0f474a0044566aeece11fac8562148434f6db642456046527bc"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0172-object-ids.png",
+        "sha256": "859168104b12d1ad19fa7bc89c513aaaab8153b962c61a84be2183f205718fc1"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0172-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 173,
+      "time_seconds": 7.208333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0173.png",
+        "sha256": "03fb5e58598bc0d3ed61cfd0b94048872b2d46b0ca9948d3aad36a4af376983a"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0173-depth-mm.png",
+        "sha256": "37ef14e0833f5ef2c89810e76e79ca08e5885ca6eb6d2fdb7886aea497ceaf6e"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0173-object-ids.png",
+        "sha256": "e39413ea01c400bf67df74ff698ce7803d823be8a9d858f22996a94b956a5ba5"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0173-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 174,
+      "time_seconds": 7.25,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0174.png",
+        "sha256": "46d5025ff4310089f04c6a8aa97912fb6bcb87a45426bfb417c96033f1e94738"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0174-depth-mm.png",
+        "sha256": "78f9d5b2229b9c725f6c637a45d30591eb7e70f92f4e934dd068be6e3fc3c84e"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0174-object-ids.png",
+        "sha256": "147165ef8b92e0242699f5f0b316eb11dd262613bd111084af72c811a30bebd8"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0174-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 175,
+      "time_seconds": 7.291667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0175.png",
+        "sha256": "00b3ef318648f91dc53205600225393c0fcb636a37214be00f54c5e5aa5ba9ce"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0175-depth-mm.png",
+        "sha256": "2003e73fc4d460f292d278c06af06e2b5dd5e78e40ca34c5fe10278241bf214f"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0175-object-ids.png",
+        "sha256": "e1e67ae3ceff96561821104877cecc727556d24d00d58e2f33528324ba9f71d4"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0175-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 176,
+      "time_seconds": 7.333333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0176.png",
+        "sha256": "e00ff5d302b2c16a21f57b3afbe07f446049b5375303f26ecc7d653aa8681b0c"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0176-depth-mm.png",
+        "sha256": "31dcdab71d4df9bb4d7b2ff129fa464229aae3057691ecd00e79074ce103cd66"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0176-object-ids.png",
+        "sha256": "7d5ea078e43bcc0446b4385af3f88d5e63474e656c182a00efc2e6a46109221d"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0176-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 177,
+      "time_seconds": 7.375,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0177.png",
+        "sha256": "55185a6da73f94401663ccce4d5c0c8992eb761061c948899ecf99c63a3d26fa"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0177-depth-mm.png",
+        "sha256": "2d728c524589e9affb7c0a30a07ea31ae89e7ae09ddba735463884099aea17c8"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0177-object-ids.png",
+        "sha256": "f9a2a0aa30e623851abed97cfa9cd4d6833a5ffad6f8faf4f59891addd26e0f7"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0177-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 178,
+      "time_seconds": 7.416667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0178.png",
+        "sha256": "2909648981fb59860f7f490a03824bdd071de20160e59f19186dca1b3eb601ec"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0178-depth-mm.png",
+        "sha256": "227cc10d8b46824b2af0bf50ba9996de01923d0f2f47014e7321245cacd990a7"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0178-object-ids.png",
+        "sha256": "efb3df7bb577cf6b9beb0a7f090fead284c5eb7a68b6c6ad9ccf70478f72392a"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0178-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 179,
+      "time_seconds": 7.458333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0179.png",
+        "sha256": "110dc928d251d1ff3184e24dfa82b4a95d48b9bb1fbecd034956403e11e13969"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0179-depth-mm.png",
+        "sha256": "445dfb005747a83eaf4c7935b0e939b342cdb4476ac6ece47fd6e6e58250b680"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0179-object-ids.png",
+        "sha256": "0b8afcc8914a7d298a773806319740a30297c76b2866d52f6885dc77c639c2e2"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0179-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 180,
+      "time_seconds": 7.5,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0180.png",
+        "sha256": "d20f181cb9d7c66c99d37fcf541527027c0b38619722f204fdd7654f6d40a528"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0180-depth-mm.png",
+        "sha256": "2190855641c1d2d14842c2f8ae043052ac513cfad0433459f8aaf59a3f3e0194"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0180-object-ids.png",
+        "sha256": "ea12f0c210b3d752401cf7a11e83f37fe9e52e9fd1feef82217d8349959ab0d3"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0180-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 181,
+      "time_seconds": 7.541667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0181.png",
+        "sha256": "f17d2740410942038c8b00b1ddb63844270cb121624eb5e253596483d389afaf"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0181-depth-mm.png",
+        "sha256": "03b5f34e9c598a705a698113d3d5c9fbed0df84ffe1f0df9ebaea218883ad289"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0181-object-ids.png",
+        "sha256": "136bdc44cadc1c90251e5d873fbeacf2209826299b3e083f86da9c9a11157d8a"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0181-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 182,
+      "time_seconds": 7.583333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0182.png",
+        "sha256": "d3db3cb0ffbc4a27f24a03d6a8619799ac47e339aa82190ebebe2cd75ff2cfa4"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0182-depth-mm.png",
+        "sha256": "af80b8c36b932a393fa6bb5e99424d993bf5d03f952d09daf6d1bfa390be96ae"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0182-object-ids.png",
+        "sha256": "658fcb45d65a912fa45c0e68188be44ac0ab4025b25aff3731c7cb139cac5b7b"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0182-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 183,
+      "time_seconds": 7.625,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0183.png",
+        "sha256": "cddbe99ed64ad21dbc996640ee29c2529baed00a2a7664d54027ab596fc8e0ac"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0183-depth-mm.png",
+        "sha256": "267abc01c95ce0c949997646fea017e3d7e6be5274252b39ea3d3bfc60c1736e"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0183-object-ids.png",
+        "sha256": "4ca0161e2d4d27d47e5a3b107d29f0f508102fef8d6468c655c38d1bd56bfa0d"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0183-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 184,
+      "time_seconds": 7.666667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0184.png",
+        "sha256": "656e9819f1755c3e2347364077c0d13f93546aa333d6923032d9b467e124e44a"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0184-depth-mm.png",
+        "sha256": "98b1fbeffd577be9a57ef7d74ab3f827891e692a4830f2a28b6d531c81c3188d"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0184-object-ids.png",
+        "sha256": "73f8b476c0692785c80b0db0d2ea3a3d91d1f8d13c0c59c1a8183e5c6e88bb37"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0184-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 185,
+      "time_seconds": 7.708333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0185.png",
+        "sha256": "385a432063c70ff7a0da2b4740ab6fc0c799434a28bd99f793ee08d08d531550"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0185-depth-mm.png",
+        "sha256": "35070d744c8c8be0c7b244a1027cb014ecd7855338e3a69a791b43007854add5"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0185-object-ids.png",
+        "sha256": "83159da3b3c0b9e862a7c71416d3d0a4159488692074985d5574005c25bc59f3"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0185-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 186,
+      "time_seconds": 7.75,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0186.png",
+        "sha256": "154604f36ca9125748c9ba16cb03d8a561f73dd7070cc1eaf2f384e52c63e060"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0186-depth-mm.png",
+        "sha256": "06e6e05dba1b76a710cddd9363637405aafa2187319d16eb24d7a0f5ab7ac248"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0186-object-ids.png",
+        "sha256": "708336f59306c57e35d86d0ca4cb70e59b768f15fbe051ab0ffc49bf2900f3ed"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0186-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 187,
+      "time_seconds": 7.791667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0187.png",
+        "sha256": "ee2ccf7a3563fb88fa7b094efc25022b963515437f8a3aee634693b2d8cdadc5"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0187-depth-mm.png",
+        "sha256": "6b50ad2543b960da91c4335ea9cfb0fb367f4634e99b05f3836aaa0f86be80f3"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0187-object-ids.png",
+        "sha256": "40d45182740ef769327db816a03d635a693736f27ecce1cfcfec882c607358c0"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0187-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 188,
+      "time_seconds": 7.833333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0188.png",
+        "sha256": "34b5fc15b57c5d8240fe440ee0c1957522339799d80743f72c8da0a210ed5acc"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0188-depth-mm.png",
+        "sha256": "8060b395f760a148ae4f715f63ec3dcea5a53bde3423ddcddc96b9312d76fed2"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0188-object-ids.png",
+        "sha256": "2e147a1bcb99863070811e50654bc0eec5734ed88e981fd6beace6b92aec3b93"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0188-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 189,
+      "time_seconds": 7.875,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0189.png",
+        "sha256": "0fadedfb845324ee624067f93ce2f73042f61967f8b8f933d16cfc4197790999"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0189-depth-mm.png",
+        "sha256": "80065b2f203ca5825c409a7bf686b9a73dca536f5cfad2a81d85d4a4e5ee773f"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0189-object-ids.png",
+        "sha256": "9d6ef2637924e676aa63299f795803a929636301b2a36fc9cc5ae817e37a8380"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0189-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 190,
+      "time_seconds": 7.916667,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0190.png",
+        "sha256": "0e093e5f9360e2324b9915a128c3a93cf4170dbfe1b72115dca793b97bf68e61"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0190-depth-mm.png",
+        "sha256": "016f801167fa3dc2fd99bb441d80751ddc02e5d454dea1afa6df3891cdf9de4a"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0190-object-ids.png",
+        "sha256": "171acacc2574cdd8370075aa2f7881aa91b4de1006fb64b8b6a7f7e809fc6ad9"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0190-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 191,
+      "time_seconds": 7.958333,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0191.png",
+        "sha256": "e41280e03f78e1d9143e1527e321f766d39be48e2844313e8b0af3393caed404"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0191-depth-mm.png",
+        "sha256": "1168b889eb03f23535468b67fcce151786295bd9f9259c46ef3c9c65a712d132"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0191-object-ids.png",
+        "sha256": "6c7c6da2cd81a2edbc33ec9dce05473fb96268464baac15cd8c01ccf303926f1"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0191-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    },
+    {
+      "frame": 192,
+      "time_seconds": 8.0,
+      "rgb": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/frames/0192.png",
+        "sha256": "3e8ea61cad9508b236ccd07203450b4d6b21c48408d3975c6449bdda116e6c39"
+      },
+      "depth_mm": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/depth-mm/0192-depth-mm.png",
+        "sha256": "82d5e78fc26c5ea7123eded8441352b55c10657c99e3b7e03dfd279d111cf6ae"
+      },
+      "object_ids": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-ids/0192-object-ids.png",
+        "sha256": "85f39dbfe7765f9a4a7055d19bf83aff072b9990e66d595676c7fce7b00eeac7"
+      },
+      "object_id_map": {
+        "path": "production/motion-evidence-v1/EP02-S05-01/object-id-maps/0192-object-ids.json",
+        "sha256": "80793938dc87c5f3effce17220596b5f75362571ed503df04d77192049f929d7"
+      }
+    }
+  ],
+  "adaptive_checkpoints": [
+    {
+      "name": "arm_clearance",
+      "required": true,
+      "status": "pending_geometry_review"
+    },
+    {
+      "name": "seal_hand_contact",
+      "required": true,
+      "status": "pending_geometry_review"
+    }
+  ]
+}

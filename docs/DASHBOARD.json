@@ -1,0 +1,65 @@
+{
+  "as_of": "2026-10-25",
+  "status": "planning_and_graybox_review",
+  "assets": {
+    "total": 100,
+    "categories": {
+      "道具": 31,
+      "建筑家具": 18,
+      "人物": 16,
+      "服装装备": 11,
+      "道路环境": 9,
+      "车马组件": 8,
+      "手部": 6,
+      "动物": 1
+    }
+  },
+  "scenes": {
+    "canonical": 7,
+    "assembled_instances": 163,
+    "approved": 0
+  },
+  "storyboard": {
+    "episodes": 3,
+    "logical_shots": 34,
+    "planned_clips": 67,
+    "action_clips": 42
+  },
+  "motion_evidence": {
+    "selected_clips": 9,
+    "rendered_frames": 1569,
+    "target_fps": 24,
+    "approved": 0
+  },
+  "action_ratios": {
+    "1": {
+      "action_seconds": 84,
+      "total_seconds": 150,
+      "ratio": 0.56
+    },
+    "2": {
+      "action_seconds": 101,
+      "total_seconds": 155,
+      "ratio": 0.6516
+    },
+    "3": {
+      "action_seconds": 114,
+      "total_seconds": 165,
+      "ratio": 0.6909
+    }
+  },
+  "verification": {
+    "latest_tests_passed": 50,
+    "latest_tests_total": 50,
+    "pass_rate": 1.0,
+    "command": "python3 -m unittest discover -s tests"
+  },
+  "generation_gate": {
+    "coverage_scopes": 192,
+    "approved": 0,
+    "blocked": 192,
+    "canvas_nodes_snapshot": 77,
+    "generated_images_completed": 8,
+    "video_executions_with_gate_closed": 0
+  }
+}

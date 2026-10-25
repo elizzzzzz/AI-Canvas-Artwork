@@ -24,7 +24,8 @@ def source_hash(record, blueprint):
                'asset_library': blueprint.get('asset_library'),
                'scene_blockouts': blueprint.get('scene_blockouts'),
                'action_coverage': blueprint.get('action_coverage'),
-               'motion_blockouts': blueprint.get('motion_blockouts')}
+               'motion_blockouts': blueprint.get('motion_blockouts'),
+               'motion_evidence': blueprint.get('motion_evidence')}
     return hashlib.sha256(json.dumps(payload, ensure_ascii=False, sort_keys=True,
                                      separators=(',', ':')).encode()).hexdigest()
 
@@ -151,6 +152,27 @@ def load_motion_blockouts(blueprint, root):
     return manifest
 
 
+def load_motion_evidence(blueprint, root):
+    refs=blueprint.get('motion_evidence')
+    if refs is None:return None
+    errors=[];path=checked_file(refs.get('manifest'),root,'motion evidence manifest',errors)
+    if errors:raise ValueError('; '.join(errors))
+    manifest=json.loads(path.read_text());clips=manifest.get('clips',[])
+    if not clips or any(not isinstance(c.get('sample_count'),int) for c in clips):raise ValueError('motion evidence manifest invalid')
+    for summary in clips:
+        child=checked_file(summary.get('manifest'),root,summary.get('clip_key','motion')+':manifest',errors)
+        if not child:continue
+        entry=json.loads(child.read_text());samples=entry.get('samples',[])
+        if entry.get('target_fps')!=24 or len(samples)!=entry.get('sample_count') or entry.get('approved_for_generation') is not False:
+            errors.append(entry.get('clip_key','motion')+': sample coverage or approval state invalid')
+        for frame,sample in enumerate(samples):
+            if sample.get('frame')!=frame or abs(sample.get('time_seconds',-1)-frame/24)>1e-6:errors.append(entry.get('clip_key','motion')+': frame order invalid')
+            for label,artifact in sample.items():
+                if label in ('rgb','depth_mm','object_ids','object_id_map'):checked_file(artifact,root,entry.get('clip_key','motion')+':'+label+':'+str(frame),errors)
+    if errors:raise ValueError('; '.join(errors))
+    return manifest
+
+
 def artifact_set_hash(entry):
     payload = {'evidence': entry.get('evidence'), 'report': entry.get('report')}
     return hashlib.sha256(json.dumps(payload, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
@@ -223,6 +245,7 @@ def main():
         load_scene_blockouts(blueprint, root)
         load_action_coverage(blueprint, root)
         load_motion_blockouts(blueprint, root)
+        load_motion_evidence(blueprint, root)
     except (ValueError, KeyError, OSError, TypeError) as exc:
         print(json.dumps({'allowed': False, 'error': str(exc)}, ensure_ascii=False)); return 2
     expected = expected_sources(blueprint, library)

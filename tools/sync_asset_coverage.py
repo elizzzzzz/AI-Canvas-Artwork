@@ -40,6 +40,10 @@ def main():
     if motion_manifest:
         blueprint['motion_blockouts'] = {'version': 1, 'status': motion_manifest.get('status'),
             'manifest': ref('production/motion-blockouts/manifest-v1.json')}
+    evidence_manifest = read('production/motion-evidence-v1/manifest-v1.json') if (ROOT / 'production/motion-evidence-v1/manifest-v1.json').is_file() else None
+    if evidence_manifest:
+        blueprint['motion_evidence'] = {'version': 1, 'status': evidence_manifest.get('status'),
+            'manifest': ref('production/motion-evidence-v1/manifest-v1.json')}
     write('production/workflow-v1.json', blueprint)
     expected = expected_sources(blueprint, library)
     repair = read('production/p01-lid-repair-v2/repair-plan.json')

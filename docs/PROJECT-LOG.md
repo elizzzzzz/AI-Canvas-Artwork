@@ -186,4 +186,5 @@
 - 2026-10-26：修复 AICanvas 视频工作流节点配置。旧的 `frames/first_frame` 绑定改为独立图片输入节点 + `reference` 模式；已放行旧运行中的人工审核点。EP02-S07 雨廊追截和 EP03-S05 车轴失控均完成正式 H3 生成，输出参数与节点状态记录在 `production/hackathon-demo/formal-generation-v1.json`，并生成 `qiniu-langya-formal-pilot-preview-v1.mp4` 供连贯性复核。
 - 2026-10-26：人工复核发现 EP01-S07 护卫相对运动异常、EP03-S05 纸张承托结构漂移并凭空产生盖子。已重做关键帧并生成修复版：第一段将护卫约束到同步前进的护送车；第三段拆为 6 秒 + 7 秒，使用固定开放木板并禁止盒子与盖子。修复版拼接预演位于 `production/hackathon-demo/formal-preview-v2/qiniu-langya-formal-repair-preview-v2.mp4`。
 - 2026-10-26：根据制作阶段切换要求，停止继续提交 MiniMax-H3；已完成片段保留不重跑，剩余 47 段节点切换为 Seedance 2.5（`doubao-seedance-2-5-260628`）480p、9:16，批量调度已恢复。
+- 2026-10-26：全片 67/67 段生成完成；三集最终文件和全片合片均已完成书法字幕叠加、拼接与基础参数校验，并上传至 GitHub Release `internal-final-v1`。
 

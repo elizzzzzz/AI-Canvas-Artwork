@@ -2,12 +2,14 @@
 """Run the queued formal clips, keep <=3 active, download completed media,
 and assemble title-card-free episodes with in-frame calligraphic subtitles."""
 from __future__ import annotations
-import os,json,time,requests,datetime,pathlib,subprocess,shlex
+import os,json,time,requests,datetime,pathlib,subprocess,shlex,uuid
+from PIL import Image, ImageDraw, ImageFont
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 HOST=os.environ.get('AICANVAS_HOST','https://aicanvas.qnlinking.com').rstrip('/')
 KEY=os.environ['AICANVAS_API_KEY']; BOARD='6851506d-6617-46f5-a06e-a2e9954f2ea0'
 H={'Authorization':f'Bearer {KEY}','Content-Type':'application/json'}; STATE=ROOT/'production/full-generation-v2.json'; OUT=ROOT/'production/full-generation-v2'; MEDIA=OUT/'media'; WORK=OUT/'work'; LOG=OUT/'runner.log'
 FONT='/System/Library/Fonts/Supplemental/Songti.ttc'
+GATE='b30832a0-61c3-428c-aaa2-bfc7381016cc'
 
 def req(method,path,**kw):
  r=requests.request(method,HOST+path,headers=H,timeout=120,**kw); r.raise_for_status(); d=r.json()
@@ -25,6 +27,17 @@ def download_clip(rec,node):
  url=out[0]['url']; signed=req('POST','/api/media/sign-urls',json={'urls':[url]})['data']['urls'][0]
  MEDIA.mkdir(parents=True,exist_ok=True); p=MEDIA/(rec['key']+'.mp4'); r=requests.get(signed,timeout=300); r.raise_for_status(); p.write_bytes(r.content)
  rec['local_file']=str(p.relative_to(ROOT)); rec['duration_actual']=out[0].get('duration'); rec['media_asset_id']=out[0].get('media_asset_id'); return True
+def add_h3_fallback(rec):
+ # Seedance content rejection fallback: create a fresh H3 node with the same shot prompt.
+ g=graph(); old=g['nodes'].get(rec['node_id']);
+ if not old: raise RuntimeError('missing failed node')
+ nid=str(uuid.uuid4()); spec=dict(old.get('spec',{})); spec['model']='minimax/minimax-h3'; spec['resolution']='768P'; spec.pop('gen_mode',None)
+ title=rec.get('title',rec['key'])+' MiniMax-H3 fallback';
+ body={'expected_revision':g['revision'],'ops':[{'op':'add_node','id':nid,'kind':'video','title':title,'spec':spec,'inputs':{'condition':[{'mode':'each','node':GATE,'field':'pilot_ready','match':'any'}]},'pause_after':False}]}
+ d=req('POST',f'/api/canvas/boards/{BOARD}/ops',json=body)['data'];
+ rec['previous_node_id']=rec['node_id']; rec['node_id']=nid; rec['title']=title; rec['status']='queued'; rec.pop('run_id',None); rec['model']='minimax/minimax-h3'; rec['resolution']='768P'; rec['fallback_for']='doubao-seedance-2-5-260628'; rec['retry_reason']='seedance_content_rejected_use_h3';
+ log('created H3 fallback '+rec['key']); return d['revision']
+
 def caption_for(shot):
  # Keep short in-frame captions; story information remains in action and voice track.
  text=(shot.get('voiceover') or shot.get('dialogue') or '').strip()
@@ -41,8 +54,16 @@ def assemble(s,wf):
    src=ROOT/r['local_file']; out=WORK/f'EP{ep}-{idx:02d}.mp4'; txt=WORK/f'EP{ep}-{idx:02d}.txt'; txt.write_text(caption_for(shot),encoding='utf-8')
    # Text is in-frame, never a full-screen card. Only apply when the shot has narration/dialogue.
    vf='scale=768:1344:force_original_aspect_ratio=decrease,pad=768:1344:(ow-iw)/2:(oh-ih)/2,setsar=1'
-   if caption_for(shot): vf+=f",drawtext=fontfile='{FONT}':textfile='{txt}':fontcolor=white:fontsize=40:borderw=3:bordercolor=black@0.65:x=(w-text_w)/2:y=h-190:enable='between(t,0,3.2)'"
-   subprocess.run(['ffmpeg','-y','-v','error','-i',str(src),'-vf',vf,'-r','24','-c:v','libx264','-pix_fmt','yuv420p','-c:a','aac',str(out)],check=True)
+   caption=caption_for(shot)
+   if caption:
+    png=WORK/f'EP{ep}-{idx:02d}-caption.png'
+    try: font=ImageFont.truetype(FONT,42)
+    except Exception: font=ImageFont.load_default()
+    im=Image.new('RGBA',(768,180),(0,0,0,0)); d=ImageDraw.Draw(im); box=d.textbbox((0,0),caption,font=font); tw=box[2]-box[0]; x=(768-tw)//2
+    d.text((x+3,62+3),caption,font=font,fill=(0,0,0,190)); d.text((x,62),caption,font=font,fill=(255,247,218,255)); im.save(png)
+    subprocess.run(['ffmpeg','-y','-v','error','-i',str(src),'-i',str(png),'-filter_complex',f'[0:v]{vf}[base];[base][1:v]overlay=(W-w)/2:H-h-80','-r','24','-c:v','libx264','-pix_fmt','yuv420p','-c:a','aac',str(out)],check=True)
+   else:
+    subprocess.run(['ffmpeg','-y','-v','error','-i',str(src),'-vf',vf,'-r','24','-c:v','libx264','-pix_fmt','yuv420p','-c:a','aac',str(out)],check=True)
    norm.append(out)
   concat=WORK/f'EP{ep}-concat.txt'; concat.write_text('\n'.join("file '"+str(x.resolve())+"'" for x in norm)+'\n')
   final=OUT/f'episode-{ep}-final-v1.mp4'; subprocess.run(['ffmpeg','-y','-v','error','-f','concat','-safe','0','-i',str(concat),'-c:v','libx264','-c:a','aac','-movflags','+faststart',str(final)],check=True)
@@ -68,7 +89,12 @@ def main():
     try:
      run=req('GET',f'/api/canvas/boards/{BOARD}/runs/{r["run_id"]}')['data']
      if run.get('status')=='failed':
-      r['status']='failed'; r['error_code']=run.get('error_code') or (run.get('node_states',{}).get(r['node_id'],{}).get('error_code')); log('failed '+r['key']+' '+str(r.get('error_code')))
+      code=run.get('error_code') or (run.get('node_states',{}).get(r['node_id'],{}).get('error_code'))
+      if code=='UpstreamError.ContentRejected' and not r.get('fallback_for'):
+       try: add_h3_fallback(r)
+       except Exception as e: r['status']='failed'; r['error_code']=str(e); log('fallback failed '+r['key']+' '+str(e))
+      else:
+       r['status']='failed'; r['error_code']=code; log('failed '+r['key']+' '+str(r.get('error_code')))
      elif run.get('status')=='cancelled':
       r['status']='queued'; r.pop('run_id',None); log('cancelled '+r['key'])
     except Exception as e: log('run status check skipped '+r['key']+' '+str(e))

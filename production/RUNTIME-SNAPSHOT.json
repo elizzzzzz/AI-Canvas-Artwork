@@ -52,7 +52,8 @@
     "final exports",
     "reusable 3D proxy library created; complete scene assemblies and human review pending",
     "complete subspaces, prop/hand contacts, 67 clip motion paths and named review",
-    "action scene motion packages and full-frame contact review"
+    "action scene motion packages and full-frame contact review",
+    "human review of selected motion evidence and full 42-clip motion evidence"
   ],
   "first_batch_images_completed": 8,
   "submitted_generation_estimate": 496,
@@ -134,5 +135,13 @@
     ],
     "note": "User approval confirms the current planning package and review surfaces. It does not waive mandatory per-scope 3D evidence, full-frame motion review, named human approval, artistic review, model capability or budget gates."
   },
-  "approval_boundary": "content_plan_approved_3d_motion_and_media_generation_still_blocked"
+  "approval_boundary": "content_plan_approved_3d_motion_and_media_generation_still_blocked",
+  "motion_evidence": {
+    "clip_count": 3,
+    "frame_count": 555,
+    "target_fps": 24,
+    "status": "selected_motion_evidence_v1_pending_human_review",
+    "manifest": "production/motion-evidence-v1/manifest-v1.json",
+    "approved_count": 0
+  }
 }

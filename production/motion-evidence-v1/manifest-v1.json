@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "status": "selected_motion_evidence_v1_pending_human_review",
+  "target_fps": 24,
+  "clip_count": 3,
+  "clips": [
+    {
+      "clip_key": "EP01-S07-01",
+      "manifest": {
+        "path": "production/motion-evidence-v1/EP01-S07-01/manifest.json",
+        "sha256": "0c15f3894f775cdcf202eac85cff567cd6a60b6a7fefe30295751a682a175d3f"
+      },
+      "sample_count": 193
+    },
+    {
+      "clip_key": "EP02-S07-01",
+      "manifest": {
+        "path": "production/motion-evidence-v1/EP02-S07-01/manifest.json",
+        "sha256": "3a86d5f61fbc9c556fd16c365792bc41019d910f9546275a53a974d1149d60da"
+      },
+      "sample_count": 217
+    },
+    {
+      "clip_key": "EP03-S05-01",
+      "manifest": {
+        "path": "production/motion-evidence-v1/EP03-S05-01/manifest.json",
+        "sha256": "325c68406589f30817e2ea5025de4eed637e9fdcf6b9def47b13ddaf994457bf"
+      },
+      "sample_count": 145
+    }
+  ],
+  "limitation": "Three selected high-risk clips only; remaining 39 action clips still have motion plans only."
+}

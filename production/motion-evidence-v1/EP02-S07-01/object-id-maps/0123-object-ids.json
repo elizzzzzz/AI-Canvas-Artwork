@@ -1,0 +1,727 @@
+{
+  "2": {
+    "part_name": "floor",
+    "instance_id": "floor_0",
+    "asset_id": "AR-FLOOR"
+  },
+  "4": {
+    "part_name": "column",
+    "instance_id": "column_-1.25_0",
+    "asset_id": "AR-COLUMN"
+  },
+  "6": {
+    "part_name": "column",
+    "instance_id": "column_1.25_0",
+    "asset_id": "AR-COLUMN"
+  },
+  "10": {
+    "part_name": "roof_left",
+    "instance_id": "roof_0",
+    "asset_id": "AR-ROOF"
+  },
+  "11": {
+    "part_name": "roof_right",
+    "instance_id": "roof_0",
+    "asset_id": "AR-ROOF"
+  },
+  "13": {
+    "part_name": "floor",
+    "instance_id": "floor_3",
+    "asset_id": "AR-FLOOR"
+  },
+  "15": {
+    "part_name": "column",
+    "instance_id": "column_-1.25_3",
+    "asset_id": "AR-COLUMN"
+  },
+  "17": {
+    "part_name": "column",
+    "instance_id": "column_1.25_3",
+    "asset_id": "AR-COLUMN"
+  },
+  "19": {
+    "part_name": "beam",
+    "instance_id": "beam_3",
+    "asset_id": "AR-BEAM"
+  },
+  "21": {
+    "part_name": "roof_left",
+    "instance_id": "roof_3",
+    "asset_id": "AR-ROOF"
+  },
+  "22": {
+    "part_name": "roof_right",
+    "instance_id": "roof_3",
+    "asset_id": "AR-ROOF"
+  },
+  "24": {
+    "part_name": "floor",
+    "instance_id": "floor_6",
+    "asset_id": "AR-FLOOR"
+  },
+  "26": {
+    "part_name": "column",
+    "instance_id": "column_-1.25_6",
+    "asset_id": "AR-COLUMN"
+  },
+  "28": {
+    "part_name": "column",
+    "instance_id": "column_1.25_6",
+    "asset_id": "AR-COLUMN"
+  },
+  "30": {
+    "part_name": "beam",
+    "instance_id": "beam_6",
+    "asset_id": "AR-BEAM"
+  },
+  "32": {
+    "part_name": "roof_left",
+    "instance_id": "roof_6",
+    "asset_id": "AR-ROOF"
+  },
+  "33": {
+    "part_name": "roof_right",
+    "instance_id": "roof_6",
+    "asset_id": "AR-ROOF"
+  },
+  "35": {
+    "part_name": "tabletop",
+    "instance_id": "desk_01",
+    "asset_id": "AR-DESK"
+  },
+  "36": {
+    "part_name": "table_leg",
+    "instance_id": "desk_01",
+    "asset_id": "AR-DESK"
+  },
+  "37": {
+    "part_name": "table_leg",
+    "instance_id": "desk_01",
+    "asset_id": "AR-DESK"
+  },
+  "38": {
+    "part_name": "table_leg",
+    "instance_id": "desk_01",
+    "asset_id": "AR-DESK"
+  },
+  "39": {
+    "part_name": "table_leg",
+    "instance_id": "desk_01",
+    "asset_id": "AR-DESK"
+  },
+  "41": {
+    "part_name": "paper_sheet",
+    "instance_id": "PR-MAP-NEW",
+    "asset_id": "PR-MAP-NEW"
+  },
+  "43": {
+    "part_name": "cloth_packet",
+    "instance_id": "PR-POUCH",
+    "asset_id": "PR-POUCH"
+  },
+  "44": {
+    "part_name": "tie",
+    "instance_id": "PR-POUCH",
+    "asset_id": "PR-POUCH"
+  },
+  "46": {
+    "part_name": "box",
+    "instance_id": "PR-CLOUDBOX",
+    "asset_id": "PR-CLOUDBOX"
+  },
+  "47": {
+    "part_name": "copper_inlay",
+    "instance_id": "PR-CLOUDBOX",
+    "asset_id": "PR-CLOUDBOX"
+  },
+  "48": {
+    "part_name": "copper_inlay",
+    "instance_id": "PR-CLOUDBOX",
+    "asset_id": "PR-CLOUDBOX"
+  },
+  "49": {
+    "part_name": "copper_inlay",
+    "instance_id": "PR-CLOUDBOX",
+    "asset_id": "PR-CLOUDBOX"
+  },
+  "50": {
+    "part_name": "signal_point_0",
+    "instance_id": "PR-CLOUDBOX",
+    "asset_id": "PR-CLOUDBOX"
+  },
+  "51": {
+    "part_name": "signal_point_1",
+    "instance_id": "PR-CLOUDBOX",
+    "asset_id": "PR-CLOUDBOX"
+  },
+  "52": {
+    "part_name": "signal_point_2",
+    "instance_id": "PR-CLOUDBOX",
+    "asset_id": "PR-CLOUDBOX"
+  },
+  "53": {
+    "part_name": "signal_point_3",
+    "instance_id": "PR-CLOUDBOX",
+    "asset_id": "PR-CLOUDBOX"
+  },
+  "54": {
+    "part_name": "signal_point_4",
+    "instance_id": "PR-CLOUDBOX",
+    "asset_id": "PR-CLOUDBOX"
+  },
+  "55": {
+    "part_name": "signal_point_5",
+    "instance_id": "PR-CLOUDBOX",
+    "asset_id": "PR-CLOUDBOX"
+  },
+  "56": {
+    "part_name": "signal_point_6",
+    "instance_id": "PR-CLOUDBOX",
+    "asset_id": "PR-CLOUDBOX"
+  },
+  "58": {
+    "part_name": "paper_sheet",
+    "instance_id": "PR-RECEIPT",
+    "asset_id": "PR-RECEIPT"
+  },
+  "60": {
+    "part_name": "container",
+    "instance_id": "seal_R",
+    "asset_id": "PR-SEAL-R"
+  },
+  "62": {
+    "part_name": "container",
+    "instance_id": "seal_G",
+    "asset_id": "PR-SEAL-G"
+  },
+  "64": {
+    "part_name": "container",
+    "instance_id": "seal_B",
+    "asset_id": "PR-SEAL-B"
+  },
+  "68": {
+    "part_name": "thigh_L",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "70": {
+    "part_name": "shin_L",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "71": {
+    "part_name": "boot_L",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "73": {
+    "part_name": "thigh_R",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "75": {
+    "part_name": "shin_R",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "76": {
+    "part_name": "boot_R",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "77": {
+    "part_name": "robe_skirt",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "78": {
+    "part_name": "torso",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "79": {
+    "part_name": "neck",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "81": {
+    "part_name": "head",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "82": {
+    "part_name": "hair",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "83": {
+    "part_name": "hair_bun",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "84": {
+    "part_name": "nose",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "85": {
+    "part_name": "eye",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "86": {
+    "part_name": "eye",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "88": {
+    "part_name": "upper_arm_L",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "90": {
+    "part_name": "sleeve_L",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "91": {
+    "part_name": "hand_proxy_L",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "93": {
+    "part_name": "upper_arm_R",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "95": {
+    "part_name": "sleeve_R",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "96": {
+    "part_name": "hand_proxy_R",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "97": {
+    "part_name": "belt",
+    "instance_id": "CH-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "101": {
+    "part_name": "thigh_L",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "103": {
+    "part_name": "shin_L",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "104": {
+    "part_name": "boot_L",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "106": {
+    "part_name": "thigh_R",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "108": {
+    "part_name": "shin_R",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "109": {
+    "part_name": "boot_R",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "110": {
+    "part_name": "robe_skirt",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "111": {
+    "part_name": "torso",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "112": {
+    "part_name": "neck",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "114": {
+    "part_name": "head",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "115": {
+    "part_name": "hair",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "116": {
+    "part_name": "hair_bun",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "117": {
+    "part_name": "nose",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "118": {
+    "part_name": "eye",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "119": {
+    "part_name": "eye",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "121": {
+    "part_name": "upper_arm_L",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "123": {
+    "part_name": "sleeve_L",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "124": {
+    "part_name": "hand_proxy_L",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "126": {
+    "part_name": "upper_arm_R",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "128": {
+    "part_name": "sleeve_R",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "129": {
+    "part_name": "hand_proxy_R",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "130": {
+    "part_name": "belt",
+    "instance_id": "CH-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "134": {
+    "part_name": "thigh_L",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "136": {
+    "part_name": "shin_L",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "137": {
+    "part_name": "boot_L",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "139": {
+    "part_name": "thigh_R",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "141": {
+    "part_name": "shin_R",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "142": {
+    "part_name": "boot_R",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "143": {
+    "part_name": "robe_skirt",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "144": {
+    "part_name": "torso",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "145": {
+    "part_name": "neck",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "147": {
+    "part_name": "head",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "148": {
+    "part_name": "hair",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "149": {
+    "part_name": "hair_bun",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "150": {
+    "part_name": "nose",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "151": {
+    "part_name": "eye",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "152": {
+    "part_name": "eye",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "154": {
+    "part_name": "upper_arm_L",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "156": {
+    "part_name": "sleeve_L",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "157": {
+    "part_name": "hand_proxy_L",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "159": {
+    "part_name": "upper_arm_R",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "161": {
+    "part_name": "sleeve_R",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "162": {
+    "part_name": "hand_proxy_R",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "163": {
+    "part_name": "belt",
+    "instance_id": "CH-MSG-C",
+    "asset_id": "CH-MSG-C"
+  },
+  "167": {
+    "part_name": "thigh_L",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "169": {
+    "part_name": "shin_L",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "170": {
+    "part_name": "boot_L",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "172": {
+    "part_name": "thigh_R",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "174": {
+    "part_name": "shin_R",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "175": {
+    "part_name": "boot_R",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "176": {
+    "part_name": "robe_skirt",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "177": {
+    "part_name": "torso",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "178": {
+    "part_name": "neck",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "180": {
+    "part_name": "head",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "181": {
+    "part_name": "hair",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "182": {
+    "part_name": "hair_bun",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "183": {
+    "part_name": "nose",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "184": {
+    "part_name": "eye",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "185": {
+    "part_name": "eye",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "187": {
+    "part_name": "upper_arm_L",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "189": {
+    "part_name": "sleeve_L",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "190": {
+    "part_name": "hand_proxy_L",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "192": {
+    "part_name": "upper_arm_R",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "194": {
+    "part_name": "sleeve_R",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "195": {
+    "part_name": "hand_proxy_R",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "196": {
+    "part_name": "belt",
+    "instance_id": "rain_scribe",
+    "asset_id": "CH-SCRIBE"
+  },
+  "199": {
+    "part_name": "forearm",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-XTY-R"
+  },
+  "200": {
+    "part_name": "palm",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-XTY-R"
+  },
+  "203": {
+    "part_name": "finger_0_bone_0",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-XTY-R"
+  },
+  "205": {
+    "part_name": "finger_0_bone_1",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-XTY-R"
+  },
+  "207": {
+    "part_name": "finger_0_bone_2",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-XTY-R"
+  },
+  "210": {
+    "part_name": "finger_1_bone_0",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-XTY-R"
+  },
+  "212": {
+    "part_name": "finger_1_bone_1",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-XTY-R"
+  },
+  "214": {
+    "part_name": "finger_1_bone_2",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-XTY-R"
+  },
+  "217": {
+    "part_name": "finger_2_bone_0",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-XTY-R"
+  },
+  "219": {
+    "part_name": "finger_2_bone_1",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-XTY-R"
+  },
+  "221": {
+    "part_name": "finger_2_bone_2",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-XTY-R"
+  },
+  "224": {
+    "part_name": "finger_3_bone_0",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-XTY-R"
+  },
+  "226": {
+    "part_name": "finger_3_bone_1",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-XTY-R"
+  },
+  "228": {
+    "part_name": "finger_3_bone_2",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-XTY-R"
+  },
+  "231": {
+    "part_name": "finger_4_bone_0",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-XTY-R"
+  },
+  "233": {
+    "part_name": "finger_4_bone_1",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-XTY-R"
+  },
+  "235": {
+    "part_name": "finger_4_bone_2",
+    "instance_id": "pov_right_hand",
+    "asset_id": "HAND-XTY-R"
+  }
+}

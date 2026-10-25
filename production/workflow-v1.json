@@ -3951,5 +3951,13 @@
       "path": "production/motion-blockouts/manifest-v1.json",
       "sha256": "1a032954965e5af67e8e1b8de611018047484f3cb530415c6c8ae7a41ee27f5c"
     }
+  },
+  "motion_evidence": {
+    "version": 1,
+    "status": "selected_motion_evidence_v1_pending_human_review",
+    "manifest": {
+      "path": "production/motion-evidence-v1/manifest-v1.json",
+      "sha256": "665daa749429bd587ab465593086825984c6284013780cb31e9768a492518407"
+    }
   }
 }

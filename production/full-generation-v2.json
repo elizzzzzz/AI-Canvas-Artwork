@@ -1,0 +1,596 @@
+{
+  "version": 2,
+  "created_at": "2026-10-26T02:35:26.765081+08:00",
+  "board_id": "6851506d-6617-46f5-a06e-a2e9954f2ea0",
+  "canvas_revision": 73,
+  "status": "running_formal_full_video_queue",
+  "model": "minimax/minimax-h3",
+  "resolution": "768P",
+  "aspect": "9:16",
+  "gate": "pilot_ready=true",
+  "clip_count": 67,
+  "clips": [
+    {
+      "key": "EP01-S01-01",
+      "logical_shot": "EP01-S01",
+      "node_id": "87b16477-5378-4ee8-8dae-869db1c995a3",
+      "title": "FULL EP01-S01-01 正式片段",
+      "duration": 8,
+      "status": "completed",
+      "run_id": "f1cbf851-a6ed-4c38-8ae6-0703e53f9830",
+      "local_file": "production/full-generation-v2/media/EP01-S01-01.mp4",
+      "duration_actual": 8,
+      "media_asset_id": "677d2493-a4ee-4998-bb68-ce4d7c31ec90"
+    },
+    {
+      "key": "EP01-S02-01",
+      "logical_shot": "EP01-S02",
+      "node_id": "6ec88a48-c76f-492f-945c-f7dc91cf9e67",
+      "title": "FULL EP01-S02-01 正式片段",
+      "duration": 6,
+      "status": "completed",
+      "run_id": "b3617a1a-ecaf-48c8-86e0-fd4e43671211",
+      "local_file": "production/full-generation-v2/media/EP01-S02-01.mp4",
+      "duration_actual": 6.583333,
+      "media_asset_id": "84a36afd-56f9-4eef-8da9-ddd756cf5b7c"
+    },
+    {
+      "key": "EP01-S02-02",
+      "logical_shot": "EP01-S02",
+      "node_id": "ab7ea5d8-6749-4dd1-8178-ffb8c94b0377",
+      "title": "FULL EP01-S02-02 正式片段",
+      "duration": 6,
+      "status": "completed",
+      "run_id": "87061bf1-c92d-41e7-96e7-0951e49b5d92",
+      "local_file": "production/full-generation-v2/media/EP01-S02-02.mp4",
+      "duration_actual": 6.583008,
+      "media_asset_id": "38526a16-ae85-411f-8607-fa89e8a71e1a"
+    },
+    {
+      "key": "EP01-S03-01",
+      "logical_shot": "EP01-S03",
+      "node_id": "3cb8288b-5a32-46d6-8f2c-09e4b110e191",
+      "title": "FULL EP01-S03-01 正式片段",
+      "duration": 7,
+      "status": "completed",
+      "run_id": "55642e7d-26ac-42b4-a9d8-17e99c8772a5",
+      "local_file": "production/full-generation-v2/media/EP01-S03-01.mp4",
+      "duration_actual": 7.3,
+      "media_asset_id": "0e015b91-5aef-43fb-a21c-dfc9b22fe7b4"
+    },
+    {
+      "key": "EP01-S03-02",
+      "logical_shot": "EP01-S03",
+      "node_id": "d8c3b4a3-c934-4424-9ac7-c8bce05c002b",
+      "title": "FULL EP01-S03-02 正式片段",
+      "duration": 8,
+      "status": "completed",
+      "run_id": "5787a55f-2e14-485e-97c3-6b10ebe18f07",
+      "local_file": "production/full-generation-v2/media/EP01-S03-02.mp4",
+      "duration_actual": 8,
+      "media_asset_id": "3c100585-1bce-4490-81cd-14447d6354f9"
+    },
+    {
+      "key": "EP01-S04-01",
+      "logical_shot": "EP01-S04",
+      "node_id": "8e549293-d958-44c5-8a95-47deff761f1f",
+      "title": "FULL EP01-S04-01 正式片段",
+      "duration": 7,
+      "status": "completed",
+      "run_id": "0c7a710d-4852-449e-8ac7-e7a81d84ff31",
+      "local_file": "production/full-generation-v2/media/EP01-S04-01.mp4",
+      "duration_actual": 7.3,
+      "media_asset_id": "538f99cf-bb22-4952-83e2-5711fa23e17c"
+    },
+    {
+      "key": "EP01-S04-02",
+      "logical_shot": "EP01-S04",
+      "node_id": "ed311b5c-a64e-4919-a9f1-3df8dd243bd0",
+      "title": "FULL EP01-S04-02 正式片段",
+      "duration": 7,
+      "status": "completed",
+      "run_id": "f5f58861-4580-4544-80d2-d3c2eac457d1",
+      "local_file": "production/full-generation-v2/media/EP01-S04-02.mp4",
+      "duration_actual": 7.3,
+      "media_asset_id": "699299be-2a3e-4cb9-a17c-ce2b692e15fb"
+    },
+    {
+      "key": "EP01-S05-01",
+      "logical_shot": "EP01-S05",
+      "node_id": "7be23a0e-dec0-4d29-98ed-be668d69b25e",
+      "title": "FULL EP01-S05-01 正式片段",
+      "duration": 7,
+      "status": "completed",
+      "run_id": "777da52e-d499-4805-9dc9-b34de575ae6f",
+      "local_file": "production/full-generation-v2/media/EP01-S05-01.mp4",
+      "duration_actual": 7.3,
+      "media_asset_id": "fbcca57f-e0be-4879-a75d-23f97f60d8d7"
+    },
+    {
+      "key": "EP01-S05-02",
+      "logical_shot": "EP01-S05",
+      "node_id": "a50e4b73-b377-4525-92c8-6c33b2be8ae8",
+      "title": "FULL EP01-S05-02 正式片段",
+      "duration": 7,
+      "status": "submitted",
+      "run_id": "6100756a-aaa0-468c-8182-f1ad87e931ea"
+    },
+    {
+      "key": "EP01-S06-01",
+      "logical_shot": "EP01-S06",
+      "node_id": "3c10a257-eca7-4f44-a809-a6dd17baca52",
+      "title": "FULL EP01-S06-01 正式片段",
+      "duration": 8,
+      "status": "completed",
+      "run_id": "78c01940-04fa-4173-8b9c-e3fbd9268b42",
+      "local_file": "production/full-generation-v2/media/EP01-S06-01.mp4",
+      "duration_actual": 8,
+      "media_asset_id": "e99186a5-63cc-473a-b2d1-dc124b141a67"
+    },
+    {
+      "key": "EP01-S06-02",
+      "logical_shot": "EP01-S06",
+      "node_id": "ac136394-33ed-4684-ba43-902e4d966870",
+      "title": "FULL EP01-S06-02 正式片段",
+      "duration": 8,
+      "status": "completed",
+      "run_id": "981d0f72-95e0-4a94-b50c-69e53ab182a3",
+      "local_file": "production/full-generation-v2/media/EP01-S06-02.mp4",
+      "duration_actual": 8,
+      "media_asset_id": "b9574adc-da8b-4560-bb32-b88f55fce9a5"
+    },
+    {
+      "key": "EP01-S07-01",
+      "logical_shot": "EP01-S07",
+      "node_id": "553745d3-e2ef-432e-b050-28cab3862680",
+      "title": "FULL EP01-S07-01 正式片段",
+      "duration": 8,
+      "status": "submitted",
+      "run_id": "a5ee2c69-5aab-4ee2-bc3d-9dc478f772d8"
+    },
+    {
+      "key": "EP01-S07-02",
+      "logical_shot": "EP01-S07",
+      "node_id": "5c262a05-f235-4ff5-8317-63c91c0be8f6",
+      "title": "FULL EP01-S07-02 正式片段",
+      "duration": 8,
+      "status": "submitted",
+      "run_id": "daea4692-2f44-4bba-b01c-e2dbce379e2e"
+    },
+    {
+      "key": "EP01-S08-01",
+      "logical_shot": "EP01-S08",
+      "node_id": "998490f6-8f7d-430c-bf86-e9798b7c185f",
+      "title": "FULL EP01-S08-01 正式片段",
+      "duration": 7,
+      "status": "queued"
+    },
+    {
+      "key": "EP01-S08-02",
+      "logical_shot": "EP01-S08",
+      "node_id": "929b8818-21c7-4c32-ac08-0bf5ef3fcd8a",
+      "title": "FULL EP01-S08-02 正式片段",
+      "duration": 7,
+      "status": "queued"
+    },
+    {
+      "key": "EP01-S09-01",
+      "logical_shot": "EP01-S09",
+      "node_id": "60debb1c-9fb2-4c14-833e-123a576f0679",
+      "title": "FULL EP01-S09-01 正式片段",
+      "duration": 6,
+      "status": "queued"
+    },
+    {
+      "key": "EP01-S09-02",
+      "logical_shot": "EP01-S09",
+      "node_id": "6df2fc9d-f20a-4306-ae0d-ee2098b43fbf",
+      "title": "FULL EP01-S09-02 正式片段",
+      "duration": 7,
+      "status": "queued"
+    },
+    {
+      "key": "EP01-S10-01",
+      "logical_shot": "EP01-S10",
+      "node_id": "fb0aa5a7-b27d-4cf9-b5ca-3fed7f29a324",
+      "title": "FULL EP01-S10-01 正式片段",
+      "duration": 6,
+      "status": "queued"
+    },
+    {
+      "key": "EP01-S10-02",
+      "logical_shot": "EP01-S10",
+      "node_id": "0f4f54bc-5e81-431e-ba34-8aa601d6bf13",
+      "title": "FULL EP01-S10-02 正式片段",
+      "duration": 6,
+      "status": "queued"
+    },
+    {
+      "key": "EP01-S11-01",
+      "logical_shot": "EP01-S11",
+      "node_id": "be101549-b1d9-4bfc-a718-70912d5e372d",
+      "title": "FULL EP01-S11-01 正式片段",
+      "duration": 8,
+      "status": "queued"
+    },
+    {
+      "key": "EP01-S11-02",
+      "logical_shot": "EP01-S11",
+      "node_id": "5d0daf15-eb0d-45c9-bc23-f14718c5060d",
+      "title": "FULL EP01-S11-02 正式片段",
+      "duration": 8,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S01-01",
+      "logical_shot": "EP02-S01",
+      "node_id": "ef42b5ec-1f72-4236-b18c-4d975b03d53a",
+      "title": "FULL EP02-S01-01 正式片段",
+      "duration": 6,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S01-02",
+      "logical_shot": "EP02-S01",
+      "node_id": "5ed22c52-8244-42e8-ac9e-8fefddb231f4",
+      "title": "FULL EP02-S01-02 正式片段",
+      "duration": 6,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S02-01",
+      "logical_shot": "EP02-S02",
+      "node_id": "a72f8685-c2eb-4f9c-8288-3d65f1bedca7",
+      "title": "FULL EP02-S02-01 正式片段",
+      "duration": 6,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S02-02",
+      "logical_shot": "EP02-S02",
+      "node_id": "0aea159b-4fd4-4e3b-b0b9-309331d6b385",
+      "title": "FULL EP02-S02-02 正式片段",
+      "duration": 7,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S03-01",
+      "logical_shot": "EP02-S03",
+      "node_id": "830781b0-ec02-4f71-9256-e7bdcb7fcc53",
+      "title": "FULL EP02-S03-01 正式片段",
+      "duration": 7,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S03-02",
+      "logical_shot": "EP02-S03",
+      "node_id": "cbf6a915-f5ed-47f2-8948-cb6b496cfdb4",
+      "title": "FULL EP02-S03-02 正式片段",
+      "duration": 8,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S04-01",
+      "logical_shot": "EP02-S04",
+      "node_id": "67cf5ff4-4ac7-4180-88ff-3e91027820bf",
+      "title": "FULL EP02-S04-01 正式片段",
+      "duration": 6,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S04-02",
+      "logical_shot": "EP02-S04",
+      "node_id": "8ee967f6-bf0a-4432-ad1c-b2d8d69a328c",
+      "title": "FULL EP02-S04-02 正式片段",
+      "duration": 6,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S05-01",
+      "logical_shot": "EP02-S05",
+      "node_id": "20b165b5-3103-4f8e-9393-127ad7e25309",
+      "title": "FULL EP02-S05-01 正式片段",
+      "duration": 8,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S05-02",
+      "logical_shot": "EP02-S05",
+      "node_id": "97294426-06c4-422e-8c05-0f4c165e67f7",
+      "title": "FULL EP02-S05-02 正式片段",
+      "duration": 8,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S06-01",
+      "logical_shot": "EP02-S06",
+      "node_id": "dbac211e-eba7-4653-ac13-fdae519cdec9",
+      "title": "FULL EP02-S06-01 正式片段",
+      "duration": 8,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S06-02",
+      "logical_shot": "EP02-S06",
+      "node_id": "e3e0b80f-23f3-452d-8fc4-8631ebdfb66d",
+      "title": "FULL EP02-S06-02 正式片段",
+      "duration": 8,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S07-01",
+      "logical_shot": "EP02-S07",
+      "node_id": "34c03503-0fe4-47d1-b319-38814c3e14f6",
+      "title": "FULL EP02-S07-01 正式片段",
+      "duration": 9,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S07-02",
+      "logical_shot": "EP02-S07",
+      "node_id": "174cffe7-0192-467c-a57c-12866e686735",
+      "title": "FULL EP02-S07-02 正式片段",
+      "duration": 9,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S08-01",
+      "logical_shot": "EP02-S08",
+      "node_id": "2ee9ae62-f3a4-4966-8960-4070ea1fb1a1",
+      "title": "FULL EP02-S08-01 正式片段",
+      "duration": 7,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S08-02",
+      "logical_shot": "EP02-S08",
+      "node_id": "3dfe0117-6888-4f89-9229-27ece8b7bab5",
+      "title": "FULL EP02-S08-02 正式片段",
+      "duration": 7,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S09-01",
+      "logical_shot": "EP02-S09",
+      "node_id": "72ab89b3-20d5-43a3-9200-ed52cf686d33",
+      "title": "FULL EP02-S09-01 正式片段",
+      "duration": 6,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S09-02",
+      "logical_shot": "EP02-S09",
+      "node_id": "b6cba19a-f4f9-4d55-b595-7df99c8a973b",
+      "title": "FULL EP02-S09-02 正式片段",
+      "duration": 7,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S10-01",
+      "logical_shot": "EP02-S10",
+      "node_id": "42295dd8-e136-428d-b83b-9f70afae7c93",
+      "title": "FULL EP02-S10-01 正式片段",
+      "duration": 6,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S10-02",
+      "logical_shot": "EP02-S10",
+      "node_id": "9f40d4a4-9a3c-4878-b47a-5d469c31f46c",
+      "title": "FULL EP02-S10-02 正式片段",
+      "duration": 6,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S11-01",
+      "logical_shot": "EP02-S11",
+      "node_id": "b4408fbd-6f17-4940-8b9b-5389f05bc969",
+      "title": "FULL EP02-S11-01 正式片段",
+      "duration": 7,
+      "status": "queued"
+    },
+    {
+      "key": "EP02-S11-02",
+      "logical_shot": "EP02-S11",
+      "node_id": "fe9fa2c8-b9ac-43a1-a1bc-202f65051862",
+      "title": "FULL EP02-S11-02 正式片段",
+      "duration": 7,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S01-01",
+      "logical_shot": "EP03-S01",
+      "node_id": "82f128e3-fb5a-47de-847f-e83284fe572f",
+      "title": "FULL EP03-S01-01 正式片段",
+      "duration": 6,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S01-02",
+      "logical_shot": "EP03-S01",
+      "node_id": "a285922f-e25e-46e9-8c0b-c05df776a9a6",
+      "title": "FULL EP03-S01-02 正式片段",
+      "duration": 6,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S02-01",
+      "logical_shot": "EP03-S02",
+      "node_id": "4b82b1e6-77f6-4e5f-8ed8-2a05940f8532",
+      "title": "FULL EP03-S02-01 正式片段",
+      "duration": 6,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S02-02",
+      "logical_shot": "EP03-S02",
+      "node_id": "1bd56d04-c506-4aa8-8f65-1734f1a2a8bd",
+      "title": "FULL EP03-S02-02 正式片段",
+      "duration": 7,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S03-01",
+      "logical_shot": "EP03-S03",
+      "node_id": "37ef4b2c-4a57-412f-b50d-761e97a7be68",
+      "title": "FULL EP03-S03-01 正式片段",
+      "duration": 6,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S03-02",
+      "logical_shot": "EP03-S03",
+      "node_id": "74c68c51-1f34-4aa5-ada2-6c485bbda1fc",
+      "title": "FULL EP03-S03-02 正式片段",
+      "duration": 7,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S04-01",
+      "logical_shot": "EP03-S04",
+      "node_id": "7b985b67-6577-404d-ada6-f655877e1dd4",
+      "title": "FULL EP03-S04-01 正式片段",
+      "duration": 6,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S04-02",
+      "logical_shot": "EP03-S04",
+      "node_id": "fd1a6abf-5def-47c4-b552-e56ae7eced3b",
+      "title": "FULL EP03-S04-02 正式片段",
+      "duration": 7,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S05-01",
+      "logical_shot": "EP03-S05",
+      "node_id": "6ea1065b-54cf-4800-91eb-62d977a7559c",
+      "title": "FULL EP03-S05-01 正式片段",
+      "duration": 6,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S05-02",
+      "logical_shot": "EP03-S05",
+      "node_id": "960d23aa-85de-4c81-b442-f98e3eef2c7d",
+      "title": "FULL EP03-S05-02 正式片段",
+      "duration": 7,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S06-01",
+      "logical_shot": "EP03-S06",
+      "node_id": "30d5eb61-7f6e-44c9-a7af-7fc30de2918a",
+      "title": "FULL EP03-S06-01 正式片段",
+      "duration": 6,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S06-02",
+      "logical_shot": "EP03-S06",
+      "node_id": "bfb30f4f-7c68-4109-a31b-d82ebfe10c25",
+      "title": "FULL EP03-S06-02 正式片段",
+      "duration": 7,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S07-01",
+      "logical_shot": "EP03-S07",
+      "node_id": "9bc8d9e9-b49a-475c-abc6-da505fbc3ee8",
+      "title": "FULL EP03-S07-01 正式片段",
+      "duration": 8,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S07-02",
+      "logical_shot": "EP03-S07",
+      "node_id": "0a340e8b-7631-426d-8c08-ab2499ee1eb8",
+      "title": "FULL EP03-S07-02 正式片段",
+      "duration": 8,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S08-01",
+      "logical_shot": "EP03-S08",
+      "node_id": "23db24da-24c0-4c74-8bdc-96da3f67ac21",
+      "title": "FULL EP03-S08-01 正式片段",
+      "duration": 8,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S08-02",
+      "logical_shot": "EP03-S08",
+      "node_id": "3eceb2de-336d-48f5-9a7f-7c309b30eebb",
+      "title": "FULL EP03-S08-02 正式片段",
+      "duration": 8,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S09-01",
+      "logical_shot": "EP03-S09",
+      "node_id": "efa500b1-989f-4259-a3e0-5bb6eff33076",
+      "title": "FULL EP03-S09-01 正式片段",
+      "duration": 7,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S09-02",
+      "logical_shot": "EP03-S09",
+      "node_id": "fe587cf3-1870-48bb-afa7-92eb3eb53dcc",
+      "title": "FULL EP03-S09-02 正式片段",
+      "duration": 8,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S10-01",
+      "logical_shot": "EP03-S10",
+      "node_id": "bd69f17c-5979-41d7-9b71-7ac0470c28f4",
+      "title": "FULL EP03-S10-01 正式片段",
+      "duration": 7,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S10-02",
+      "logical_shot": "EP03-S10",
+      "node_id": "bdaec338-b0b8-4098-a22a-98710c444019",
+      "title": "FULL EP03-S10-02 正式片段",
+      "duration": 8,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S11-01",
+      "logical_shot": "EP03-S11",
+      "node_id": "7f816879-7761-4767-b9c3-755a9af2a7f2",
+      "title": "FULL EP03-S11-01 正式片段",
+      "duration": 5,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S11-02",
+      "logical_shot": "EP03-S11",
+      "node_id": "16746f4c-4589-4235-a667-f4c111a95f24",
+      "title": "FULL EP03-S11-02 正式片段",
+      "duration": 5,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S12-01",
+      "logical_shot": "EP03-S12",
+      "node_id": "496d3bcf-f73e-4f9c-99fe-a2a39da79c6c",
+      "title": "FULL EP03-S12-01 正式片段",
+      "duration": 8,
+      "status": "queued"
+    },
+    {
+      "key": "EP03-S12-02",
+      "logical_shot": "EP03-S12",
+      "node_id": "fa9d16f7-b28d-4c03-9408-4d0aec65b0e3",
+      "title": "FULL EP03-S12-02 正式片段",
+      "duration": 8,
+      "status": "queued"
+    }
+  ],
+  "started_at": "2026-10-26T02:37:11.764579+08:00",
+  "completed_count": 10,
+  "failed_count": 0
+}

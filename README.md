@@ -7,7 +7,7 @@
 <!-- PROJECT-DASHBOARD:START -->
 ## 项目数据看板
 
-> 数据截至 **2026-10-25**。看板反映仓库台账和最近一次本地验证；“通过”只表示对应检查通过，不代表 3D 生成门已打开。
+> 数据截至 **2026-10-26**。内部测试模式以用户人工查看作为生成门条件；正式证据审计作为可选追溯层。
 
 | 指标 | 当前值 | 状态/说明 |
 |---|---:|---|
@@ -17,7 +17,8 @@
 | 计划生成片段 | 67 段 | 其中动作片段 42 段 |
 | 动作逐帧证据 | 9 段 / 1569 帧 | 24fps，待人工签核 |
 | 测试通过率 | 50/50（100%） | 最近一次本地验证 |
-| 生成前覆盖范围 | 192 项 | 批准 0，阻塞 192 |
+| 内部测试生成门 | 192 项 | 人工查看批准 192 |
+| 正式证据审计 | 192 项 | 正式批准 0，阻塞 192 |
 | AI Canvas 节点快照 | 77 个 | 运行门关闭，无新增生成 |
 
 ### 素材分类
@@ -106,3 +107,8 @@
 - [三集动作版分镜与审核入口](docs/ACTION-BLOCKING-PLAN.md)
 - [42段动作运动草稿](production/motion-blockouts/README.md)
 - [高风险动作逐帧灰模证据](production/motion-evidence-v1/README.md)
+- [导演版连续性预演](production/final-cut-v1/README.md)
+- [成片连续性控制](docs/FINAL-CUT-CONTINUITY.md)
+- [最终成片锁定表](docs/FINAL-CUT-LOCK.md)
+- [192范围3D正式审核操作手册](docs/3D-APPROVAL-RUNBOOK.md)
+- [本地一键审核台](tools/review_console.py)

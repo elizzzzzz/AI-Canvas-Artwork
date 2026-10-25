@@ -49,7 +49,19 @@
       "name": "梅长苏",
       "asset_kind": "role",
       "required_geometry": "rigged_character",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:14+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:C02",
@@ -64,7 +76,19 @@
       "name": "林殊",
       "asset_kind": "role",
       "required_geometry": "rigged_character",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:14+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:C03",
@@ -79,7 +103,19 @@
       "name": "谢听云",
       "asset_kind": "role",
       "required_geometry": "rigged_character",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:14+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:C04",
@@ -94,7 +130,19 @@
       "name": "书吏",
       "asset_kind": "role",
       "required_geometry": "rigged_character",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:14+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:C05",
@@ -109,7 +157,19 @@
       "name": "萧景睿",
       "asset_kind": "role",
       "required_geometry": "rigged_character",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:14+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:C06",
@@ -124,7 +184,19 @@
       "name": "卓青遥",
       "asset_kind": "role",
       "required_geometry": "rigged_character",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:14+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:C07",
@@ -139,7 +211,19 @@
       "name": "信使",
       "asset_kind": "role",
       "required_geometry": "rigged_character",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:14+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:C08",
@@ -154,7 +238,19 @@
       "name": "护卫",
       "asset_kind": "role",
       "required_geometry": "rigged_character",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:14+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:C09",
@@ -169,7 +265,19 @@
       "name": "车夫",
       "asset_kind": "role",
       "required_geometry": "rigged_character",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:14+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:SC01",
@@ -209,7 +317,19 @@
       "name": "梅长苏卧房",
       "asset_kind": "scene",
       "required_geometry": "complete_scene_and_camera",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:14+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:SC02",
@@ -249,7 +369,19 @@
       "name": "梅岭雪原",
       "asset_kind": "scene",
       "required_geometry": "complete_scene_and_camera",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:14+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:SC03",
@@ -289,7 +421,19 @@
       "name": "江左盟旧档室",
       "asset_kind": "scene",
       "required_geometry": "complete_scene_and_camera",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:14+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:SC04",
@@ -329,7 +473,19 @@
       "name": "城外雪路与车厢",
       "asset_kind": "scene",
       "required_geometry": "complete_scene_and_camera",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:14+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:SC05",
@@ -369,7 +525,19 @@
       "name": "琅琊阁雨廊与传令台",
       "asset_kind": "scene",
       "required_geometry": "complete_scene_and_camera",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:14+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:SC06",
@@ -409,7 +577,19 @@
       "name": "入京路雨棚与封存桌",
       "asset_kind": "scene",
       "required_geometry": "complete_scene_and_camera",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:14+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:SC07",
@@ -449,7 +629,19 @@
       "name": "金陵城门",
       "asset_kind": "scene",
       "required_geometry": "complete_scene_and_camera",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:14+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:P01",
@@ -464,7 +656,19 @@
       "name": "药箱 军报 旧令",
       "asset_kind": "prop",
       "required_geometry": "articulated_prop",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:14+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:P02",
@@ -479,7 +683,19 @@
       "name": "木质云令匣",
       "asset_kind": "prop",
       "required_geometry": "articulated_prop",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:14+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:P03",
@@ -494,7 +710,19 @@
       "name": "麒麟锦囊与三色封泥",
       "asset_kind": "prop",
       "required_geometry": "articulated_prop",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:14+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:P04",
@@ -509,7 +737,19 @@
       "name": "路线图与送达回执",
       "asset_kind": "prop",
       "required_geometry": "articulated_prop",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:14+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:P05",
@@ -524,7 +764,19 @@
       "name": "状纸 药包 文牒",
       "asset_kind": "prop",
       "required_geometry": "articulated_prop",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:14+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:P06",
@@ -539,7 +791,19 @@
       "name": "原卷与备用存卷",
       "asset_kind": "prop",
       "required_geometry": "articulated_prop",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "ASSET:KF01",
@@ -554,7 +818,19 @@
       "name": "EP01S08 试跑起始帧",
       "asset_kind": "scene",
       "required_geometry": "complete_scene_and_camera",
-      "existing_raster_status": "concept_only_not_3d_approved"
+      "existing_raster_status": "concept_only_not_3d_approved",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP01-S01-01",
@@ -573,7 +849,19 @@
       "duration": 8,
       "target_fps": 24,
       "required_sample_count": 193,
-      "information_source": "主人公当下感受"
+      "information_source": "主人公当下感受",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP01-S02-01",
@@ -592,7 +880,19 @@
       "duration": 6,
       "target_fps": 24,
       "required_sample_count": 145,
-      "information_source": "林殊亲历回忆"
+      "information_source": "林殊亲历回忆",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP01-S02-02",
@@ -611,7 +911,19 @@
       "duration": 6,
       "target_fps": 24,
       "required_sample_count": 145,
-      "information_source": "林殊亲历回忆"
+      "information_source": "林殊亲历回忆",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP01-S03-01",
@@ -630,7 +942,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "林殊正在回忆的现场证据"
+      "information_source": "林殊正在回忆的现场证据",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP01-S03-02",
@@ -649,7 +973,19 @@
       "duration": 8,
       "target_fps": 24,
       "required_sample_count": 193,
-      "information_source": "林殊正在回忆的现场证据"
+      "information_source": "林殊正在回忆的现场证据",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP01-S04-01",
@@ -668,7 +1004,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "主人公梦醒后的回忆"
+      "information_source": "主人公梦醒后的回忆",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP01-S04-02",
@@ -687,7 +1035,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "主人公梦醒后的回忆"
+      "information_source": "主人公梦醒后的回忆",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP01-S05-01",
@@ -706,7 +1066,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "现场对话"
+      "information_source": "现场对话",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP01-S05-02",
@@ -725,7 +1097,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "现场对话"
+      "information_source": "现场对话",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP01-S06-01",
@@ -744,7 +1128,19 @@
       "duration": 8,
       "target_fps": 24,
       "required_sample_count": 193,
-      "information_source": "书吏向梅长苏口述支线故障"
+      "information_source": "书吏向梅长苏口述支线故障",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP01-S06-02",
@@ -763,7 +1159,19 @@
       "duration": 8,
       "target_fps": 24,
       "required_sample_count": 193,
-      "information_source": "书吏向梅长苏口述支线故障"
+      "information_source": "书吏向梅长苏口述支线故障",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP01-S07-01",
@@ -782,7 +1190,19 @@
       "duration": 8,
       "target_fps": 24,
       "required_sample_count": 193,
-      "information_source": "主人公和护卫现场行动"
+      "information_source": "主人公和护卫现场行动",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP01-S07-02",
@@ -801,7 +1221,19 @@
       "duration": 8,
       "target_fps": 24,
       "required_sample_count": 193,
-      "information_source": "主人公和护卫现场行动"
+      "information_source": "主人公和护卫现场行动",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP01-S08-01",
@@ -820,7 +1252,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "书吏向梅长苏现场说明恢复结果"
+      "information_source": "书吏向梅长苏现场说明恢复结果",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP01-S08-02",
@@ -839,7 +1283,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "书吏向梅长苏现场说明恢复结果"
+      "information_source": "书吏向梅长苏现场说明恢复结果",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP01-S09-01",
@@ -858,7 +1314,19 @@
       "duration": 6,
       "target_fps": 24,
       "required_sample_count": 145,
-      "information_source": "梅长苏判断，书吏只知道结果"
+      "information_source": "梅长苏判断，书吏只知道结果",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP01-S09-02",
@@ -877,7 +1345,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "梅长苏判断，书吏只知道结果"
+      "information_source": "梅长苏判断，书吏只知道结果",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP01-S10-01",
@@ -896,7 +1376,19 @@
       "duration": 6,
       "target_fps": 24,
       "required_sample_count": 145,
-      "information_source": "主人公推断"
+      "information_source": "主人公推断",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP01-S10-02",
@@ -915,7 +1407,19 @@
       "duration": 6,
       "target_fps": 24,
       "required_sample_count": 145,
-      "information_source": "主人公推断"
+      "information_source": "主人公推断",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP01-S11-01",
@@ -934,7 +1438,19 @@
       "duration": 8,
       "target_fps": 24,
       "required_sample_count": 193,
-      "information_source": "现场共同口播"
+      "information_source": "现场共同口播",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP01-S11-02",
@@ -953,7 +1469,19 @@
       "duration": 8,
       "target_fps": 24,
       "required_sample_count": 193,
-      "information_source": "现场共同口播"
+      "information_source": "现场共同口播",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S01-01",
@@ -972,7 +1500,19 @@
       "duration": 6,
       "target_fps": 24,
       "required_sample_count": 145,
-      "information_source": "主人公自述身份"
+      "information_source": "主人公自述身份",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S01-02",
@@ -991,7 +1531,19 @@
       "duration": 6,
       "target_fps": 24,
       "required_sample_count": 145,
-      "information_source": "主人公自述身份"
+      "information_source": "主人公自述身份",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S02-01",
@@ -1010,7 +1562,19 @@
       "duration": 6,
       "target_fps": 24,
       "required_sample_count": 145,
-      "information_source": "现场交付"
+      "information_source": "现场交付",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S02-02",
@@ -1029,7 +1593,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "现场交付"
+      "information_source": "现场交付",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S03-01",
@@ -1048,7 +1624,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "信使向谢听云口述北燕六皇子的处境"
+      "information_source": "信使向谢听云口述北燕六皇子的处境",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S03-02",
@@ -1067,7 +1655,19 @@
       "duration": 8,
       "target_fps": 24,
       "required_sample_count": 193,
-      "information_source": "信使向谢听云口述北燕六皇子的处境"
+      "information_source": "信使向谢听云口述北燕六皇子的处境",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S04-01",
@@ -1086,7 +1686,19 @@
       "duration": 6,
       "target_fps": 24,
       "required_sample_count": 145,
-      "information_source": "主人公现场调度"
+      "information_source": "主人公现场调度",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S04-02",
@@ -1105,7 +1717,19 @@
       "duration": 6,
       "target_fps": 24,
       "required_sample_count": 145,
-      "information_source": "主人公现场调度"
+      "information_source": "主人公现场调度",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S05-01",
@@ -1124,7 +1748,19 @@
       "duration": 8,
       "target_fps": 24,
       "required_sample_count": 193,
-      "information_source": "信使现场争执，谢听云在场听见"
+      "information_source": "信使现场争执，谢听云在场听见",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S05-02",
@@ -1143,7 +1779,19 @@
       "duration": 8,
       "target_fps": 24,
       "required_sample_count": 193,
-      "information_source": "信使现场争执，谢听云在场听见"
+      "information_source": "信使现场争执，谢听云在场听见",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S06-01",
@@ -1162,7 +1810,19 @@
       "duration": 8,
       "target_fps": 24,
       "required_sample_count": 193,
-      "information_source": "现场口述和主人公判断"
+      "information_source": "现场口述和主人公判断",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S06-02",
@@ -1181,7 +1841,19 @@
       "duration": 8,
       "target_fps": 24,
       "required_sample_count": 193,
-      "information_source": "现场口述和主人公判断"
+      "information_source": "现场口述和主人公判断",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S07-01",
@@ -1200,7 +1872,19 @@
       "duration": 9,
       "target_fps": 24,
       "required_sample_count": 217,
-      "information_source": "主人公现场指令"
+      "information_source": "主人公现场指令",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S07-02",
@@ -1219,7 +1903,19 @@
       "duration": 9,
       "target_fps": 24,
       "required_sample_count": 217,
-      "information_source": "主人公现场指令"
+      "information_source": "主人公现场指令",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S08-01",
@@ -1238,7 +1934,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "书吏向谢听云回报"
+      "information_source": "书吏向谢听云回报",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S08-02",
@@ -1257,7 +1965,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "书吏向谢听云回报"
+      "information_source": "书吏向谢听云回报",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S09-01",
@@ -1276,7 +1996,19 @@
       "duration": 6,
       "target_fps": 24,
       "required_sample_count": 145,
-      "information_source": "信使向谢听云口述六皇子的现场反应"
+      "information_source": "信使向谢听云口述六皇子的现场反应",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S09-02",
@@ -1295,7 +2027,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "信使向谢听云口述六皇子的现场反应"
+      "information_source": "信使向谢听云口述六皇子的现场反应",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S10-01",
@@ -1314,7 +2058,19 @@
       "duration": 6,
       "target_fps": 24,
       "required_sample_count": 145,
-      "information_source": "来报人向谢听云口述；太子和誉王不直接出场"
+      "information_source": "来报人向谢听云口述；太子和誉王不直接出场",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S10-02",
@@ -1333,7 +2089,19 @@
       "duration": 6,
       "target_fps": 24,
       "required_sample_count": 145,
-      "information_source": "来报人向谢听云口述；太子和誉王不直接出场"
+      "information_source": "来报人向谢听云口述；太子和誉王不直接出场",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S11-01",
@@ -1352,7 +2120,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "现场共同口播"
+      "information_source": "现场共同口播",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP02-S11-02",
@@ -1371,7 +2151,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "现场共同口播"
+      "information_source": "现场共同口播",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S01-01",
@@ -1390,7 +2182,19 @@
       "duration": 6,
       "target_fps": 24,
       "required_sample_count": 145,
-      "information_source": "主人公当下判断"
+      "information_source": "主人公当下判断",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S01-02",
@@ -1409,7 +2213,19 @@
       "duration": 6,
       "target_fps": 24,
       "required_sample_count": 145,
-      "information_source": "主人公当下判断"
+      "information_source": "主人公当下判断",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S02-01",
@@ -1428,7 +2244,19 @@
       "duration": 6,
       "target_fps": 24,
       "required_sample_count": 145,
-      "information_source": "卓青遥向梅长苏口述案情"
+      "information_source": "卓青遥向梅长苏口述案情",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:15+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S02-02",
@@ -1447,7 +2275,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "卓青遥向梅长苏口述案情"
+      "information_source": "卓青遥向梅长苏口述案情",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S03-01",
@@ -1466,7 +2306,19 @@
       "duration": 6,
       "target_fps": 24,
       "required_sample_count": 145,
-      "information_source": "梅长苏已知判断和萧景睿现场对白"
+      "information_source": "梅长苏已知判断和萧景睿现场对白",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S03-02",
@@ -1485,7 +2337,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "梅长苏已知判断和萧景睿现场对白"
+      "information_source": "梅长苏已知判断和萧景睿现场对白",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S04-01",
@@ -1504,7 +2368,19 @@
       "duration": 6,
       "target_fps": 24,
       "required_sample_count": 145,
-      "information_source": "主人公现场分工"
+      "information_source": "主人公现场分工",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S04-02",
@@ -1523,7 +2399,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "主人公现场分工"
+      "information_source": "主人公现场分工",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S05-01",
@@ -1542,7 +2430,19 @@
       "duration": 6,
       "target_fps": 24,
       "required_sample_count": 145,
-      "information_source": "车夫和护卫向梅长苏回报"
+      "information_source": "车夫和护卫向梅长苏回报",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S05-02",
@@ -1561,7 +2461,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "车夫和护卫向梅长苏回报"
+      "information_source": "车夫和护卫向梅长苏回报",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S06-01",
@@ -1580,7 +2492,19 @@
       "duration": 6,
       "target_fps": 24,
       "required_sample_count": 145,
-      "information_source": "辅助人员现场争辩，梅长苏听取回报"
+      "information_source": "辅助人员现场争辩，梅长苏听取回报",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S06-02",
@@ -1599,7 +2523,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "辅助人员现场争辩，梅长苏听取回报"
+      "information_source": "辅助人员现场争辩，梅长苏听取回报",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S07-01",
@@ -1618,7 +2554,19 @@
       "duration": 8,
       "target_fps": 24,
       "required_sample_count": 193,
-      "information_source": "主人公现场指令"
+      "information_source": "主人公现场指令",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S07-02",
@@ -1637,7 +2585,19 @@
       "duration": 8,
       "target_fps": 24,
       "required_sample_count": 193,
-      "information_source": "主人公现场指令"
+      "information_source": "主人公现场指令",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S08-01",
@@ -1656,7 +2616,19 @@
       "duration": 8,
       "target_fps": 24,
       "required_sample_count": 193,
-      "information_source": "三名辅助人员向梅长苏回报"
+      "information_source": "三名辅助人员向梅长苏回报",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S08-02",
@@ -1675,7 +2647,19 @@
       "duration": 8,
       "target_fps": 24,
       "required_sample_count": 193,
-      "information_source": "三名辅助人员向梅长苏回报"
+      "information_source": "三名辅助人员向梅长苏回报",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S09-01",
@@ -1694,7 +2678,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "现场对话"
+      "information_source": "现场对话",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S09-02",
@@ -1713,7 +2709,19 @@
       "duration": 8,
       "target_fps": 24,
       "required_sample_count": 193,
-      "information_source": "现场对话"
+      "information_source": "现场对话",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S10-01",
@@ -1732,7 +2740,19 @@
       "duration": 7,
       "target_fps": 24,
       "required_sample_count": 169,
-      "information_source": "主人公旁白和萧景睿现场对白"
+      "information_source": "主人公旁白和萧景睿现场对白",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S10-02",
@@ -1751,7 +2771,19 @@
       "duration": 8,
       "target_fps": 24,
       "required_sample_count": 193,
-      "information_source": "主人公旁白和萧景睿现场对白"
+      "information_source": "主人公旁白和萧景睿现场对白",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S11-01",
@@ -1770,7 +2802,19 @@
       "duration": 5,
       "target_fps": 24,
       "required_sample_count": 121,
-      "information_source": "来报人向梅长苏口述第二集结果"
+      "information_source": "来报人向梅长苏口述第二集结果",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S11-02",
@@ -1789,7 +2833,19 @@
       "duration": 5,
       "target_fps": 24,
       "required_sample_count": 121,
-      "information_source": "来报人向梅长苏口述第二集结果"
+      "information_source": "来报人向梅长苏口述第二集结果",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S12-01",
@@ -1808,7 +2864,19 @@
       "duration": 8,
       "target_fps": 24,
       "required_sample_count": 193,
-      "information_source": "现场共同口播"
+      "information_source": "现场共同口播",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "EP03-S12-02",
@@ -1827,7 +2895,19 @@
       "duration": 8,
       "target_fps": 24,
       "required_sample_count": 193,
-      "information_source": "现场共同口播"
+      "information_source": "现场共同口播",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "PILOT:EP01S08-5S",
@@ -1842,7 +2922,19 @@
       "pov_owner": "梅长苏",
       "duration": 5,
       "target_fps": 24,
-      "required_sample_count": 121
+      "required_sample_count": 121,
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "REPAIR:P01-v2",
@@ -1863,7 +2955,19 @@
         "扶盖手部位置与接触关系",
         "对应相机参数和遮挡/物体ID证据",
         "完整场景人工签核"
-      ]
+      ],
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:CH-MCS",
@@ -1880,7 +2984,19 @@
       "approval": null,
       "asset_id": "CH-MCS",
       "name": "梅长苏",
-      "source_sha256": "ed58a43bf1e8fe16158fce83c5db6c43ed9515038425f55e35a8b847682388da"
+      "source_sha256": "ed58a43bf1e8fe16158fce83c5db6c43ed9515038425f55e35a8b847682388da",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:CH-LS",
@@ -1897,7 +3013,19 @@
       "approval": null,
       "asset_id": "CH-LS",
       "name": "林殊",
-      "source_sha256": "4ac082623bbf063f0cd911c799a491da164021ca710b7f02ef30824a18875726"
+      "source_sha256": "4ac082623bbf063f0cd911c799a491da164021ca710b7f02ef30824a18875726",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:CH-XTY",
@@ -1914,7 +3042,19 @@
       "approval": null,
       "asset_id": "CH-XTY",
       "name": "谢听云",
-      "source_sha256": "02cedfb55658dd5cde6a1abe9bce8da13a4e471066018e62e8bf7a99922d331b"
+      "source_sha256": "02cedfb55658dd5cde6a1abe9bce8da13a4e471066018e62e8bf7a99922d331b",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:CH-SCRIBE",
@@ -1931,7 +3071,19 @@
       "approval": null,
       "asset_id": "CH-SCRIBE",
       "name": "书吏",
-      "source_sha256": "91ebe49d397101ecdf1896f1ab9c036b29b28cd419e25e4e48baf038ad31992f"
+      "source_sha256": "91ebe49d397101ecdf1896f1ab9c036b29b28cd419e25e4e48baf038ad31992f",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:CH-XJR",
@@ -1948,7 +3100,19 @@
       "approval": null,
       "asset_id": "CH-XJR",
       "name": "萧景睿",
-      "source_sha256": "2f624ce0105da71c87516da6385d134bec4a0e38e374da1c2b292d7f3b8d507d"
+      "source_sha256": "2f624ce0105da71c87516da6385d134bec4a0e38e374da1c2b292d7f3b8d507d",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:CH-ZQY",
@@ -1965,7 +3129,19 @@
       "approval": null,
       "asset_id": "CH-ZQY",
       "name": "卓青遥",
-      "source_sha256": "6405794ad3708c7ccb13dd556a5f2258ac4eb76c0711f89eb694eb2f186e6008"
+      "source_sha256": "6405794ad3708c7ccb13dd556a5f2258ac4eb76c0711f89eb694eb2f186e6008",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:CH-GUARD",
@@ -1982,7 +3158,19 @@
       "approval": null,
       "asset_id": "CH-GUARD",
       "name": "护卫",
-      "source_sha256": "8ab66643c206b18461bca5b3ebdcb2ca80a623d8fe2ad274f0d3fe3ea7768d13"
+      "source_sha256": "8ab66643c206b18461bca5b3ebdcb2ca80a623d8fe2ad274f0d3fe3ea7768d13",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:CH-DRIVER",
@@ -1999,7 +3187,19 @@
       "approval": null,
       "asset_id": "CH-DRIVER",
       "name": "车夫",
-      "source_sha256": "6b78e6416a447ec50d1c734f3f5e93a5f455e0b3d074ede0e28f3e24cecb4a63"
+      "source_sha256": "6b78e6416a447ec50d1c734f3f5e93a5f455e0b3d074ede0e28f3e24cecb4a63",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:CH-MEDBOY",
@@ -2016,7 +3216,19 @@
       "approval": null,
       "asset_id": "CH-MEDBOY",
       "name": "药童",
-      "source_sha256": "80b0204f38a7b38cb436f8d7ba4919bbd6845364ee263afceaa1cff0be41a28b"
+      "source_sha256": "80b0204f38a7b38cb436f8d7ba4919bbd6845364ee263afceaa1cff0be41a28b",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:CH-KEEPER",
@@ -2033,7 +3245,19 @@
       "approval": null,
       "asset_id": "CH-KEEPER",
       "name": "阁中人",
-      "source_sha256": "911a43eca6f9a8dc138be77153b6e29801fdb7bc4980b10f3b0ae973116e8633"
+      "source_sha256": "911a43eca6f9a8dc138be77153b6e29801fdb7bc4980b10f3b0ae973116e8633",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:CH-MSG-A",
@@ -2050,7 +3274,19 @@
       "approval": null,
       "asset_id": "CH-MSG-A",
       "name": "信使甲",
-      "source_sha256": "82365994f93898b5ec9c8044ea1b50773f87864c5750d856a500aba8190f6db8"
+      "source_sha256": "82365994f93898b5ec9c8044ea1b50773f87864c5750d856a500aba8190f6db8",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:CH-MSG-B",
@@ -2067,7 +3303,19 @@
       "approval": null,
       "asset_id": "CH-MSG-B",
       "name": "信使乙",
-      "source_sha256": "ce3eb865471e8c4da6e5b1220d217430dc9162c163525661a69a46236a712e5c"
+      "source_sha256": "ce3eb865471e8c4da6e5b1220d217430dc9162c163525661a69a46236a712e5c",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:CH-MSG-C",
@@ -2084,7 +3332,19 @@
       "approval": null,
       "asset_id": "CH-MSG-C",
       "name": "信使丙",
-      "source_sha256": "9ca2d0a845cbf635498a9fc72d9b2c7357c384c97226858c3020c69a3d19c16a"
+      "source_sha256": "9ca2d0a845cbf635498a9fc72d9b2c7357c384c97226858c3020c69a3d19c16a",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:CH-RPT-A",
@@ -2101,7 +3361,19 @@
       "approval": null,
       "asset_id": "CH-RPT-A",
       "name": "来报人甲",
-      "source_sha256": "e17f10e236f313b3b3b9d6f6197cf47aaa6dcbc767c72fe3ca86ea1ffc7e4177"
+      "source_sha256": "e17f10e236f313b3b3b9d6f6197cf47aaa6dcbc767c72fe3ca86ea1ffc7e4177",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:CH-RPT-B",
@@ -2118,7 +3390,19 @@
       "approval": null,
       "asset_id": "CH-RPT-B",
       "name": "来报人乙",
-      "source_sha256": "08648affe8da82e6d2cb1b97653f70e08870b4bac37480a6a6667bcccae4188b"
+      "source_sha256": "08648affe8da82e6d2cb1b97653f70e08870b4bac37480a6a6667bcccae4188b",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:CH-COURIER",
@@ -2135,7 +3419,19 @@
       "approval": null,
       "asset_id": "CH-COURIER",
       "name": "送信人",
-      "source_sha256": "cdefd66137ce2a1f12a5d6bf07096a9ebba575b5b63eee3f682df6d10be07b08"
+      "source_sha256": "cdefd66137ce2a1f12a5d6bf07096a9ebba575b5b63eee3f682df6d10be07b08",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:HAND-MCS-L",
@@ -2152,7 +3448,19 @@
       "approval": null,
       "asset_id": "HAND-MCS-L",
       "name": "梅长苏左手与袖口",
-      "source_sha256": "c9888070da5def8b44f9e3af4904c5ffb5bfaac551a0a06425259bf2d8550795"
+      "source_sha256": "c9888070da5def8b44f9e3af4904c5ffb5bfaac551a0a06425259bf2d8550795",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:HAND-MCS-R",
@@ -2169,7 +3477,19 @@
       "approval": null,
       "asset_id": "HAND-MCS-R",
       "name": "梅长苏右手与袖口",
-      "source_sha256": "843adaf05c8c940bd7caf4883328e287fe056a1cf589a8129a892cbc4ac29138"
+      "source_sha256": "843adaf05c8c940bd7caf4883328e287fe056a1cf589a8129a892cbc4ac29138",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:HAND-LS-L",
@@ -2186,7 +3506,19 @@
       "approval": null,
       "asset_id": "HAND-LS-L",
       "name": "林殊左手与袖口",
-      "source_sha256": "ed1c521f4abf1c4e78bd8cfe9a245fb9f8bfb6e2ce89aa72195a46384e44df52"
+      "source_sha256": "ed1c521f4abf1c4e78bd8cfe9a245fb9f8bfb6e2ce89aa72195a46384e44df52",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:HAND-LS-R",
@@ -2203,7 +3535,19 @@
       "approval": null,
       "asset_id": "HAND-LS-R",
       "name": "林殊右手与袖口",
-      "source_sha256": "423e9e7b7b09260c61f22827c788df8e8ce09624232f02d76084b96af8ea7227"
+      "source_sha256": "423e9e7b7b09260c61f22827c788df8e8ce09624232f02d76084b96af8ea7227",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:HAND-XTY-L",
@@ -2220,7 +3564,19 @@
       "approval": null,
       "asset_id": "HAND-XTY-L",
       "name": "谢听云左手与袖口",
-      "source_sha256": "78a0e4abaf36aa1bf673e0114980dce860342b3a47e71f0b186699e17ad32f70"
+      "source_sha256": "78a0e4abaf36aa1bf673e0114980dce860342b3a47e71f0b186699e17ad32f70",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:HAND-XTY-R",
@@ -2237,7 +3593,19 @@
       "approval": null,
       "asset_id": "HAND-XTY-R",
       "name": "谢听云右手与袖口",
-      "source_sha256": "4e3b7034152ce4e4024b0aeb2e5b4903043480dcaf2743e9230cf9a14995cceb"
+      "source_sha256": "4e3b7034152ce4e4024b0aeb2e5b4903043480dcaf2743e9230cf9a14995cceb",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:AN-HORSE",
@@ -2254,7 +3622,19 @@
       "approval": null,
       "asset_id": "AN-HORSE",
       "name": "行旅马",
-      "source_sha256": "ae7301b8e1df67886e56acf09128abc6671d97fc7015e63409c839fa815f95f3"
+      "source_sha256": "ae7301b8e1df67886e56acf09128abc6671d97fc7015e63409c839fa815f95f3",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:16+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:EQ-ROBE",
@@ -2271,7 +3651,19 @@
       "approval": null,
       "asset_id": "EQ-ROBE",
       "name": "梅长苏长袍轮廓",
-      "source_sha256": "c326811ddf4e3409a26911fff9259026f698bd59533683d62b97aa07bda46154"
+      "source_sha256": "c326811ddf4e3409a26911fff9259026f698bd59533683d62b97aa07bda46154",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:EQ-ARMOR",
@@ -2288,7 +3680,19 @@
       "approval": null,
       "asset_id": "EQ-ARMOR",
       "name": "林殊皮甲",
-      "source_sha256": "02c0952b5669413ac36c9fa1d56e83a52bfb2ea1739cb3edd816b00a65ae7def"
+      "source_sha256": "02c0952b5669413ac36c9fa1d56e83a52bfb2ea1739cb3edd816b00a65ae7def",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:EQ-HELMET",
@@ -2305,7 +3709,19 @@
       "approval": null,
       "asset_id": "EQ-HELMET",
       "name": "战盔",
-      "source_sha256": "2ba3aa560a08d3789fd8405218b8b52181bac23709dbc33acd459aedd134aecf"
+      "source_sha256": "2ba3aa560a08d3789fd8405218b8b52181bac23709dbc33acd459aedd134aecf",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:EQ-CAPE",
@@ -2322,7 +3738,19 @@
       "approval": null,
       "asset_id": "EQ-CAPE",
       "name": "密使短披风",
-      "source_sha256": "b08a3894301d583aa4ef25000c6fc337cd24f130fe99bafa0e2febc43f4fc509"
+      "source_sha256": "b08a3894301d583aa4ef25000c6fc337cd24f130fe99bafa0e2febc43f4fc509",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:EQ-BOOTS",
@@ -2339,7 +3767,19 @@
       "approval": null,
       "asset_id": "EQ-BOOTS",
       "name": "靴",
-      "source_sha256": "6874ec559e7083f1a418388636b9a4a59b74c90caf0b2883398722e38c94b732"
+      "source_sha256": "6874ec559e7083f1a418388636b9a4a59b74c90caf0b2883398722e38c94b732",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:EQ-BELT",
@@ -2356,7 +3796,19 @@
       "approval": null,
       "asset_id": "EQ-BELT",
       "name": "腰带",
-      "source_sha256": "0f7e040896d2cffc89638f2243a003c4089e8b59bb508e5c2b87fd6ee912d439"
+      "source_sha256": "0f7e040896d2cffc89638f2243a003c4089e8b59bb508e5c2b87fd6ee912d439",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:EQ-SWORD",
@@ -2373,7 +3825,19 @@
       "approval": null,
       "asset_id": "EQ-SWORD",
       "name": "佩剑",
-      "source_sha256": "df2427ec8efe40896ba9bbcfff3326af37f7d93849f91cebff47d4afb0907108"
+      "source_sha256": "df2427ec8efe40896ba9bbcfff3326af37f7d93849f91cebff47d4afb0907108",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:EQ-SHIELD",
@@ -2390,7 +3854,19 @@
       "approval": null,
       "asset_id": "EQ-SHIELD",
       "name": "残盾",
-      "source_sha256": "b248c483ff5a499e996b7e788d68751ee7c29d8ad4fefacf226ca1f8adf743d7"
+      "source_sha256": "b248c483ff5a499e996b7e788d68751ee7c29d8ad4fefacf226ca1f8adf743d7",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:EQ-SCABBARD",
@@ -2407,7 +3883,19 @@
       "approval": null,
       "asset_id": "EQ-SCABBARD",
       "name": "剑鞘",
-      "source_sha256": "1161d312fc42a9eb77fd1ea10da9586fcd71ed7d008ef27446e85636e91431cb"
+      "source_sha256": "1161d312fc42a9eb77fd1ea10da9586fcd71ed7d008ef27446e85636e91431cb",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:EQ-SADDLE",
@@ -2424,7 +3912,19 @@
       "approval": null,
       "asset_id": "EQ-SADDLE",
       "name": "马鞍",
-      "source_sha256": "9c12770237cb869fc25d30615943419c8d2c742d58aa499b65e767c0d51c11e1"
+      "source_sha256": "9c12770237cb869fc25d30615943419c8d2c742d58aa499b65e767c0d51c11e1",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:EQ-BRIDLE",
@@ -2441,7 +3941,19 @@
       "approval": null,
       "asset_id": "EQ-BRIDLE",
       "name": "马笼头与缰带",
-      "source_sha256": "b83250114dafad8b6b66719ff8d7a7cb22c0f10a42b11dfe1650020071fa4a20"
+      "source_sha256": "b83250114dafad8b6b66719ff8d7a7cb22c0f10a42b11dfe1650020071fa4a20",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-CHEST",
@@ -2458,7 +3970,19 @@
       "approval": null,
       "asset_id": "PR-CHEST",
       "name": "药箱",
-      "source_sha256": "3dd9deb70d8d2e25f70390741cb1454aed47787ed6020f4daf9a8d268138f1c5"
+      "source_sha256": "3dd9deb70d8d2e25f70390741cb1454aed47787ed6020f4daf9a8d268138f1c5",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-REPORT",
@@ -2475,7 +3999,19 @@
       "approval": null,
       "asset_id": "PR-REPORT",
       "name": "湿损军报",
-      "source_sha256": "50e30108e914e0d993bdf38e61a0e808a10c6f1c42a95c0e146698ae99c81338"
+      "source_sha256": "50e30108e914e0d993bdf38e61a0e808a10c6f1c42a95c0e146698ae99c81338",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-BACKUP",
@@ -2492,7 +4028,19 @@
       "approval": null,
       "asset_id": "PR-BACKUP",
       "name": "备用存卷",
-      "source_sha256": "1cc3735ab9914b37ad0f47176f00611793f9ae4eb66572b7fd5042f70201438d"
+      "source_sha256": "1cc3735ab9914b37ad0f47176f00611793f9ae4eb66572b7fd5042f70201438d",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-TOKEN",
@@ -2509,7 +4057,19 @@
       "approval": null,
       "asset_id": "PR-TOKEN",
       "name": "半枚赤焰旧令",
-      "source_sha256": "0851380af2c953865d7ffaf7b9acf944bebb51d634735e2083e1344743691aa8"
+      "source_sha256": "0851380af2c953865d7ffaf7b9acf944bebb51d634735e2083e1344743691aa8",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-FAN",
@@ -2526,7 +4086,19 @@
       "approval": null,
       "asset_id": "PR-FAN",
       "name": "折扇",
-      "source_sha256": "a9e78a90fb6f7a7f44671881547fa663cd22a3aa54ceac118765cc1903ea6aa5"
+      "source_sha256": "a9e78a90fb6f7a7f44671881547fa663cd22a3aa54ceac118765cc1903ea6aa5",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-MEDBUNDLE",
@@ -2543,7 +4115,19 @@
       "approval": null,
       "asset_id": "PR-MEDBUNDLE",
       "name": "药包",
-      "source_sha256": "94b39ad9794e16763a9ae46502dfad1fb4672536309e7f29d13839654e19c7ab"
+      "source_sha256": "94b39ad9794e16763a9ae46502dfad1fb4672536309e7f29d13839654e19c7ab",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-CLOUDBOX",
@@ -2560,7 +4144,19 @@
       "approval": null,
       "asset_id": "PR-CLOUDBOX",
       "name": "云令匣",
-      "source_sha256": "23c125a5797ecba78782cca7c7f6111d82dd6bb17bc14d39eaf18b9cb6f9bd73"
+      "source_sha256": "23c125a5797ecba78782cca7c7f6111d82dd6bb17bc14d39eaf18b9cb6f9bd73",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-POUCH",
@@ -2577,7 +4173,19 @@
       "approval": null,
       "asset_id": "PR-POUCH",
       "name": "麒麟锦囊",
-      "source_sha256": "77ef975354ca65fdd75b4ad69b144015a1ed0f9b8f24a4fea94a1aec352da369"
+      "source_sha256": "77ef975354ca65fdd75b4ad69b144015a1ed0f9b8f24a4fea94a1aec352da369",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-SEAL-R",
@@ -2594,7 +4202,19 @@
       "approval": null,
       "asset_id": "PR-SEAL-R",
       "name": "暗红封泥",
-      "source_sha256": "e0b475eac9798b6235522750800f108546684035a843609d833ab9fc4db43d50"
+      "source_sha256": "e0b475eac9798b6235522750800f108546684035a843609d833ab9fc4db43d50",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-SEAL-G",
@@ -2611,7 +4231,19 @@
       "approval": null,
       "asset_id": "PR-SEAL-G",
       "name": "灰白封泥",
-      "source_sha256": "745806dac02ebde685a5b88809adb352ffac2c731503f07652a202eb5e76b300"
+      "source_sha256": "745806dac02ebde685a5b88809adb352ffac2c731503f07652a202eb5e76b300",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-SEAL-B",
@@ -2628,7 +4260,19 @@
       "approval": null,
       "asset_id": "PR-SEAL-B",
       "name": "墨青封泥",
-      "source_sha256": "9db43bfa01386725e6af5b9d0d5b28a7f724346691737501817983346231fb65"
+      "source_sha256": "9db43bfa01386725e6af5b9d0d5b28a7f724346691737501817983346231fb65",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-MAP-NEW",
@@ -2645,7 +4289,19 @@
       "approval": null,
       "asset_id": "PR-MAP-NEW",
       "name": "有效路线图",
-      "source_sha256": "e025c39ca2eb512a373f0e3de98e3c7c8231c3933a76ac224a5e012ac109ace4"
+      "source_sha256": "e025c39ca2eb512a373f0e3de98e3c7c8231c3933a76ac224a5e012ac109ace4",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-MAP-OLD",
@@ -2662,7 +4318,19 @@
       "approval": null,
       "asset_id": "PR-MAP-OLD",
       "name": "过期缺角地图",
-      "source_sha256": "c8b80f1f363a5e489d6e2b6cb9466b73e8185a4228d960d89461d50f9f09b56b"
+      "source_sha256": "c8b80f1f363a5e489d6e2b6cb9466b73e8185a4228d960d89461d50f9f09b56b",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-RECEIPT",
@@ -2679,7 +4347,19 @@
       "approval": null,
       "asset_id": "PR-RECEIPT",
       "name": "送达回执",
-      "source_sha256": "9152e5ba3266baad56c975d8b942ec19bf589d25e8c810096502e02267e2ea1e"
+      "source_sha256": "9152e5ba3266baad56c975d8b942ec19bf589d25e8c810096502e02267e2ea1e",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-BADGE",
@@ -2696,7 +4376,19 @@
       "approval": null,
       "asset_id": "PR-BADGE",
       "name": "身份木牌",
-      "source_sha256": "a4f04cede42024fdc9ef8f7e58f2889b0adc777b02d97e166f2fcbc518569e3c"
+      "source_sha256": "a4f04cede42024fdc9ef8f7e58f2889b0adc777b02d97e166f2fcbc518569e3c",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-STAMP",
@@ -2713,7 +4405,19 @@
       "approval": null,
       "asset_id": "PR-STAMP",
       "name": "封印印章",
-      "source_sha256": "f8799ccbaed5af2888f80726b0a265634abd6ba9e23a96a5a45ae6879077ad70"
+      "source_sha256": "f8799ccbaed5af2888f80726b0a265634abd6ba9e23a96a5a45ae6879077ad70",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-INK",
@@ -2730,7 +4434,19 @@
       "approval": null,
       "asset_id": "PR-INK",
       "name": "印泥盒",
-      "source_sha256": "0ca891565a3dde0ce68cba8ea5d9abc22eea309bfaac553b3af404e18f47136e"
+      "source_sha256": "0ca891565a3dde0ce68cba8ea5d9abc22eea309bfaac553b3af404e18f47136e",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-BRUSH",
@@ -2747,7 +4463,19 @@
       "approval": null,
       "asset_id": "PR-BRUSH",
       "name": "毛笔",
-      "source_sha256": "453251832f33cc8c56fe9c32665465ef59a445a7326b124cf62e97ef6500dc88"
+      "source_sha256": "453251832f33cc8c56fe9c32665465ef59a445a7326b124cf62e97ef6500dc88",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-INKSTONE",
@@ -2764,7 +4492,19 @@
       "approval": null,
       "asset_id": "PR-INKSTONE",
       "name": "砚台",
-      "source_sha256": "4e8fe5fe869f1756bf55ae2ea82cb2dda25d40b026f38be51920736b849e76bf"
+      "source_sha256": "4e8fe5fe869f1756bf55ae2ea82cb2dda25d40b026f38be51920736b849e76bf",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-ARCHIVEBOX",
@@ -2781,7 +4521,19 @@
       "approval": null,
       "asset_id": "PR-ARCHIVEBOX",
       "name": "档案木匣",
-      "source_sha256": "57009c55d7f02ba1ab40afdd4da977fcd6325dade05bf39eab32647fc0969938"
+      "source_sha256": "57009c55d7f02ba1ab40afdd4da977fcd6325dade05bf39eab32647fc0969938",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-INDEX",
@@ -2798,7 +4550,19 @@
       "approval": null,
       "asset_id": "PR-INDEX",
       "name": "索引牌",
-      "source_sha256": "c115f85bc7a739edd1f5003a0c46c8792ca2d36fec8c9d729f174effc631f1d7"
+      "source_sha256": "c115f85bc7a739edd1f5003a0c46c8792ca2d36fec8c9d729f174effc631f1d7",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-COMPLAINT",
@@ -2815,7 +4579,19 @@
       "approval": null,
       "asset_id": "PR-COMPLAINT",
       "name": "湿损状纸",
-      "source_sha256": "ecd3c3f416590f6285fd75cf11823eb19f724ddcd476268b098c6a3346c94cc5"
+      "source_sha256": "ecd3c3f416590f6285fd75cf11823eb19f724ddcd476268b098c6a3346c94cc5",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-PERMIT",
@@ -2832,7 +4608,19 @@
       "approval": null,
       "asset_id": "PR-PERMIT",
       "name": "入京文牒",
-      "source_sha256": "6f6b360f97fca6a8927effad3fba6f9a3bab3394311c2100fa0de3adbc24efb0"
+      "source_sha256": "6f6b360f97fca6a8927effad3fba6f9a3bab3394311c2100fa0de3adbc24efb0",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-LETTERBOX",
@@ -2849,7 +4637,19 @@
       "approval": null,
       "asset_id": "PR-LETTERBOX",
       "name": "新信匣",
-      "source_sha256": "523586c66015d0fd15db73478cdb426cb96db8daefec85ea541e6b7435520107"
+      "source_sha256": "523586c66015d0fd15db73478cdb426cb96db8daefec85ea541e6b7435520107",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-TIE",
@@ -2866,7 +4666,19 @@
       "approval": null,
       "asset_id": "PR-TIE",
       "name": "文书绳",
-      "source_sha256": "61ce08ec67d63b3fefcc1bd43c43d98f0c4233136c3f6432064af6a5df30b0bd"
+      "source_sha256": "61ce08ec67d63b3fefcc1bd43c43d98f0c4233136c3f6432064af6a5df30b0bd",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-CANDLE",
@@ -2883,7 +4695,19 @@
       "approval": null,
       "asset_id": "PR-CANDLE",
       "name": "蜡烛",
-      "source_sha256": "d9e8eecfb5b87f50325ba8be2dd8fe277b6a1c176bbb8819fc75ef76c243b027"
+      "source_sha256": "d9e8eecfb5b87f50325ba8be2dd8fe277b6a1c176bbb8819fc75ef76c243b027",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-STAND",
@@ -2900,7 +4724,19 @@
       "approval": null,
       "asset_id": "PR-STAND",
       "name": "烛台",
-      "source_sha256": "d8069ec3d924a6dc00ccbba6c1bebb3069fd34572386c60a2654bb31ed7fd734"
+      "source_sha256": "d8069ec3d924a6dc00ccbba6c1bebb3069fd34572386c60a2654bb31ed7fd734",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-LANTERN",
@@ -2917,7 +4753,19 @@
       "approval": null,
       "asset_id": "PR-LANTERN",
       "name": "宫灯",
-      "source_sha256": "a4dc64749e8d48b777085bb959bf9fa2654869edbab65caa5c65738a284b6167"
+      "source_sha256": "a4dc64749e8d48b777085bb959bf9fa2654869edbab65caa5c65738a284b6167",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-BOTTLE",
@@ -2934,7 +4782,19 @@
       "approval": null,
       "asset_id": "PR-BOTTLE",
       "name": "药瓶",
-      "source_sha256": "328ad0482d3577b159faca87acf7d7d952b90e8f827f208270cde0578c865a54"
+      "source_sha256": "328ad0482d3577b159faca87acf7d7d952b90e8f827f208270cde0578c865a54",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-HERBS",
@@ -2951,7 +4811,19 @@
       "approval": null,
       "asset_id": "PR-HERBS",
       "name": "药材盘",
-      "source_sha256": "764a088cb5424262d576727f2da51b137a6e8ad185069a890048a06693fd50fd"
+      "source_sha256": "764a088cb5424262d576727f2da51b137a6e8ad185069a890048a06693fd50fd",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:PR-JUG",
@@ -2968,7 +4840,19 @@
       "approval": null,
       "asset_id": "PR-JUG",
       "name": "水壶",
-      "source_sha256": "1438607c72ca046727f7d37f417fa830e7ef546936e046640dbdbd028a201242"
+      "source_sha256": "1438607c72ca046727f7d37f417fa830e7ef546936e046640dbdbd028a201242",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:VH-CART",
@@ -2985,7 +4869,19 @@
       "approval": null,
       "asset_id": "VH-CART",
       "name": "木车车体",
-      "source_sha256": "ce15f95d563044ec1eb0d0b25ff57e92d96a4ca100b30aa6f056582f2e34ff4c"
+      "source_sha256": "ce15f95d563044ec1eb0d0b25ff57e92d96a4ca100b30aa6f056582f2e34ff4c",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:VH-CANOPY",
@@ -3002,7 +4898,19 @@
       "approval": null,
       "asset_id": "VH-CANOPY",
       "name": "车篷",
-      "source_sha256": "f884f697368e23b2989631df9cc25d4868f88dbb026cbe0747b116a5190df883"
+      "source_sha256": "f884f697368e23b2989631df9cc25d4868f88dbb026cbe0747b116a5190df883",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:VH-WHEEL",
@@ -3019,7 +4927,19 @@
       "approval": null,
       "asset_id": "VH-WHEEL",
       "name": "辐条车轮",
-      "source_sha256": "1340c107eab96e859a69d2f2954bdbfb6f07f395dd3876b1c0a368264eb642fa"
+      "source_sha256": "1340c107eab96e859a69d2f2954bdbfb6f07f395dd3876b1c0a368264eb642fa",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:VH-AXLE",
@@ -3036,7 +4956,19 @@
       "approval": null,
       "asset_id": "VH-AXLE",
       "name": "完整车轴",
-      "source_sha256": "cdb34c078bc2e4ca7fb4eec3d4848f83ea82d84227320ec8fd9827a95d82d5a2"
+      "source_sha256": "cdb34c078bc2e4ca7fb4eec3d4848f83ea82d84227320ec8fd9827a95d82d5a2",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:17+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:VH-AXLE-BROKEN",
@@ -3053,7 +4985,19 @@
       "approval": null,
       "asset_id": "VH-AXLE-BROKEN",
       "name": "断裂车轴",
-      "source_sha256": "c7352d5cfe26f7d3efaa67ff6dca0c7fa241813e01d2cddabdfcabf8839d0c61"
+      "source_sha256": "c7352d5cfe26f7d3efaa67ff6dca0c7fa241813e01d2cddabdfcabf8839d0c61",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:VH-BOARD",
@@ -3070,7 +5014,19 @@
       "approval": null,
       "asset_id": "VH-BOARD",
       "name": "车厢折叠板",
-      "source_sha256": "9bfb91f74c352695f262f0c77fffe7e3c24e566fb4d2ac2b32c6cb25b5fad147"
+      "source_sha256": "9bfb91f74c352695f262f0c77fffe7e3c24e566fb4d2ac2b32c6cb25b5fad147",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:VH-DRAWBAR",
@@ -3087,7 +5043,19 @@
       "approval": null,
       "asset_id": "VH-DRAWBAR",
       "name": "辕木",
-      "source_sha256": "cb838e91755f64b2be8a098643b09708bb2d7de4676f12890e74e51dacda2746"
+      "source_sha256": "cb838e91755f64b2be8a098643b09708bb2d7de4676f12890e74e51dacda2746",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:VH-REINS",
@@ -3104,7 +5072,19 @@
       "approval": null,
       "asset_id": "VH-REINS",
       "name": "缰绳",
-      "source_sha256": "4dbfdcc496a1407b636e911c97becf4c695c6e571181b073fe7be26b3828c4f9"
+      "source_sha256": "4dbfdcc496a1407b636e911c97becf4c695c6e571181b073fe7be26b3828c4f9",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:AR-WALL",
@@ -3121,7 +5101,19 @@
       "approval": null,
       "asset_id": "AR-WALL",
       "name": "室内墙体",
-      "source_sha256": "d95a9ed2cb11cb3fb6745f2657b538d8247de61b36d281311fdd0e8afe51efda"
+      "source_sha256": "d95a9ed2cb11cb3fb6745f2657b538d8247de61b36d281311fdd0e8afe51efda",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:AR-FLOOR",
@@ -3138,7 +5130,19 @@
       "approval": null,
       "asset_id": "AR-FLOOR",
       "name": "木地板",
-      "source_sha256": "1f95037cd624e5f31be775a7ecbe6d113f9c2485e94366271d80c6e299ae7e0c"
+      "source_sha256": "1f95037cd624e5f31be775a7ecbe6d113f9c2485e94366271d80c6e299ae7e0c",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:AR-BEAM",
@@ -3155,7 +5159,19 @@
       "approval": null,
       "asset_id": "AR-BEAM",
       "name": "屋梁",
-      "source_sha256": "c1fe8a72767a7b55bf6700bfaa5696e41c7f526b178672287cc7218820e89784"
+      "source_sha256": "c1fe8a72767a7b55bf6700bfaa5696e41c7f526b178672287cc7218820e89784",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:AR-COLUMN",
@@ -3172,7 +5188,19 @@
       "approval": null,
       "asset_id": "AR-COLUMN",
       "name": "廊柱",
-      "source_sha256": "38b9c4104e9920bf8451656d1b0fe1b9a6f2080943d8a9128d2b83f8dd8e5e81"
+      "source_sha256": "38b9c4104e9920bf8451656d1b0fe1b9a6f2080943d8a9128d2b83f8dd8e5e81",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:AR-ROOF",
@@ -3189,7 +5217,19 @@
       "approval": null,
       "asset_id": "AR-ROOF",
       "name": "瓦屋顶模块",
-      "source_sha256": "a7b52c12347dd8673c9a99e3b6c896d72608e5e7f017b5cdfdc2928c5a168da3"
+      "source_sha256": "a7b52c12347dd8673c9a99e3b6c896d72608e5e7f017b5cdfdc2928c5a168da3",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:AR-WINDOW",
@@ -3206,7 +5246,19 @@
       "approval": null,
       "asset_id": "AR-WINDOW",
       "name": "格窗",
-      "source_sha256": "984c26186ae57d71375b07687a66829a7b4dc6fb65faaa0fa63439af7d7bbc69"
+      "source_sha256": "984c26186ae57d71375b07687a66829a7b4dc6fb65faaa0fa63439af7d7bbc69",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:AR-DOOR",
@@ -3223,7 +5275,19 @@
       "approval": null,
       "asset_id": "AR-DOOR",
       "name": "木门",
-      "source_sha256": "b1c4d80bb1fba1976f9aab731d9faee96eb43ba50c4c0454fcb9ebf2ef900fdc"
+      "source_sha256": "b1c4d80bb1fba1976f9aab731d9faee96eb43ba50c4c0454fcb9ebf2ef900fdc",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:AR-BED",
@@ -3240,7 +5304,19 @@
       "approval": null,
       "asset_id": "AR-BED",
       "name": "床榻",
-      "source_sha256": "888b04437b37fbbf2b65f6045be81f5d39243700064f9adb027e7e146358ca14"
+      "source_sha256": "888b04437b37fbbf2b65f6045be81f5d39243700064f9adb027e7e146358ca14",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:AR-DESK",
@@ -3257,7 +5333,19 @@
       "approval": null,
       "asset_id": "AR-DESK",
       "name": "长案",
-      "source_sha256": "85702afad85e73a84ea1b13b7bd888e8cd4a324ccca4fe95e70479cfcb3ad7c9"
+      "source_sha256": "85702afad85e73a84ea1b13b7bd888e8cd4a324ccca4fe95e70479cfcb3ad7c9",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:AR-CABINET",
@@ -3274,7 +5362,19 @@
       "approval": null,
       "asset_id": "AR-CABINET",
       "name": "档案高柜",
-      "source_sha256": "65ba64ffbb75c88aff6d1bb9edadc371f7d859d2c1e01026266dad92bf6d4241"
+      "source_sha256": "65ba64ffbb75c88aff6d1bb9edadc371f7d859d2c1e01026266dad92bf6d4241",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:AR-CHAIR",
@@ -3291,7 +5391,19 @@
       "approval": null,
       "asset_id": "AR-CHAIR",
       "name": "椅凳",
-      "source_sha256": "b3276456f6a8eabf36396b423b651f89ee573354ef1ba0273f9df23f9563b4b0"
+      "source_sha256": "b3276456f6a8eabf36396b423b651f89ee573354ef1ba0273f9df23f9563b4b0",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:AR-AWNING",
@@ -3308,7 +5420,19 @@
       "approval": null,
       "asset_id": "AR-AWNING",
       "name": "路旁雨棚",
-      "source_sha256": "6de4c26e0c9a134247f73b13558be2d21dff8e91596ae1e14e44a332f841ee15"
+      "source_sha256": "6de4c26e0c9a134247f73b13558be2d21dff8e91596ae1e14e44a332f841ee15",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:AR-GATEWALL",
@@ -3325,7 +5449,19 @@
       "approval": null,
       "asset_id": "AR-GATEWALL",
       "name": "城墙",
-      "source_sha256": "8cdc6789c69d77dfc6f354155c9ff5df19c66343ccc05d12c105e88339cb10cf"
+      "source_sha256": "8cdc6789c69d77dfc6f354155c9ff5df19c66343ccc05d12c105e88339cb10cf",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:AR-GATE",
@@ -3342,7 +5478,19 @@
       "approval": null,
       "asset_id": "AR-GATE",
       "name": "城门门洞",
-      "source_sha256": "8d467f2da8dd072a9f3d1e90b42c9022668bd56ba8b34a32dc14eb210aab07b2"
+      "source_sha256": "8d467f2da8dd072a9f3d1e90b42c9022668bd56ba8b34a32dc14eb210aab07b2",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:AR-GATELEAF",
@@ -3359,7 +5507,19 @@
       "approval": null,
       "asset_id": "AR-GATELEAF",
       "name": "朱门门扇",
-      "source_sha256": "24c972f5e23dfae0fee69560d54a7301fe502ade6df1a3795e03830acc569f80"
+      "source_sha256": "24c972f5e23dfae0fee69560d54a7301fe502ade6df1a3795e03830acc569f80",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:AR-LIGHT",
@@ -3376,7 +5536,19 @@
       "approval": null,
       "asset_id": "AR-LIGHT",
       "name": "宫灯悬架",
-      "source_sha256": "e1065e008535975a5a074e96ab5dfc9a6ce0d29253fd5e2f4a6169b777d7d5e6"
+      "source_sha256": "e1065e008535975a5a074e96ab5dfc9a6ce0d29253fd5e2f4a6169b777d7d5e6",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:AR-STEP",
@@ -3393,7 +5565,19 @@
       "approval": null,
       "asset_id": "AR-STEP",
       "name": "门槛台阶",
-      "source_sha256": "bf7abdce19339aec93d90a8df722eeef99b5a5788b6d072e96c61b4894d4be30"
+      "source_sha256": "bf7abdce19339aec93d90a8df722eeef99b5a5788b6d072e96c61b4894d4be30",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:AR-BRIDGE",
@@ -3410,7 +5594,19 @@
       "approval": null,
       "asset_id": "AR-BRIDGE",
       "name": "木桥",
-      "source_sha256": "3bd1249e73fd1bb389296ab4868fe7465479575f6aa2b4cf163c0123ab69361d"
+      "source_sha256": "3bd1249e73fd1bb389296ab4868fe7465479575f6aa2b4cf163c0123ab69361d",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:ENV-DIRT",
@@ -3427,7 +5623,19 @@
       "approval": null,
       "asset_id": "ENV-DIRT",
       "name": "泥土道路",
-      "source_sha256": "c9583139420f56aa4aaf8aaafdbb276a47cc0e1318a43dabbf0242a536738e2f"
+      "source_sha256": "c9583139420f56aa4aaf8aaafdbb276a47cc0e1318a43dabbf0242a536738e2f",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:ENV-SNOWROAD",
@@ -3444,7 +5652,19 @@
       "approval": null,
       "asset_id": "ENV-SNOWROAD",
       "name": "雪道路面",
-      "source_sha256": "2cf11b0f4cc9934ab77a56bae0f4d66c0a87f7045625ad91ec7f8060002b0bdb"
+      "source_sha256": "2cf11b0f4cc9934ab77a56bae0f4d66c0a87f7045625ad91ec7f8060002b0bdb",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:ENV-PAVING",
@@ -3461,7 +5681,19 @@
       "approval": null,
       "asset_id": "ENV-PAVING",
       "name": "湿石板路",
-      "source_sha256": "0aa67e7bb5608b7c0da0d10ae12add875df4f10c1526d1a6012a826bb619751d"
+      "source_sha256": "0aa67e7bb5608b7c0da0d10ae12add875df4f10c1526d1a6012a826bb619751d",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:ENV-SNOWBANK",
@@ -3478,7 +5710,19 @@
       "approval": null,
       "asset_id": "ENV-SNOWBANK",
       "name": "雪堆",
-      "source_sha256": "fcc12548c23e2c572860b7c35a68afee73ce773a28e1c3dae15f6466e806ff16"
+      "source_sha256": "fcc12548c23e2c572860b7c35a68afee73ce773a28e1c3dae15f6466e806ff16",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:ENV-ROCK",
@@ -3495,7 +5739,19 @@
       "approval": null,
       "asset_id": "ENV-ROCK",
       "name": "山石",
-      "source_sha256": "c767430af5929d8a0d4bfc56b780d0f723c1bbf66b5175b22f17e2dfbb069730"
+      "source_sha256": "c767430af5929d8a0d4bfc56b780d0f723c1bbf66b5175b22f17e2dfbb069730",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:ENV-BROKENWOOD",
@@ -3512,7 +5768,19 @@
       "approval": null,
       "asset_id": "ENV-BROKENWOOD",
       "name": "断木",
-      "source_sha256": "fbc26b4faafce67a1b05650219789d299798d7a8f17c4729dace5f5903fbe1b3"
+      "source_sha256": "fbc26b4faafce67a1b05650219789d299798d7a8f17c4729dace5f5903fbe1b3",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:ENV-FLAG",
@@ -3529,7 +5797,19 @@
       "approval": null,
       "asset_id": "ENV-FLAG",
       "name": "残旗与旗杆",
-      "source_sha256": "276af7383f58564dbb73ccec45a5ec751f7cd4f8056163d7c97e2b3ebca54614"
+      "source_sha256": "276af7383f58564dbb73ccec45a5ec751f7cd4f8056163d7c97e2b3ebca54614",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:ENV-TREE",
@@ -3546,7 +5826,19 @@
       "approval": null,
       "asset_id": "ENV-TREE",
       "name": "落叶树体块",
-      "source_sha256": "336b57ba1817f830c1dde9c067a617bb57e50974f61605c67f17979a53ef791a"
+      "source_sha256": "336b57ba1817f830c1dde9c067a617bb57e50974f61605c67f17979a53ef791a",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     },
     {
       "key": "LIB:ENV-BRAZIER",
@@ -3563,10 +5855,24 @@
       "approval": null,
       "asset_id": "ENV-BRAZIER",
       "name": "远处火盆",
-      "source_sha256": "1b4e95b48fe28c1e8e92e826bdf496541a5356439d789af6e20da128be8c20a0"
+      "source_sha256": "1b4e95b48fe28c1e8e92e826bdf496541a5356439d789af6e20da128be8c20a0",
+      "human_review": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:20:18+08:00",
+        "method": "local-web-one-click",
+        "scope": "internal_manual_review_declaration"
+      },
+      "internal_approval": {
+        "reviewer": "用户本人",
+        "reviewed_at": "2026-10-26T00:30:00+08:00",
+        "method": "internal-human-review-gate",
+        "note": "Internal test gate approval; does not assert formal evidence completeness."
+      }
     }
   ],
   "approved_count": 0,
   "scope_count": 192,
-  "note": "100 real reusable proxy models plus 92 production scopes. Proxies and the P01 assembly are unapproved; seven representative static scenes remain unapproved; no completed scene or motion reviews implied."
+  "note": "Internal test mode: user human review is sufficient to enter the generation workflow. Formal evidence audit remains optional and does not block internal testing.",
+  "internal_review_approved_count": 192,
+  "internal_review_mode": "human_review_sufficient_for_internal_generation_gate"
 }

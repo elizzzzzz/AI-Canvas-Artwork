@@ -1,0 +1,4 @@
+file '/Users/elizhang/.codex/worktrees/hackathon-deliverables/灯红视频/production/final-cut-v1/episode-segments/EP02-title.mp4'
+file '/Users/elizhang/.codex/worktrees/hackathon-deliverables/灯红视频/production/final-cut-v1/episode-segments/EP02-S05-01.mp4'
+file '/Users/elizhang/.codex/worktrees/hackathon-deliverables/灯红视频/production/final-cut-v1/episode-segments/EP02-S07-01.mp4'
+file '/Users/elizhang/.codex/worktrees/hackathon-deliverables/灯红视频/production/final-cut-v1/episode-segments/EP02-S08-01.mp4'

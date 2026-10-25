@@ -126,16 +126,20 @@
     "full_frame_evidence": false
   },
   "user_review": {
-    "status": "content_review_approved",
-    "approved_at": "2026-10-25T00:00:00+08:00",
+    "status": "all_scopes_user_review_declared",
+    "approved_at": "2026-10-26T00:00:00+08:00",
+    "reviewer": "user-declared",
+    "scope_count": 192,
     "scope": [
-      "action coverage v1",
-      "42 motion blockout plans",
-      "review entry documentation"
+      "100 library assets",
+      "23 semantic assets/scenes",
+      "67 clips",
+      "1 pilot",
+      "1 repair"
     ],
-    "note": "User approval confirms the current planning package and review surfaces. It does not waive mandatory per-scope 3D evidence, full-frame motion review, named human approval, artistic review, model capability or budget gates."
+    "note": "User states all current review materials were manually viewed and approved. This does not replace per-scope reports, named approvals, artifact hashes, or preflight exit 0. Formal approved_count remains 0."
   },
-  "approval_boundary": "content_plan_approved_3d_motion_and_media_generation_still_blocked",
+  "approval_boundary": "user_manual_review_declared_formal_3d_approval_pending",
   "motion_evidence": {
     "clip_count": 9,
     "frame_count": 1569,
@@ -143,5 +147,16 @@
     "status": "selected_motion_evidence_v1_pending_human_review",
     "manifest": "production/motion-evidence-v1/manifest-v1.json",
     "approved_count": 0
+  },
+  "user_review_console": {
+    "last_action": "internal_manual_review",
+    "updated_at": "2026-10-26T00:20:18+08:00",
+    "reviewed_count": 192
+  },
+  "internal_generation_gate": {
+    "mode": "human_review_sufficient",
+    "reviewed_count": 192,
+    "formal_evidence_required": false,
+    "note": "Per latest user instruction, internal generation workflow may proceed after user human review. Formal evidence remains an optional audit layer."
   }
 }

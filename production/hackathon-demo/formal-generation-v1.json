@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "recorded_at": "2026-10-26T02:04:17.910666+08:00",
+  "board_id": "6851506d-6617-46f5-a06e-a2e9954f2ea0",
+  "canvas_revision": 59,
+  "internal_review_gate": "pilot_ready=true",
+  "formal_audit_mode": "not_claimed",
+  "clips": [
+    {
+      "title": "EP02-S07 雨廊追截正式片段（修复链路）",
+      "node_id": "0668cf62-e0d1-4b2e-a711-23bbee5b80bf",
+      "kind": "video",
+      "model": "minimax/minimax-h3",
+      "gen_mode": "reference",
+      "duration_requested": 9,
+      "duration_actual": 9.425,
+      "resolution": "768P",
+      "aspect": "9:16",
+      "status": "completed",
+      "media_asset_id": "5ac50e09-b72d-4097-bbd1-098a5b73a6ea",
+      "run_id": "616578dc-f374-434c-9aea-5e745bd00a52",
+      "local_file": "production/hackathon-demo/ep02s07-minimax-h3-formal-clip.mp4"
+    },
+    {
+      "title": "EP01-S07 雪夜追车正式片段（内部生成）",
+      "node_id": "4bd6eb65-9a2d-4b83-9a96-5dae998ebe37",
+      "kind": "video",
+      "model": "minimax/minimax-h3",
+      "gen_mode": "reference",
+      "duration_requested": 8,
+      "duration_actual": 8,
+      "resolution": "768P",
+      "aspect": "9:16",
+      "status": "completed",
+      "media_asset_id": "4d8766df-22e7-4dc6-be8d-d4c4f53723b1",
+      "run_id": "ee412c4d-6001-4839-9cbe-2203f3dd4265",
+      "local_file": "production/hackathon-demo/ep01s07-minimax-h3-formal-clip.mp4"
+    },
+    {
+      "title": "EP03-S05 车轴失控正式片段（修复链路）",
+      "node_id": "d107699f-1c24-475d-90a8-2469b7a2e1cf",
+      "kind": "video",
+      "model": "minimax/minimax-h3",
+      "gen_mode": "reference",
+      "duration_requested": 13,
+      "duration_actual": 13.667,
+      "resolution": "768P",
+      "aspect": "9:16",
+      "status": "completed",
+      "media_asset_id": "7db9b1ae-311c-484d-8088-7ce2fbd27d64",
+      "run_id": "c05a0ad9-e2b4-4424-a9b5-416d6bc9cd08",
+      "local_file": "production/hackathon-demo/ep03s05-minimax-h3-formal-clip.mp4"
+    }
+  ]
+}

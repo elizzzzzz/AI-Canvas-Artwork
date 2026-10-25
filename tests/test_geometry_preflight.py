@@ -85,3 +85,12 @@ class GeometryPreflightTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+class InternalReviewModeTests(unittest.TestCase):
+    def test_internal_review_mode_allows_user_review_without_formal_report(self):
+        from tools.geometry_preflight import assess_internal_review
+        self.assertEqual(assess_internal_review({'source_sha256':'x','human_review':{'reviewer':'user','reviewed_at':'2026-10-26'}}, 'x'), [])
+
+    def test_internal_review_mode_rejects_missing_human_review(self):
+        from tools.geometry_preflight import assess_internal_review
+        self.assertTrue(assess_internal_review({'source_sha256':'x'}, 'x'))

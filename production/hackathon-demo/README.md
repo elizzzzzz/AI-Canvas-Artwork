@@ -19,3 +19,10 @@
 - 画面规则：所有叙事镜头保持指定主人公第一人称；3D 预检使用内部人工审核模式。
 
 节点与媒体资产记录见 `formal-generation-v1.json`。该记录不包含临时签名 URL 或任何凭证。
+
+## 缺陷修复版
+
+- `ep01s07-repair-v2.mp4`：护卫与护送车同步运动，移除贴窗跟跑语义。
+- `ep03s05a-repair-v2.mp4`：车轴回报，纸张停留在固定开放木板。
+- `ep03s05b-repair-v2.mp4`：固定木板连续段，禁止盒子、盒盖和开合结构。
+- `formal-preview-v2/qiniu-langya-formal-repair-preview-v2.mp4`：替换缺陷片段后的拼接预演。

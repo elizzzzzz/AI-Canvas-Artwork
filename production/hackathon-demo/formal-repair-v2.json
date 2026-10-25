@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "status": "generated_pending_full_cut_review",
+  "defects_fixed": [
+    "EP01-S07 escort guard relative motion",
+    "EP03-S05 paper support and spontaneous lid"
+  ],
+  "clips": [
+    {"key": "EP01-S07", "local_file": "production/hackathon-demo/ep01s07-repair-v2.mp4", "duration_requested": 8, "model": "minimax/minimax-h3", "mode": "reference"},
+    {"key": "EP03-S05-A", "local_file": "production/hackathon-demo/ep03s05a-repair-v2.mp4", "duration_requested": 6, "model": "minimax/minimax-h3", "mode": "reference"},
+    {"key": "EP03-S05-B", "local_file": "production/hackathon-demo/ep03s05b-repair-v2.mp4", "duration_requested": 7, "model": "minimax/minimax-h3", "mode": "reference"}
+  ],
+  "preview": "production/hackathon-demo/formal-preview-v2/qiniu-langya-formal-repair-preview-v2.mp4",
+  "signed_urls": "not stored"
+}

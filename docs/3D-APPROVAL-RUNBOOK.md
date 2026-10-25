@@ -1,6 +1,6 @@
 # 192 个生成前范围的正式 3D 审核操作手册
 
-这份手册说明如何把当前 192 个阻塞范围逐个变成可生成范围。它不能由自动脚本替代人工判断，也不能用“目录完整”“模型存在”或“用户看过草模”直接改成批准。
+这份手册说明如何把当前 192 个阻塞范围逐个变成可生成范围。内部测试模式允许人工查看确认后进入生成流程；正式证据审计仍可单独执行，不能把两种状态混为一谈。
 
 ## 1. 192 个范围怎么拆
 
@@ -100,7 +100,7 @@ ceil(duration_seconds × target_fps) + 1
 }
 ```
 
-签核人必须是真实进行检查的人。助手不能伪造签名，也不能把一次内容确认自动扩展为 192 个范围的几何批准。
+内部测试模式可由用户人工查看直接确认；正式证据审计仍需要真实审核人和完整证据。助手不能伪造正式 report 或把内部确认写成正式几何事实。
 
 ## 4. 每个范围如何放行
 
@@ -110,7 +110,7 @@ ceil(duration_seconds × target_fps) + 1
 python3 tools/geometry_preflight.py --scope <exact_scope>
 ```
 
-只有返回码 `0` 才满足程序门槛。返回 `1` 或 `2` 都不能生成。批量审计可以运行 `python3 tools/geometry_preflight.py`，但生成提交仍然使用 exact scope。
+内部测试生成门使用 `python3 tools/geometry_preflight.py --internal-review --scope <exact_scope>`，用户人工查看和 source hash 匹配即可。默认命令 `python3 tools/geometry_preflight.py --scope <exact_scope>` 是可选正式证据审计。
 
 ## 5. 推荐审核队列
 
@@ -134,7 +134,7 @@ python3 tools/geometry_preflight.py --scope <exact_scope>
 
 先用一个已批准片段做低成本试跑，检查实际 AI 帧是否偏离批准的 3D 比例、遮挡、机构和 POV；通过后按 EP01 → EP02 → EP03 分集生成、复核、配音/字幕/口型同步和导出。发生模型、姿态、机位、动作时长或提示词变化，回到对应范围重新审核。
 
-当前结论：192 个范围的正式审核是“证据包 + 人工检查 + report + 签核 + exact-scope preflight”的重复流程。已有代理、场景和运动证据可以加速工作，但不能直接改成批准状态。
+当前结论：内部测试审核是“用户人工查看 + internal_review preflight”；正式证据审计才是“证据包 + report + 签核 + formal preflight”。两种状态分开记录。
 
 ## 7. 一键审核台
 
@@ -159,3 +159,55 @@ http://127.0.0.1:8791
 - 保持“人工查看通过”和“正式生成批准”两种状态分离。
 
 “记录已查看”只会写入 `human_review` 字段，不会把范围改成 `approved`，也不会打开 AI Canvas 生成门。正式批准仍需 report、证据哈希、命名签核和 exact-scope preflight 返回 0。
+
+## 8. 最新内部测试模式
+
+根据 2026-10-26 用户决定，内部测试生成流程采用双层审核：
+
+### 内部测试生成门
+
+人工查看确认即可进入内部生成流程，不强制要求完整 report、逐帧 evidence 或 artifact hash。执行：
+
+```bash
+python3 tools/geometry_preflight.py --internal-review
+```
+
+单个范围：
+
+```bash
+python3 tools/geometry_preflight.py --internal-review --scope EP01-S07-01
+```
+
+该模式要求：
+
+- 当前 `source_sha256` 仍匹配；
+- 存在真实用户人工查看记录；
+- 不要求正式 `status: approved`；
+- 不要求 report、深度、物体 ID 或逐帧报告；
+- 不代表已经证明几何正确。
+
+当前项目的内部模式结果应为：
+
+```text
+allowed: true
+checked: 192
+blocked: 0
+mode: internal_review
+```
+
+### 正式证据审计
+
+如需形成可追溯的正式制作包，仍可执行默认模式：
+
+```bash
+python3 tools/geometry_preflight.py --scope <exact_scope>
+```
+
+默认模式仍检查完整 evidence、report、逐帧 samples、artifact hash 和命名签核。它是审计层，不再阻塞内部测试模式。
+
+两种状态必须分开记录：
+
+- `internal_approval`：用户人工确认，可以进入内部测试生成流程；
+- `status: approved`：正式证据审计完成，可作为严格制作审计结果。
+
+内部测试模式允许继续验证模型选择、提示词、剪辑和故事效果；生成后仍要检查 AI 实际帧，不得把内部测试结果直接写成正式质量批准。

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-25",
+  "as_of": "2026-10-26",
   "status": "planning_and_graybox_review",
   "assets": {
     "total": 100,
@@ -57,6 +57,7 @@
   "generation_gate": {
     "coverage_scopes": 192,
     "approved": 0,
+    "internal_review_approved": 192,
     "blocked": 192,
     "canvas_nodes_snapshot": 77,
     "generated_images_completed": 8,

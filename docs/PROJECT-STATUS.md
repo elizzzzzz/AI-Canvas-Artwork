@@ -22,3 +22,6 @@ PR #1、#2、#3 已合并。最近一次合并为 PR #3，主分支提交 `d8db6
 用户在 2026-10-26 声明已人工查看全部审核材料并批准；该声明已记录在 [人工审阅声明](HUMAN-REVIEW-DECLARATION.md)。正式 3D 批准数仍为 0，生成门继续关闭，直到逐范围 report、命名签核和 exact-scope preflight 完成。
 
 本地一键审核台已启动：`http://127.0.0.1:8791`。它可以批量记录人工查看结论，但不会绕过正式 report、签核和预检门。
+
+
+根据 2026-10-26 用户决定，内部测试生成门改为“人工查看确认即可进入”，正式 evidence/report 审计保留为可选追溯层。内部预检命令：`python3 tools/geometry_preflight.py --internal-review`。

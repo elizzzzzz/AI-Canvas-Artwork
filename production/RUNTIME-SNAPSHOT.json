@@ -147,5 +147,16 @@
     "status": "selected_motion_evidence_v1_pending_human_review",
     "manifest": "production/motion-evidence-v1/manifest-v1.json",
     "approved_count": 0
+  },
+  "user_review_console": {
+    "last_action": "internal_manual_review",
+    "updated_at": "2026-10-26T00:20:18+08:00",
+    "reviewed_count": 192
+  },
+  "internal_generation_gate": {
+    "mode": "human_review_sufficient",
+    "reviewed_count": 192,
+    "formal_evidence_required": false,
+    "note": "Per latest user instruction, internal generation workflow may proceed after user human review. Formal evidence remains an optional audit layer."
   }
 }

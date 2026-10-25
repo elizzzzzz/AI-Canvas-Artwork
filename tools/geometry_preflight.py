@@ -178,6 +178,18 @@ def artifact_set_hash(entry):
     return hashlib.sha256(json.dumps(payload, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
 
 
+def assess_internal_review(entry, expected_source):
+    """Internal test gate: user review is sufficient; formal evidence remains optional."""
+    errors=[]
+    if not isinstance(entry, dict): return ['invalid entry']
+    if expected_source is None or entry.get('source_sha256') != expected_source:
+        errors.append('current source not matched')
+    review=entry.get('human_review') or entry.get('internal_approval')
+    if not isinstance(review, dict) or not review.get('reviewer') or not review.get('reviewed_at'):
+        errors.append('internal human review declaration absent')
+    return errors
+
+
 def assess_entry(entry, root, expected_source):
     errors = []
     if not isinstance(entry, dict): return ['invalid entry']
@@ -236,6 +248,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--manifest', type=Path, default=Path('production/geometry/coverage-v1.json'))
     parser.add_argument('--scope', help='Exact asset, clip, pilot or repair scope; omit to audit all')
+    parser.add_argument('--internal-review', action='store_true', help='Internal test gate: user human review is sufficient; evidence/report are optional')
     args = parser.parse_args()
     root = Path(__file__).resolve().parents[1]
     manifest = json.loads((root / args.manifest).read_text())
@@ -260,11 +273,11 @@ def main():
         print(json.dumps({'allowed': False, 'error': 'scope not found'})); return 2
     blocked = []
     for entry in selected:
-        errors = assess_entry(entry, root, expected[entry['key']])
+        errors = assess_internal_review(entry, expected[entry['key']]) if args.internal_review else assess_entry(entry, root, expected[entry['key']])
         if errors: blocked.append({'key': entry['key'], 'reasons': errors})
     print(json.dumps({'allowed': not blocked, 'policy': POLICY_VERSION, 'checked': len(selected),
-                      'blocked': len(blocked), 'results': blocked if args.scope else [],
-                      'limitation': 'Checks evidence completeness and freshness; does not itself prove geometry or AI media correctness.'},
+                      'blocked': len(blocked), 'mode': 'internal_review' if args.internal_review else 'formal_evidence', 'results': blocked if args.scope else [],
+                      'limitation': ('Internal test gate uses user human review only; it does not prove geometry or AI media correctness.' if args.internal_review else 'Checks evidence completeness and freshness; does not itself prove geometry or AI media correctness.')},
                      ensure_ascii=False, indent=2))
     return 1 if blocked else 0
 

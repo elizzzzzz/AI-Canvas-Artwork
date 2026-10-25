@@ -137,8 +137,8 @@
   },
   "approval_boundary": "content_plan_approved_3d_motion_and_media_generation_still_blocked",
   "motion_evidence": {
-    "clip_count": 3,
-    "frame_count": 555,
+    "clip_count": 6,
+    "frame_count": 1062,
     "target_fps": 24,
     "status": "selected_motion_evidence_v1_pending_human_review",
     "manifest": "production/motion-evidence-v1/manifest-v1.json",

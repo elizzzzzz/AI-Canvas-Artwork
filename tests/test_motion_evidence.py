@@ -5,7 +5,7 @@ class MotionEvidenceTests(unittest.TestCase):
  def setUp(self):
   self.w=json.loads((ROOT/'production/workflow-v1.json').read_text());self.m=json.loads((ROOT/'production/motion-evidence-v1/manifest-v1.json').read_text())
  def test_selected_three_clips_have_exact_frame_counts(self):
-  self.assertEqual({x['clip_key'] for x in self.m['clips']},{'EP01-S07-01','EP02-S07-01','EP03-S05-01'})
+  self.assertEqual({x['clip_key'] for x in self.m['clips']},{'EP01-S07-01','EP02-S07-01','EP03-S05-01','EP01-S02-01','EP02-S05-01','EP03-S10-01'})
   for summary in self.m['clips']:
    entry=json.loads((ROOT/summary['manifest']['path']).read_text())
    self.assertEqual(len(entry['samples']),entry['sample_count']);self.assertEqual(entry['target_fps'],24);self.assertFalse(entry['approved_for_generation'])

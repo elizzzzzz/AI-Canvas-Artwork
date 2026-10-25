@@ -59,21 +59,33 @@ def main():
  wf=json.loads((ROOT/'production/workflow-v1.json').read_text()); s=load(); s.setdefault('started_at',datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat()); s['status']='running_formal_full_video_queue'; save(s)
  while True:
   g=graph(); byid=g['nodes']; active={}
-  # reconcile active and completed
+  # reconcile node versions and explicit run statuses
   for r in s['clips']:
    n=byid.get(r['node_id']);
    if not n: continue
    cur=n.get('current') or {}
+   if r.get('status')=='submitted' and r.get('run_id'):
+    try:
+     run=req('GET',f'/api/canvas/boards/{BOARD}/runs/{r["run_id"]}')['data']
+     if run.get('status')=='failed':
+      r['status']='failed'; r['error_code']=run.get('error_code') or (run.get('node_states',{}).get(r['node_id'],{}).get('error_code')); log('failed '+r['key']+' '+str(r.get('error_code')))
+     elif run.get('status')=='cancelled':
+      r['status']='queued'; r.pop('run_id',None); log('cancelled '+r['key'])
+    except Exception as e: log('run status check skipped '+r['key']+' '+str(e))
+   cur=n.get('current') or {}
    if cur.get('status')=='completed' and r.get('status')!='completed':
-    if download_clip(r,n): r['status']='completed'; log('completed '+r['key'])
-   elif cur.get('status')=='failed': r['status']='failed'; r['error_code']=cur.get('error_code'); log('failed '+r['key']+' '+str(r.get('error_code')))
+    try:
+     if download_clip(r,n): r['status']='completed'; log('completed '+r['key'])
+    except Exception as e: log('download retry '+r['key']+' '+str(e))
+   elif cur.get('status')=='failed' and r.get('status') not in ('failed','completed'):
+    r['status']='failed'; r['error_code']=cur.get('error_code'); log('failed '+r['key']+' '+str(r.get('error_code')))
   # active run count from server
   for ar in g.get('active_runs',[]): active[ar['root_node_id']]=ar
   # start queued nodes up to 3
   for r in s['clips']:
    if len(active)>=3: break
-   if r.get('status') not in ('queued','submitted'): continue
-   if r['node_id'] in active: continue
+   if r.get('status')!='queued': continue
+   if r.get('run_id') or r['node_id'] in active: continue
    try:
     d=req('POST',f'/api/canvas/boards/{BOARD}/runs',json={'scope':'node','root_node_id':r['node_id'],'idempotency_key':'full-v2-'+r['key']})
     r['status']='submitted'; r['run_id']=d['data']['run']['id']; active[r['node_id']]=d['data']['run']; log('submitted '+r['key'])

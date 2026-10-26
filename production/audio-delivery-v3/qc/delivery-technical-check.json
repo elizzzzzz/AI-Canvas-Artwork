@@ -1,0 +1,38 @@
+{
+  "EP01": {
+    "duration": 150.84,
+    "width": 720,
+    "height": 1280,
+    "fps": "24/1",
+    "channels": 2,
+    "narration_duration": 150.83333333333334,
+    "tagline_seconds": 5.376,
+    "narration_minus_picture": -0.006666666666660603,
+    "sha256": "eb0dbdc2f673b0e6f31397fe6de8833e53a250ad190471736a10e2ecf40434c9",
+    "burned_captions_added": false
+  },
+  "EP02": {
+    "duration": 157.506,
+    "width": 720,
+    "height": 1280,
+    "fps": "24/1",
+    "channels": 2,
+    "narration_duration": 157.5,
+    "tagline_seconds": 5.376,
+    "narration_minus_picture": -0.006000000000000227,
+    "sha256": "52fe949b7c8fde597f041253482f5a4415aa5d22f982f1c318f7338b024e201f",
+    "burned_captions_added": false
+  },
+  "EP03": {
+    "duration": 166.757,
+    "width": 720,
+    "height": 1280,
+    "fps": "24/1",
+    "channels": 2,
+    "narration_duration": 166.75,
+    "tagline_seconds": 5.376,
+    "narration_minus_picture": -0.007000000000005002,
+    "sha256": "b3b5a2ba08a61adb416349cd30e2914b3a74a569e84c6eccbb48eb4dd3a87ccc",
+    "burned_captions_added": false
+  }
+}

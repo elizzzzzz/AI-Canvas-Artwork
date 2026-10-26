@@ -37,3 +37,17 @@ production/ep01-revision-v2/media/
 production/ep01-revision-v2/work/
 production/ep01-revision-v2/runner.log
 production/ep01-revision-v2/audio/*.aiff
+
+# Audio revisions: intermediates stay local; curated delivery files are committed explicitly.
+production/final-audio-v2/
+production/ep01-revision-v2/EP01-final-review-v2.mp4
+production/ep01-revision-v2/reference-images/
+production/audio-delivery-v3/work/
+production/audio-delivery-v3/audio/*.part
+
+# EP02/EP03 and combined audio revisions are release attachments, not source blobs.
+production/audio-delivery-v3/EP02-*.mp4
+production/audio-delivery-v3/EP03-*.mp4
+production/audio-delivery-v3/three-episodes-*.mp4
+production/audio-delivery-v3/audio/*optional-reviewed.srt
+tools/assemble_audio_synced_final_v2.py

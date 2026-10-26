@@ -33,3 +33,7 @@ production/full-generation-v2/runner.log
 production/full-generation-v2/runner.stdout
 production/full-generation-v2/episode-*-final-v1.mp4
 production/full-generation-v2/langya-cloud-order-final-v1.mp4
+production/ep01-revision-v2/media/
+production/ep01-revision-v2/work/
+production/ep01-revision-v2/runner.log
+production/ep01-revision-v2/audio/*.aiff

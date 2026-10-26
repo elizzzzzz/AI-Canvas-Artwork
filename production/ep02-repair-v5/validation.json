@@ -1,0 +1,55 @@
+{
+  "structural_checks": [
+    {
+      "scene": "EP02-SET01",
+      "glb_length_valid": true,
+      "embedded_images": 4,
+      "uv_primitives": 4,
+      "actual_camera_count": 1,
+      "sha256_current": true
+    },
+    {
+      "scene": "EP02-SET02",
+      "glb_length_valid": true,
+      "embedded_images": 1,
+      "uv_primitives": 1,
+      "actual_camera_count": 1,
+      "sha256_current": true
+    },
+    {
+      "scene": "EP02-SET03",
+      "glb_length_valid": true,
+      "embedded_images": 0,
+      "uv_primitives": 0,
+      "actual_camera_count": 1,
+      "sha256_current": true
+    },
+    {
+      "scene": "EP02-SET04",
+      "glb_length_valid": true,
+      "embedded_images": 1,
+      "uv_primitives": 1,
+      "actual_camera_count": 1,
+      "sha256_current": true
+    }
+  ],
+  "long_take_count": 11,
+  "total_seconds": 157.5,
+  "action_ratio": 0.648148148148148,
+  "old_scope_probe": {
+    "exact_scope": "EP02-S01-01",
+    "exit_code": 0,
+    "result": {
+      "allowed": true,
+      "policy": "mandatory-3d-v1",
+      "checked": 1,
+      "blocked": 0,
+      "mode": "internal_review",
+      "results": [],
+      "limitation": "Internal test gate uses user human review only; it does not prove geometry or AI media correctness."
+    }
+  },
+  "new_repair_source_approval": "pending; old scope result does not review this local plan",
+  "full_frame_review": "pending; four static setups only",
+  "no_paid_submissions": true
+}

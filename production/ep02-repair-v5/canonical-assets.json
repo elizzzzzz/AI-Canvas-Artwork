@@ -1,0 +1,287 @@
+{
+  "schema": "langya-canonical-assets-v5",
+  "version": 5,
+  "units": "metre",
+  "up_axis": "+Z",
+  "forward_axis": "+Y",
+  "status": "pending_human_review",
+  "no_paid_generation": true,
+  "shared_use": [
+    "EP02",
+    "EP03"
+  ],
+  "assets": {
+    "REPORT-YAN-01": {
+      "base_asset_id": "PR-REPORT",
+      "dimensions_m": [
+        0.21,
+        0.3,
+        0.0005
+      ],
+      "texture": {
+        "path": "production/ep02-repair-v5/textures/report-canonical.png",
+        "sha256": "74205e4dc6a61945501333a376068cb57d7c1ee07396fbc115d2da82baae55d8"
+      },
+      "purpose": "梅岭军报证据；不能作为送信路线图",
+      "layout": {
+        "orientation": "short edge horizontal; north/top at image row 0",
+        "border_uv": [
+          0.04,
+          0.04,
+          0.96,
+          0.96
+        ],
+        "arrow": "centre sheet upward arrow inherited from EP01",
+        "yan_stamp": "lower right, exact original pixels",
+        "partial_round_stamp": "left lower edge, inherited pixels",
+        "folds": "inherited original paper, no procedural randomization"
+      },
+      "source": {
+        "reference": {
+          "path": "production/ep01-revision-v2/reference-images/EP01-S03.png",
+          "sha256": "2ca66507ff9e3557ae2544bcacca4c838add6749f5e73bbc62b4dfb678d0ac65"
+        },
+        "source_pixels": {
+          "report_quad_xy": [
+            [
+              274.0,
+              484.0
+            ],
+            [
+              512.0,
+              486.0
+            ],
+            [
+              509.0,
+              914.0
+            ],
+            [
+              321.0,
+              947.0
+            ]
+          ],
+          "stamp_crop_xyxy": [
+            429,
+            802,
+            502,
+            884
+          ]
+        },
+        "method": "perspective rectification and direct pixel crop; no AI; no new glyph",
+        "review_status": "pending_human_review; EP01 real source inherited, not historical authentication"
+      },
+      "uv": "top face x=-.105→+.105 maps u=0→1; y=-.15→+.15 maps v=1→0; no mirror"
+    },
+    "YAN-STAMP-01": {
+      "dimensions_m": [
+        0.035,
+        0.0393,
+        0
+      ],
+      "source": {
+        "reference": {
+          "path": "production/ep01-revision-v2/reference-images/EP01-S03.png",
+          "sha256": "2ca66507ff9e3557ae2544bcacca4c838add6749f5e73bbc62b4dfb678d0ac65"
+        },
+        "source_pixels": {
+          "report_quad_xy": [
+            [
+              274.0,
+              484.0
+            ],
+            [
+              512.0,
+              486.0
+            ],
+            [
+              509.0,
+              914.0
+            ],
+            [
+              321.0,
+              947.0
+            ]
+          ],
+          "stamp_crop_xyxy": [
+            429,
+            802,
+            502,
+            884
+          ]
+        },
+        "method": "perspective rectification and direct pixel crop; no AI; no new glyph",
+        "review_status": "pending_human_review; EP01 real source inherited, not historical authentication"
+      },
+      "texture": {
+        "path": "production/ep02-repair-v5/textures/yan-stamp-alpha.png",
+        "sha256": "11e1a9d774f7f9fddc693d38be4aebbfe81175a145d144b0a7fec23d938d1fa2"
+      },
+      "original_crop": {
+        "path": "production/ep02-repair-v5/textures/yan-stamp-source-crop.png",
+        "sha256": "b1f7ede3c9edac7e5f9295220af94f32455ed5d9e04c3411bad2d318b90f1f6c"
+      },
+      "rule": "same exact raster glyph and border on every report; do not ask video model to invent 燕; alpha red extraction is not vector reconstruction"
+    },
+    "ROUTE-VALID-01": {
+      "base_asset_id": "PR-MAP-NEW",
+      "dimensions_m": [
+        0.21,
+        0.3,
+        0.0005
+      ],
+      "texture": {
+        "path": "production/ep02-repair-v5/textures/route-valid.png",
+        "sha256": "51f060f07c81a4dd08e4d6be77e67924369cfa6dbad305720b98eae79f53b96a"
+      },
+      "purpose": "当前可通行送信路线；与军报不同；红色连续线绕开渡口，无燕印",
+      "rule": "right-side detour; two terminal circles; keep orientation and scale; no semantic seal/map conversion",
+      "derivation": "deterministic local drawing on EP01 paper substrate; new layout pending user review"
+    },
+    "ROUTE-EXPIRED-01": {
+      "base_asset_id": "PR-MAP-OLD",
+      "dimensions_m": [
+        0.21,
+        0.3,
+        0.0005
+      ],
+      "texture": {
+        "path": "production/ep02-repair-v5/textures/route-expired.png",
+        "sha256": "1c702e5e1c67fd69252cb890903c6f0df7b3baa43247fef25d917d3f9305db27"
+      },
+      "purpose": "旧渡口路线；只放左侧收回区，禁止交给新出发信使",
+      "distinction": "upper-left missing corner proxy + dashed dark route + red crossed ferry",
+      "derivation": "same substrate; separate graphic; pending review"
+    },
+    "POUCH-01": {
+      "base_asset_id": "PR-POUCH",
+      "dimensions_m": [
+        0.12,
+        0.1,
+        0.2
+      ],
+      "material": "墨蓝布、棕绳；袋体不变形为纸或木盒",
+      "purpose": "唯一密信容器；留在谢听云手边直到核验完毕，只交一人",
+      "seal_id": "SEAL-CLAY-01",
+      "first_episode_style_anchor": {
+        "path": "production/ep01-revision-v2/reference-images/EP01-S10.png",
+        "sha256": "2bd84867b8c562ba6a823d34bbc165e52414de62b0cd6231d0044f5b29310e6a"
+      },
+      "inheritance_limit": "EP01 envelope/cord palette only, no EP01 pouch close-up exists; new pouch form pending review"
+    },
+    "SEAL-CLAY-01": {
+      "base_asset_id": "PR-SEAL-R",
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.012
+      ],
+      "material": "暗红封泥，贴在锦囊绳结上，有支撑接触，不是漂浮圆片",
+      "glyph_source": "YAN-STAMP-01",
+      "purpose": "只表示是否拆封；不代表路线，不替代军报",
+      "texture": {
+        "path": "production/ep02-repair-v5/textures/yan-stamp-alpha.png",
+        "sha256": "11e1a9d774f7f9fddc693d38be4aebbfe81175a145d144b0a7fec23d938d1fa2"
+      },
+      "old_grey_blue_seals": "not used for route coding; physical clay objects, never maps"
+    },
+    "RECEIPT-01": {
+      "base_asset_id": "PR-RECEIPT",
+      "dimensions_m": [
+        0.21,
+        0.3,
+        0.0005
+      ],
+      "texture": {
+        "path": "production/ep02-repair-v5/textures/paper-substrate.png",
+        "sha256": "e9de7fdbae44f9e3ad29882514d391fb6f472d8af7eb3780bb03f9058e35db44"
+      },
+      "purpose": "送达回执；回执有封印不等于未拆开的原锦囊回到手中",
+      "rule": "arrives after pouch exits; never duplicate pouch to illustrate receipt"
+    }
+  },
+  "people": [
+    {
+      "stable_id": "EP02-PERSON-XTY",
+      "library_asset_id": "CH-XTY",
+      "face_anchor_source": null,
+      "face_anchor_status": "missing: proxy is not identity evidence; must design and human-review separate portrait before generation",
+      "visual_direction": "谢听云；只见第一人称袖手，不另生一张脸",
+      "simultaneous_face_dedup_status": "not_verified"
+    },
+    {
+      "stable_id": "EP02-PERSON-MSG-A",
+      "library_asset_id": "CH-MSG-A",
+      "face_anchor_source": null,
+      "face_anchor_status": "missing: proxy is not identity evidence; must design and human-review separate portrait before generation",
+      "visual_direction": "青年长脸，无须，墨蓝窄袖，细长鼻梁",
+      "simultaneous_face_dedup_status": "not_verified"
+    },
+    {
+      "stable_id": "EP02-PERSON-MSG-B",
+      "library_asset_id": "CH-MSG-B",
+      "face_anchor_source": null,
+      "face_anchor_status": "missing: proxy is not identity evidence; must design and human-review separate portrait before generation",
+      "visual_direction": "中年方脸，短须，灰褐衣，浓眉",
+      "simultaneous_face_dedup_status": "not_verified"
+    },
+    {
+      "stable_id": "EP02-PERSON-MSG-C",
+      "library_asset_id": "CH-MSG-C",
+      "face_anchor_source": null,
+      "face_anchor_status": "missing: proxy is not identity evidence; must design and human-review separate portrait before generation",
+      "visual_direction": "年长瘦脸，花白鬓，深绿衣，颧骨明显",
+      "simultaneous_face_dedup_status": "not_verified"
+    },
+    {
+      "stable_id": "EP02-PERSON-SCRIBE",
+      "library_asset_id": "CH-SCRIBE",
+      "face_anchor_source": null,
+      "face_anchor_status": "missing: proxy is not identity evidence; must design and human-review separate portrait before generation",
+      "visual_direction": "秃额圆脸书吏，浅灰袍，不兼任三位信使",
+      "simultaneous_face_dedup_status": "not_verified"
+    }
+  ],
+  "source_reference_images": [
+    {
+      "path": "production/ep01-revision-v2/reference-images/EP01-S03.png",
+      "sha256": "2ca66507ff9e3557ae2544bcacca4c838add6749f5e73bbc62b4dfb678d0ac65"
+    },
+    {
+      "path": "production/ep01-revision-v2/reference-images/EP01-S06.png",
+      "sha256": "c23bb9f6705cba6d1d00a8de660adc1b487157c7623329185d05bc6aaaeed5af"
+    },
+    {
+      "path": "production/ep01-revision-v2/reference-images/EP01-S10.png",
+      "sha256": "2bd84867b8c562ba6a823d34bbc165e52414de62b0cd6231d0044f5b29310e6a"
+    }
+  ],
+  "audio": {
+    "episode_narration": {
+      "path": "production/storytelling-v4/audio/EP02-narration.wav",
+      "sha256": "3093b03c8de6c5313c44c36e5e5c27291f748fe6fd264eadaf724402739033ef"
+    },
+    "music": {
+      "path": "production/storytelling-v4/audio/unified-original-music.wav",
+      "sha256": "f2e9ed1803c1dcd198abb789bf62ca8f4824775a5029c7f626eaa210381e7b93"
+    },
+    "brand_tagline": {
+      "path": "production/storytelling-v4/audio/unified-brand-tagline.wav",
+      "sha256": "5bfb5c618336469418a73254cd58cf3e689ec235b3a476e46f31cdb13cb4aeb0"
+    },
+    "narration_timing": {
+      "path": "production/storytelling-v4/audio/EP02-timing.json",
+      "sha256": "82b11149f22d977a2ce6e7173ba7dd29a726b562ae6cf24a30974b7042ebcefc"
+    }
+  },
+  "audio_rules": "reuse existing files byte-for-byte; no new TTS, captions or model sound; finale plays same brand recording; mature male story delivery without production terms",
+  "approval": {
+    "status": "pending",
+    "reviewer": null,
+    "current_source_hash_bound": false
+  },
+  "limitations": [
+    "UV textures in scene GLBs are mapped explicitly; CPU proxy renderer does not sample texture",
+    "faces are proxy geometry, identity is not approved",
+    "no paid generation or new approval flags"
+  ]
+}

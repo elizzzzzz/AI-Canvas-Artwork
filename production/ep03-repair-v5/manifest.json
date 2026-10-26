@@ -1,0 +1,125 @@
+{
+  "version": 5,
+  "episode": 3,
+  "source": "explicit_library_instances_and_frame_transforms",
+  "status": "pending_human_review",
+  "human_approval": null,
+  "generated_paid_media": 0,
+  "setups": [
+    {
+      "key": "EP03R5-STOP",
+      "profile": "stopped",
+      "scopes": [
+        "EP03-S01-01",
+        "EP03-S01-02"
+      ],
+      "scene": {
+        "path": "production/ep03-repair-v5/EP03R5-STOP/scene.json",
+        "sha256": "84c23e0b83451b8428ac35b98d0233b42d27599feeebb5cf6102b9d3855ac254"
+      },
+      "model": {
+        "path": "production/ep03-repair-v5/EP03R5-STOP/scene.glb",
+        "sha256": "46cbfac227c465c21e662b42e695842c2b5c95190f4e8d913b484da05c795b50"
+      },
+      "timeline": {
+        "path": "production/ep03-repair-v5/EP03R5-STOP/timeline.json",
+        "sha256": "e24e6cd731c8c1ed9f05b34fda78b4c556bc20cdc2649c30e11f8b3e9947636d"
+      },
+      "preview": {
+        "path": "production/ep03-repair-v5/EP03R5-STOP/review.jpg",
+        "sha256": "df83931202534b9a216cbb88605fc47610ed1cb301fdcf7ad6872c6527ef961b"
+      },
+      "human_approval": null,
+      "status": "pending_review"
+    },
+    {
+      "key": "EP03R5-HANDOFF",
+      "profile": "sequential_handoff",
+      "scopes": [
+        "EP03-S04-01",
+        "EP03-S04-02",
+        "EP03-S08-01",
+        "EP03-S08-02"
+      ],
+      "scene": {
+        "path": "production/ep03-repair-v5/EP03R5-HANDOFF/scene.json",
+        "sha256": "b8d509e94c2099d15662c00be55f3e6650cb215023b16a373eb7975b635deacc"
+      },
+      "model": {
+        "path": "production/ep03-repair-v5/EP03R5-HANDOFF/scene.glb",
+        "sha256": "bad03b0e4902b3f386dfa9f9fa8b993ae7ddafed835fa2df8265af0cc9438cd5"
+      },
+      "timeline": {
+        "path": "production/ep03-repair-v5/EP03R5-HANDOFF/timeline.json",
+        "sha256": "81a52718f6f35684123e1114b39f9034aa84ce292532097fd92c180e84708e24"
+      },
+      "preview": {
+        "path": "production/ep03-repair-v5/EP03R5-HANDOFF/review.jpg",
+        "sha256": "d677e3fce0900fd86bea01349402533dea7a5bb81e8209f8459f36b3e23a5ce6"
+      },
+      "human_approval": null,
+      "status": "pending_review"
+    },
+    {
+      "key": "EP03R5-STAMP",
+      "profile": "stamp_contact",
+      "scopes": [
+        "EP03-S09-01",
+        "EP03-S09-02"
+      ],
+      "scene": {
+        "path": "production/ep03-repair-v5/EP03R5-STAMP/scene.json",
+        "sha256": "ff3a080dabbf2cbf851d38d0fbe928ccfe7fc3b41b55bf48cb7d500cc40e20a8"
+      },
+      "model": {
+        "path": "production/ep03-repair-v5/EP03R5-STAMP/scene.glb",
+        "sha256": "71264fa0c853a01bbaf5e61b7570e931ccd0d1d6ff794f810962b47273f90b09"
+      },
+      "timeline": {
+        "path": "production/ep03-repair-v5/EP03R5-STAMP/timeline.json",
+        "sha256": "c54b67e6938281bd2791e15047dda3f013e9d71c9f3e6fb12957d92a0e5160d8"
+      },
+      "preview": {
+        "path": "production/ep03-repair-v5/EP03R5-STAMP/review.jpg",
+        "sha256": "c2dbaee2c067d09ff0d498674eee402ac98b28a680f9d9b4ffdbd2f3b66b5ba8"
+      },
+      "human_approval": null,
+      "status": "pending_review"
+    },
+    {
+      "key": "EP03R5-RIDE",
+      "profile": "moving_cart",
+      "scopes": [
+        "EP03-S10-01",
+        "EP03-S10-02"
+      ],
+      "scene": {
+        "path": "production/ep03-repair-v5/EP03R5-RIDE/scene.json",
+        "sha256": "972df0648db63e35145b10a3223d42e9dde4bbba44a0479e9f392e4f306d44e7"
+      },
+      "model": {
+        "path": "production/ep03-repair-v5/EP03R5-RIDE/scene.glb",
+        "sha256": "a911ba55eced193370cba12749930e70b2864274b1d421e35ed0930e064a468f"
+      },
+      "timeline": {
+        "path": "production/ep03-repair-v5/EP03R5-RIDE/timeline.json",
+        "sha256": "c28eb6f8f36d380ec0e18203e367acea6dde2f8f1128088fa67f331bb8826462"
+      },
+      "preview": {
+        "path": "production/ep03-repair-v5/EP03R5-RIDE/review.jpg",
+        "sha256": "a5442472ba16ce68a4de5ea51f3886ae557ff8688b332f62c2edaa5a4f0f8a0e"
+      },
+      "human_approval": null,
+      "status": "pending_review"
+    }
+  ],
+  "canonical_props": "../ep02-repair-v5/canonical-assets.json",
+  "fixed_requirements": [
+    "stopped_cart_camera_zero_relative_jitter",
+    "handoffs_sequential_never_three_hands_cross",
+    "stamp_charges_ink_and_contacts_paper_before_lift",
+    "horse_visible_between_viewpoint_and_gate",
+    "same_ep01_paper_and_seal_reference_assets"
+  ],
+  "no_generation_approval_inferred": true
+}

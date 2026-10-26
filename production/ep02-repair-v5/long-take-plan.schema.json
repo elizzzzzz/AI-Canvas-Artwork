@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EP02 repair long take plan",
+  "type": "object",
+  "required": [
+    "schema",
+    "episode",
+    "status",
+    "shots",
+    "no_generation_submitted"
+  ],
+  "properties": {
+    "episode": {
+      "const": 2
+    },
+    "status": {
+      "const": "pending_human_review"
+    },
+    "no_generation_submitted": {
+      "const": true
+    },
+    "shots": {
+      "type": "array",
+      "minItems": 11,
+      "maxItems": 11,
+      "items": {
+        "type": "object",
+        "required": [
+          "key",
+          "scene_key",
+          "duration_seconds",
+          "target_fps",
+          "generation_status",
+          "beats",
+          "internal_approval"
+        ],
+        "properties": {
+          "target_fps": {
+            "const": 24
+          },
+          "duration_seconds": {
+            "type": "number",
+            "minimum": 10,
+            "maximum": 19
+          },
+          "internal_approval": {
+            "type": "object",
+            "properties": {
+              "status": {
+                "const": "pending"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

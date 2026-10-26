@@ -105,3 +105,7 @@ Gemini 3.1 Flash Image 当前 `1k` 报价每张 62 积分，8 张约 496 积分�
 - 正式成片输出：队列全部完成后写入 `production/full-generation-v2/episode-1-final-v1.mp4`、`episode-2-final-v1.mp4`、`episode-3-final-v1.mp4` 与 `langya-cloud-order-final-v1.mp4`。
 
 - 最终交付：[GitHub Release internal-final-v1](https://github.com/elizzzzzz/AI-Canvas-Artwork/releases/tag/internal-final-v1)。
+
+## 最新叙述修订
+
+三集娓娓讲述版 v4 与独立音轨见 [storytelling-v4](storytelling-v4/README.md)。本轮只重写并重配旁白，第一集使用已有 EP01 v2 修订原片；第二、三集道具、人脸与物理画面仍待重绘，不将声音完成等同于视觉终审通过。

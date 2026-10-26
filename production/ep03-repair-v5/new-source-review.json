@@ -1,0 +1,174 @@
+{
+  "status": "registered_new_source_pending_human_review",
+  "sources": [
+    {
+      "scope": "EP03-S01-01",
+      "registered_source_sha256": "24421ca6fa9111b64326e4c32e23ab4c88f780dbe7bcda777228a489ecd52a09",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S01-02",
+      "registered_source_sha256": "6a58300dc6e486f8bba70b818b18300291a12e547a380c702d3392098b62c546",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S02-01",
+      "registered_source_sha256": "c33d40ff21ff84b4f10740b358c45c99bc2d6228124917b9f750e0fe25f02c0c",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S02-02",
+      "registered_source_sha256": "5a9564f2e7dd52ce7cc31933a9b60d9163549e631e48fd18a72885f39e5123ef",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S03-01",
+      "registered_source_sha256": "544f4fe3b64a8b2c8ba6ac0361b6fef714e3b1d2458ee2f7e6fc17db311a4d28",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S03-02",
+      "registered_source_sha256": "ecbd3453cdec7d1c3e6c41ecea7a6bc37c73c29e66639d6fb4a8b9d0b9b75339",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S04-01",
+      "registered_source_sha256": "49085fb5ef77a05b222377e2a205b41f7ce28491851b377fa5fe10ff371acd03",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S04-02",
+      "registered_source_sha256": "348b6c4dbfa464e81ff34c66e5a66f9ba81807ee520d7268d8d7a48bd8d62021",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S05-01",
+      "registered_source_sha256": "4144e4b41ff36d42a9eaf32ea0c5e0429e32a90652952aaa3f2c70dcd5389b48",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S05-02",
+      "registered_source_sha256": "bd0538d70364d79b4aa57277d1cd8b2615e0a327aab110b181af9219d102851b",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S06-01",
+      "registered_source_sha256": "353b94cb5180505db75196559190932c1131c9bcc5584b6fd2f271722322ba74",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S06-02",
+      "registered_source_sha256": "e23334fe29bbe3c4797d36ea3331b9cef76604aee49c95372187cdf2eca8bbde",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S07-01",
+      "registered_source_sha256": "858d67074cb0bc52f604b9c3234a6a1b0d51ff46e071063e6eca5bca99c8b022",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S07-02",
+      "registered_source_sha256": "4b0ec5a9c030ce5d58ab190640e2cf927bb4b770ca05bd1e48ad421f995a8903",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S08-01",
+      "registered_source_sha256": "e36b58161bfa7fc2d49d61639da2d67d8f94cbe0759aea997f88effbc413474e",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S08-02",
+      "registered_source_sha256": "d5a8734230cfa5279d2339e7a05590662fe34302b3d8b7b966e40034ef3637cb",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S09-01",
+      "registered_source_sha256": "bfb044727bfda0bf193c7bd848647aa2326d95763c521bfc1afdb1b8e18c4ef5",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S09-02",
+      "registered_source_sha256": "6c6a9f1651fd3bc33cb22b4df28634c165f6deeb0f386df2a70d38082de60561",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S10-01",
+      "registered_source_sha256": "da3f4356a61da31eb0cf4fa74e9d5c50d0d33798fdce4d0d73a31c70a4609422",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S10-02",
+      "registered_source_sha256": "c234f920c7f940c0226fc41ad684ad0cf64fd970c83ccd4bf405ba6cdb7fe926",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S11-01",
+      "registered_source_sha256": "d2ca485e6d8b4b3a95922206aad0892942ab2840ee09426bdc11a3458d2d3ab3",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S11-02",
+      "registered_source_sha256": "5c216cb690a33dad5743651fd90ccd1b4479d1f828ad13f200dd764677f2796f",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S12-01",
+      "registered_source_sha256": "fba7b465bfcff70d874ceca09b1fd4aaa3d91a8cb790b351c9f477d860e38096",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    },
+    {
+      "scope": "EP03-S12-02",
+      "registered_source_sha256": "725de38f06fefb875dc96d226cc1045725fb0d5c27dc10c93845831d9bb63838",
+      "internal_approval": null,
+      "human_review": null,
+      "status": "repair_v5_new_source_pending_human_review"
+    }
+  ],
+  "old_approval_not_inherited": true
+}

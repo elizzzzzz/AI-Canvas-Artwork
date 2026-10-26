@@ -1,0 +1,591 @@
+{
+  "schema": "langya-long-take-plan-v5",
+  "episode": 2,
+  "status": "pending_human_review",
+  "shots": [
+    {
+      "key": "EP02-S01-REPAIR-V5",
+      "replaces_logical_shot": "EP02-S01",
+      "affected_exact_scopes": [
+        "EP02-S01-01",
+        "EP02-S01-02"
+      ],
+      "scene_key": "EP02-SET01",
+      "duration_seconds": 13.166666666666666,
+      "target_fps": 24,
+      "planned_frame_count_including_boundary": 317,
+      "mode": "one_continuous_take",
+      "narration": {
+        "shot": "EP02-S01",
+        "scene_start": 0,
+        "scene_duration": 13.166666666666666,
+        "voice_start": 0.2,
+        "voice_end": 9.319999999999999,
+        "text": "我叫谢听云，替琅琊阁送信。那天雨下得很久，我抱着一只未曾拆开的锦囊，站在廊下等人。"
+      },
+      "narration_source": {
+        "path": "production/storytelling-v4/audio/EP02-narration.wav",
+        "sha256": "3093b03c8de6c5313c44c36e5e5c27291f748fe6fd264eadaf724402739033ef"
+      },
+      "action": false,
+      "camera": {
+        "owner": "谢听云",
+        "mode": "first_person",
+        "height_m": 1.6,
+        "rule": "眼位连贯，不显示自己脸或后背；人物初登场在同一第一人称镜头中留约1秒缓速观察",
+        "path_status": "static representative camera plus written motion intention, NOT reviewed full motion"
+      },
+      "beats": [
+        "0–3s：廊下停稳，桌面锦囊闭合。",
+        "3–10s：慢俯看绳结与封泥，不拆囊。",
+        "10–结束：抬眼等候，保留剪辑尾。"
+      ],
+      "canonical_asset_manifest": "production/ep02-repair-v5/canonical-assets.json",
+      "prompt_status": "new local treatment only; not written to global prompt; new hash review required",
+      "generation_status": "blocked_pending_scope_registration_current_hash_and_human_review",
+      "internal_approval": {
+        "status": "pending",
+        "reviewer": null
+      },
+      "editable_handles_seconds": [
+        1,
+        1
+      ],
+      "voice_matching": "existing story timing kept; do not reorder visuals across narration beats"
+    },
+    {
+      "key": "EP02-S02-REPAIR-V5",
+      "replaces_logical_shot": "EP02-S02",
+      "affected_exact_scopes": [
+        "EP02-S02-01",
+        "EP02-S02-02"
+      ],
+      "scene_key": "EP02-SET01",
+      "duration_seconds": 13.625,
+      "target_fps": 24,
+      "planned_frame_count_including_boundary": 328,
+      "mode": "one_continuous_take",
+      "narration": {
+        "shot": "EP02-S02",
+        "scene_start": 13.166666666666666,
+        "scene_duration": 13.625,
+        "voice_start": 13.366666666666665,
+        "voice_end": 24.118666666666666,
+        "text": "阁中只嘱咐我，交到北燕六皇子手中。里面写了什么，我不知道。可封泥既经我手，我就得把它完完整整送到。"
+      },
+      "narration_source": {
+        "path": "production/storytelling-v4/audio/EP02-narration.wav",
+        "sha256": "3093b03c8de6c5313c44c36e5e5c27291f748fe6fd264eadaf724402739033ef"
+      },
+      "action": true,
+      "camera": {
+        "owner": "谢听云",
+        "mode": "first_person",
+        "height_m": 1.6,
+        "rule": "眼位连贯，不显示自己脸或后背；人物初登场在同一第一人称镜头中留约1秒缓速观察",
+        "path_status": "static representative camera plus written motion intention, NOT reviewed full motion"
+      },
+      "beats": [
+        "0–3s：封泥原位、绳结受力。",
+        "3–10s：仅指向结绳，手不穿入囊内。",
+        "10–结束：手退出，锦囊保持原位。"
+      ],
+      "canonical_asset_manifest": "production/ep02-repair-v5/canonical-assets.json",
+      "prompt_status": "new local treatment only; not written to global prompt; new hash review required",
+      "generation_status": "blocked_pending_scope_registration_current_hash_and_human_review",
+      "internal_approval": {
+        "status": "pending",
+        "reviewer": null
+      },
+      "editable_handles_seconds": [
+        1,
+        1
+      ],
+      "voice_matching": "existing story timing kept; do not reorder visuals across narration beats"
+    },
+    {
+      "key": "EP02-S03-REPAIR-V5",
+      "replaces_logical_shot": "EP02-S03",
+      "affected_exact_scopes": [
+        "EP02-S03-01",
+        "EP02-S03-02"
+      ],
+      "scene_key": "EP02-SET02",
+      "duration_seconds": 15.083333333333332,
+      "target_fps": 24,
+      "planned_frame_count_including_boundary": 363,
+      "mode": "one_continuous_take",
+      "narration": {
+        "shot": "EP02-S03",
+        "scene_start": 26.791666666666664,
+        "scene_duration": 15.083333333333332,
+        "voice_start": 26.991666666666664,
+        "voice_end": 37.86366666666666,
+        "text": "来报的人说，六皇子的兄长各有兵马，他却连可倚仗的人都不多。我听着那番话，渐渐明白，这锦囊为何偏偏给了他。"
+      },
+      "narration_source": {
+        "path": "production/storytelling-v4/audio/EP02-narration.wav",
+        "sha256": "3093b03c8de6c5313c44c36e5e5c27291f748fe6fd264eadaf724402739033ef"
+      },
+      "action": false,
+      "camera": {
+        "owner": "谢听云",
+        "mode": "first_person",
+        "height_m": 1.6,
+        "rule": "眼位连贯，不显示自己脸或后背；人物初登场在同一第一人称镜头中留约1秒缓速观察",
+        "path_status": "static representative camera plus written motion intention, NOT reviewed full motion"
+      },
+      "beats": [
+        "0–3s：信使A到面前，其他人不复制。",
+        "3–11s：听他口述六皇子的处境，不切异地皇宫。",
+        "11–结束：目光回到桌上。"
+      ],
+      "canonical_asset_manifest": "production/ep02-repair-v5/canonical-assets.json",
+      "prompt_status": "new local treatment only; not written to global prompt; new hash review required",
+      "generation_status": "blocked_pending_scope_registration_current_hash_and_human_review",
+      "internal_approval": {
+        "status": "pending",
+        "reviewer": null
+      },
+      "editable_handles_seconds": [
+        1,
+        1
+      ],
+      "voice_matching": "existing story timing kept; do not reorder visuals across narration beats"
+    },
+    {
+      "key": "EP02-S04-REPAIR-V5",
+      "replaces_logical_shot": "EP02-S04",
+      "affected_exact_scopes": [
+        "EP02-S04-01",
+        "EP02-S04-02"
+      ],
+      "scene_key": "EP02-SET02",
+      "duration_seconds": 12.083333333333334,
+      "target_fps": 24,
+      "planned_frame_count_including_boundary": 291,
+      "mode": "one_continuous_take",
+      "narration": {
+        "shot": "EP02-S04",
+        "scene_start": 41.875,
+        "scene_duration": 12.083333333333334,
+        "voice_start": 42.075,
+        "voice_end": 52.203,
+        "text": "我挑了三名信使，分三条路走。临行前又叮嘱了一遍：认清收信的人，记牢约定的话，遇到变故就回来告诉我。"
+      },
+      "narration_source": {
+        "path": "production/storytelling-v4/audio/EP02-narration.wav",
+        "sha256": "3093b03c8de6c5313c44c36e5e5c27291f748fe6fd264eadaf724402739033ef"
+      },
+      "action": true,
+      "camera": {
+        "owner": "谢听云",
+        "mode": "first_person",
+        "height_m": 1.6,
+        "rule": "眼位连贯，不显示自己脸或后背；人物初登场在同一第一人称镜头中留约1秒缓速观察",
+        "path_status": "static representative camera plus written motion intention, NOT reviewed full motion"
+      },
+      "beats": [
+        "0–3s：三人一前两后，站位错开。",
+        "3–9s：只向A交有效图，B和C候命。",
+        "9–结束：先后转身，步行离开；原锦囊仍在台上。"
+      ],
+      "canonical_asset_manifest": "production/ep02-repair-v5/canonical-assets.json",
+      "prompt_status": "new local treatment only; not written to global prompt; new hash review required",
+      "generation_status": "blocked_pending_scope_registration_current_hash_and_human_review",
+      "internal_approval": {
+        "status": "pending",
+        "reviewer": null
+      },
+      "editable_handles_seconds": [
+        1,
+        1
+      ],
+      "voice_matching": "existing story timing kept; do not reorder visuals across narration beats"
+    },
+    {
+      "key": "EP02-S05-REPAIR-V5",
+      "replaces_logical_shot": "EP02-S05",
+      "affected_exact_scopes": [
+        "EP02-S05-01",
+        "EP02-S05-02"
+      ],
+      "scene_key": "EP02-SET03",
+      "duration_seconds": 16.041666666666664,
+      "target_fps": 24,
+      "planned_frame_count_including_boundary": 386,
+      "mode": "one_continuous_take",
+      "narration": {
+        "shot": "EP02-S05",
+        "scene_start": 53.958333333333336,
+        "scene_duration": 16.041666666666664,
+        "voice_start": 54.15833333333334,
+        "voice_end": 65.39033333333333,
+        "text": "谁知人还没走远，就有人折了回来。他手里的封泥，竟和另一人的口令对不上。我拦住众人，让他们别急，先把话说清。"
+      },
+      "narration_source": {
+        "path": "production/storytelling-v4/audio/EP02-narration.wav",
+        "sha256": "3093b03c8de6c5313c44c36e5e5c27291f748fe6fd264eadaf724402739033ef"
+      },
+      "action": true,
+      "camera": {
+        "owner": "谢听云",
+        "mode": "first_person",
+        "height_m": 1.6,
+        "rule": "眼位连贯，不显示自己脸或后背；人物初登场在同一第一人称镜头中留约1秒缓速观察",
+        "path_status": "static representative camera plus written motion intention, NOT reviewed full motion"
+      },
+      "beats": [
+        "0–3s：从本人眼位追上返回者。",
+        "3–11s：人物接地停稳后报告口令差异；封泥只是封口证据。",
+        "11–结束：叫停众人，回向核验台。"
+      ],
+      "canonical_asset_manifest": "production/ep02-repair-v5/canonical-assets.json",
+      "prompt_status": "new local treatment only; not written to global prompt; new hash review required",
+      "generation_status": "blocked_pending_scope_registration_current_hash_and_human_review",
+      "internal_approval": {
+        "status": "pending",
+        "reviewer": null
+      },
+      "editable_handles_seconds": [
+        1,
+        1
+      ],
+      "voice_matching": "existing story timing kept; do not reorder visuals across narration beats"
+    },
+    {
+      "key": "EP02-S06-REPAIR-V5",
+      "replaces_logical_shot": "EP02-S06",
+      "affected_exact_scopes": [
+        "EP02-S06-01",
+        "EP02-S06-02"
+      ],
+      "scene_key": "EP02-SET01",
+      "duration_seconds": 16.083333333333332,
+      "target_fps": 24,
+      "planned_frame_count_including_boundary": 387,
+      "mode": "one_continuous_take",
+      "narration": {
+        "shot": "EP02-S06",
+        "scene_start": 70.0,
+        "scene_duration": 16.083333333333332,
+        "voice_start": 70.2,
+        "voice_end": 81.792,
+        "text": "第三个人也摊开路图。我仔细一看，那是从前留下的旧图，有处渡口早已不通。若真照着走，这封信怕是要误在路上。"
+      },
+      "narration_source": {
+        "path": "production/storytelling-v4/audio/EP02-narration.wav",
+        "sha256": "3093b03c8de6c5313c44c36e5e5c27291f748fe6fd264eadaf724402739033ef"
+      },
+      "action": true,
+      "camera": {
+        "owner": "谢听云",
+        "mode": "first_person",
+        "height_m": 1.6,
+        "rule": "眼位连贯，不显示自己脸或后背；人物初登场在同一第一人称镜头中留约1秒缓速观察",
+        "path_status": "static representative camera plus written motion intention, NOT reviewed full motion"
+      },
+      "beats": [
+        "0–3s：先看左侧旧图缺角。",
+        "3–11s：指出红叉旧渡口；右侧有效图红线绕行。",
+        "11–结束：旧图留桌左收回区，不叠成军报。"
+      ],
+      "canonical_asset_manifest": "production/ep02-repair-v5/canonical-assets.json",
+      "prompt_status": "new local treatment only; not written to global prompt; new hash review required",
+      "generation_status": "blocked_pending_scope_registration_current_hash_and_human_review",
+      "internal_approval": {
+        "status": "pending",
+        "reviewer": null
+      },
+      "editable_handles_seconds": [
+        1,
+        1
+      ],
+      "voice_matching": "existing story timing kept; do not reorder visuals across narration beats"
+    },
+    {
+      "key": "EP02-S07-REPAIR-V5",
+      "replaces_logical_shot": "EP02-S07",
+      "affected_exact_scopes": [
+        "EP02-S07-01",
+        "EP02-S07-02"
+      ],
+      "scene_key": "EP02-SET03",
+      "duration_seconds": 18.083333333333332,
+      "target_fps": 24,
+      "planned_frame_count_including_boundary": 435,
+      "mode": "one_continuous_take",
+      "narration": {
+        "shot": "EP02-S07",
+        "scene_start": 86.08333333333333,
+        "scene_duration": 18.083333333333332,
+        "voice_start": 86.28333333333333,
+        "voice_end": 96.45933333333333,
+        "text": "我把锦囊留在手边，挨个问过姓名，又看封泥，再问他们准备怎么走。直到每个人都说得明白，我才敢重新放行。"
+      },
+      "narration_source": {
+        "path": "production/storytelling-v4/audio/EP02-narration.wav",
+        "sha256": "3093b03c8de6c5313c44c36e5e5c27291f748fe6fd264eadaf724402739033ef"
+      },
+      "action": true,
+      "camera": {
+        "owner": "谢听云",
+        "mode": "first_person",
+        "height_m": 1.6,
+        "rule": "眼位连贯，不显示自己脸或后背；人物初登场在同一第一人称镜头中留约1秒缓速观察",
+        "path_status": "static representative camera plus written motion intention, NOT reviewed full motion"
+      },
+      "beats": [
+        "0–3s：追截结束停稳，人物站位固定。",
+        "3–12s：询问姓名、封口是否完整与路线，动作不并行。",
+        "12–结束：锦囊由原持有人交A；B和C只带口信，不能复制锦囊。"
+      ],
+      "canonical_asset_manifest": "production/ep02-repair-v5/canonical-assets.json",
+      "prompt_status": "new local treatment only; not written to global prompt; new hash review required",
+      "generation_status": "blocked_pending_scope_registration_current_hash_and_human_review",
+      "internal_approval": {
+        "status": "pending",
+        "reviewer": null
+      },
+      "editable_handles_seconds": [
+        1,
+        1
+      ],
+      "voice_matching": "existing story timing kept; do not reorder visuals across narration beats"
+    },
+    {
+      "key": "EP02-S08-REPAIR-V5",
+      "replaces_logical_shot": "EP02-S08",
+      "affected_exact_scopes": [
+        "EP02-S08-01",
+        "EP02-S08-02"
+      ],
+      "scene_key": "EP02-SET03",
+      "duration_seconds": 14.083333333333334,
+      "target_fps": 24,
+      "planned_frame_count_including_boundary": 339,
+      "mode": "one_continuous_take",
+      "narration": {
+        "shot": "EP02-S08",
+        "scene_start": 104.16666666666666,
+        "scene_duration": 14.083333333333334,
+        "voice_start": 104.36666666666666,
+        "voice_end": 114.51866666666666,
+        "text": "廊下的灯一盏接一盏亮起来，几路回信也陆续到了。看见他们报来同样的消息，我悬着的那颗心，总算落下了。"
+      },
+      "narration_source": {
+        "path": "production/storytelling-v4/audio/EP02-narration.wav",
+        "sha256": "3093b03c8de6c5313c44c36e5e5c27291f748fe6fd264eadaf724402739033ef"
+      },
+      "action": true,
+      "camera": {
+        "owner": "谢听云",
+        "mode": "first_person",
+        "height_m": 1.6,
+        "rule": "眼位连贯，不显示自己脸或后背；人物初登场在同一第一人称镜头中留约1秒缓速观察",
+        "path_status": "static representative camera plus written motion intention, NOT reviewed full motion"
+      },
+      "beats": [
+        "0–3s：本人视线沿廊前行，脚步与位移对应。",
+        "3–10s：信使先后送回回执，灯由人点亮。",
+        "10–结束：回执放台面，不变成地图或封泥。"
+      ],
+      "canonical_asset_manifest": "production/ep02-repair-v5/canonical-assets.json",
+      "prompt_status": "new local treatment only; not written to global prompt; new hash review required",
+      "generation_status": "blocked_pending_scope_registration_current_hash_and_human_review",
+      "internal_approval": {
+        "status": "pending",
+        "reviewer": null
+      },
+      "editable_handles_seconds": [
+        1,
+        1
+      ],
+      "voice_matching": "existing story timing kept; do not reorder visuals across narration beats"
+    },
+    {
+      "key": "EP02-S09-REPAIR-V5",
+      "replaces_logical_shot": "EP02-S09",
+      "affected_exact_scopes": [
+        "EP02-S09-01",
+        "EP02-S09-02"
+      ],
+      "scene_key": "EP02-SET04",
+      "duration_seconds": 13.083333333333334,
+      "target_fps": 24,
+      "planned_frame_count_including_boundary": 315,
+      "mode": "one_continuous_take",
+      "narration": {
+        "shot": "EP02-S09",
+        "scene_start": 118.24999999999999,
+        "scene_duration": 13.083333333333334,
+        "voice_start": 118.44999999999999,
+        "voice_end": 129.178,
+        "text": "最后一名信使回来时，带回了完整的封印。他说，北燕王已立六皇子为储君。我没有追问锦囊，只收好了回信。"
+      },
+      "narration_source": {
+        "path": "production/storytelling-v4/audio/EP02-narration.wav",
+        "sha256": "3093b03c8de6c5313c44c36e5e5c27291f748fe6fd264eadaf724402739033ef"
+      },
+      "action": false,
+      "camera": {
+        "owner": "谢听云",
+        "mode": "first_person",
+        "height_m": 1.6,
+        "rule": "眼位连贯，不显示自己脸或后背；人物初登场在同一第一人称镜头中留约1秒缓速观察",
+        "path_status": "static representative camera plus written motion intention, NOT reviewed full motion"
+      },
+      "beats": [
+        "0–3s：最后信使面前停稳。",
+        "3–11s：口述册立消息，回执留印，原锦囊不返回复制。",
+        "11–结束：收回执，情绪放松。"
+      ],
+      "canonical_asset_manifest": "production/ep02-repair-v5/canonical-assets.json",
+      "prompt_status": "new local treatment only; not written to global prompt; new hash review required",
+      "generation_status": "blocked_pending_scope_registration_current_hash_and_human_review",
+      "internal_approval": {
+        "status": "pending",
+        "reviewer": null
+      },
+      "editable_handles_seconds": [
+        1,
+        1
+      ],
+      "voice_matching": "existing story timing kept; do not reorder visuals across narration beats"
+    },
+    {
+      "key": "EP02-S10-REPAIR-V5",
+      "replaces_logical_shot": "EP02-S10",
+      "affected_exact_scopes": [
+        "EP02-S10-01",
+        "EP02-S10-02"
+      ],
+      "scene_key": "EP02-SET03",
+      "duration_seconds": 12.083333333333334,
+      "target_fps": 24,
+      "planned_frame_count_including_boundary": 291,
+      "mode": "one_continuous_take",
+      "narration": {
+        "shot": "EP02-S10",
+        "scene_start": 131.33333333333331,
+        "scene_duration": 12.083333333333334,
+        "voice_start": 131.5333333333333,
+        "voice_end": 141.4213333333333,
+        "text": "两府的人先后赶来，都在找麒麟才子。听说得到此人，便可得天下。雨还没停，金陵已经起了风。"
+      },
+      "narration_source": {
+        "path": "production/storytelling-v4/audio/EP02-narration.wav",
+        "sha256": "3093b03c8de6c5313c44c36e5e5c27291f748fe6fd264eadaf724402739033ef"
+      },
+      "action": true,
+      "camera": {
+        "owner": "谢听云",
+        "mode": "first_person",
+        "height_m": 1.6,
+        "rule": "眼位连贯，不显示自己脸或后背；人物初登场在同一第一人称镜头中留约1秒缓速观察",
+        "path_status": "static representative camera plus written motion intention, NOT reviewed full motion"
+      },
+      "beats": [
+        "0–3s：两府来客先后步入，互不克隆。",
+        "3–9s：在谢听云面前求问麒麟才子，不切异地。",
+        "9–结束：看向雨幕，留呼吸。"
+      ],
+      "canonical_asset_manifest": "production/ep02-repair-v5/canonical-assets.json",
+      "prompt_status": "new local treatment only; not written to global prompt; new hash review required",
+      "generation_status": "blocked_pending_scope_registration_current_hash_and_human_review",
+      "internal_approval": {
+        "status": "pending",
+        "reviewer": null
+      },
+      "editable_handles_seconds": [
+        1,
+        1
+      ],
+      "voice_matching": "existing story timing kept; do not reorder visuals across narration beats"
+    },
+    {
+      "key": "EP02-S11-REPAIR-V5",
+      "replaces_logical_shot": "EP02-S11",
+      "affected_exact_scopes": [
+        "EP02-S11-01",
+        "EP02-S11-02"
+      ],
+      "scene_key": "EP02-SET04",
+      "duration_seconds": 14.083333333333334,
+      "target_fps": 24,
+      "planned_frame_count_including_boundary": 339,
+      "mode": "one_continuous_take",
+      "narration": {
+        "shot": "EP02-S11",
+        "scene_start": 143.41666666666666,
+        "scene_duration": 14.083333333333334,
+        "voice_start": 143.61666666666665,
+        "voice_end": 148.44066666666666,
+        "text": "这一夜，幸好他们守住了托付，我也没有辜负等信的人。"
+      },
+      "narration_source": {
+        "path": "production/storytelling-v4/audio/EP02-narration.wav",
+        "sha256": "3093b03c8de6c5313c44c36e5e5c27291f748fe6fd264eadaf724402739033ef"
+      },
+      "action": false,
+      "camera": {
+        "owner": "谢听云",
+        "mode": "first_person",
+        "height_m": 1.6,
+        "rule": "眼位连贯，不显示自己脸或后背；人物初登场在同一第一人称镜头中留约1秒缓速观察",
+        "path_status": "static representative camera plus written motion intention, NOT reviewed full motion"
+      },
+      "beats": [
+        "0–3s：三名信使和书吏依次在面前站定。",
+        "3–6s：收住当夜故事，不出现制片术语。",
+        "6–结束：沿用同一广告原录音，音乐压低，画面保留。"
+      ],
+      "canonical_asset_manifest": "production/ep02-repair-v5/canonical-assets.json",
+      "prompt_status": "new local treatment only; not written to global prompt; new hash review required",
+      "generation_status": "blocked_pending_scope_registration_current_hash_and_human_review",
+      "internal_approval": {
+        "status": "pending",
+        "reviewer": null
+      },
+      "editable_handles_seconds": [
+        1,
+        1
+      ],
+      "voice_matching": "existing story timing kept; do not reorder visuals across narration beats"
+    }
+  ],
+  "total_seconds": 157.5,
+  "action_seconds": 102.08333333333331,
+  "duration_strategy": "11 logical continuous takes, 12–18.083 seconds, replaces old 6–9s split; first/last second for edit; live capability must confirm max duration before paid run",
+  "generation_model_direction": "Seedance 2.5 480p requested; MiniMax-H3 fallback only on valid scopes; neither capability nor new budget asserted",
+  "no_generation_submitted": true,
+  "remaining": [
+    "unique face anchors",
+    "hand grip/release contact poses",
+    "motion and occlusion full-frame validation",
+    "global registration by main agent",
+    "per-exact-scope internal preflight after current-source user review",
+    "price quote and applicable budget confirmation"
+  ],
+  "music": {
+    "path": "production/storytelling-v4/audio/unified-original-music.wav",
+    "sha256": "f2e9ed1803c1dcd198abb789bf62ca8f4824775a5029c7f626eaa210381e7b93"
+  },
+  "brand_tagline": {
+    "path": "production/storytelling-v4/audio/unified-brand-tagline.wav",
+    "sha256": "5bfb5c618336469418a73254cd58cf3e689ec235b3a476e46f31cdb13cb4aeb0"
+  },
+  "caption_rule": "no generated or burned subtitles; no title cards; remove inaccurate source text in new picture generation",
+  "audio_semantic_flags": [
+    {
+      "shot": "EP02-S05",
+      "existing_line": "他手里的封泥，竟和另一人的口令对不上",
+      "issue": "seal is tamper evidence, cannot encode or validate spoken passphrase; preserve audio file but label semantic mismatch for main edit decision"
+    },
+    {
+      "shot": "EP02-S09",
+      "existing_line": "带回了完整的封印",
+      "issue": "visualize intact receipt seal, not original pouch copied back"
+    }
+  ]
+}

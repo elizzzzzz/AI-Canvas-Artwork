@@ -1,0 +1,480 @@
+{
+  "schema": "langya-ep02-repair-v5",
+  "status": "local_proxy_scene_package_pending_human_review",
+  "canonical_assets": {
+    "path": "production/ep02-repair-v5/canonical-assets.json",
+    "sha256": "f3367ecfd3e68570456849af441ae6a5a81a94af167657b40bd759919083813e"
+  },
+  "long_take_plan": {
+    "path": "production/ep02-repair-v5/long-take-plan.json",
+    "sha256": "ab49039b02d5be20c5c059bf32e2f3e4837498df06e351a4f508ec845ea5da3d"
+  },
+  "plan_schema": {
+    "path": "production/ep02-repair-v5/long-take-plan.schema.json",
+    "sha256": "629bd7c70ebff48d84d7476d74ed50848e9c6028f6eacade06f51a99ffc4592a"
+  },
+  "scene_count": 4,
+  "scenes": [
+    {
+      "key": "EP02-SET01",
+      "name": "核验台：军报、有效图、旧图、封闭锦囊",
+      "model": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET01/EP02-SET01.glb",
+        "sha256": "5e647a212e8fb9f17b8f950c842e9baf7280c3f5f082296ad109eb894376a121"
+      },
+      "scene": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET01/scene.json",
+        "sha256": "9935fb513982c45266d1f040bb048fff0fc588bb04c561efbba95f9c79291654"
+      },
+      "camera": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET01/camera.json",
+        "sha256": "dc3da14edb676c9f994f060ecb6cd8d255d3bd77ede8e9679609399ca56b5f1c"
+      },
+      "preview": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET01/pov.png",
+        "sha256": "1ec9adcf1e23095fcee96ed1e9de77916499200c760fdf068868c7e44176a650"
+      },
+      "diagnostic": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET01/diagnostic.png",
+        "sha256": "07df4ff0fa2f3a99af4326cf9840183d9b51083d70d2ef3320b4e103ede96b3d"
+      },
+      "depth": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET01/pov-depth-mm.png",
+        "sha256": "49b602977c256c76ada986772f92859265f3e1be5a27cb5b7298aeefd3f641ee"
+      },
+      "object_ids": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET01/pov-object-ids.png",
+        "sha256": "e404dc824b8fc706e22e5d0568972b84a7642608698f7e95a665849fab7b383b"
+      },
+      "render_receipt": {
+        "eye": [
+          0.0,
+          0.02,
+          1.58
+        ],
+        "target": [
+          0.0,
+          1.25,
+          0.78
+        ],
+        "vertical_fov_degrees": 62,
+        "width": 360,
+        "height": 640,
+        "visible_object_ids": [
+          13,
+          24,
+          26,
+          28,
+          35,
+          37,
+          39,
+          46,
+          47,
+          48,
+          49,
+          50,
+          52,
+          55,
+          56,
+          57,
+          59,
+          60,
+          62,
+          63,
+          76,
+          77,
+          92,
+          94,
+          95,
+          96
+        ],
+        "depth_units": "metres (.npy); millimetres (16-bit png), zero png background"
+      },
+      "texture_binding": {
+        "embedded_textures": 4,
+        "bound_nodes": [
+          "report-top",
+          "route-valid-top",
+          "route-expired-top",
+          "seal-stamp-top"
+        ],
+        "texture_render_review": "pending; CPU preview is untextured geometry"
+      }
+    },
+    {
+      "key": "EP02-SET02",
+      "name": "三名不同身份信使，分开候命与交接",
+      "model": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET02/EP02-SET02.glb",
+        "sha256": "734f8f5de8a5421da7f188d151be9be284cbf370e6ca049faf0ae9c145ab6220"
+      },
+      "scene": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET02/scene.json",
+        "sha256": "59c9d54bcb63fbccf8025095bbb4d6fa3528797b8135dad42a80c05d0a5214e1"
+      },
+      "camera": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET02/camera.json",
+        "sha256": "d337371208703e53c9334a2bb5521b20d071bc8ebbf79f64ebdf6fea691776a6"
+      },
+      "preview": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET02/pov.png",
+        "sha256": "9ed982f151e7391fa34e2a4c40d42080afa3f5f5f36c64351ce480f547c1a032"
+      },
+      "diagnostic": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET02/diagnostic.png",
+        "sha256": "70695c131d8d9718c72ac62c93f6455b0f7795dabdb83d0efc547d86a82b9db3"
+      },
+      "depth": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET02/pov-depth-mm.png",
+        "sha256": "adea0d45733cb3cf4be8a89cb48a7abcf40ed63d2e25f1129cc85ee6fd85a3ee"
+      },
+      "object_ids": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET02/pov-object-ids.png",
+        "sha256": "323e5973e396e309907c745b3fc34aba7a239252f671df4f1816bad611cce7ab"
+      },
+      "render_receipt": {
+        "eye": [
+          0.0,
+          -0.3,
+          1.6
+        ],
+        "target": [
+          0.0,
+          2.1,
+          1.12
+        ],
+        "vertical_fov_degrees": 62,
+        "width": 360,
+        "height": 640,
+        "visible_object_ids": [
+          13,
+          24,
+          26,
+          28,
+          30,
+          32,
+          33,
+          35,
+          37,
+          39,
+          41,
+          43,
+          44,
+          46,
+          47,
+          48,
+          49,
+          50,
+          63,
+          64,
+          65,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          74,
+          76,
+          77,
+          79,
+          81,
+          82,
+          83,
+          90,
+          95,
+          96,
+          97,
+          98,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          107,
+          109,
+          110,
+          112,
+          114,
+          115,
+          116,
+          122,
+          123,
+          128,
+          129,
+          130,
+          131,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          140,
+          142,
+          143,
+          145,
+          149,
+          152,
+          154,
+          155,
+          157
+        ],
+        "depth_units": "metres (.npy); millimetres (16-bit png), zero png background"
+      },
+      "texture_binding": {
+        "embedded_textures": 1,
+        "bound_nodes": [
+          "route-valid-top"
+        ],
+        "texture_render_review": "pending; CPU preview is untextured geometry"
+      }
+    },
+    {
+      "key": "EP02-SET03",
+      "name": "雨廊追截：落脚接地，无人物相同脸通过宣称",
+      "model": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET03/EP02-SET03.glb",
+        "sha256": "06bbbf7b818901c22e3f5f3c36a5e232f6a7659b5184f5092552810b133fb637"
+      },
+      "scene": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET03/scene.json",
+        "sha256": "7788c2e9515c7e0fddf21d4a983819fe16d0b5c489a17d8bc070ca023fd08490"
+      },
+      "camera": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET03/camera.json",
+        "sha256": "6295dd5febbfd3d5c57229141e8c01222ca794677224fe22c25acfd80b7207e9"
+      },
+      "preview": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET03/pov.png",
+        "sha256": "b62b08064bc5e09f46272446d59b956f89fc65fec507e7a03a72341cba589e6d"
+      },
+      "diagnostic": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET03/diagnostic.png",
+        "sha256": "67cfc30d9eb71bd0cb8c7b9d2d4e518dd0619ea633bf436c1dfe4e6cc70fb022"
+      },
+      "depth": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET03/pov-depth-mm.png",
+        "sha256": "5ed16a4327a0b3cf60f013eb560b6504c2473cfc21499537af92893c0b2f627e"
+      },
+      "object_ids": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET03/pov-object-ids.png",
+        "sha256": "cdac77dcf2166ee2afd040ce8baaeca33f4e8b3bc37ece064c1307297e28e656"
+      },
+      "render_receipt": {
+        "eye": [
+          0.0,
+          -0.5,
+          1.6
+        ],
+        "target": [
+          0.0,
+          4.0,
+          1.15
+        ],
+        "vertical_fov_degrees": 62,
+        "width": 360,
+        "height": 640,
+        "visible_object_ids": [
+          13,
+          24,
+          26,
+          28,
+          30,
+          32,
+          33,
+          35,
+          37,
+          39,
+          41,
+          43,
+          44,
+          57,
+          62,
+          63,
+          64,
+          65,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          74,
+          76,
+          77,
+          79,
+          81,
+          82,
+          83,
+          89,
+          90,
+          94,
+          95,
+          96,
+          97,
+          98,
+          100,
+          101,
+          102,
+          103,
+          107,
+          109,
+          110,
+          112,
+          114,
+          116
+        ],
+        "depth_units": "metres (.npy); millimetres (16-bit png), zero png background"
+      },
+      "texture_binding": {
+        "embedded_textures": 0,
+        "bound_nodes": [],
+        "texture_render_review": "pending; CPU preview is untextured geometry"
+      }
+    },
+    {
+      "key": "EP02-SET04",
+      "name": "回执与落幕：原锦囊不复制，众人到齐",
+      "model": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET04/EP02-SET04.glb",
+        "sha256": "bc861f2c683914bee80e6ccdb3893c167162472fb88a3034755d15daefbeeaa0"
+      },
+      "scene": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET04/scene.json",
+        "sha256": "db05e52057007acce02ba7b8a3979d43fd860e54346af5b20d97bbd0410e963d"
+      },
+      "camera": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET04/camera.json",
+        "sha256": "6ab18a1ee6988fc63acbd84ccbc2ee9b70e63a18f486a1c7f4877b967b2c5c48"
+      },
+      "preview": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET04/pov.png",
+        "sha256": "909310061f52a97af202572398234ce02ef2cb3aa8967daf150e9ddef0c0f4e2"
+      },
+      "diagnostic": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET04/diagnostic.png",
+        "sha256": "8d3cd35c20d6f7d2862a3912b498591588219ef407e7165f226adf77d5b00cba"
+      },
+      "depth": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET04/pov-depth-mm.png",
+        "sha256": "817d6cd6c1631233b3e5ff68419468284d3130d926982ea731b5a688a2f45ca9"
+      },
+      "object_ids": {
+        "path": "production/ep02-repair-v5/scenes/EP02-SET04/pov-object-ids.png",
+        "sha256": "bf8b12d5d7fa567b6a75900ed0f7c11e0bb9128832083efa32298147e5b410b3"
+      },
+      "render_receipt": {
+        "eye": [
+          0.0,
+          -0.3,
+          1.6
+        ],
+        "target": [
+          0.0,
+          2.5,
+          1.15
+        ],
+        "vertical_fov_degrees": 62,
+        "width": 360,
+        "height": 640,
+        "visible_object_ids": [
+          13,
+          24,
+          26,
+          28,
+          30,
+          32,
+          33,
+          35,
+          37,
+          39,
+          41,
+          43,
+          44,
+          46,
+          47,
+          48,
+          49,
+          50,
+          53,
+          66,
+          67,
+          68,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          77,
+          79,
+          80,
+          82,
+          84,
+          85,
+          86,
+          99,
+          100,
+          101,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          110,
+          112,
+          113,
+          115,
+          117,
+          118,
+          119,
+          126,
+          131,
+          132,
+          133,
+          134,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          143,
+          145,
+          146,
+          148,
+          150,
+          151,
+          152
+        ],
+        "depth_units": "metres (.npy); millimetres (16-bit png), zero png background"
+      },
+      "texture_binding": {
+        "embedded_textures": 1,
+        "bound_nodes": [
+          "receipt-top"
+        ],
+        "texture_render_review": "pending; CPU preview is untextured geometry"
+      }
+    }
+  ],
+  "source_script": {
+    "path": "tools/ep02_repair_v5.py",
+    "sha256": "888a2d9a6275f82617c8e48c539fbf804f11e9c8ee1c535596f9b89fa62698b8"
+  },
+  "formal_evidence_complete": false,
+  "new_approval_granted": false,
+  "paid_submissions": 0,
+  "write_scope": "production/ep02-repair-v5 and tools/ep02_repair_v5.py only",
+  "generation_blockers": [
+    "unique face anchors",
+    "hand grip/release contact poses",
+    "motion and occlusion full-frame validation",
+    "global registration by main agent",
+    "per-exact-scope internal preflight after current-source user review",
+    "price quote and applicable budget confirmation"
+  ]
+}

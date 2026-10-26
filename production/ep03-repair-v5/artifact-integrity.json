@@ -1,0 +1,15 @@
+{
+  "status": "artifact_integrity_verified_pending_human_review",
+  "setups": 4,
+  "motion_samples": 1396,
+  "fps": 24,
+  "checks": [
+    "timestamps",
+    "ending_boundaries",
+    "rgb_depth_id_sha256",
+    "texture_sources"
+  ],
+  "human_approval": null,
+  "formal_geometry_report": false,
+  "limitation": "Integrity verification is not physical or artistic approval."
+}

@@ -1,0 +1,55 @@
+{
+  "status": "textured_glb_pending_review",
+  "models": [
+    {
+      "path": "production/ep03-repair-v5/EP03R5-HANDOFF/scene-textured.glb",
+      "sha256": "8354dd04fd659abdadb8132ef2545eb129226e198e8168515ff5cbf806bcb179",
+      "bindings": [
+        {
+          "node": 39,
+          "asset_id": "PR-COMPLAINT",
+          "texture_path": "production/ep02-repair-v5/textures/paper-substrate.png",
+          "texture_sha256": "e9de7fdbae44f9e3ad29882514d391fb6f472d8af7eb3780bb03f9058e35db44"
+        },
+        {
+          "node": 44,
+          "asset_id": "PR-MAP-NEW",
+          "texture_path": "production/ep02-repair-v5/textures/route-valid.png",
+          "texture_sha256": "51f060f07c81a4dd08e4d6be77e67924369cfa6dbad305720b98eae79f53b96a"
+        }
+      ],
+      "render_note": "graybox PNGs omit textures; this textured GLB contains explicit UV and embedded original canonical PNGs",
+      "human_review": null
+    },
+    {
+      "path": "production/ep03-repair-v5/EP03R5-RIDE/scene-textured.glb",
+      "sha256": "f9598e4b6b4d3ea2ce4dc9599e9aef14d5e2a32d5db174e04a76e5d5cce37b93",
+      "bindings": [],
+      "render_note": "graybox PNGs omit textures; this textured GLB contains explicit UV and embedded original canonical PNGs",
+      "human_review": null
+    },
+    {
+      "path": "production/ep03-repair-v5/EP03R5-STAMP/scene-textured.glb",
+      "sha256": "068e82e339c3bd6db9920a00db29e4f386fcc5cd07064a2d1b36c17b313e7ec6",
+      "bindings": [
+        {
+          "node": 39,
+          "asset_id": "PR-COMPLAINT",
+          "texture_path": "production/ep02-repair-v5/textures/paper-substrate.png",
+          "texture_sha256": "e9de7fdbae44f9e3ad29882514d391fb6f472d8af7eb3780bb03f9058e35db44"
+        }
+      ],
+      "render_note": "graybox PNGs omit textures; this textured GLB contains explicit UV and embedded original canonical PNGs",
+      "human_review": null
+    },
+    {
+      "path": "production/ep03-repair-v5/EP03R5-STOP/scene-textured.glb",
+      "sha256": "b22a3458429b9504c8c99598baea6667f5d4f759dd79e0a0f191b9d0fbeaa95d",
+      "bindings": [],
+      "render_note": "graybox PNGs omit textures; this textured GLB contains explicit UV and embedded original canonical PNGs",
+      "human_review": null
+    }
+  ],
+  "no_ai_generation": true,
+  "complaint_not_military_report": "complaint uses same paper substrate, never military Yan seal"
+}

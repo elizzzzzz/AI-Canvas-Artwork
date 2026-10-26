@@ -51,3 +51,32 @@ production/audio-delivery-v3/EP03-*.mp4
 production/audio-delivery-v3/three-episodes-*.mp4
 production/audio-delivery-v3/audio/*optional-reviewed.srt
 tools/assemble_audio_synced_final_v2.py
+
+# Neural voice per-scene synthesis cache (source and timing are versioned).
+production/audio-delivery-v3/audio/*.mp3
+production/audio-delivery-v3/audio/*-boundaries.json
+production/audio-delivery-v3/qc/*-plan.json
+production/audio-delivery-v3/qc/*-picture.json
+production/audio-delivery-v3/qc/*-narration.json
+production/audio-delivery-v3/qc/*-mixed.json
+production/audio-delivery-v3/qc/*-check.json
+production/audio-delivery-v3/qc/full-film.json
+
+# Storytelling edition caches and large release-only media.
+production/storytelling-v4/work/
+production/storytelling-v4/audio/*.mp3
+production/storytelling-v4/audio/*.part
+production/storytelling-v4/audio/*-boundaries.json
+production/storytelling-v4/audio/*-request.sha256
+production/storytelling-v4/audio/EP*-S*.txt
+production/storytelling-v4/audio/unified-brand-tagline.txt
+production/storytelling-v4/qc/*-plan.json
+production/storytelling-v4/qc/*-mixed.json
+production/storytelling-v4/qc/*-narration.json
+production/storytelling-v4/qc/*-check.json
+production/storytelling-v4/qc/full-film.json
+production/storytelling-v4/EP02-*.mp4
+production/storytelling-v4/EP03-*.mp4
+production/storytelling-v4/three-episodes-*.mp4
+production/audio-delivery-v3/audio/EP*-S*.txt
+production/audio-delivery-v3/audio/unified-brand-tagline.txt

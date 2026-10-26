@@ -1,5 +1,12 @@
 # 《云令入局》
 
+## 最新声音交付
+
+- [三集娓娓讲述版与独立音轨](production/storytelling-v4/README.md)
+- [新版媒体上传状态](docs/STORYTELLING-V4-DELIVERY.md)（大文件尚未上传成功）
+- 第一集使用最新修订画面；第二、三集本次仅修声音，原有画面问题仍待修复。
+
+
 七牛云内部测试样片：三集竖屏古装品牌短剧，关联《琅琊榜》世界观，以“琅琊云令”转译一站式 AI Infra 的产品价值。
 
 [当前确认基线与新制作进展](docs/PROJECT-STATUS.md)

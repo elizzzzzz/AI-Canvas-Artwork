@@ -53,7 +53,7 @@ def dur(p):return float(probe(p)['format']['duration'])
 def video_seconds(p):
  x=probe(p); v=next(s for s in x['streams'] if s['codec_type']=='video'); return float(v.get('duration') or x['format']['duration'])
 def tool(name,args,result,plan=True):
- cmd=[PY,str(SK/(name+'.py')),*map(str,args),'--json-brief']+(['--overwrite'] if name!='check' else [])
+ cmd=[PY,str(SK/(name+'.py')),*map(str,args),('--json' if name=='check' else '--json-brief')]+(['--overwrite'] if name!='check' else [])
  if plan:
   x=subprocess.run(cmd+['--dry-run'],capture_output=True,text=True);(Q/(result+'-plan.json')).write_text(x.stdout); 
   if x.returncode:raise RuntimeError(x.stderr+x.stdout)

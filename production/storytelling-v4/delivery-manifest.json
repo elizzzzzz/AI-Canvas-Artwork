@@ -1,0 +1,310 @@
+{
+  "voice": "zh-CN-YunyangNeural",
+  "rate": "-4%",
+  "pitch": "-5Hz",
+  "synthetic_voice": true,
+  "burned_captions": false,
+  "source_ep01": "ep01-revision-v2",
+  "ep02_ep03_visual_fixes": "pending_not_claimed",
+  "story_script": "production/storytelling-v4/narration.json",
+  "story_terminology_check": "passed; mandated brand tagline stored separately",
+  "voice_age_emotion": "mature male direction; subjective listening review still required",
+  "episodes": {
+    "EP01": {
+      "file": "production/storytelling-v4/EP01-no-subtitles-male-narration-v4.mp4",
+      "duration": 150.84,
+      "timing": [
+        {
+          "shot": "EP01-S01",
+          "scene_start": 0,
+          "scene_duration": 8.041666666666666,
+          "voice_start": 0.2,
+          "voice_end": 6.032,
+          "text": "我又梦见梅岭。十二年过去，那一夜的风雪，还是不肯散。"
+        },
+        {
+          "shot": "EP01-S02",
+          "scene_start": 8.041666666666666,
+          "scene_duration": 12.083333333333334,
+          "voice_start": 8.241666666666665,
+          "voice_end": 19.089666666666666,
+          "text": "梦里的我，还是林殊。我勒住马，望见倒下的赤焰旗。身边的人一个接一个倒下，我们等的援军，却始终没有来。"
+        },
+        {
+          "shot": "EP01-S03",
+          "scene_start": 20.125,
+          "scene_duration": 15.083333333333332,
+          "voice_start": 20.325,
+          "voice_end": 31.076999999999998,
+          "text": "后来，我见到了三份军报。纸上的军印一模一样，指的却是三条不同的路。那时我才懂，有人早已替我们选好了归途。"
+        },
+        {
+          "shot": "EP01-S04",
+          "scene_start": 35.20833333333333,
+          "scene_duration": 14.083333333333334,
+          "voice_start": 35.40833333333333,
+          "voice_end": 46.160333333333334,
+          "text": "再往后的事，我不愿多想。只记得火光照着雪，熟悉的声音渐渐听不见了。醒来时，我仍想找回当年的那张原报。"
+        },
+        {
+          "shot": "EP01-S05",
+          "scene_start": 49.291666666666664,
+          "scene_duration": 14.083333333333334,
+          "voice_start": 49.49166666666667,
+          "voice_end": 60.57966666666667,
+          "text": "我请书吏取出梅岭旧档。封存十二年的纸卷，闻起来还是旧日的气息。我一页一页看，生怕漏掉故人留下的只言片语。"
+        },
+        {
+          "shot": "EP01-S06",
+          "scene_start": 63.375,
+          "scene_duration": 16.083333333333332,
+          "voice_start": 63.575,
+          "voice_end": 74.399,
+          "text": "偏偏少了最要紧的一页。书吏说，出库那日，它被混进药箱，已经随车运走。我顾不上责问，只叫人赶紧备车。"
+        },
+        {
+          "shot": "EP01-S07",
+          "scene_start": 79.45833333333333,
+          "scene_duration": 16.041666666666664,
+          "voice_start": 79.65833333333333,
+          "voice_end": 91.39433333333334,
+          "text": "雪越下越紧，前面的药车只剩一点灯影。我催着车夫跟上。好容易叫住他们，我才松了一口气：箱子还在，那一页也还在。"
+        },
+        {
+          "shot": "EP01-S08",
+          "scene_start": 95.5,
+          "scene_duration": 14.083333333333334,
+          "voice_start": 95.7,
+          "voice_end": 107.10000000000001,
+          "text": "找回的纸已经受潮，墨色洇开了。幸好旧档里还存着抄本。我让书吏把两份放在一起，慢慢辨认，谁也不敢下重手。"
+        },
+        {
+          "shot": "EP01-S09",
+          "scene_start": 109.58333333333333,
+          "scene_duration": 13.083333333333334,
+          "voice_start": 109.78333333333333,
+          "voice_end": 119.74333333333334,
+          "text": "就在纸角翻起的时候，我看见了一个燕字。那枚军印，我从前见过，却不该出现在这里。我久久没有说话。"
+        },
+        {
+          "shot": "EP01-S10",
+          "scene_start": 122.66666666666666,
+          "scene_duration": 12.083333333333334,
+          "voice_start": 122.86666666666666,
+          "voice_end": 133.23466666666667,
+          "text": "我把残角带回灯下，又对了一遍。十二年了，原来那些人的往来从未断过。这一次，我总算抓住了一点踪迹。"
+        },
+        {
+          "shot": "EP01-S11",
+          "scene_start": 134.75,
+          "scene_duration": 16.083333333333332,
+          "voice_start": 134.95,
+          "voice_end": 142.462,
+          "text": "看着他们守住找回的旧纸，我忽然觉得，替故人讨一句公道，也许还能再往前走一步。"
+        }
+      ],
+      "no_subtitle_graphics_added": true,
+      "voiceover_file": "production/storytelling-v4/audio/EP01-narration.wav"
+    },
+    "EP02": {
+      "file": "production/storytelling-v4/EP02-no-subtitles-male-narration-v4.mp4",
+      "duration": 157.506,
+      "timing": [
+        {
+          "shot": "EP02-S01",
+          "scene_start": 0,
+          "scene_duration": 13.166666666666666,
+          "voice_start": 0.2,
+          "voice_end": 9.319999999999999,
+          "text": "我叫谢听云，替琅琊阁送信。那天雨下得很久，我抱着一只未曾拆开的锦囊，站在廊下等人。"
+        },
+        {
+          "shot": "EP02-S02",
+          "scene_start": 13.166666666666666,
+          "scene_duration": 13.625,
+          "voice_start": 13.366666666666665,
+          "voice_end": 24.118666666666666,
+          "text": "阁中只嘱咐我，交到北燕六皇子手中。里面写了什么，我不知道。可封泥既经我手，我就得把它完完整整送到。"
+        },
+        {
+          "shot": "EP02-S03",
+          "scene_start": 26.791666666666664,
+          "scene_duration": 15.083333333333332,
+          "voice_start": 26.991666666666664,
+          "voice_end": 37.86366666666666,
+          "text": "来报的人说，六皇子的兄长各有兵马，他却连可倚仗的人都不多。我听着那番话，渐渐明白，这锦囊为何偏偏给了他。"
+        },
+        {
+          "shot": "EP02-S04",
+          "scene_start": 41.875,
+          "scene_duration": 12.083333333333334,
+          "voice_start": 42.075,
+          "voice_end": 52.203,
+          "text": "我挑了三名信使，分三条路走。临行前又叮嘱了一遍：认清收信的人，记牢约定的话，遇到变故就回来告诉我。"
+        },
+        {
+          "shot": "EP02-S05",
+          "scene_start": 53.958333333333336,
+          "scene_duration": 16.041666666666664,
+          "voice_start": 54.15833333333334,
+          "voice_end": 65.39033333333333,
+          "text": "谁知人还没走远，就有人折了回来。他手里的封泥，竟和另一人的口令对不上。我拦住众人，让他们别急，先把话说清。"
+        },
+        {
+          "shot": "EP02-S06",
+          "scene_start": 70.0,
+          "scene_duration": 16.083333333333332,
+          "voice_start": 70.2,
+          "voice_end": 81.792,
+          "text": "第三个人也摊开路图。我仔细一看，那是从前留下的旧图，有处渡口早已不通。若真照着走，这封信怕是要误在路上。"
+        },
+        {
+          "shot": "EP02-S07",
+          "scene_start": 86.08333333333333,
+          "scene_duration": 18.083333333333332,
+          "voice_start": 86.28333333333333,
+          "voice_end": 96.45933333333333,
+          "text": "我把锦囊留在手边，挨个问过姓名，又看封泥，再问他们准备怎么走。直到每个人都说得明白，我才敢重新放行。"
+        },
+        {
+          "shot": "EP02-S08",
+          "scene_start": 104.16666666666666,
+          "scene_duration": 14.083333333333334,
+          "voice_start": 104.36666666666666,
+          "voice_end": 114.51866666666666,
+          "text": "廊下的灯一盏接一盏亮起来，几路回信也陆续到了。看见他们报来同样的消息，我悬着的那颗心，总算落下了。"
+        },
+        {
+          "shot": "EP02-S09",
+          "scene_start": 118.24999999999999,
+          "scene_duration": 13.083333333333334,
+          "voice_start": 118.44999999999999,
+          "voice_end": 129.178,
+          "text": "最后一名信使回来时，带回了完整的封印。他说，北燕王已立六皇子为储君。我没有追问锦囊，只收好了回信。"
+        },
+        {
+          "shot": "EP02-S10",
+          "scene_start": 131.33333333333331,
+          "scene_duration": 12.083333333333334,
+          "voice_start": 131.5333333333333,
+          "voice_end": 141.4213333333333,
+          "text": "两府的人先后赶来，都在找麒麟才子。听说得到此人，便可得天下。雨还没停，金陵已经起了风。"
+        },
+        {
+          "shot": "EP02-S11",
+          "scene_start": 143.41666666666666,
+          "scene_duration": 14.083333333333334,
+          "voice_start": 143.61666666666665,
+          "voice_end": 148.44066666666666,
+          "text": "这一夜，幸好他们守住了托付，我也没有辜负等信的人。"
+        }
+      ],
+      "no_subtitle_graphics_added": true,
+      "voiceover_file": "production/storytelling-v4/audio/EP02-narration.wav"
+    },
+    "EP03": {
+      "file": "production/storytelling-v4/EP03-no-subtitles-male-narration-v4.mp4",
+      "duration": 166.757,
+      "timing": [
+        {
+          "shot": "EP03-S01",
+          "scene_start": 0,
+          "scene_duration": 12.083333333333334,
+          "voice_start": 0.2,
+          "voice_end": 9.032,
+          "text": "我原想借着养病的名头，悄悄进金陵。隔着车窗望出去，城还没到，路上的风雨倒先来了。"
+        },
+        {
+          "shot": "EP03-S02",
+          "scene_start": 12.083333333333334,
+          "scene_duration": 13.625,
+          "voice_start": 12.283333333333333,
+          "voice_end": 23.947333333333333,
+          "text": "卓青遥就是那时找到我的。他把湿了的状纸抱在怀里，说，若进不了京，这上面的冤屈便永远无人过问。我留下了他。"
+        },
+        {
+          "shot": "EP03-S03",
+          "scene_start": 25.708333333333336,
+          "scene_duration": 13.333333333333334,
+          "voice_start": 25.908333333333335,
+          "voice_end": 35.46033333333334,
+          "text": "路上又遇见萧景睿。他见我病着，便邀我们同行。他肯伸出这只手，我心里明白，也记下了这份情。"
+        },
+        {
+          "shot": "EP03-S04",
+          "scene_start": 39.04166666666667,
+          "scene_duration": 13.083333333333334,
+          "voice_start": 39.241666666666674,
+          "voice_end": 49.80166666666668,
+          "text": "我嘱咐他们，状纸收好，药带在身边，走哪条路再问仔细一些。卓青遥能不能进城，就系在这些不起眼的小事上。"
+        },
+        {
+          "shot": "EP03-S05",
+          "scene_start": 52.12500000000001,
+          "scene_duration": 13.083333333333334,
+          "voice_start": 52.32500000000001,
+          "voice_end": 63.43700000000001,
+          "text": "没走多久，雨水打湿了纸边，车底又传来一声异响。车夫赶紧勒住马。我先护住状纸，让护卫下去看看车轴。"
+        },
+        {
+          "shot": "EP03-S06",
+          "scene_start": 65.20833333333334,
+          "scene_duration": 13.083333333333334,
+          "voice_start": 65.40833333333335,
+          "voice_end": 76.23233333333334,
+          "text": "这边还没安顿好，药童又说药落在后车。接着送信的人赶来，信上的官名也写错了。我只好叫他们分别追回。"
+        },
+        {
+          "shot": "EP03-S07",
+          "scene_start": 78.29166666666667,
+          "scene_duration": 16.083333333333332,
+          "voice_start": 78.49166666666667,
+          "voice_end": 90.61166666666668,
+          "text": "越急，越不能乱。我让车队先停下来，等人回来，把药、状纸和路图重新看过。人既交到我手里，我就得带他平安入城。"
+        },
+        {
+          "shot": "EP03-S08",
+          "scene_start": 94.375,
+          "scene_duration": 16.083333333333332,
+          "voice_start": 94.575,
+          "voice_end": 104.82300000000001,
+          "text": "众人终于陆续回来了。药找到了，路问清了，护卫也把车重新收拾妥当。我看着他们，这才吩咐继续赶路。"
+        },
+        {
+          "shot": "EP03-S09",
+          "scene_start": 110.45833333333333,
+          "scene_duration": 15.083333333333332,
+          "voice_start": 110.65833333333333,
+          "voice_end": 120.97833333333332,
+          "text": "临走前，我又看了一遍状纸。那些字都还在，卓青遥的手也不再抖得那么厉害。我收好原件，让他坐到身旁。"
+        },
+        {
+          "shot": "EP03-S10",
+          "scene_start": 125.54166666666666,
+          "scene_duration": 15.083333333333332,
+          "voice_start": 125.74166666666666,
+          "voice_end": 136.97366666666665,
+          "text": "城门近了，马蹄踏上湿石板。我答应过把人带到金陵，如今总算没有食言。只是门里的路，恐怕比来时更难走。"
+        },
+        {
+          "shot": "EP03-S11",
+          "scene_start": 140.625,
+          "scene_duration": 10.083333333333334,
+          "voice_start": 140.825,
+          "voice_end": 149.48899999999998,
+          "text": "车旁又递来一封信。纸角那个燕形印记，我认得。原来梅岭的旧事，早已经到了金陵。"
+        },
+        {
+          "shot": "EP03-S12",
+          "scene_start": 150.70833333333334,
+          "scene_duration": 16.041666666666664,
+          "voice_start": 150.90833333333333,
+          "voice_end": 160.48433333333332,
+          "text": "我把信折好，收在怀里。身边的人都还在，故人的名字，我也一个没忘。这一回，我想亲口问个明白。"
+        }
+      ],
+      "no_subtitle_graphics_added": true,
+      "voiceover_file": "production/storytelling-v4/audio/EP03-narration.wav"
+    }
+  }
+}

@@ -173,6 +173,37 @@ def load_motion_evidence(blueprint, root):
     return manifest
 
 
+def load_repair_source_refs(blueprint, root):
+    """Validate actual revision sources, including nested frame/texture references.
+
+    Hashing a declared JSON reference alone does not catch a changed child model.
+    This verifies files only; it does not grant geometry or human approval.
+    """
+    seen=set();errors=[]
+    def visit(value):
+        if isinstance(value,list):
+            for child in value: visit(child)
+        elif isinstance(value,dict):
+            if isinstance(value.get('path'),str) and 'sha256' in value:
+                key=(value['path'],value.get('sha256'))
+                if key in seen: return
+                seen.add(key)
+                path=checked_file(value,root,'repair source '+value['path'],errors)
+                if path and path.suffix.lower()=='.json':
+                    try: visit(json.loads(path.read_text()))
+                    except (OSError,ValueError) as exc: errors.append(str(exc))
+            else:
+                for child in value.values(): visit(child)
+    for shot in blueprint.get('shots',[]):
+        revision=shot.get('repair_v5')
+        if revision:
+            refs=revision.get('source_files')
+            if not isinstance(refs,dict) or not refs: errors.append('repair source files missing')
+            else: visit(refs)
+    if errors: raise ValueError('; '.join(errors))
+    return len(seen)
+
+
 def artifact_set_hash(entry):
     payload = {'evidence': entry.get('evidence'), 'report': entry.get('report')}
     return hashlib.sha256(json.dumps(payload, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
@@ -259,6 +290,7 @@ def main():
         load_action_coverage(blueprint, root)
         load_motion_blockouts(blueprint, root)
         load_motion_evidence(blueprint, root)
+        load_repair_source_refs(blueprint, root)
     except (ValueError, KeyError, OSError, TypeError) as exc:
         print(json.dumps({'allowed': False, 'error': str(exc)}, ensure_ascii=False)); return 2
     expected = expected_sources(blueprint, library)

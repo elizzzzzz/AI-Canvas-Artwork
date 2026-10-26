@@ -1,0 +1,21 @@
+{
+  "pov_owner": "谢听云",
+  "mode": "first_person",
+  "units": "metre",
+  "up_axis": "+Z",
+  "eye": [
+    0,
+    -0.5,
+    1.6
+  ],
+  "target": [
+    0,
+    4.0,
+    1.15
+  ],
+  "vertical_fov_degrees": 62,
+  "aspect_ratio": "9:16",
+  "near_clip_m": 0.06,
+  "status": "representative_static_camera_pending_review",
+  "path_status": "not_animated_no_clip_motion_approval"
+}

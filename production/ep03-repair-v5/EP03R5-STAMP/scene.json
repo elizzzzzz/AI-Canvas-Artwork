@@ -1,0 +1,505 @@
+{
+  "key": "EP03R5-STAMP",
+  "profile": "stamp_contact",
+  "scopes": [
+    "EP03-S09-01",
+    "EP03-S09-02"
+  ],
+  "duration_seconds": 14,
+  "fps": 24,
+  "asset_instances": [
+    {
+      "instance_id": "road_-1.7_-3",
+      "asset_id": "ENV-DIRT",
+      "position_m": [
+        -1.7,
+        -3,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "road_-1.7_3",
+      "asset_id": "ENV-DIRT",
+      "position_m": [
+        -1.7,
+        3,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "road_-1.7_9",
+      "asset_id": "ENV-DIRT",
+      "position_m": [
+        -1.7,
+        9,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "road_1.7_-3",
+      "asset_id": "ENV-DIRT",
+      "position_m": [
+        1.7,
+        -3,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "road_1.7_3",
+      "asset_id": "ENV-DIRT",
+      "position_m": [
+        1.7,
+        3,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "road_1.7_9",
+      "asset_id": "ENV-DIRT",
+      "position_m": [
+        1.7,
+        9,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "edge_-3.8_1",
+      "asset_id": "ENV-ROCK",
+      "position_m": [
+        -3.8,
+        1,
+        0.19999999999999998
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "edge_-3.8_6",
+      "asset_id": "ENV-ROCK",
+      "position_m": [
+        -3.8,
+        6,
+        0.19999999999999998
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "edge_-3.8_11",
+      "asset_id": "ENV-ROCK",
+      "position_m": [
+        -3.8,
+        11,
+        0.19999999999999998
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "edge_3.8_1",
+      "asset_id": "ENV-ROCK",
+      "position_m": [
+        3.8,
+        1,
+        0.19999999999999998
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "edge_3.8_6",
+      "asset_id": "ENV-ROCK",
+      "position_m": [
+        3.8,
+        6,
+        0.19999999999999998
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "edge_3.8_11",
+      "asset_id": "ENV-ROCK",
+      "position_m": [
+        3.8,
+        11,
+        0.19999999999999998
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "table",
+      "asset_id": "AR-DESK",
+      "position_m": [
+        0,
+        0.95,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "fixed_awning",
+      "asset_id": "AR-AWNING",
+      "position_m": [
+        0,
+        1.15,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "complaint",
+      "asset_id": "PR-COMPLAINT",
+      "position_m": [
+        0,
+        0.9,
+        0.74
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "desk_top"
+    },
+    {
+      "instance_id": "inkpad",
+      "asset_id": "PR-INK",
+      "position_m": [
+        0.32,
+        0.93,
+        0.74
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "desk_top"
+    },
+    {
+      "instance_id": "stamp",
+      "asset_id": "PR-STAMP",
+      "position_m": [
+        0.32,
+        0.93,
+        0.88
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "desk_top"
+    },
+    {
+      "instance_id": "seal_reference",
+      "asset_id": "PR-SEAL-R",
+      "position_m": [
+        -0.35,
+        1.1,
+        0.74
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "desk_top"
+    },
+    {
+      "instance_id": "hand_L",
+      "asset_id": "HAND-MCS-L",
+      "position_m": [
+        -0.13,
+        0.7,
+        0.81
+      ],
+      "rotation_degrees": [
+        -90,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "pov_forearm_outside_frame"
+    },
+    {
+      "instance_id": "hand_R",
+      "asset_id": "HAND-MCS-R",
+      "position_m": [
+        0.32,
+        0.93,
+        1.0
+      ],
+      "rotation_degrees": [
+        -90,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "pov_forearm_outside_frame"
+    }
+  ],
+  "asset_sources": {
+    "ENV-DIRT": {
+      "path": "production/asset-library/models/ENV-DIRT.glb",
+      "sha256": "b20e70aef410e0a1a3759932a192caf546035a3971d089e450a6773d85ef9cf8"
+    },
+    "ENV-ROCK": {
+      "path": "production/asset-library/models/ENV-ROCK.glb",
+      "sha256": "273f2c7bd8e1de695232958ed312b44936549237653b6c909eba35d553646d56"
+    },
+    "AR-DESK": {
+      "path": "production/asset-library/models/AR-DESK.glb",
+      "sha256": "2ae0e7521e060b99b69fd0b951be8f86640ad28f5bcc4bbf60dbcb1903e30ac7"
+    },
+    "AR-AWNING": {
+      "path": "production/asset-library/models/AR-AWNING.glb",
+      "sha256": "cde565d12ca62e4788f7006102dd09675302227e3e6923cf881e2cc9b3c1ffb1"
+    },
+    "PR-COMPLAINT": {
+      "path": "production/asset-library/models/PR-COMPLAINT.glb",
+      "sha256": "1be5b25841be2741772f1e10b852c43420d85a0afed1e353b4974825e1c8d86b"
+    },
+    "PR-INK": {
+      "path": "production/asset-library/models/PR-INK.glb",
+      "sha256": "f9226caa632534d2cf2e5e938d85bb635d64872116fea9ac2f7fd61e1e6368be"
+    },
+    "PR-STAMP": {
+      "path": "production/asset-library/models/PR-STAMP.glb",
+      "sha256": "9c6046ce5f1b61cd9ff18eb3c7e3b94985ee2f6d8ff94f548d2d7b8b9f36bc8f"
+    },
+    "PR-SEAL-R": {
+      "path": "production/asset-library/models/PR-SEAL-R.glb",
+      "sha256": "ea45ad4efb8e79edab17b57c07661212f29ee393a251725003a59545c71f2e2e"
+    },
+    "HAND-MCS-L": {
+      "path": "production/asset-library/models/HAND-MCS-L.glb",
+      "sha256": "d26276df6389214a1fcfb504352e8f14fabc63c64422983191a525c28e5f0f92"
+    },
+    "HAND-MCS-R": {
+      "path": "production/asset-library/models/HAND-MCS-R.glb",
+      "sha256": "35dfbdcb9efd126f14448b36cc70c728aafa8af34bc9478021559c5d8355cde5"
+    }
+  },
+  "camera": {
+    "pov_owner": "梅长苏",
+    "mode": "first_person",
+    "units": "metre",
+    "up_axis": "+Z",
+    "eye": [
+      0,
+      -0.05,
+      1.55
+    ],
+    "target": [
+      0,
+      0.9,
+      0.75
+    ],
+    "vertical_fov_degrees": 72,
+    "aspect_ratio": "9:16",
+    "near_clip_m": 0.06,
+    "status": "representative_static_camera_pending_review",
+    "path_status": "not_animated_no_clip_motion_approval"
+  },
+  "state": "actual_proxy_assembly_pending_human_review",
+  "internal_approval": null,
+  "formal_approval": null,
+  "limitations": [
+    "Proxy anatomy does not establish final actor identity",
+    "No physical collision solver",
+    "Horse motion proxy has no certified gait",
+    "Hand grip and fingertips still need visual review"
+  ],
+  "do_not_generate_yet": true
+}

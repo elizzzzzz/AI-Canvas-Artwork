@@ -1,0 +1,342 @@
+{
+  "2": {
+    "part_name": "floor",
+    "instance_id": "floor_-1.5",
+    "asset_id": "AR-FLOOR"
+  },
+  "13": {
+    "part_name": "floor",
+    "instance_id": "floor_1.5",
+    "asset_id": "AR-FLOOR"
+  },
+  "15": {
+    "part_name": "column",
+    "instance_id": "column_-1.25_1.5",
+    "asset_id": "AR-COLUMN"
+  },
+  "17": {
+    "part_name": "column",
+    "instance_id": "column_1.25_1.5",
+    "asset_id": "AR-COLUMN"
+  },
+  "19": {
+    "part_name": "beam",
+    "instance_id": "beam_1.5",
+    "asset_id": "AR-BEAM"
+  },
+  "21": {
+    "part_name": "roof_left",
+    "instance_id": "roof_1.5",
+    "asset_id": "AR-ROOF"
+  },
+  "22": {
+    "part_name": "roof_right",
+    "instance_id": "roof_1.5",
+    "asset_id": "AR-ROOF"
+  },
+  "24": {
+    "part_name": "floor",
+    "instance_id": "floor_4.5",
+    "asset_id": "AR-FLOOR"
+  },
+  "26": {
+    "part_name": "column",
+    "instance_id": "column_-1.25_4.5",
+    "asset_id": "AR-COLUMN"
+  },
+  "28": {
+    "part_name": "column",
+    "instance_id": "column_1.25_4.5",
+    "asset_id": "AR-COLUMN"
+  },
+  "30": {
+    "part_name": "beam",
+    "instance_id": "beam_4.5",
+    "asset_id": "AR-BEAM"
+  },
+  "32": {
+    "part_name": "roof_left",
+    "instance_id": "roof_4.5",
+    "asset_id": "AR-ROOF"
+  },
+  "33": {
+    "part_name": "roof_right",
+    "instance_id": "roof_4.5",
+    "asset_id": "AR-ROOF"
+  },
+  "35": {
+    "part_name": "floor",
+    "instance_id": "floor_7.5",
+    "asset_id": "AR-FLOOR"
+  },
+  "37": {
+    "part_name": "column",
+    "instance_id": "column_-1.25_7.5",
+    "asset_id": "AR-COLUMN"
+  },
+  "39": {
+    "part_name": "column",
+    "instance_id": "column_1.25_7.5",
+    "asset_id": "AR-COLUMN"
+  },
+  "41": {
+    "part_name": "beam",
+    "instance_id": "beam_7.5",
+    "asset_id": "AR-BEAM"
+  },
+  "43": {
+    "part_name": "roof_left",
+    "instance_id": "roof_7.5",
+    "asset_id": "AR-ROOF"
+  },
+  "44": {
+    "part_name": "roof_right",
+    "instance_id": "roof_7.5",
+    "asset_id": "AR-ROOF"
+  },
+  "46": {
+    "part_name": "tabletop",
+    "instance_id": "desk",
+    "asset_id": "AR-DESK"
+  },
+  "47": {
+    "part_name": "table_leg",
+    "instance_id": "desk",
+    "asset_id": "AR-DESK"
+  },
+  "48": {
+    "part_name": "table_leg",
+    "instance_id": "desk",
+    "asset_id": "AR-DESK"
+  },
+  "49": {
+    "part_name": "table_leg",
+    "instance_id": "desk",
+    "asset_id": "AR-DESK"
+  },
+  "50": {
+    "part_name": "table_leg",
+    "instance_id": "desk",
+    "asset_id": "AR-DESK"
+  },
+  "54": {
+    "part_name": "thigh_L",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "56": {
+    "part_name": "shin_L",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "57": {
+    "part_name": "boot_L",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "59": {
+    "part_name": "thigh_R",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "61": {
+    "part_name": "shin_R",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "62": {
+    "part_name": "boot_R",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "63": {
+    "part_name": "robe_skirt",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "64": {
+    "part_name": "torso",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "65": {
+    "part_name": "neck",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "67": {
+    "part_name": "head",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "68": {
+    "part_name": "hair",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "69": {
+    "part_name": "hair_bun",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "70": {
+    "part_name": "nose",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "71": {
+    "part_name": "eye",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "72": {
+    "part_name": "eye",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "74": {
+    "part_name": "upper_arm_L",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "76": {
+    "part_name": "sleeve_L",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "77": {
+    "part_name": "hand_proxy_L",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "79": {
+    "part_name": "upper_arm_R",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "81": {
+    "part_name": "sleeve_R",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "82": {
+    "part_name": "hand_proxy_R",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "83": {
+    "part_name": "belt",
+    "instance_id": "EP02-PERSON-MSG-A",
+    "asset_id": "CH-MSG-A"
+  },
+  "87": {
+    "part_name": "thigh_L",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "89": {
+    "part_name": "shin_L",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "90": {
+    "part_name": "boot_L",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "92": {
+    "part_name": "thigh_R",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "94": {
+    "part_name": "shin_R",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "95": {
+    "part_name": "boot_R",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "96": {
+    "part_name": "robe_skirt",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "97": {
+    "part_name": "torso",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "98": {
+    "part_name": "neck",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "100": {
+    "part_name": "head",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "101": {
+    "part_name": "hair",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "102": {
+    "part_name": "hair_bun",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "103": {
+    "part_name": "nose",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "104": {
+    "part_name": "eye",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "105": {
+    "part_name": "eye",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "107": {
+    "part_name": "upper_arm_L",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "109": {
+    "part_name": "sleeve_L",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "110": {
+    "part_name": "hand_proxy_L",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "112": {
+    "part_name": "upper_arm_R",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "114": {
+    "part_name": "sleeve_R",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "115": {
+    "part_name": "hand_proxy_R",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  },
+  "116": {
+    "part_name": "belt",
+    "instance_id": "EP02-PERSON-MSG-B",
+    "asset_id": "CH-MSG-B"
+  }
+}

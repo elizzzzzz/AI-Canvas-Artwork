@@ -1,0 +1,95 @@
+{
+  "status": "blocked_new_repair_scopes_not_registered_or_not_reviewed",
+  "no_paid_generation_submitted": true,
+  "old_scope_pass_not_applicable": true,
+  "checks": [
+    {
+      "exact_scope": "EP02-S01-REPAIR-V5",
+      "exit_code": 2,
+      "service_result": {
+        "allowed": false,
+        "error": "scope not found"
+      }
+    },
+    {
+      "exact_scope": "EP02-S02-REPAIR-V5",
+      "exit_code": 2,
+      "service_result": {
+        "allowed": false,
+        "error": "scope not found"
+      }
+    },
+    {
+      "exact_scope": "EP02-S03-REPAIR-V5",
+      "exit_code": 2,
+      "service_result": {
+        "allowed": false,
+        "error": "scope not found"
+      }
+    },
+    {
+      "exact_scope": "EP02-S04-REPAIR-V5",
+      "exit_code": 2,
+      "service_result": {
+        "allowed": false,
+        "error": "scope not found"
+      }
+    },
+    {
+      "exact_scope": "EP02-S05-REPAIR-V5",
+      "exit_code": 2,
+      "service_result": {
+        "allowed": false,
+        "error": "scope not found"
+      }
+    },
+    {
+      "exact_scope": "EP02-S06-REPAIR-V5",
+      "exit_code": 2,
+      "service_result": {
+        "allowed": false,
+        "error": "scope not found"
+      }
+    },
+    {
+      "exact_scope": "EP02-S07-REPAIR-V5",
+      "exit_code": 2,
+      "service_result": {
+        "allowed": false,
+        "error": "scope not found"
+      }
+    },
+    {
+      "exact_scope": "EP02-S08-REPAIR-V5",
+      "exit_code": 2,
+      "service_result": {
+        "allowed": false,
+        "error": "scope not found"
+      }
+    },
+    {
+      "exact_scope": "EP02-S09-REPAIR-V5",
+      "exit_code": 2,
+      "service_result": {
+        "allowed": false,
+        "error": "scope not found"
+      }
+    },
+    {
+      "exact_scope": "EP02-S10-REPAIR-V5",
+      "exit_code": 2,
+      "service_result": {
+        "allowed": false,
+        "error": "scope not found"
+      }
+    },
+    {
+      "exact_scope": "EP02-S11-REPAIR-V5",
+      "exit_code": 2,
+      "service_result": {
+        "allowed": false,
+        "error": "scope not found"
+      }
+    }
+  ]
+}

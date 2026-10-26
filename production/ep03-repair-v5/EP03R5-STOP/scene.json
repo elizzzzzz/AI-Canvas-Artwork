@@ -1,0 +1,526 @@
+{
+  "key": "EP03R5-STOP",
+  "profile": "stopped",
+  "scopes": [
+    "EP03-S01-01",
+    "EP03-S01-02"
+  ],
+  "duration_seconds": 12,
+  "fps": 24,
+  "asset_instances": [
+    {
+      "instance_id": "road_-1.7_-3",
+      "asset_id": "ENV-DIRT",
+      "position_m": [
+        -1.7,
+        -3,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "road_-1.7_3",
+      "asset_id": "ENV-DIRT",
+      "position_m": [
+        -1.7,
+        3,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "road_-1.7_9",
+      "asset_id": "ENV-DIRT",
+      "position_m": [
+        -1.7,
+        9,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "road_1.7_-3",
+      "asset_id": "ENV-DIRT",
+      "position_m": [
+        1.7,
+        -3,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "road_1.7_3",
+      "asset_id": "ENV-DIRT",
+      "position_m": [
+        1.7,
+        3,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "road_1.7_9",
+      "asset_id": "ENV-DIRT",
+      "position_m": [
+        1.7,
+        9,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "edge_-3.8_1",
+      "asset_id": "ENV-ROCK",
+      "position_m": [
+        -3.8,
+        1,
+        0.19999999999999998
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "edge_-3.8_6",
+      "asset_id": "ENV-ROCK",
+      "position_m": [
+        -3.8,
+        6,
+        0.19999999999999998
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "edge_-3.8_11",
+      "asset_id": "ENV-ROCK",
+      "position_m": [
+        -3.8,
+        11,
+        0.19999999999999998
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "edge_3.8_1",
+      "asset_id": "ENV-ROCK",
+      "position_m": [
+        3.8,
+        1,
+        0.19999999999999998
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "edge_3.8_6",
+      "asset_id": "ENV-ROCK",
+      "position_m": [
+        3.8,
+        6,
+        0.19999999999999998
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "edge_3.8_11",
+      "asset_id": "ENV-ROCK",
+      "position_m": [
+        3.8,
+        11,
+        0.19999999999999998
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "cart_body",
+      "asset_id": "VH-CART",
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "axle_01"
+    },
+    {
+      "instance_id": "wheel_left",
+      "asset_id": "VH-WHEEL",
+      "position_m": [
+        -0.68,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "wheel_right",
+      "asset_id": "VH-WHEEL",
+      "position_m": [
+        0.68,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "axle_01",
+      "asset_id": "VH-AXLE",
+      "position_m": [
+        0,
+        0,
+        0.465
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "wheel_left,wheel_right"
+    },
+    {
+      "instance_id": "cart_canopy",
+      "asset_id": "VH-CANOPY",
+      "position_m": [
+        0,
+        0,
+        0.74
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "cart_body"
+    },
+    {
+      "instance_id": "horse_01",
+      "asset_id": "AN-HORSE",
+      "position_m": [
+        0,
+        4.1,
+        -4.163336342344337e-17
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "saddle_01",
+      "asset_id": "EQ-SADDLE",
+      "position_m": [
+        0,
+        4.1,
+        1.44
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "horse_01"
+    },
+    {
+      "instance_id": "hand_L",
+      "asset_id": "HAND-MCS-L",
+      "position_m": [
+        -0.21,
+        0.8,
+        1.12
+      ],
+      "rotation_degrees": [
+        -90,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "pov_forearm_outside_frame"
+    },
+    {
+      "instance_id": "hand_R",
+      "asset_id": "HAND-MCS-R",
+      "position_m": [
+        0.2,
+        0.8,
+        1.12
+      ],
+      "rotation_degrees": [
+        -90,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "pov_forearm_outside_frame"
+    }
+  ],
+  "asset_sources": {
+    "ENV-DIRT": {
+      "path": "production/asset-library/models/ENV-DIRT.glb",
+      "sha256": "b20e70aef410e0a1a3759932a192caf546035a3971d089e450a6773d85ef9cf8"
+    },
+    "ENV-ROCK": {
+      "path": "production/asset-library/models/ENV-ROCK.glb",
+      "sha256": "273f2c7bd8e1de695232958ed312b44936549237653b6c909eba35d553646d56"
+    },
+    "VH-CART": {
+      "path": "production/asset-library/models/VH-CART.glb",
+      "sha256": "e1ddf2bfa88d90cda85a88e93fc5afb1caa39aa476b81f99dc642f598a026d49"
+    },
+    "VH-WHEEL": {
+      "path": "production/asset-library/models/VH-WHEEL.glb",
+      "sha256": "01373cecdee26025fea92bf3636f2b6eebefc5799fe50690e89e9edcf00a6eb1"
+    },
+    "VH-AXLE": {
+      "path": "production/asset-library/models/VH-AXLE.glb",
+      "sha256": "fb2e3e6026a2663737425f2ecde8f46aa886f9e30559555fc8c2b7c8a13a040b"
+    },
+    "VH-CANOPY": {
+      "path": "production/asset-library/models/VH-CANOPY.glb",
+      "sha256": "a79757972e1318c5f72c3cf3cbb1b5f34800de740fe13dedd035b39c9fbc5578"
+    },
+    "AN-HORSE": {
+      "path": "production/asset-library/models/AN-HORSE.glb",
+      "sha256": "e76fe732e8970616af0315ebb6268df332be59e95f50ebfd7b4caff37ce31f95"
+    },
+    "EQ-SADDLE": {
+      "path": "production/asset-library/models/EQ-SADDLE.glb",
+      "sha256": "b8361692be221b7b8cacc65748317d428b0dfa717cb9e703dd57f1a02f2ce780"
+    },
+    "HAND-MCS-L": {
+      "path": "production/asset-library/models/HAND-MCS-L.glb",
+      "sha256": "d26276df6389214a1fcfb504352e8f14fabc63c64422983191a525c28e5f0f92"
+    },
+    "HAND-MCS-R": {
+      "path": "production/asset-library/models/HAND-MCS-R.glb",
+      "sha256": "35dfbdcb9efd126f14448b36cc70c728aafa8af34bc9478021559c5d8355cde5"
+    }
+  },
+  "camera": {
+    "pov_owner": "梅长苏",
+    "mode": "first_person",
+    "units": "metre",
+    "up_axis": "+Z",
+    "eye": [
+      0,
+      0.6,
+      1.67
+    ],
+    "target": [
+      0,
+      4.7,
+      1.52
+    ],
+    "vertical_fov_degrees": 72,
+    "aspect_ratio": "9:16",
+    "near_clip_m": 0.06,
+    "status": "representative_static_camera_pending_review",
+    "path_status": "not_animated_no_clip_motion_approval"
+  },
+  "state": "actual_proxy_assembly_pending_human_review",
+  "internal_approval": null,
+  "formal_approval": null,
+  "limitations": [
+    "Proxy anatomy does not establish final actor identity",
+    "No physical collision solver",
+    "Horse motion proxy has no certified gait",
+    "Hand grip and fingertips still need visual review"
+  ],
+  "do_not_generate_yet": true
+}

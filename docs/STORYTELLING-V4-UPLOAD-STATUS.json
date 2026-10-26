@@ -1,0 +1,136 @@
+{
+  "release_id": 423815863,
+  "tag": "storytelling-v4-20261026",
+  "repository": "elizzzzzz/AI-Canvas-Artwork",
+  "release_url": "https://github.com/elizzzzzz/AI-Canvas-Artwork/releases/tag/untagged-7920e29e2cd4b9cd78e7",
+  "published": false,
+  "scope_note": "v4 storytelling/audio delivery; EP02 and EP03 visual repairs remain separate work in progress",
+  "assets": {
+    "EP01-no-subtitles-male-narration-v4.mp4": {
+      "local_path": "production/storytelling-v4/EP01-no-subtitles-male-narration-v4.mp4",
+      "local_size_bytes": 31336645,
+      "status": "failed",
+      "attempts": 4,
+      "last_error": "curl: (28) Operation too slow. Less than 1024 bytes/sec transferred the last 40 seconds",
+      "regional_endpoint": "140.82.113.13",
+      "curl_metrics": "000:327364:1897"
+    },
+    "EP02-no-subtitles-male-narration-v4.mp4": {
+      "local_path": "production/storytelling-v4/EP02-no-subtitles-male-narration-v4.mp4",
+      "local_size_bytes": 32499636,
+      "status": "failed",
+      "attempts": 2,
+      "regional_endpoint": "140.82.121.14",
+      "last_error": "curl: (28) Operation timed out after 240005 milliseconds with 0 bytes received",
+      "curl_metrics": "000:655044:2729"
+    },
+    "EP03-no-subtitles-male-narration-v4.mp4": {
+      "local_path": "production/storytelling-v4/EP03-no-subtitles-male-narration-v4.mp4",
+      "local_size_bytes": 37844527,
+      "status": "failed",
+      "attempts": 2,
+      "regional_endpoint": "140.82.113.13",
+      "last_error": "curl: (28) Operation too slow. Less than 1024 bytes/sec transferred the last 40 seconds",
+      "curl_metrics": "000:589508:2936"
+    },
+    "three-episodes-storytelling-v4.mp4": {
+      "local_path": "production/storytelling-v4/three-episodes-storytelling-v4.mp4",
+      "local_size_bytes": 128948241,
+      "status": "failed",
+      "attempts": 1,
+      "regional_endpoint": "140.82.121.14",
+      "last_error": "curl: (28) Operation timed out after 240002 milliseconds with 0 bytes received",
+      "curl_metrics": "000:720584:3002"
+    },
+    "EP01-narration.wav": {
+      "local_path": "production/storytelling-v4/audio/EP01-narration.wav",
+      "local_size_bytes": 7240044,
+      "status": "failed",
+      "attempts": 2,
+      "regional_endpoint": "140.82.121.14",
+      "last_error": "curl: (52) Empty reply from server",
+      "curl_metrics": "000:130778:8055"
+    },
+    "EP02-narration.wav": {
+      "local_path": "production/storytelling-v4/audio/EP02-narration.wav",
+      "local_size_bytes": 7560044,
+      "status": "failed",
+      "attempts": 2,
+      "regional_endpoint": "140.82.113.13",
+      "last_error": "curl: (28) Operation timed out after 240002 milliseconds with 0 bytes received",
+      "curl_metrics": "000:655066:2729"
+    },
+    "EP03-narration.wav": {
+      "local_path": "production/storytelling-v4/audio/EP03-narration.wav",
+      "local_size_bytes": 8004044,
+      "status": "failed",
+      "attempts": 1,
+      "regional_endpoint": "140.82.121.14",
+      "last_error": "curl: (28) Operation timed out after 240005 milliseconds with 0 bytes received",
+      "curl_metrics": "000:655066:2729"
+    },
+    "unified-brand-tagline.wav": {
+      "local_path": "production/storytelling-v4/audio/unified-brand-tagline.wav",
+      "local_size_bytes": 258092,
+      "status": "verified",
+      "attempts": 1,
+      "remote_asset_id": 677339987,
+      "remote_size_bytes": 258092,
+      "remote_state": "uploaded",
+      "download_url": "https://github.com/elizzzzzz/AI-Canvas-Artwork/releases/download/untagged-7920e29e2cd4b9cd78e7/unified-brand-tagline.wav",
+      "remote_digest": "sha256:5bfb5c618336469418a73254cd58cf3e689ec235b3a476e46f31cdb13cb4aeb0",
+      "local_sha256": "5bfb5c618336469418a73254cd58cf3e689ec235b3a476e46f31cdb13cb4aeb0"
+    },
+    "unified-original-music.wav": {
+      "local_path": "production/storytelling-v4/audio/unified-original-music.wav",
+      "local_size_bytes": 8100044,
+      "status": "failed",
+      "attempts": 1,
+      "regional_endpoint": "140.82.113.13",
+      "last_error": "curl: (28) Operation too slow. Less than 1024 bytes/sec transferred the last 40 seconds",
+      "curl_metrics": "000:196306:2477"
+    },
+    "README.md": {
+      "local_path": "production/storytelling-v4/README.md",
+      "local_size_bytes": 2040,
+      "attempts": 1,
+      "status": "verified",
+      "remote_asset_id": 677402003,
+      "remote_size_bytes": 2040,
+      "remote_state": "uploaded",
+      "download_url": "https://github.com/elizzzzzz/AI-Canvas-Artwork/releases/download/untagged-7920e29e2cd4b9cd78e7/README.md",
+      "remote_digest": "sha256:5106038a64fca74cf90e422243f987c076bfefd3f206d002954b436b24dff51d",
+      "local_sha256": "5106038a64fca74cf90e422243f987c076bfefd3f206d002954b436b24dff51d"
+    },
+    "narration.json": {
+      "local_path": "production/storytelling-v4/narration.json",
+      "local_size_bytes": 5388,
+      "attempts": 1,
+      "status": "verified",
+      "remote_asset_id": 677402016,
+      "remote_size_bytes": 5388,
+      "remote_state": "uploaded",
+      "download_url": "https://github.com/elizzzzzz/AI-Canvas-Artwork/releases/download/untagged-7920e29e2cd4b9cd78e7/narration.json",
+      "remote_digest": "sha256:9a3424eb06a9e8113ac43ad48d09189a58b81ce513f8fceb22d79281d0b898ea",
+      "local_sha256": "9a3424eb06a9e8113ac43ad48d09189a58b81ce513f8fceb22d79281d0b898ea"
+    }
+  },
+  "updated_at": "2026-10-26T15:59:21.483912+08:00",
+  "upload_strategy": "Official GitHub upload hostname and TLS validation, DNS-verified alternate GitHub regional endpoints after default route timed out",
+  "draft": true,
+  "intended_tag_url": "https://github.com/elizzzzzz/AI-Canvas-Artwork/releases/tag/storytelling-v4-20261026",
+  "final_remote_verified_at": "2026-10-26T15:59:21.483912+08:00",
+  "run_status": "finished_with_network_failures",
+  "active_upload_processes": [],
+  "retry_policy": "Finite retries only; curl max-time 240 seconds and subprocess timeout 250 seconds; small attachments curl max-time 60 / outer 70; gh upload bounded 240; remote queries bounded 35-45 seconds",
+  "publication_note": "Remains draft because no video asset uploaded. Do not present intended tag URL as a published release.",
+  "verified_asset_count": 3,
+  "failed_asset_count": 8,
+  "observed_failures": [
+    "gh HTTP 408: Upload body timed out due to inactivity",
+    "curl 28: timeout or low transfer speed",
+    "curl 52: empty reply",
+    "intermittent API TLS handshake timeout"
+  ],
+  "network_root_cause": "Not established; IPv6/HTTP2 hypotheses are not confirmed."
+}

@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "output": "production/ep03-repair-v5/EP03R5-STAMP/motion-preview.mp4",
+  "dry_run": false,
+  "verified": true,
+  "summary": {
+    "duration_s": 14.042,
+    "width": 108,
+    "height": 192,
+    "fps": 24.0,
+    "vcodec": "h264"
+  },
+  "commands": 1,
+  "encoder": "libx264"
+}

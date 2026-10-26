@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "output": "production/ep03-repair-v5/EP03R5-STOP/motion-preview.mp4",
+  "dry_run": true,
+  "verified": false,
+  "commands": 1,
+  "encoder": "libx264"
+}

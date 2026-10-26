@@ -1486,9 +1486,9 @@
     {
       "key": "EP02-S01-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "814dcb859220a95c48795a618282bd93cbfb21204deb32b3921303325f827cfa",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "9d66f9b136e2833508efe859dcff7137a50171cfa9e2ee9656b762f57a1429b9",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -1501,25 +1501,33 @@
       "target_fps": 24,
       "required_sample_count": 145,
       "information_source": "主人公自述身份",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "814dcb859220a95c48795a618282bd93cbfb21204deb32b3921303325f827cfa",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP02-S01-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "519acff7817f1f447c094c7a060fa86c1a71fa8faff87e791ed8dedefee48e3d",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "bfbd897fec3d4ffcb1c5983beaedc56ba064ba53b5b6fdcd7af54a3d736f19ac",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -1532,25 +1540,33 @@
       "target_fps": 24,
       "required_sample_count": 145,
       "information_source": "主人公自述身份",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "519acff7817f1f447c094c7a060fa86c1a71fa8faff87e791ed8dedefee48e3d",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP02-S02-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "19b24bf82b8b65627ce8babbdd041158bd297ec6f9a1e1015d8ae1ab8dcfe486",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "47df473fd5f2d955f8020846273ca7bfbd57bad851d9ed62ab3b335a443fe2c6",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -1563,25 +1579,33 @@
       "target_fps": 24,
       "required_sample_count": 145,
       "information_source": "现场交付",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "19b24bf82b8b65627ce8babbdd041158bd297ec6f9a1e1015d8ae1ab8dcfe486",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP02-S02-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "1ff94f5508623a3ee9958428847cd7796a58d11eb55f7ca675bb9c36f4f88e28",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "69793ffde34070fb220e5e792c22a8b5f45aad7284734d4e55f460eff9af7be4",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -1594,25 +1618,33 @@
       "target_fps": 24,
       "required_sample_count": 169,
       "information_source": "现场交付",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "1ff94f5508623a3ee9958428847cd7796a58d11eb55f7ca675bb9c36f4f88e28",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP02-S03-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "96f9b34254da46390c7db0aeeb72df167e705ef2fdce18b148f9129bbf64f009",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "8686575ac1a7a5cb8057459721f2a490b9b15031ae4c3bd97c753cbd477bce9e",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -1625,25 +1657,33 @@
       "target_fps": 24,
       "required_sample_count": 169,
       "information_source": "信使向谢听云口述北燕六皇子的处境",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "96f9b34254da46390c7db0aeeb72df167e705ef2fdce18b148f9129bbf64f009",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP02-S03-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "9186e06050f07e175820e21e97a3a21a07bb1d0e50b8acdd32425fc5f515c03a",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "629ed0c4f63d53fe45b89e5e5ce3052cdb1fa61bae2be98b2da515ee4ca91557",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -1656,25 +1696,33 @@
       "target_fps": 24,
       "required_sample_count": 193,
       "information_source": "信使向谢听云口述北燕六皇子的处境",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "9186e06050f07e175820e21e97a3a21a07bb1d0e50b8acdd32425fc5f515c03a",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP02-S04-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "508c48ff688f0f36d5da6b3fd931aeeb99ec039659e04afb6d2cbd25113a6303",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "8c44d17a3de63832bc82333da1f140b736e6a126ebbd7c78398adedcb3b90b20",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -1687,25 +1735,33 @@
       "target_fps": 24,
       "required_sample_count": 145,
       "information_source": "主人公现场调度",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "508c48ff688f0f36d5da6b3fd931aeeb99ec039659e04afb6d2cbd25113a6303",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP02-S04-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "6dc622ef8067d702d98067eeb258633c264e838110a457c92d96df4e53eb83ba",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "3340d1c3ad4e98da834ad3df500537bd5d482e5fc554f8ca74a25e096d437812",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -1718,25 +1774,33 @@
       "target_fps": 24,
       "required_sample_count": 145,
       "information_source": "主人公现场调度",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "6dc622ef8067d702d98067eeb258633c264e838110a457c92d96df4e53eb83ba",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP02-S05-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "0b6d9152dd55f631cbca733ee9417bbd928b2628c4c768df4588a047e0604ef7",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "1ce228306009c5c77abc4c246462ea768c849bb2baee173f54d22fe14d0705a5",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -1749,25 +1813,33 @@
       "target_fps": 24,
       "required_sample_count": 193,
       "information_source": "信使现场争执，谢听云在场听见",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "0b6d9152dd55f631cbca733ee9417bbd928b2628c4c768df4588a047e0604ef7",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP02-S05-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "96d2f181e6b60dc97efd47cbe6042191fa298abf16ef05b70165a5577b3102fa",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "0d9ad30d00226a0aebc7389890215c5a17d6020583c27e04b72a2c769fc90b7c",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -1780,25 +1852,33 @@
       "target_fps": 24,
       "required_sample_count": 193,
       "information_source": "信使现场争执，谢听云在场听见",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "96d2f181e6b60dc97efd47cbe6042191fa298abf16ef05b70165a5577b3102fa",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP02-S06-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "4eccb66825c4bc20ba6b174b6e68f4148df046d19b027a93f81e1a6e253945e7",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "630cd15630386c55f69f476fe3d6733ec338770a49d7dade9810fe6b206bcf05",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -1811,25 +1891,33 @@
       "target_fps": 24,
       "required_sample_count": 193,
       "information_source": "现场口述和主人公判断",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "4eccb66825c4bc20ba6b174b6e68f4148df046d19b027a93f81e1a6e253945e7",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP02-S06-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "1107ade61942a0417697fe61a9a3993c37561e875e49a1d1cb2702e26927d210",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "66e92eecffd8950275f53a7e8792a9ff7ef81d6980a3885f4dd08243a776ff1e",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -1842,25 +1930,33 @@
       "target_fps": 24,
       "required_sample_count": 193,
       "information_source": "现场口述和主人公判断",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "1107ade61942a0417697fe61a9a3993c37561e875e49a1d1cb2702e26927d210",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP02-S07-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "cfa4071520c09b00fd5c817cdb9e780d9c56e812f6ea9ccf2352bb7accc6f9c0",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "e21fd80215d78eb0b3427f25bbe4d43ce9ac09119638c732823d56c97aa81dcf",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -1873,25 +1969,33 @@
       "target_fps": 24,
       "required_sample_count": 217,
       "information_source": "主人公现场指令",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "cfa4071520c09b00fd5c817cdb9e780d9c56e812f6ea9ccf2352bb7accc6f9c0",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP02-S07-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "0a901578732a93c78268f7abbeb9a0b76dbf82b32ee39ac13b9493fd3b2588a2",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "aa927a87ede54fed999a5b5bef240101f6d058f289a80c5382e064170b3d938b",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -1904,25 +2008,33 @@
       "target_fps": 24,
       "required_sample_count": 217,
       "information_source": "主人公现场指令",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "0a901578732a93c78268f7abbeb9a0b76dbf82b32ee39ac13b9493fd3b2588a2",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP02-S08-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "96dcbfa8c7f5a9c7efcdfffdf633068da3d303d24e720f893b05797c8ff85264",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "8118bf9b87cd39d6a7c6f81ec3824308f5fac574ee7b77b522b71c5f634c10cc",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -1935,25 +2047,33 @@
       "target_fps": 24,
       "required_sample_count": 169,
       "information_source": "书吏向谢听云回报",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "96dcbfa8c7f5a9c7efcdfffdf633068da3d303d24e720f893b05797c8ff85264",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP02-S08-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "e272389806c11a977ac9786aef8dc56e87d0548cf3f66f58c3bf1e633c3023d8",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "f48a4d85064b5dcafcd4e5e0c56f188b25c3463e3d3ca4035cf9457136566015",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -1966,25 +2086,33 @@
       "target_fps": 24,
       "required_sample_count": 169,
       "information_source": "书吏向谢听云回报",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "e272389806c11a977ac9786aef8dc56e87d0548cf3f66f58c3bf1e633c3023d8",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP02-S09-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "8baeb0b7444efba16f4364bf434c428808e658ae85589d5c41504a4b3330018f",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "ba301966ddd28983d4f5610814d0ede909859646792273bbf7093948f4843c79",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -1997,25 +2125,33 @@
       "target_fps": 24,
       "required_sample_count": 145,
       "information_source": "信使向谢听云口述六皇子的现场反应",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "8baeb0b7444efba16f4364bf434c428808e658ae85589d5c41504a4b3330018f",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP02-S09-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "95ff13605ead5269f1639e0a400bd57dfb597a84a86dc3d78c254c0dd0a4bf29",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "00ad69d98cdae21384583b2415299eb9f1ce7ff3d3ce6639e174347bb14fcd9f",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2028,25 +2164,33 @@
       "target_fps": 24,
       "required_sample_count": 169,
       "information_source": "信使向谢听云口述六皇子的现场反应",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "95ff13605ead5269f1639e0a400bd57dfb597a84a86dc3d78c254c0dd0a4bf29",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP02-S10-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "8572c4d82702d76e738d7faf558db563c4431f6a0bd5959b7ec7becf12317749",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "ff11f3d68452efb3547291398578cfd56201ce604f762403d1f1107b1dcd6325",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2059,25 +2203,33 @@
       "target_fps": 24,
       "required_sample_count": 145,
       "information_source": "来报人向谢听云口述；太子和誉王不直接出场",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "8572c4d82702d76e738d7faf558db563c4431f6a0bd5959b7ec7becf12317749",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP02-S10-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "ef3a314d9d5952ff1c772ec8d103253015eec52e99d84aa89b7147821a796afb",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "d5deb1428de52e3680e35eeabdd6c7a1e57b9eb47739906b377c7827deb709b4",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2090,25 +2242,33 @@
       "target_fps": 24,
       "required_sample_count": 145,
       "information_source": "来报人向谢听云口述；太子和誉王不直接出场",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "ef3a314d9d5952ff1c772ec8d103253015eec52e99d84aa89b7147821a796afb",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP02-S11-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "da0c609e2f401f2d0040aef00e9974f993eceecec801ff6739d79f427b4660a6",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "5e27e28302ecd70f48f166e8703cfc4198eb78a3766d48eaf6821e937b2f2924",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2121,25 +2281,33 @@
       "target_fps": 24,
       "required_sample_count": 169,
       "information_source": "现场共同口播",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "da0c609e2f401f2d0040aef00e9974f993eceecec801ff6739d79f427b4660a6",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP02-S11-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "534bcf5083f442b0340d99f161b450412c9b8078c3d91090265d89339e7f6fd5",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "b9579c5a4adb65f73ede68123c75a95bfeb299c83d5cf2c71945a153525a1f46",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2152,25 +2320,33 @@
       "target_fps": 24,
       "required_sample_count": 169,
       "information_source": "现场共同口播",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "534bcf5083f442b0340d99f161b450412c9b8078c3d91090265d89339e7f6fd5",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S01-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "c32f3e7c832165e0b38b5e207b5729f1ea99ecf883994c5b162ac8ae1ddbd87b",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "24421ca6fa9111b64326e4c32e23ab4c88f780dbe7bcda777228a489ecd52a09",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2183,25 +2359,33 @@
       "target_fps": 24,
       "required_sample_count": 145,
       "information_source": "主人公当下判断",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "c32f3e7c832165e0b38b5e207b5729f1ea99ecf883994c5b162ac8ae1ddbd87b",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S01-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "7ad61cc3e918a1d8f8da5849eb17497c54c29911dca8b64e07e519a5dbef20fd",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "6a58300dc6e486f8bba70b818b18300291a12e547a380c702d3392098b62c546",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2214,25 +2398,33 @@
       "target_fps": 24,
       "required_sample_count": 145,
       "information_source": "主人公当下判断",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "7ad61cc3e918a1d8f8da5849eb17497c54c29911dca8b64e07e519a5dbef20fd",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S02-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "a9918720fae52c3c1aced0bd1dcb134d0af3e19f27d6a12fa2a84aba3612666d",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "c33d40ff21ff84b4f10740b358c45c99bc2d6228124917b9f750e0fe25f02c0c",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2245,25 +2437,33 @@
       "target_fps": 24,
       "required_sample_count": 145,
       "information_source": "卓青遥向梅长苏口述案情",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:15+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "a9918720fae52c3c1aced0bd1dcb134d0af3e19f27d6a12fa2a84aba3612666d",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:15+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S02-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "085fc0d586955a82e63844f75873ecca73fd36c7b7970bafa92ea87a7437e648",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "5a9564f2e7dd52ce7cc31933a9b60d9163549e631e48fd18a72885f39e5123ef",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2276,25 +2476,33 @@
       "target_fps": 24,
       "required_sample_count": 169,
       "information_source": "卓青遥向梅长苏口述案情",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:16+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "085fc0d586955a82e63844f75873ecca73fd36c7b7970bafa92ea87a7437e648",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:16+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S03-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "2e8895ac2c3e01fe46b8020d530664e5753c444c38ce81742e8f7e30470848f7",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "544f4fe3b64a8b2c8ba6ac0361b6fef714e3b1d2458ee2f7e6fc17db311a4d28",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2307,25 +2515,33 @@
       "target_fps": 24,
       "required_sample_count": 145,
       "information_source": "梅长苏已知判断和萧景睿现场对白",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:16+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "2e8895ac2c3e01fe46b8020d530664e5753c444c38ce81742e8f7e30470848f7",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:16+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S03-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "970fbdd1b857d9a9e4e12ad127b8e350b67fb983d7649f545f4b74faa735905e",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "ecbd3453cdec7d1c3e6c41ecea7a6bc37c73c29e66639d6fb4a8b9d0b9b75339",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2338,25 +2554,33 @@
       "target_fps": 24,
       "required_sample_count": 169,
       "information_source": "梅长苏已知判断和萧景睿现场对白",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:16+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "970fbdd1b857d9a9e4e12ad127b8e350b67fb983d7649f545f4b74faa735905e",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:16+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S04-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "2908bccc75c4e08c7b4537c6d1e8a68670d73fb186872ec820c5a15dfa36e7aa",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "49085fb5ef77a05b222377e2a205b41f7ce28491851b377fa5fe10ff371acd03",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2369,25 +2593,33 @@
       "target_fps": 24,
       "required_sample_count": 145,
       "information_source": "主人公现场分工",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:16+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "2908bccc75c4e08c7b4537c6d1e8a68670d73fb186872ec820c5a15dfa36e7aa",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:16+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S04-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "6cd6fac6d7fcc95c94c41302482e5260f9da0599c97b0a5070652f750c3ab2f0",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "348b6c4dbfa464e81ff34c66e5a66f9ba81807ee520d7268d8d7a48bd8d62021",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2400,25 +2632,33 @@
       "target_fps": 24,
       "required_sample_count": 169,
       "information_source": "主人公现场分工",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:16+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "6cd6fac6d7fcc95c94c41302482e5260f9da0599c97b0a5070652f750c3ab2f0",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:16+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S05-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "ea4d16a2f61701f4cb2ed05cc7214ef89a77b62cc0f9adcaaf3a0ccef774e330",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "4144e4b41ff36d42a9eaf32ea0c5e0429e32a90652952aaa3f2c70dcd5389b48",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2431,25 +2671,33 @@
       "target_fps": 24,
       "required_sample_count": 145,
       "information_source": "车夫和护卫向梅长苏回报",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:16+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "ea4d16a2f61701f4cb2ed05cc7214ef89a77b62cc0f9adcaaf3a0ccef774e330",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:16+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S05-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "4855bacec997b1fa069bfb4e5d49809b942951baba2e702a37026017c9defae0",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "bd0538d70364d79b4aa57277d1cd8b2615e0a327aab110b181af9219d102851b",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2462,25 +2710,33 @@
       "target_fps": 24,
       "required_sample_count": 169,
       "information_source": "车夫和护卫向梅长苏回报",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:16+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "4855bacec997b1fa069bfb4e5d49809b942951baba2e702a37026017c9defae0",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:16+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S06-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "4206a289802e5e49c800da84ce7d0baaa005bf81d07f7d2ca99914aeb554102c",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "353b94cb5180505db75196559190932c1131c9bcc5584b6fd2f271722322ba74",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2493,25 +2749,33 @@
       "target_fps": 24,
       "required_sample_count": 145,
       "information_source": "辅助人员现场争辩，梅长苏听取回报",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:16+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "4206a289802e5e49c800da84ce7d0baaa005bf81d07f7d2ca99914aeb554102c",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:16+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S06-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "4dd421906ac00d692a1857066419396796688247af0f8d8c2a17b6c26d087f26",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "e23334fe29bbe3c4797d36ea3331b9cef76604aee49c95372187cdf2eca8bbde",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2524,25 +2788,33 @@
       "target_fps": 24,
       "required_sample_count": 169,
       "information_source": "辅助人员现场争辩，梅长苏听取回报",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:16+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "4dd421906ac00d692a1857066419396796688247af0f8d8c2a17b6c26d087f26",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:16+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S07-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "6fe40391ded8b266ebd28855eb2639b6fbd63e82b3afc47ccc779d1e7331405a",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "858d67074cb0bc52f604b9c3234a6a1b0d51ff46e071063e6eca5bca99c8b022",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2555,25 +2827,33 @@
       "target_fps": 24,
       "required_sample_count": 193,
       "information_source": "主人公现场指令",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:16+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "6fe40391ded8b266ebd28855eb2639b6fbd63e82b3afc47ccc779d1e7331405a",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:16+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S07-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "bf6d3324e70ec1f4e75b0cba5d73adf4b4ca8049a8ec114de6d746021bcdaeaa",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "4b0ec5a9c030ce5d58ab190640e2cf927bb4b770ca05bd1e48ad421f995a8903",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2586,25 +2866,33 @@
       "target_fps": 24,
       "required_sample_count": 193,
       "information_source": "主人公现场指令",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:16+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "bf6d3324e70ec1f4e75b0cba5d73adf4b4ca8049a8ec114de6d746021bcdaeaa",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:16+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S08-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "aac9b906116099ed175a374564301301011fe16347b83da28b9a28aecf3f7e3a",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "e36b58161bfa7fc2d49d61639da2d67d8f94cbe0759aea997f88effbc413474e",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2617,25 +2905,33 @@
       "target_fps": 24,
       "required_sample_count": 193,
       "information_source": "三名辅助人员向梅长苏回报",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:16+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "aac9b906116099ed175a374564301301011fe16347b83da28b9a28aecf3f7e3a",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:16+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S08-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "de245f15634e13c3c4a5b3e7c8fe1cd83e3baa24272edf704e08b89bc4492dc9",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "d5a8734230cfa5279d2339e7a05590662fe34302b3d8b7b966e40034ef3637cb",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2648,25 +2944,33 @@
       "target_fps": 24,
       "required_sample_count": 193,
       "information_source": "三名辅助人员向梅长苏回报",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:16+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "de245f15634e13c3c4a5b3e7c8fe1cd83e3baa24272edf704e08b89bc4492dc9",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:16+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S09-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "00bf8403bfe3cb9e3788f2006ad23e13e3d8b6a9ea2359cbb134ef2805b6335f",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "bfb044727bfda0bf193c7bd848647aa2326d95763c521bfc1afdb1b8e18c4ef5",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2679,25 +2983,33 @@
       "target_fps": 24,
       "required_sample_count": 169,
       "information_source": "现场对话",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:16+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "00bf8403bfe3cb9e3788f2006ad23e13e3d8b6a9ea2359cbb134ef2805b6335f",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:16+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S09-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "9ffc79c5adc908336ec992220d84187b833cc374d8d5bb3162458585e63e5ab3",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "6c6a9f1651fd3bc33cb22b4df28634c165f6deeb0f386df2a70d38082de60561",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2710,25 +3022,33 @@
       "target_fps": 24,
       "required_sample_count": 193,
       "information_source": "现场对话",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:16+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "9ffc79c5adc908336ec992220d84187b833cc374d8d5bb3162458585e63e5ab3",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:16+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S10-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "0f62a101d4d19936babb3c4cb43b3434a872139f36812d6d2d152429ecdca86b",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "da3f4356a61da31eb0cf4fa74e9d5c50d0d33798fdce4d0d73a31c70a4609422",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2741,25 +3061,33 @@
       "target_fps": 24,
       "required_sample_count": 169,
       "information_source": "主人公旁白和萧景睿现场对白",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:16+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "0f62a101d4d19936babb3c4cb43b3434a872139f36812d6d2d152429ecdca86b",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:16+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S10-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "7080694b158fabfe49ec5d35c34e926642b2d02428f297400427de827d50ddff",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "c234f920c7f940c0226fc41ad684ad0cf64fd970c83ccd4bf405ba6cdb7fe926",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2772,25 +3100,33 @@
       "target_fps": 24,
       "required_sample_count": 193,
       "information_source": "主人公旁白和萧景睿现场对白",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:16+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "7080694b158fabfe49ec5d35c34e926642b2d02428f297400427de827d50ddff",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:16+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S11-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "598d59f85798f235370e90c25c9d72ce3cbbb0e12e94c581e9dda5c0b1c32daa",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "d2ca485e6d8b4b3a95922206aad0892942ab2840ee09426bdc11a3458d2d3ab3",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2803,25 +3139,33 @@
       "target_fps": 24,
       "required_sample_count": 121,
       "information_source": "来报人向梅长苏口述第二集结果",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:16+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "598d59f85798f235370e90c25c9d72ce3cbbb0e12e94c581e9dda5c0b1c32daa",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:16+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S11-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "4e53c9dd1b45ed6a1875e6c1dd32957d22397fc2233070837617cea12f24bf8b",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "5c216cb690a33dad5743651fd90ccd1b4479d1f828ad13f200dd764677f2796f",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2834,25 +3178,33 @@
       "target_fps": 24,
       "required_sample_count": 121,
       "information_source": "来报人向梅长苏口述第二集结果",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:16+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "4e53c9dd1b45ed6a1875e6c1dd32957d22397fc2233070837617cea12f24bf8b",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:16+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S12-01",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "a47ba72194477c20e5e0169092888cf4b0481ddbeb651ea8d26912d18958b3de",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "fba7b465bfcff70d874ceca09b1fd4aaa3d91a8cb790b351c9f477d860e38096",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2865,25 +3217,33 @@
       "target_fps": 24,
       "required_sample_count": 193,
       "information_source": "现场共同口播",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:16+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "a47ba72194477c20e5e0169092888cf4b0481ddbeb651ea8d26912d18958b3de",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:16+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "EP03-S12-02",
       "kind": "clip",
-      "status": "pending_modeling",
-      "source_sha256": "95671ffbef319decb8ecc1fa6222971bff64f32d0f79648cd42a5dbe75b4145a",
-      "revision": null,
+      "status": "repair_v5_new_source_pending_human_review",
+      "source_sha256": "725de38f06fefb875dc96d226cc1045725fb0d5c27dc10c93845831d9bb63838",
+      "revision": "repair-v5-draft",
       "evidence": {},
       "report": null,
       "approval": null,
@@ -2896,18 +3256,26 @@
       "target_fps": 24,
       "required_sample_count": 193,
       "information_source": "现场共同口播",
-      "human_review": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:20:16+08:00",
-        "method": "local-web-one-click",
-        "scope": "internal_manual_review_declaration"
-      },
-      "internal_approval": {
-        "reviewer": "用户本人",
-        "reviewed_at": "2026-10-26T00:30:00+08:00",
-        "method": "internal-human-review-gate",
-        "note": "Internal test gate approval; does not assert formal evidence completeness."
-      }
+      "human_review": null,
+      "internal_approval": null,
+      "review_history": [
+        {
+          "source_sha256": "95671ffbef319decb8ecc1fa6222971bff64f32d0f79648cd42a5dbe75b4145a",
+          "human_review": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:20:16+08:00",
+            "method": "local-web-one-click",
+            "scope": "internal_manual_review_declaration"
+          },
+          "internal_approval": {
+            "reviewer": "用户本人",
+            "reviewed_at": "2026-10-26T00:30:00+08:00",
+            "method": "internal-human-review-gate",
+            "note": "Internal test gate approval; does not assert formal evidence completeness."
+          },
+          "status": "pending_modeling"
+        }
+      ]
     },
     {
       "key": "PILOT:EP01S08-5S",
@@ -5873,6 +6241,6 @@
   "approved_count": 0,
   "scope_count": 192,
   "note": "Internal test mode: user human review is sufficient to enter the generation workflow. Formal evidence audit remains optional and does not block internal testing.",
-  "internal_review_approved_count": 192,
+  "internal_review_approved_count": 146,
   "internal_review_mode": "human_review_sufficient_for_internal_generation_gate"
 }

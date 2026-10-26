@@ -1,0 +1,14 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>第二、三集修复审核</title><style>body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;background:#142322;color:#ecf0e8;max-width:1120px;margin:40px auto;padding:0 24px;line-height:1.7}h1{font-size:32px}section{border-top:1px solid #506b62;padding:24px 0}a{color:#b9e3c7}img{max-width:100%;background:#fff}video{width:216px;max-width:100%;margin:8px}.status{background:#263d35;padding:16px;border-left:4px solid #bfa66d}.links{display:flex;flex-wrap:wrap;gap:18px}.small{color:#bbcbc2;font-size:14px}</style>
+<h1>第二、三集修复 · v5</h1><p>上传和画面修复并行。本页展示本地真实资产、装配与预演，不把灰模当作修复后的正式视频。</p>
+<p class="status">新道具、接触动作和提示词改变了源版本。旧人工确认不自动覆盖本版；全部新源仍待查看。没有新增收费生成，也没有捏造正式审核报告。</p>
+<section><h2>先看统一道具</h2><p>军报、燕印沿用第一集原始像素；锦囊是密信容器，封泥是封印，路图是行程依据。状纸只共用纸张材质，不擅加军方燕印。</p><img src="../ep02-repair-v5/canonical-texture-board.jpg"><p><a href="../ep02-repair-v5/canonical-assets.json">查看唯一资产定义</a></p></section>
+<section><h2>第二集：物品关系和人物去重</h2><p>军报证据、密信锦囊、封泥核验和新旧路图分别留在不同区域；角色使用独立身份。草模不证明最终面孔已正确，生成后仍须看实际脸部。</p><div class="links"><a href="../ep02-repair-v5/review.html">打开第二集四场景审核</a><a href="../ep02-repair-v5/long-take-plan.json">连续长段计划</a></div></section>
+<section><h2>第三集：四组关键运动</h2><p>共1,396个24fps帧（含每段结尾边界）。手部抓握、投影遮挡和最终美术效果仍待人工检查。</p>
+<h3>停车稳定 / 车辆停止后不持续晃动</h3><video controls muted loop src="../ep03-repair-v5/EP03R5-STOP/motion-preview.mp4"></video>
+<h3>三件物品依次处理 / 不同时在空中交叉传递</h3><video controls muted loop src="../ep03-repair-v5/EP03R5-HANDOFF/motion-preview.mp4"></video>
+<h3>先蘸印泥 → 抬起 → 按纸停留 → 抬离</h3><video controls muted loop src="../ep03-repair-v5/EP03R5-STAMP/motion-preview.mp4"></video>
+<h3>前方有马 / 位移与车轮滚动对应</h3><video controls muted loop src="../ep03-repair-v5/EP03R5-RIDE/motion-preview.mp4"></video>
+<div class="links"><a href="../ep03-repair-v5/review.html">第三集详细GLB及深度/ID记录</a><a href="../ep03-repair-v5/long-take-plan.json">十二段连续源片计划</a></div></section>
+<section><h2>统一声音</h2><p>沿用娓娓讲述版v4男声、独立音乐主题和相同广告录音；故事正文不说“主线、支线”等工作术语。视频本轮不添加后期字幕。</p><audio controls src="../storytelling-v4/audio/unified-brand-tagline.wav"></audio><p><a href="../storytelling-v4/narration.json">三集故事正文</a></p></section>
+<section><h2>GitHub 上传状态</h2><p>小附件已验证上传；三集媒体大文件因HTTP 408／传输超时仍未成功，v4 Release保留草稿。不能把草稿链接当作已发布成片。</p><a href="../../docs/STORYTELLING-V4-UPLOAD-STATUS.json">查看实际上传回执与待传列表</a></section>
+<p class="small">此页不含自动审批脚本。查看之后在对话中确认本版即可由制片流程记录当前源哈希；不需要另交证据报告。</p></html>

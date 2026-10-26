@@ -1,0 +1,532 @@
+{
+  "key": "EP03R5-HANDOFF",
+  "profile": "sequential_handoff",
+  "scopes": [
+    "EP03-S04-01",
+    "EP03-S04-02",
+    "EP03-S08-01",
+    "EP03-S08-02"
+  ],
+  "duration_seconds": 16,
+  "fps": 24,
+  "asset_instances": [
+    {
+      "instance_id": "road_-1.7_-3",
+      "asset_id": "ENV-DIRT",
+      "position_m": [
+        -1.7,
+        -3,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "road_-1.7_3",
+      "asset_id": "ENV-DIRT",
+      "position_m": [
+        -1.7,
+        3,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "road_-1.7_9",
+      "asset_id": "ENV-DIRT",
+      "position_m": [
+        -1.7,
+        9,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "road_1.7_-3",
+      "asset_id": "ENV-DIRT",
+      "position_m": [
+        1.7,
+        -3,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "road_1.7_3",
+      "asset_id": "ENV-DIRT",
+      "position_m": [
+        1.7,
+        3,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "road_1.7_9",
+      "asset_id": "ENV-DIRT",
+      "position_m": [
+        1.7,
+        9,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "edge_-3.8_1",
+      "asset_id": "ENV-ROCK",
+      "position_m": [
+        -3.8,
+        1,
+        0.19999999999999998
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "edge_-3.8_6",
+      "asset_id": "ENV-ROCK",
+      "position_m": [
+        -3.8,
+        6,
+        0.19999999999999998
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "edge_-3.8_11",
+      "asset_id": "ENV-ROCK",
+      "position_m": [
+        -3.8,
+        11,
+        0.19999999999999998
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "edge_3.8_1",
+      "asset_id": "ENV-ROCK",
+      "position_m": [
+        3.8,
+        1,
+        0.19999999999999998
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "edge_3.8_6",
+      "asset_id": "ENV-ROCK",
+      "position_m": [
+        3.8,
+        6,
+        0.19999999999999998
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "edge_3.8_11",
+      "asset_id": "ENV-ROCK",
+      "position_m": [
+        3.8,
+        11,
+        0.19999999999999998
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "table",
+      "asset_id": "AR-DESK",
+      "position_m": [
+        0,
+        0.95,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "fixed_awning",
+      "asset_id": "AR-AWNING",
+      "position_m": [
+        0,
+        1.15,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "complaint",
+      "asset_id": "PR-COMPLAINT",
+      "position_m": [
+        -0.38,
+        0.91,
+        0.74
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "desk_top"
+    },
+    {
+      "instance_id": "medicine",
+      "asset_id": "PR-MEDBUNDLE",
+      "position_m": [
+        0,
+        0.91,
+        0.72
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "desk_top"
+    },
+    {
+      "instance_id": "map",
+      "asset_id": "PR-MAP-NEW",
+      "position_m": [
+        0.38,
+        0.91,
+        0.74
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "desk_top"
+    },
+    {
+      "instance_id": "witness",
+      "asset_id": "CH-ZQY",
+      "position_m": [
+        -0.85,
+        1.95,
+        -0.009999999999999953
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        180
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "driver",
+      "asset_id": "CH-DRIVER",
+      "position_m": [
+        0.85,
+        1.95,
+        -0.009999999999999953
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        180
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "hand_L",
+      "asset_id": "HAND-MCS-L",
+      "position_m": [
+        -0.3,
+        0.4,
+        0.9
+      ],
+      "rotation_degrees": [
+        -90,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "pov_forearm_outside_frame"
+    },
+    {
+      "instance_id": "hand_R",
+      "asset_id": "HAND-MCS-R",
+      "position_m": [
+        0.3,
+        0.4,
+        0.9
+      ],
+      "rotation_degrees": [
+        -90,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "pov_forearm_outside_frame"
+    }
+  ],
+  "asset_sources": {
+    "ENV-DIRT": {
+      "path": "production/asset-library/models/ENV-DIRT.glb",
+      "sha256": "b20e70aef410e0a1a3759932a192caf546035a3971d089e450a6773d85ef9cf8"
+    },
+    "ENV-ROCK": {
+      "path": "production/asset-library/models/ENV-ROCK.glb",
+      "sha256": "273f2c7bd8e1de695232958ed312b44936549237653b6c909eba35d553646d56"
+    },
+    "AR-DESK": {
+      "path": "production/asset-library/models/AR-DESK.glb",
+      "sha256": "2ae0e7521e060b99b69fd0b951be8f86640ad28f5bcc4bbf60dbcb1903e30ac7"
+    },
+    "AR-AWNING": {
+      "path": "production/asset-library/models/AR-AWNING.glb",
+      "sha256": "cde565d12ca62e4788f7006102dd09675302227e3e6923cf881e2cc9b3c1ffb1"
+    },
+    "PR-COMPLAINT": {
+      "path": "production/asset-library/models/PR-COMPLAINT.glb",
+      "sha256": "1be5b25841be2741772f1e10b852c43420d85a0afed1e353b4974825e1c8d86b"
+    },
+    "PR-MEDBUNDLE": {
+      "path": "production/asset-library/models/PR-MEDBUNDLE.glb",
+      "sha256": "853b9ee024bca04826dcffb8969d90ecd7732fec1136c3a2dbcaaa36ca750447"
+    },
+    "PR-MAP-NEW": {
+      "path": "production/asset-library/models/PR-MAP-NEW.glb",
+      "sha256": "174438c963f851ff813a3c150edca489b5b5b5b4e598d18c496f229068098e3d"
+    },
+    "CH-ZQY": {
+      "path": "production/asset-library/models/CH-ZQY.glb",
+      "sha256": "5f6e5da00393e62f9fe862159311eea570c58610afa5c196593151de619487c3"
+    },
+    "CH-DRIVER": {
+      "path": "production/asset-library/models/CH-DRIVER.glb",
+      "sha256": "c8f60bb10d49861de5404121a9d9f1eca0d2a4470b5b305a8566eb46483d71af"
+    },
+    "HAND-MCS-L": {
+      "path": "production/asset-library/models/HAND-MCS-L.glb",
+      "sha256": "d26276df6389214a1fcfb504352e8f14fabc63c64422983191a525c28e5f0f92"
+    },
+    "HAND-MCS-R": {
+      "path": "production/asset-library/models/HAND-MCS-R.glb",
+      "sha256": "35dfbdcb9efd126f14448b36cc70c728aafa8af34bc9478021559c5d8355cde5"
+    }
+  },
+  "camera": {
+    "pov_owner": "梅长苏",
+    "mode": "first_person",
+    "units": "metre",
+    "up_axis": "+Z",
+    "eye": [
+      0,
+      -0.1,
+      1.58
+    ],
+    "target": [
+      0,
+      0.84,
+      0.74
+    ],
+    "vertical_fov_degrees": 72,
+    "aspect_ratio": "9:16",
+    "near_clip_m": 0.06,
+    "status": "representative_static_camera_pending_review",
+    "path_status": "not_animated_no_clip_motion_approval"
+  },
+  "state": "actual_proxy_assembly_pending_human_review",
+  "internal_approval": null,
+  "formal_approval": null,
+  "limitations": [
+    "Proxy anatomy does not establish final actor identity",
+    "No physical collision solver",
+    "Horse motion proxy has no certified gait",
+    "Hand grip and fingertips still need visual review"
+  ],
+  "do_not_generate_yet": true
+}

@@ -80,3 +80,6 @@ production/storytelling-v4/EP03-*.mp4
 production/storytelling-v4/three-episodes-*.mp4
 production/audio-delivery-v3/audio/EP*-S*.txt
 production/audio-delivery-v3/audio/unified-brand-tagline.txt
+
+# Rebuildable local full-frame repair renders; manifests list actual local artifacts.
+production/ep03-repair-v5/EP03R5-*/frames/

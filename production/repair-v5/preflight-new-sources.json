@@ -1,0 +1,102 @@
+[
+  {
+    "scope": "EP02-S01-01",
+    "exit_code": 1,
+    "response": {
+      "allowed": false,
+      "policy": "mandatory-3d-v1",
+      "checked": 1,
+      "blocked": 1,
+      "mode": "internal_review",
+      "results": [
+        {
+          "key": "EP02-S01-01",
+          "reasons": [
+            "internal human review declaration absent"
+          ]
+        }
+      ],
+      "limitation": "Internal test gate uses user human review only; it does not prove geometry or AI media correctness."
+    }
+  },
+  {
+    "scope": "EP02-S07-01",
+    "exit_code": 1,
+    "response": {
+      "allowed": false,
+      "policy": "mandatory-3d-v1",
+      "checked": 1,
+      "blocked": 1,
+      "mode": "internal_review",
+      "results": [
+        {
+          "key": "EP02-S07-01",
+          "reasons": [
+            "internal human review declaration absent"
+          ]
+        }
+      ],
+      "limitation": "Internal test gate uses user human review only; it does not prove geometry or AI media correctness."
+    }
+  },
+  {
+    "scope": "EP03-S04-01",
+    "exit_code": 1,
+    "response": {
+      "allowed": false,
+      "policy": "mandatory-3d-v1",
+      "checked": 1,
+      "blocked": 1,
+      "mode": "internal_review",
+      "results": [
+        {
+          "key": "EP03-S04-01",
+          "reasons": [
+            "internal human review declaration absent"
+          ]
+        }
+      ],
+      "limitation": "Internal test gate uses user human review only; it does not prove geometry or AI media correctness."
+    }
+  },
+  {
+    "scope": "EP03-S09-01",
+    "exit_code": 1,
+    "response": {
+      "allowed": false,
+      "policy": "mandatory-3d-v1",
+      "checked": 1,
+      "blocked": 1,
+      "mode": "internal_review",
+      "results": [
+        {
+          "key": "EP03-S09-01",
+          "reasons": [
+            "internal human review declaration absent"
+          ]
+        }
+      ],
+      "limitation": "Internal test gate uses user human review only; it does not prove geometry or AI media correctness."
+    }
+  },
+  {
+    "scope": "EP03-S10-01",
+    "exit_code": 1,
+    "response": {
+      "allowed": false,
+      "policy": "mandatory-3d-v1",
+      "checked": 1,
+      "blocked": 1,
+      "mode": "internal_review",
+      "results": [
+        {
+          "key": "EP03-S10-01",
+          "reasons": [
+            "internal human review declaration absent"
+          ]
+        }
+      ],
+      "limitation": "Internal test gate uses user human review only; it does not prove geometry or AI media correctness."
+    }
+  }
+]

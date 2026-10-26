@@ -1,0 +1,534 @@
+{
+  "scene_key": "EP02-SET03",
+  "name": "雨廊追截：落脚接地，无人物相同脸通过宣称",
+  "status": "pending_human_review",
+  "units": "metre",
+  "instances": [
+    {
+      "instance_id": "floor_-1.5",
+      "asset_id": "AR-FLOOR",
+      "position_m": [
+        0,
+        -1.5,
+        -0.08
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "column_-1.25_-1.5",
+      "asset_id": "AR-COLUMN",
+      "position_m": [
+        -1.25,
+        -1.5,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "column_1.25_-1.5",
+      "asset_id": "AR-COLUMN",
+      "position_m": [
+        1.25,
+        -1.5,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "beam_-1.5",
+      "asset_id": "AR-BEAM",
+      "position_m": [
+        0,
+        -1.5,
+        2.8
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "roof_-1.5",
+      "asset_id": "AR-ROOF",
+      "position_m": [
+        0,
+        -1.5,
+        2.8
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "floor_1.5",
+      "asset_id": "AR-FLOOR",
+      "position_m": [
+        0,
+        1.5,
+        -0.08
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "column_-1.25_1.5",
+      "asset_id": "AR-COLUMN",
+      "position_m": [
+        -1.25,
+        1.5,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "column_1.25_1.5",
+      "asset_id": "AR-COLUMN",
+      "position_m": [
+        1.25,
+        1.5,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "beam_1.5",
+      "asset_id": "AR-BEAM",
+      "position_m": [
+        0,
+        1.5,
+        2.8
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "roof_1.5",
+      "asset_id": "AR-ROOF",
+      "position_m": [
+        0,
+        1.5,
+        2.8
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "floor_4.5",
+      "asset_id": "AR-FLOOR",
+      "position_m": [
+        0,
+        4.5,
+        -0.08
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "column_-1.25_4.5",
+      "asset_id": "AR-COLUMN",
+      "position_m": [
+        -1.25,
+        4.5,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "column_1.25_4.5",
+      "asset_id": "AR-COLUMN",
+      "position_m": [
+        1.25,
+        4.5,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "beam_4.5",
+      "asset_id": "AR-BEAM",
+      "position_m": [
+        0,
+        4.5,
+        2.8
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "roof_4.5",
+      "asset_id": "AR-ROOF",
+      "position_m": [
+        0,
+        4.5,
+        2.8
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "floor_7.5",
+      "asset_id": "AR-FLOOR",
+      "position_m": [
+        0,
+        7.5,
+        -0.08
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "column_-1.25_7.5",
+      "asset_id": "AR-COLUMN",
+      "position_m": [
+        -1.25,
+        7.5,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "column_1.25_7.5",
+      "asset_id": "AR-COLUMN",
+      "position_m": [
+        1.25,
+        7.5,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "beam_7.5",
+      "asset_id": "AR-BEAM",
+      "position_m": [
+        0,
+        7.5,
+        2.8
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "roof_7.5",
+      "asset_id": "AR-ROOF",
+      "position_m": [
+        0,
+        7.5,
+        2.8
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "desk",
+      "asset_id": "AR-DESK",
+      "position_m": [
+        -2,
+        1.2,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": null
+    },
+    {
+      "instance_id": "EP02-PERSON-MSG-A",
+      "asset_id": "CH-MSG-A",
+      "position_m": [
+        0.4,
+        3.6,
+        -0.009999999999999953
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        180
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    },
+    {
+      "instance_id": "EP02-PERSON-MSG-B",
+      "asset_id": "CH-MSG-B",
+      "position_m": [
+        -0.4,
+        6.4,
+        -0.009999999999999953
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        180
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "local_forward": "+Y",
+      "support": "ground"
+    }
+  ],
+  "sources": {
+    "AR-FLOOR": {
+      "path": "production/asset-library/models/AR-FLOOR.glb",
+      "sha256": "7d67202cc28b56bd62ee3f3ff427a172392b8cd059f412d8e395797eeb131ba0"
+    },
+    "AR-COLUMN": {
+      "path": "production/asset-library/models/AR-COLUMN.glb",
+      "sha256": "f2f9d484b9f63f14c947d1d0ca3896014c12331346dbb7181d8377e4ecd22d01"
+    },
+    "AR-BEAM": {
+      "path": "production/asset-library/models/AR-BEAM.glb",
+      "sha256": "5bd7656940771910d6e6eb100fc23b17ab55986580f8448c069c3c3fe3fdef43"
+    },
+    "AR-ROOF": {
+      "path": "production/asset-library/models/AR-ROOF.glb",
+      "sha256": "12dfaa83822047ed8fb078ae861a69281949f852d026891f25bfa3be2d142c9e"
+    },
+    "AR-DESK": {
+      "path": "production/asset-library/models/AR-DESK.glb",
+      "sha256": "2ae0e7521e060b99b69fd0b951be8f86640ad28f5bcc4bbf60dbcb1903e30ac7"
+    },
+    "CH-MSG-A": {
+      "path": "production/asset-library/models/CH-MSG-A.glb",
+      "sha256": "78197a61a4c9f861ae37a994a9be126892b7bd64d26944dc2f9296e740983c6a"
+    },
+    "CH-MSG-B": {
+      "path": "production/asset-library/models/CH-MSG-B.glb",
+      "sha256": "d290d4dc74d45aaafc55498a4c8a6616c8cd7c6301b5ce31624f7e2d34a5f5d1"
+    }
+  },
+  "texture_binding": {
+    "embedded_textures": 0,
+    "bound_nodes": [],
+    "texture_render_review": "pending; CPU preview is untextured geometry"
+  },
+  "faces": "all library proxies share approximate structure; identity dedup NOT verified",
+  "contacts": "floor_object uses actual source bottom bound; hand/prop grasp not solved",
+  "limitations": [
+    "static representative setup only",
+    "no complete full-frame motion evidence",
+    "no human review on this source",
+    "not registered to global catalog per delegated write scope"
+  ]
+}
